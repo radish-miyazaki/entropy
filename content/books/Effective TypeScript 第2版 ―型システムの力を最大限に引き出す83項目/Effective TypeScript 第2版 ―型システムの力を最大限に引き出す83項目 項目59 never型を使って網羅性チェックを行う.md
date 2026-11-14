@@ -9,7 +9,7 @@ chapter: 59
 
 ## TL;DR
 
-- `never` 型への代入を使うと、TypeScript で[[exhaustiveness-checking|網羅性チェック]]ができる。
+- `never` 型への代入を使うと、TypeScript で網羅性チェックができる。
 - 複数の分岐から `return` する関数では、戻り値に[[type-annotation|型アノテーション]]を付ける。それでも明示的な網羅性チェックが必要な場合はある。
 - 複数の値のすべての組み合わせを網羅しているかは、[[template-literal-types|テンプレートリテラル型]]でチェックできる。
 
@@ -17,7 +17,7 @@ chapter: 59
 
 ### never 型で網羅性をチェックする
 
-[[typescript|TypeScript]] では、`never` 型への代入を利用して網羅性をチェックできる。条件分岐ですべての選択肢を処理すると、残った値の型は `never`（[[bottom-type|ボトム型]]、つまり空集合）になるからである。実装の仕方は 3 つある。
+条件分岐ですべての選択肢を処理すると、残った値の型は `never`（[[bottom-type|ボトム型]]、つまり空集合）になるので、[[typescript|TypeScript]] では `never` 型への代入を利用して網羅性をチェックできる。実装の仕方は 3 つある。
 
 1 つ目は、`never` を受け取る関数を用意する方法である。型チェックのときだけでなく、実行時にも想定外の値から守れる。
 
@@ -111,7 +111,7 @@ const shoot = (a: Play, b: Play) => {
 
 ## キーワード
 
-- [[exhaustiveness-checking|網羅性チェック]]
+- 網羅性チェック
 - [[bottom-type|ボトム型]]
 - [[type-annotation|型アノテーション]]
 - [[template-literal-types|テンプレートリテラル型]]

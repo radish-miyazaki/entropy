@@ -26,7 +26,7 @@ if successfully created:
   create order is order-taking context
 ```
 
-しかし、どちらかの更新が失敗した場合を考慮しなければならず、複雑になる。別々のシステム間で更新を同期させる方法として[[two-phase-commit|2 フェーズコミット]]があるが、本書はそれが必要になることはないとする。現実の世界でも、サブシステムが 1 つの段階を終えるのを待ってから次の段階に移ることはない（[[スターバックスは2フェーズコミットを使わない]]）。
+しかし、どちらかの更新が失敗した場合を考慮しなければならず、複雑になる。別々のシステム間で更新を同期させる方法として2 フェーズコミットがあるが、本書はそれが必要になることはないとする。現実の世界でも、サブシステムが 1 つの段階を終えるのを待ってから次の段階に移ることはない（[スターバックスは2フェーズコミットを使わない](https://code.google.com/archive/p/gregors-ramblings-ja/wikis/18_starbucks.wiki)）。
 
 ### メッセージによる非同期の調整
 
@@ -52,7 +52,7 @@ if successfully created:
 - [[domain-event|ドメインイベント]]
 - [[coherence|整合性]]
 - [[eventual-consistency|結果整合性]]
-- [[two-phase-commit|2 フェーズコミット]]
+- 2 フェーズコミット
 - [[compensating-transaction|補償アクション]]
 - [[command|コマンド]]
 

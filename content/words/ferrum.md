@@ -12,7 +12,7 @@ date: 2025-05-30
 
 ## 仕組み
 
-[[chrome-devtools-protocol|Chrome DevTools Protocol]] でブラウザに直接つなぐ。[[selenium|Selenium]] や [[webdriver|WebDriver]]、ChromeDriver などのツールには依存せず、高レベルな API を提供する。
+Chrome DevTools Protocol でブラウザに直接つなぐ。Selenium や WebDriver、ChromeDriver などのツールには依存せず、高レベルな API を提供する。
 
 ## 例
 
@@ -27,8 +27,8 @@ Web ページのスクリーンショットを撮る、自動テストを書く�
 
 ## 関連
 
-- [[chrome-devtools-protocol|Chrome DevTools Protocol]]
-- [[selenium|Selenium]]
+- Chrome DevTools Protocol
+- Selenium
 
 ## 出典
 

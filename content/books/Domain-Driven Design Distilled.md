@@ -24,5 +24,5 @@ isbn:
 ## 関連
 
 - [[domain-driven-design|ドメイン駆動設計]]
-- [[実は結構多いDDDの本]]: この本の紹介はここから引いた
-- [[Secure by Design]]: DDD 用語としての distill を詳しく説明している
+- [実は結構多いDDDの本](https://qiita.com/yasuabe2613/items/37777666cd97ea03f1d4): この本の紹介はここから引いた
+- Secure by Design: DDD 用語としての distill を詳しく説明している

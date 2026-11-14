@@ -8,7 +8,7 @@ date: 2024-08-25
 
 ## TL;DR
 
-[[nextjs|Next.js]] アプリケーション向けに開発された OSS の認証ライブラリ。[[github|GitHub]]、[[x|X]]（旧 Twitter）、Google など、多くの [[oauth|OAuth]] プロバイダに対応している。現在は [[authjs|Auth.js]] になっている。
+[[nextjs|Next.js]] アプリケーション向けに開発された OSS の認証ライブラリ。[[github|GitHub]]、[[x|X]]（旧 Twitter）、Google など、多くの [[oauth-2|OAuth]] プロバイダに対応している。現在は [[authjs|Auth.js]] になっている。
 
 ## なぜ必要か
 

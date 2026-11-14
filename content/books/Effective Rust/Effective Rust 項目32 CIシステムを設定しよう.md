@@ -52,7 +52,7 @@ CI のチェックはシェルスクリプトでもよい。panic しうる呼�
 
 ### 公開の CI システム
 
-OSS では、[[github-actions|GitHub Actions]] などの CI を無料で使えることが多い。CI の設定は、データベースや [[ffi|FFI]] のツールチェーンなど、前提となる環境の準備手順を示すガイドにもなる。スクリプトにまとめれば、利用者も CI も簡単に準備できる。
+OSS では、GitHub Actions などの CI を無料で使えることが多い。CI の設定は、データベースや [[ffi|FFI]] のツールチェーンなど、前提となる環境の準備手順を示すガイドにもなる。スクリプトにまとめれば、利用者も CI も簡単に準備できる。
 
 一方で、CI はマイニングへの悪用、[アクセストークンの窃取](https://web.archive.org/web/20220315064116/https://about.codecov.io/security-update/)、[[supply-chain-attack|サプライチェーン攻撃]]の標的になりうる。既知のコラボレータだけ CI を自動実行し、新しいコントリビュータの分は手動で実行する。外部スクリプトはハッシュでバージョンを固定する。リポジトリへの読み取り以上の権限が要るステップは、厳しく監視する。
 
@@ -69,7 +69,7 @@ OSS では、[[github-actions|GitHub Actions]] などの CI を無料で使え�
 - [[benchmark-test|ベンチマークテスト]]
 - [[fuzz-testing|ファズテスト]]
 - [[git-hooks|Git フック]]
-- [[github-actions|GitHub Actions]]
+- GitHub Actions
 - [[supply-chain-attack|サプライチェーン攻撃]]
 - [[msrv|MSRV]]
 

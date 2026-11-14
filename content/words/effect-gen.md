@@ -2,7 +2,7 @@
 title: Effect.gen
 aliases: []
 description: ジェネレータ関数を使い、async/await に近い書き方で Effect を組み立てる関数
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

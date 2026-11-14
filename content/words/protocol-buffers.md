@@ -16,7 +16,7 @@ Google が 2008 年に OSS として公開した [[interface-description-languag
 
 ## 仕組み
 
-`protoc` コマンドで各言語のコードを生成する。2024 年時点で公式にサポートしている言語は C++、C#、Java、[[kotlin|Kotlin]]、Objective-C、PHP、[[python|Python]]、[[ruby|Ruby]] である。それ以外の言語は、サードパーティのプラグインとして公開されている。スキーマを起点にコードを生成するので、[[schema-first|Schema first]] な開発ができる。
+`protoc` コマンドで各言語のコードを生成する。2024 年時点で公式にサポートしている言語は C++、C#、Java、[[kotlin|Kotlin]]、Objective-C、PHP、[[python|Python]]、[[ruby|Ruby]] である。それ以外の言語はサードパーティのプラグインとして公開されている。スキーマを起点にコードを生成するので、[[schema-first|Schema first]] な開発ができる。
 
 %%
 

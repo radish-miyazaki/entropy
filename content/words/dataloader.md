@@ -72,7 +72,7 @@ const { url } = await startStandaloneServer(apolloServer, {
 ## 関連
 
 - [[n-plus-one-problem|N+1 問題]]
-- [[graphql-n-plus-one|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]
+- [[GraphQL における N+1 問題の発生しやすさはデメリットなのか|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]
 - [[graphql-resolver|Resolver]]
 - [[apollo-server|Apollo Server]]
 

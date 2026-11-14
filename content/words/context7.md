@@ -12,7 +12,7 @@ date: 2025-09-19
 
 ## なぜ必要か
 
-[[llm|LLM]] は、使っているライブラリについて古い、または一般的な情報に頼りがちである。そのため、古いコード例や存在しない API を生成してしまう。
+[[large-language-model|LLM]] は、使っているライブラリについて古い、または一般的な情報に頼りがちである。そのため、古いコード例や存在しない API を生成してしまう。
 
 > LLMs rely on outdated or generic information about the libraries you use.
 

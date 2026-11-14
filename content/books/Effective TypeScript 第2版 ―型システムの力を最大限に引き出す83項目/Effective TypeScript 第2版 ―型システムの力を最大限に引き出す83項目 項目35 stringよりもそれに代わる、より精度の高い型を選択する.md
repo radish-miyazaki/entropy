@@ -16,7 +16,7 @@ chapter: 35
 
 ### 文字列リテラル型を使う
 
-あらゆる `string` を受け入れるわけではない値には、より適切な型を選ぶ。文字列リテラル型を使うと、値の[[domain|ドメイン]]をより正確に表せる。型チェックが厳格になるだけでなく、[[tsdoc|TSDoc]] を付けられたり、意図が明確になったりと、[[developer-experience|開発体験]]も向上する。
+あらゆる `string` を受け入れるわけではない値には、より適切な型を選ぶ。文字列リテラル型を使うと、値の[[domain|ドメイン]]をより正確に表せる。型チェックが厳格になるだけでなく、[[tsdoc|TSDoc]] を付けられたり、意図が明確になったりと、開発体験も向上する。
 
 ```ts
 // NG
@@ -63,7 +63,7 @@ function pluck<T, K extends keyof T>(records: T[], key: K): T[K][] {
 - [[stringly-typed|Stringly typed]]
 - [[domain|ドメイン]]
 - [[tsdoc|TSDoc]]
-- [[developer-experience|開発体験]]
+- 開発体験
 
 %%
 

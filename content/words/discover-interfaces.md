@@ -19,7 +19,7 @@ date: 2024-09-03
 > abstractions should be discovered, not created
 > （[[abstraction|抽象化]]は作成するものではなく、発見するものである）
 
-必要もないのに前もってインタフェースを作ると、[[interface-pollution|インタフェース汚染]]につながる。
+必要もないのに前もってインタフェースを作ると、インタフェース汚染につながる。
 
 %%
 
@@ -30,5 +30,5 @@ date: 2024-09-03
 
 ## 関連
 
-- [[interface-pollution|インタフェース汚染]]
+- インタフェース汚染
 - [[abstraction|抽象化]]

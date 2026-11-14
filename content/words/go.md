@@ -33,8 +33,8 @@ Google が支援するオープンソースのプログラミング言語。公�
 ## 関連
 
 - [[goroutine|ゴルーチン]]
-- [[effective-go|Effective Go]]
-- [[the-zen-of-go|The Zen of Go]]
+- [[Effective Go|Effective Go]]
+- [[The Zen of Go|The Zen of Go]]
 - [[idiomatic-go|Idiomatic Go]]
 - [[ginkgo|Ginkgo]]
 - [[gomega|Gomega]]

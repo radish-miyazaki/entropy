@@ -34,7 +34,7 @@ $ rustup component add clippy [--toolchain=<name>]
 
 ## 注意点
 
-`restriction` カテゴリはまとめて有効にしない。妥当なコードにも警告が出たり、他のリントと矛盾したりするためである。`clippy::unwrap_used` で panic を防ぐなど、必要なものを個別に選んで有効にする。
+妥当なコードにも警告が出たり、他のリントと矛盾したりするので、`restriction` カテゴリはまとめて有効にしない。`clippy::unwrap_used` で panic を防ぐなど、必要なものを個別に選んで有効にする。
 
 %%
 

@@ -43,13 +43,13 @@ pub fn main() {
 
 [[rust|Rust]] に [[elixir|Elixir]] と[[garbage-collection|ガベージコレクション]]を混ぜたようなイメージの言語である。
 
-[[gleam-language-tour|Gleam Language Tour]] は、Go でおなじみの形式のチュートリアルである。
+[[Gleam Language Tour|Gleam Language Tour]] は、Go でおなじみの形式のチュートリアルである。
 
 アイコンはゆめかわで、ファイル名を見る限り Lucy という名前らしい。
 
 ## 関連
 
-- [[gleam-language-tour|Gleam Language Tour]]
+- [[Gleam Language Tour|Gleam Language Tour]]
 - [[elixir|Elixir]]
 - [[erlang|Erlang]]
 - [[lfe|LFE]]

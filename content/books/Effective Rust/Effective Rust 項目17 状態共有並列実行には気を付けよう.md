@@ -27,7 +27,7 @@ chapter: 17
 
 ### 状態の共有を避ける
 
-状態共有並列による問題を避ける一番の方法は、状態を共有しないことである。[[effective-go|Effective Go]] には次の言葉がある。
+状態共有並列による問題を避ける一番の方法は、状態を共有しないことである。[[Effective Go|Effective Go]] には次の言葉がある。
 
 > Do not communicate by sharing memory; instead, share memory by communicating.
 >
@@ -41,7 +41,7 @@ chapter: 17
 
 まず、互いに整合している必要のあるデータ構造は、1 つの [[mutex|Mutex]] で管理する。次に、ロックの範囲は小さく、見て分かるようにする。できれば、ロックの取得と解放を 1 か所にまとめたヘルパメソッドを用意する。
 
-ロックを保持したままクロージャを呼び出すのもやめる。後からクロージャの中に別のロックを取るコードが足されると、デッドロックが起こりうるからである。
+後からクロージャの中に別のロックを取るコードが足されるとデッドロックが起こりうるので、ロックを保持したままクロージャを呼び出すのもやめる。
 
 ```rust
 impl SharedState {
@@ -71,7 +71,7 @@ impl SharedState {
 - [[channel|チャネル]]
 - [[mutex|Mutex]]
 - [[thread|スレッド]]
-- [[effective-go|Effective Go]]
+- [[Effective Go|Effective Go]]
 
 %%
 

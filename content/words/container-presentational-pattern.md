@@ -31,8 +31,8 @@ React 以外の [[vue|Vue]] や [[svelte|Svelte]] にも適用できる。Vue �
 
 ## 関連
 
-- [[react-patterns|React Patterns]]
-- [[vue-patterns|Vue Patterns]]
+- [[React Patterns - patterns.dev|React Patterns]]
+- [[Vue Patterns - patterns.dev|Vue Patterns]]
 - [[hoc-pattern|HOC Pattern]]
 - [[svelte5-container-presentational|Svelte5 で Container/Presentational パターン]]
 

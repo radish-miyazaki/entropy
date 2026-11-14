@@ -10,9 +10,21 @@ date: 2024-11-05
 
 コンテンツのサイズを表す [[http|HTTP]] のペイロードヘッダ。1992 年版の [[http-0-9|HTTP/0.9]] から存在する。
 
+## 仕組み
+
+RFC 9110 によると、Content-Length は、表現のデータの長さを 10 進数のオクテット数で示す。
+
+## 例
+
+```http
+Content-Length: 3495
+```
+
 ## 注意点
 
 圧縮されている場合は、圧縮した後のサイズが入る。圧縮形式は [[content-encoding|Content-Encoding]] で示す。
+
+HEAD リクエストへのレスポンスにも Content-Length を付けてよく、その値は同じリクエストを GET で送ったときのレスポンスのボディのオクテット数と同じにする。一方、1xx（Informational）と 204（No Content）の[[status-code|ステータスコード]]のレスポンスには付けてはいけない。
 
 %%
 
@@ -30,3 +42,4 @@ date: 2024-11-05
 
 - [Content-Length - HTTP | MDN](https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Content-Length)
 - [Object Header lines - W3C](https://www.w3.org/Protocols/HTTP/Object_Headers.html#content-length)
+- [RFC 9110 - HTTP Semantics, 8.6. Content-Length](https://www.rfc-editor.org/rfc/rfc9110.html#name-content-length)

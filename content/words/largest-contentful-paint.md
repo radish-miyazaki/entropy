@@ -16,7 +16,7 @@ LCP の候補になるのは、`<img>` 要素、`<svg>` 内の `<image>` 要素�
 
 ## 例
 
-[[time-to-first-byte|Time to First Byte]] と同じく、各ブラウザの開発者ツールで確認できる。[[lighthouse|Lighthouse]] でも測定でき、LCP はパフォーマンスのスコアに反映される。
+[[time-to-first-byte|Time to First Byte]] と同じく、各ブラウザの開発者ツールで確認できる。Lighthouse でも測定でき、LCP はパフォーマンスのスコアに反映される。
 
 [[nextjs|Next.js]] の [[nextjs-image|next/image]] では、LCP 要素になる画像に `priority` を付けると優先して読み込まれ、LCP の改善が期待できる。
 

@@ -24,7 +24,7 @@ Ash はドメインを「リソース」と「アクション」で表す。ア�
 
 Ash は Web フレームワークではなく、アプリケーション層を作るフレームワークである。[[phoenix|Phoenix]] と置き換えるものではなく、組み合わせて使うように設計されている。
 
-設計の考え方は [[ash-design-principles|Ash Design Principles]] にまとまっている。
+設計の考え方は [[Design Principles（Ash Framework）|Ash Design Principles]] にまとまっている。
 
 %%
 
@@ -35,7 +35,7 @@ Ash は Web フレームワークではなく、アプリケーション層を�
 
 ## 関連
 
-- [[ash-design-principles|Ash Design Principles]]
+- [[Design Principles（Ash Framework）|Ash Design Principles]]
 - [[declarative-design-pattern|declarative design pattern]]
 - [[igniter|Igniter]]
 

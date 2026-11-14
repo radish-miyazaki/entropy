@@ -10,7 +10,7 @@ chapter: 9
 ## TL;DR
 
 - [[functional-programming|関数型プログラミング]]で[[dependency-injection|依存性の注入]]を行う方法には、Reader モナドや Free モナドなどがある。本書は、すべての依存関係をトップレベルの関数に渡し、そこから下へ受け渡していく最も単純な方法を使う。
-- トップレベルの関数を[[composition-root|コンポジションルート]]と呼び、アプリケーションのエントリポイントの近くに置く。
+- トップレベルの関数をコンポジションルートと呼び、アプリケーションのエントリポイントの近くに置く。
 - 依存関係が多すぎるときは、関数の責務が多すぎることが多い。分割できなければ、低レベルの関数に依存関係を組み込んでから渡す。
 
 ## 内容
@@ -23,7 +23,7 @@ chapter: 9
 
 ### トップレベルから依存関係を受け渡す
 
-[[Domain Modeling Made Functional 第9章 パイプラインのステップを 1 つに合成する]]の例では、トップレベルの関数は[[workflow|ワークフロー]]全体である。オブジェクト指向プログラミングにならって、これを[[composition-root|コンポジションルート]]と呼ぶ。
+[[Domain Modeling Made Functional 第9章 パイプラインのステップを 1 つに合成する]]の例では、トップレベルの関数は[[workflow|ワークフロー]]全体である。オブジェクト指向プログラミングにならって、これをコンポジションルートと呼ぶ。
 
 ```fsharp
 let placeOrder
@@ -141,7 +141,7 @@ let placeOrder: PlaceOrderWorkflow =
 
 - [[dependency-injection|依存性の注入]]
 - [[dependency|依存関係]]
-- [[composition-root|コンポジションルート]]
+- コンポジションルート
 - [[partial-application|部分適用]]
 - [[inversion-of-control|制御の反転]]
 - [[suave|Suave]]

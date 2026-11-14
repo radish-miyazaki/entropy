@@ -10,7 +10,7 @@ chapter: 12
 ## TL;DR
 
 - [[discriminated-union|選択型]]も通常のレコードと同じ手順で読み取れるが、`toDomain` が少し複雑になる。
-- `toDomain` が複雑でも [[orm|ORM]] は使わない。ドメインの[[coherence|整合性]]を保てないためである。
+- ドメインの[[coherence|整合性]]を保てないので、`toDomain` が複雑でも [[orm|ORM]] は使わない。
 
 ## 内容
 

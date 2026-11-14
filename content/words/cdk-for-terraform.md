@@ -12,7 +12,7 @@ HCL の代わりに、TypeScript、Python、Java、C#、Go といった汎用の
 
 ## 仕組み
 
-[[aws-cdk|AWS CDK]] の考え方とライブラリを土台にして、コードを Terraform の設定に変換する。Terraform Registry にある任意のプロバイダやモジュールを使える。
+[[aws-cdk|AWS CDK]] の考え方とライブラリをもとに、コードを Terraform の設定に変換する。Terraform Registry にある任意のプロバイダやモジュールを使える。
 
 使い方は次の 3 段階である。
 

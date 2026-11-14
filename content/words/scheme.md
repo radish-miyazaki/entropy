@@ -12,9 +12,11 @@ date: 2025-01-10
 
 ## 仕組み
 
-言語の仕様は「Revised Report on Scheme」として標準化されており、実装ごとに R6 や R7 といった対応する版が示されている。設計の考え方として、標準報告書の次の一文が紹介されている。言語は機能を積み重ねるのではなく、追加の機能が必要に見える原因となる制約を取り除いて設計すべきだ、という意味である。
+言語の仕様は「Revised Report on Scheme」として標準化されており、実装ごとに R6 や R7 といった対応する版が示されている。設計の考え方として、標準報告書の次の一文が紹介されている。
 
 > Programming languages should be designed not by piling feature on top of feature
+
+言語は機能を積み重ねるのではなく、追加の機能が必要に見える原因となる制約を取り除いて設計すべきだ、という意味である。
 
 実装は数多くある。たとえば、ネイティブコードにコンパイルする Chez Scheme、C にコンパイルする CHICKEN、GNU の Guile、組み込みライブラリが豊富な Gauche、そして [[racket|Racket]] などである。
 

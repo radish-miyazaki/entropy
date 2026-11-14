@@ -19,6 +19,18 @@ URL は、主に次の要素で構成される。
 - [[url-path|パス]]
 - [[query-parameter|クエリパラメータ]]
 
+[[rfc|RFC]] 3986 によると、URI はリソースを識別するもので、ロケータ、名前、またはその両方に分けられる。URL は URI のうち、リソースを識別するだけでなく、主なアクセス手段を示してリソースの場所を特定できるものを指す。URI の一般的な構文は `scheme ":" hier-part [ "?" query ] [ "#" fragment ]` である。
+
+## 例
+
+RFC 3986 は、`foo://example.com:8042/over/there?name=ferret#nose` という例で、URI の構成要素を次のように示している。
+
+- スキーム: `foo`
+- オーソリティ: `example.com:8042`
+- パス: `/over/there`
+- クエリ: `name=ferret`
+- フラグメント: `nose`
+
 ## 注意点
 
 1994 年に作られた初期の仕様書 [[rfc|RFC]] 1738 は、`ftp`、`http`、`gopher`、`mailto`、`news`、`nntp`、`telnet`、`wais`、`file`、`prospero` の 10 種類のスキームの URL しか定義していない。
@@ -43,3 +55,4 @@ URL は、主に次の要素で構成される。
 
 - [URI - MDN Web Docs](https://developer.mozilla.org/ja/docs/Web/URI)
 - [RFC 1738 Section 3](https://datatracker.ietf.org/doc/html/rfc1738#section-3)
+- [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986)

@@ -25,32 +25,32 @@ draft: false
 4 の vite.config.ts は次のとおり。
 
 ```typescript
-import { defineConfig } from "vite";
-import elm from "vite-plugin-elm";
+import { defineConfig } from "vite"
+import elm from "vite-plugin-elm"
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [elm()],
-});
+})
 ```
 
 5 の main.ts は次のとおり。
 
 ```typescript
-import { Elm } from "./Main.elm";
+import { Elm } from "./Main.elm"
 
 Elm.Main.init({
   node: document.getElementById("app"),
-});
+})
 ```
 
 このままだと、IDE で `from "./Main.elm"` が見つからないというエラーになり、ビルドもできない。そこで、即席の型定義ファイル Main.elm.d.ts を用意する。
 
 ```typescript
-export var Elm: any;
+export var Elm: any
 ```
 
-6 の Main.elm は、必要最低限の内容にした。
+6 の Main.elm は必要最低限の内容にした。
 
 ```elm
 module Main exposing (main)

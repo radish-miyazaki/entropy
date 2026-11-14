@@ -18,6 +18,16 @@ date: 2024-07-30
 
 実行環境は 3 つある。[[jvm|JVM]] 上で動かすほか、[[javascript|JavaScript]] に変換してブラウザで動かしたり、[[llvm|LLVM]] を使ってネイティブにコンパイルしたりできる。
 
+言語は、EPFL の Scala Center と VirtusLab が保守している。Java や JavaScript のエコシステムのライブラリも使える。
+
+## 例
+
+公式サイトでは、Scala.js でフロントエンドを書く、Akka のアクターでノードをまたいで計算する、Spark でクラスタ上のデータを分析する、Scala CLI で簡単なスクリプトを書く、といった使い方を紹介している。最も短いプログラムは次のとおりである。
+
+```scala
+@main def run() = println("Hello, World!")
+```
+
 %%
 
 ## 自分の理解

@@ -15,7 +15,7 @@ chapter: 2
 
 ## 内容
 
-[[Test-Driven React, Second Edition 第1章 Test-Driven Development with Jest|第1章]]で見たとおり、[[test-driven-development|TDD]] の本質は「迅速な反復」である。そのためには、機能を小さな部品に分け、部品を 1 つ置くたびにフィードバックを得ることが重要になる。このフィードバックは、理想的には自動化されていて、待ち時間がないべきである。
+[[Test-Driven React, Second Edition 第1章 Test-Driven Development with Jest|第1章]]で見たとおり、[[test-driven-development|TDD]] の本質は「迅速な反復」である。そのためには、機能を小さな部品に分け、部品を 1 つ置くたびにフィードバックを得ることが重要になる。このフィードバックは、自動化されていて待ち時間がないのが理想である。
 
 この章では、[[visual-studio-code|Visual Studio Code]] に次のツールを統合して、これを実現する。
 

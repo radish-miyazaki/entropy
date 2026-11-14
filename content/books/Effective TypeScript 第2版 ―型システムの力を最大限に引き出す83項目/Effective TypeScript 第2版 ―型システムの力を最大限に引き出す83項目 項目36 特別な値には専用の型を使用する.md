@@ -27,12 +27,12 @@ console.log([1, 2, 3].indexOf(100)) // 存在しない場合は通常ケース�
 
 ### null や undefined の意味が曖昧なとき
 
-文脈によっては、`null` や `undefined` が何を表すのかが分かりにくいこともある。その場合は[[tagged-union|タグ付きユニオン]]を検討するとよい（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目29 有効な状態のみ表現する型を作る|項目29 有効な状態のみ表現する型を作る]]）。
+文脈によっては、`null` や `undefined` が何を表すのかが分かりにくいこともある。その場合は[[discriminated-union|タグ付きユニオン]]を検討するとよい（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目29 有効な状態のみ表現する型を作る|項目29 有効な状態のみ表現する型を作る]]）。
 
 ## キーワード
 
 - [[typescript|TypeScript]]
-- [[tagged-union|タグ付きユニオン]]
+- [[discriminated-union|タグ付きユニオン]]
 
 %%
 

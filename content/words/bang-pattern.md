@@ -8,7 +8,7 @@ date: 2025-06-14
 
 ## TL;DR
 
-[[haskell|Haskell]] で[[strict-evaluation|正格評価]]を実現するためのパターン。パターンの前に `!` を付けると、照合の前にその値を評価させられる。GHC の `BangPatterns` 拡張で使える。
+[[haskell|Haskell]] で[[eager-evaluation|正格評価]]を実現するためのパターン。パターンの前に `!` を付けると、照合の前にその値を評価させられる。GHC の `BangPatterns` 拡張で使える。
 
 ## なぜ必要か
 

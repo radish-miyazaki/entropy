@@ -8,7 +8,7 @@ date: 2025-09-03
 
 ## TL;DR
 
-[[github|GitHub]] が開発している、[[spec-driven-development|仕様駆動開発]]を支援するツール。普段使っている [[claude-code|Claude Code]] などの [[ai-agent|AI エージェント]]で、仕様の策定から実装までを一気通貫で進められる。
+[[github|GitHub]] が開発している、仕様駆動開発を支援するツール。普段使っている [[claude-code|Claude Code]] などの [[ai-agent|AI エージェント]]で、仕様の策定から実装までを一気通貫で進められる。
 
 ## 仕組み
 
@@ -54,12 +54,12 @@ memory/
 
 ## 自分の理解
 
-触ってみた感じ、[[kiro|Kiro]] から仕様を生成する部分を抜き出したようなイメージである。Claude Code など普段使っている AI エージェントの CLI で、仕様の策定から実装まで一気通貫でできるのは DX がとても良い。自前でやっていたときよりも、初期化時に専用の Markdown やスクリプトが生成されるぶん、精度が高い。
+触ってみた感じ、Kiro から仕様を生成する部分を抜き出したようなイメージである。Claude Code など普段使っている AI エージェントの CLI で、仕様の策定から実装まで一気通貫でできるのは DX がとても良い。自前でやっていたときよりも、初期化時に専用の Markdown やスクリプトが生成されるぶん、精度が高い。
 
 ## 関連
 
-- [[spec-driven-development|仕様駆動開発]]
-- [[kiro|Kiro]]
+- 仕様駆動開発
+- Kiro
 - [[claude-code|Claude Code]]
 
 ## 出典

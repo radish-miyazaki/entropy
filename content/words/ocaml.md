@@ -8,7 +8,7 @@ date: 2024-07-30
 
 ## TL;DR
 
-[[ml-language|ML]] の方言の 1 つで、静的型付けの[[functional-programming|関数型プログラミング]]言語。[[standard-ml|Standard ML]] に強く影響を受けている。
+ML の方言の 1 つで、静的型付けの[[functional-programming|関数型プログラミング]]言語。[[standard-ml|Standard ML]] に強く影響を受けている。
 
 ## なぜ必要か
 

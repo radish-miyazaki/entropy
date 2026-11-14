@@ -1,6 +1,6 @@
 ---
 title: Clojure Brain Teasers
-aliases: []
+aliases: ["Clojure Brain Teasers: Exercise Your Mind"]
 description: 意外な結果になることもある 25 個の短いコード問題を通して、Clojure でつまずきやすい点を確かめる本
 tags: [book, clojure]
 date: 2025-05-23
@@ -11,7 +11,7 @@ isbn:
 
 ## TL;DR
 
-- [[clojure|Clojure]] の 25 個の短いコード問題（teaser）を集めた本で、ときには意外な結果になる。
+- [[clojure|Clojure]] の 25 個の短いコード問題（teaser）を集めた本である。問題の中には、意外な結果になるものもある。
 - 長年の開発者からの質問をもとに、よく混乱する点を選んでいる。各問題で、コードがなぜそう動くのかを Clojure の設計から説明している。
 
 ## 対象読者

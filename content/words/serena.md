@@ -8,7 +8,7 @@ date: 2025-08-01
 
 ## TL;DR
 
-[[llm|LLM]] を、コードベース上で直接作業できる[[ai-agent|エージェント]]として振る舞わせるための OSS のツールキット。IDE のようなセマンティックなコード検索・編集の機能を LLM に与える。
+[[large-language-model|LLM]] を、コードベース上で直接作業できる[[ai-agent|エージェント]]として振る舞わせるための OSS のツールキット。IDE のようなセマンティックなコード検索・編集の機能を LLM に与える。
 
 > Serena is a powerful coding agent toolkit capable of turning an LLM into a fully-featured agent that works directly on your codebase.
 

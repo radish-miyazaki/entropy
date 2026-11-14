@@ -9,7 +9,7 @@ chapter: 28
 
 ## TL;DR
 
-- [[macro|マクロ]]は可読性と保守性を下げる。マクロで作った [[dsl|DSL]] を読むには、マクロの実装まで理解する必要がある。
+- [[macro|マクロ]]は可読性と保守性を下げる。マクロで作った [[domain-specific-language|DSL]] を読むには、マクロの実装まで理解する必要がある。
 - 1 行の呼び出しが大量のコードを生成するので、コードの肥大化を招きやすい。
 
 ## 内容
@@ -44,7 +44,7 @@ macro_rules! square {
 ## キーワード
 
 - [[macro|マクロ]]
-- [[dsl|DSL]]
+- [[domain-specific-language|DSL]]
 - [[rustfmt]]
 - [[cargo-expand]]
 

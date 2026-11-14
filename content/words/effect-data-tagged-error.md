@@ -2,7 +2,7 @@
 title: Data.TaggedError
 aliases: []
 description: Effect で独自のエラーを定義するためのヘルパー
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

@@ -21,6 +21,14 @@ interface HTMLUnknownElement : HTMLElement {
 };
 ```
 
+## 例
+
+HTML Standard の要素インタフェースの決め方では、`applet`、`bgsound`、`blink`、`isindex`、`keygen`、`multicol`、`nextid`、`spacer` という廃止された要素名に HTMLUnknownElement を使う。どの仕様でもインタフェースが定義されておらず、有効なカスタム要素名でもない名前の要素も、HTMLUnknownElement になる。
+
+## 注意点
+
+有効なカスタム要素名を持つ要素には、HTMLUnknownElement ではなく HTMLElement が使われる。HTML Standard によると、こうしておくと、後でカスタム要素として定義されたときに、プロトタイプチェーンが HTMLElement からそのサブクラスへ一直線に移るだけで済む。
+
 %%
 
 ## 自分の理解

@@ -12,7 +12,7 @@ date: 2023-12-07
 
 ## なぜ必要か
 
-組織の形がアーキテクチャに表れることを知っていると、チームの分け方とシステムの分け方を一緒に考えられる。[[Clean Architecture（書籍）|Clean Architecture]] では、チームや利害関係者の多い組織では、開発中にチームが互いに干渉しないよう、各チームの作業を独立させられるアーキテクチャが必要だとしている。
+組織の形がアーキテクチャに表れることを知っていると、チームの分け方とシステムの分け方を一緒に考えられる。Clean Architecture では、チームや利害関係者の多い組織では、開発中にチームが互いに干渉しないよう、各チームの作業を独立させられるアーキテクチャが必要だとしている。
 
 ## 仕組み
 
@@ -32,6 +32,6 @@ date: 2023-12-07
 
 ## 出典
 
-- [[Clean Architecture（書籍）|Clean Architecture]]
+- Clean Architecture
 - [Conway's Law - Mel Conway](http://www.melconway.com/Home/Conways_Law.html)
 - [「変更の理由」とは人間である](https://ky-yk-d.hatenablog.com/entry/2019/03/14/080002)

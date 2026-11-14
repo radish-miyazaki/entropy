@@ -2,7 +2,7 @@
 title: Effect Schema
 aliases: []
 description: スキーマに基づいてデータのデコードとエンコードを行う Effect の API 群
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 
@@ -32,7 +32,7 @@ const decodePokemon = Schema.decodeUnknown(Pokemon)
 
 ## 注意点
 
-`Schema.Struct` で定義すると、IDE で成功時の型を確かめたときに、スキーマのすべてのプロパティが展開されて表示される。`Schema.Struct` が [[opaque-types|Opaque types]] を提供していないためである。
+`Schema.Struct` は [[opaque-types|Opaque types]] を提供していないので、これで定義すると、IDE で成功時の型を確かめたときに、スキーマのすべてのプロパティが展開されて表示される。
 
 これを避けるには、代わりに `Schema.Class` を使う。型パラメータにはクラス名と同じ名前を書き、1 つ目の引数に識別子（`_tag` の値）、2 つ目の引数にスキーマの形を渡す。クラスなので、メソッドも足せる。
 

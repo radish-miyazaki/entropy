@@ -33,7 +33,7 @@ npx create-next-app@latest
 - [[react|React]]
 - [[vercel|Vercel]]
 - [[app-router|App Router]]
-- [[react-patterns|React Patterns]]
+- [[React Patterns - patterns.dev|React Patterns]]
 
 ## 出典
 

@@ -26,7 +26,7 @@ SQL を使い、それを拡張したオープンソースのオブジェクト�
 ## 関連
 
 - [[mysql|MySQL]]
-- [[rdbms|RDBMS]]
+- [[relational-database|RDBMS]]
 
 ## 出典
 

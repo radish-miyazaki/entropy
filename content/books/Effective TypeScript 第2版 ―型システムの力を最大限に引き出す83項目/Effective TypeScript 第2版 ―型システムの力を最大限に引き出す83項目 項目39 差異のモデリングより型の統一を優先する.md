@@ -45,13 +45,13 @@ async function writeStudentToDB(student: Student) {
 
 ### 統一してはいけない場合
 
-1 つ目は、データベースや API が自分の管理下にない場合である。このときは違いをモデリングする必要がある。2 つ目は、実際には同じものを表していない型である。たとえば、同じ[[tagged-union|タグ付きユニオン]]に属する異なる型は統一してはいけない。
+1 つ目は、データベースや API が自分の管理下にない場合である。このときは違いをモデリングする必要がある。2 つ目は、実際には同じものを表していない型である。たとえば、同じ[[discriminated-union|タグ付きユニオン]]に属する異なる型は統一してはいけない。
 
 ## キーワード
 
 - [[typescript|TypeScript]]
 - [[cognitive-load|認知的負荷]]
-- [[tagged-union|タグ付きユニオン]]
+- [[discriminated-union|タグ付きユニオン]]
 
 %%
 

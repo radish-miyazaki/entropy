@@ -60,7 +60,15 @@ query NestingQuery {
 }
 ```
 
-実現するには、たとえば GraphQL Armor の Max Depth プラグインを使う。
+深さの制限を実現するには、たとえば GraphQL Armor の Max Depth プラグインを使う。
+
+GraphQL の公式サイトによると、多くの GraphQL の実装は、1 つのドキュメントの最大の深さを設定できる。リクエストが上限を超えると、実行を始める前にクライアントへエラーを返す。
+
+## 注意点
+
+GraphQL の公式サイトでは、[[n-plus-one-problem|N+1 問題]]をバッチ処理で解消していても、深くネストしたフィールドはサーバの資源に過剰な負荷をかけうるとしている。リストのフィールドをネストすると、返すデータの量が指数的に増えることがあるので、リストのネストには別に小さい上限をかけることが勧められている。
+
+正当な理由で深いクエリを使うクライアントがいて、すべてのクエリに低い上限をかけられない場合は、レート制限や [[query-cost-analysis|Query Cost Analysis]] のような手法に頼る必要がある。深さが浅くても、トップレベルのフィールドやエイリアスを大量に並べたクエリは重くなりうるので、フィールドの数やエイリアス、バッチの数にも上限をかけるとよい。
 
 %%
 
@@ -78,3 +86,4 @@ query NestingQuery {
 
 - [Cyclic Queries and Depth Limit](https://escape.tech/blog/cyclic-queries-and-depth-limit/)
 - [GraphQL Armor: Max Depth](https://escape.tech/graphql-armor/docs/plugins/max-depth/)
+- [Security - GraphQL](https://graphql.org/learn/security/)

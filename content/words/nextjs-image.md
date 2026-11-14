@@ -23,7 +23,7 @@ date: 2024-09-18
 
 ### キャッシュ
 
-最適化した画像はサーバが初回のリクエストで作り、`.next/cache/images` にキャッシュする。そのため初回だけ遅い。キャッシュは [[time-based-revalidation|Time-based Revalidation]] と同じく [[stale-while-revalidate|Stale-While-Revalidate]] の挙動になる。状態は `x-nextjs-cache` ヘッダの `MISS`、`STALE`（[[time-to-live|TTL]] 切れで更新中）、`HIT` で分かる。
+最適化した画像はサーバが初回のリクエストで作り、`.next/cache/images` にキャッシュする。そのため初回だけ遅い。キャッシュは [[time-based-revalidation|Time-based Revalidation]] と同じく [[stale-while-revalidate|Stale-While-Revalidate]] の挙動になる。状態は `x-nextjs-cache` ヘッダの `MISS`、`STALE`（TTL 切れで更新中）、`HIT` で分かる。
 
 TTL はデフォルトで無期限で、`minimumCacheTTL` で変えられる。画像ごとに変えるには `Cache-Control` の `max-age` を使う。両方あれば大きい方が使われる。
 

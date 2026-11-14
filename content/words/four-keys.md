@@ -8,7 +8,7 @@ date: 2026-02-12
 
 ## TL;DR
 
-[[dora|DORA]]（DevOps Research and Assessment）が 6 年間の研究から導いた、ソフトウェア開発チームのパフォーマンスを測る 4 つの指標。同じ名前で、これらの指標を自動で集計するオープンソースのプロジェクトも Google Cloud から公開されている。
+DORA（DevOps Research and Assessment）が 6 年間の研究から導いた、ソフトウェア開発チームのパフォーマンスを測る 4 つの指標。同じ名前で、これらの指標を自動で集計するオープンソースのプロジェクトも Google Cloud から公開されている。
 
 ## 仕組み
 

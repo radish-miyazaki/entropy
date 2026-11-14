@@ -1,6 +1,6 @@
 ---
 title: Effective Rust
-aliases: ["Effective Rust ― Rustコードを改善し、エコシステムを最大限に活用するための35項目"]
+aliases: ["Effective Rust ―Rustコードを改善し、エコシステムを最大限に活用するための35項目"]
 description: Rust の入門書を読み終えた人に向けて、型・トレイト・所有権・依存ライブラリ・ツールなどの 35 項目で Rust らしい書き方を解説する本
 tags: [book, rust]
 date: 2024-12-10

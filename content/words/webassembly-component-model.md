@@ -28,7 +28,7 @@ pub fn get_y(value: &A) -> u8  { value.y }
 pub fn get_z(value: &A) -> u16 { value.z }
 ```
 
-次のように呼び出したくなるが、これは動かない。[[webassembly-instance|WebAssembly Instance]] は[[sandbox|サンドボックス]]で動いており、`a` が置かれたメモリに `get_x` はアクセスできないからである。
+次のように呼び出したくなるが、[[webassembly-instance|WebAssembly Instance]] は[[sandbox|サンドボックス]]で動いており、`a` が置かれたメモリに `get_x` はアクセスできないので、これは動かない。
 
 ```js
 const a = { x: 1, y: 2, z: 3 }

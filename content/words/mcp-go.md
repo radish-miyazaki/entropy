@@ -21,7 +21,7 @@ date: 2025-04-17
 コアとなる要素は次の 4 つである。
 
 - Server: MCP サーバ
-- Resources: [[llm|LLM]] に公開するデータ
+- Resources: [[large-language-model|LLM]] に公開するデータ
 - Tools: LLM がサーバを介して処理を実行するときに使うツール
 - Prompts: LLM がサーバと効率的にやり取りするためのプロンプト
 

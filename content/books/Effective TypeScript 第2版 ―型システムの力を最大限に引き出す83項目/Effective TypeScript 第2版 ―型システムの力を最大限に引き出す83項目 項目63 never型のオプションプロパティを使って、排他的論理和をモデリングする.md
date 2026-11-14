@@ -10,13 +10,13 @@ chapter: 63
 ## TL;DR
 
 - 型空間の `|` は包含的論理和なので、`A | B` は「A か B、またはその両方」を意味する。
-- 排他的論理和は、`never` 型のオプションプロパティか[[tagged-union|タグ付きユニオン]]でモデリングできる。
+- 排他的論理和は、`never` 型のオプションプロパティか[[discriminated-union|タグ付きユニオン]]でモデリングできる。
 
 ## 内容
 
 ### 型空間の | は包含的論理和
 
-型空間での `|` は包含的論理和であり、値空間での `||` と同じである。したがって、`A | B` は A か B、またはその両方を意味する。これは [[typescript|TypeScript]] が[[structural-typing|構造的型付け]]を採用しているためである（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目4 構造的型付けに慣れる|項目4 構造的型付けに慣れる]]）。ただし、[[excess-property-checking|余剰プロパティチェック]]による制限は受ける（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目11 余剰プロパティチェックと型チェックを区別する|項目11 余剰プロパティチェックと型チェックを区別する]]）。
+型空間での `|` は包含的論理和であり、値空間での `||` と同じである。[[typescript|TypeScript]] は[[structural-typing|構造的型付け]]を採用しているので（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目4 構造的型付けに慣れる|項目4 構造的型付けに慣れる]]）、`A | B` は A か B、またはその両方を意味する。ただし、[[excess-property-checking|余剰プロパティチェック]]による制限は受ける（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目11 余剰プロパティチェックと型チェックを区別する|項目11 余剰プロパティチェックと型チェックを区別する]]）。
 
 ```ts
 interface ThingOne {
@@ -65,7 +65,7 @@ type ExclusiveThing = XOR<ThingOne, ThingTwo>
 
 ### タグ付きユニオンで排他的論理和を表す
 
-タグ付きユニオンでも排他的論理和を実現できる。文字列が `'one'` と `'two'` の両方になることはないからである。タグを追加できる場合は、こちらが一般的である。
+文字列が `'one'` と `'two'` の両方になることはないので、タグ付きユニオンでも排他的論理和を実現できる。タグを追加できる場合は、こちらが一般的である。
 
 ```ts
 interface ThingOneTag {
@@ -81,7 +81,7 @@ type Thing = ThingOneTag | ThingTwoTag
 
 ## キーワード
 
-- [[tagged-union|タグ付きユニオン]]
+- [[discriminated-union|タグ付きユニオン]]
 - [[structural-typing|構造的型付け]]
 - [[excess-property-checking|余剰プロパティチェック]]
 - [[bottom-type|ボトム型]]

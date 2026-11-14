@@ -12,7 +12,7 @@ date: 2025-06-08
 
 ## 仕組み
 
-スキーマを最適化した JavaScript のコードにコンパイルすることで、速く検証する。対応している仕様は、JSON Schema の draft-04、06、07、2019-09、2020-12 と、JSON Type Definition（RFC 8927）である。Node.js、ブラウザ、Electron などで使える。
+スキーマを最適化した JavaScript のコードにコンパイルすることで、速く検証する。対応している仕様は JSON Schema の draft-04、06、07、2019-09、2020-12 と、JSON Type Definition（RFC 8927）である。Node.js、ブラウザ、Electron などで使える。
 
 ## 注意点
 

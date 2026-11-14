@@ -8,7 +8,7 @@ draft: false
 
 ## TL;DR
 
-- sidekiq-throttled で設定した閾値は、プロセスごとではなく、すべての [[sidekiq|Sidekiq]] インスタンスや Worker の間で共有される。
+- sidekiq-throttled で設定した閾値は、プロセスごとではなくすべての [[sidekiq|Sidekiq]] インスタンスや Worker の間で共有される。
 - プロセスごとに閾値を分けたいときは、`key_suffix` オプションを使う。
 
 ## 結果

@@ -9,14 +9,14 @@ chapter: 6
 
 ## TL;DR
 
-- [[fsharp|F#]] では数値に[[units-of-measure|測定単位]]を付けられ、単位が一致しないとコンパイラがエラーを出す。
+- [[fsharp|F#]] では数値に測定単位を付けられ、単位が一致しないとコンパイラがエラーを出す。
 - コンパイラだけが使う情報なので実行時のオーバーヘッドはなく、通貨や座標軸など物理的な単位以外にも使える。
 
 ## 内容
 
 ### 測定単位
 
-F# では、数値に[[units-of-measure|測定単位]]を付けられる。SI 単位は `Microsoft.FSharp.Data.UnitSystems.SI.UnitSymbols` に定義されている（[FSharp.Core のリファレンス](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-data-unitsystems-si-unitsymbols.html)）。
+F# では、数値に測定単位を付けられる。SI 単位は `Microsoft.FSharp.Data.UnitSystems.SI.UnitSymbols` に定義されている（[FSharp.Core のリファレンス](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-data-unitsystems-si-unitsymbols.html)）。
 
 ```fsharp
 open Microsoft.FSharp.Data.UnitSystems.SI.UnitSymbols
@@ -49,7 +49,7 @@ type KilogramQuantity = KilogramQuantity of float<kg>
 ## キーワード
 
 - [[fsharp|F#]]
-- [[units-of-measure|測定単位]]
+- 測定単位
 - [[domain|ドメイン]]
 - [[integrity|完全性]]
 

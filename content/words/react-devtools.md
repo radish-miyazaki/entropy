@@ -14,7 +14,9 @@ date: 2024-09-06
 
 検索バーから目的のコンポーネントを探せる。コンポーネントをクリックすると、そのコンポーネントの Props と [[react-hooks|Hook]] が表示される。Props や state の値を書き換えて、変更の影響を確かめることもできる。
 
-Chrome や Chromium では、[Chrome ウェブストア](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)から追加する。
+Chrome や Chromium では、[Chrome ウェブストア](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)から追加する。Firefox と Edge にも拡張機能がある。拡張機能を入れて React で作られたサイトを開くと、開発者ツールに Components と Profiler のパネルが現れる。
+
+Safari などの拡張機能がないブラウザでは、npm の `react-devtools` パッケージを使う。ターミナルで `react-devtools` を起動し、サイトの `<head>` の先頭に `<script src="http://localhost:8097"></script>` を足して再読み込みすると、開発者ツールにつながる。React Native では、React Developer Tools を組み込んだ React Native DevTools を使う。
 
 %%
 

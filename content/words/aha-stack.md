@@ -8,7 +8,11 @@ date: 2026-05-29
 
 ## TL;DR
 
-[[astro|Astro]]、[[htmx|htmx]]、[[alpinejs|Alpine.js]] を組み合わせた技術スタック。重い JavaScript のアプリをブラウザで動かす代わりに、サーバから HTML を送って Web アプリを作る。
+Astro、[[htmx|htmx]]、Alpine.js を組み合わせた技術スタック。重い JavaScript のアプリをブラウザで動かす代わりに、サーバから HTML を送って Web アプリを作る。
+
+## なぜ必要か
+
+公式サイトによると、AHA Stack は JavaScript を多く使うシングルページアプリケーション（SPA）の構成を、よりシンプルな考え方と作業の流れに置き換えることを目指している。クライアント側の JavaScript と依存を減らし、アプリを堅く保つ。
 
 ## 仕組み
 

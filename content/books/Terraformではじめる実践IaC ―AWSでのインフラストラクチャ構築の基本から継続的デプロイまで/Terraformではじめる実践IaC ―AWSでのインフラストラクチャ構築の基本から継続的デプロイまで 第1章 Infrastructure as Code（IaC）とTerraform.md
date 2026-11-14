@@ -27,7 +27,7 @@ IaC ツールは、記述方法で 2 つに分けられる。手続き型はイ�
 適用範囲でも分けられる。
 
 - クラウドリソースを中心に、サービスの基盤となるリソースを構成するツール: Terraform、Pulumi、AWS CloudFormation、Google Cloud Deployment Manager、Bicep
-- OS より上のカーネルパラメータやミドルウェアを構成するツール: [[ansible|Ansible]]、Chef、[[packer|Packer]]、Puppet
+- OS より上のカーネルパラメータやミドルウェアを構成するツール: Ansible、Chef、Packer、Puppet
 - アプリケーションをパッケージングするツール: Docker、Cloud Native Buildpacks
 
 これらは組み合わせて使える。たとえば Packer で AMI（Amazon Machine Image）をカスタマイズするとき、Ansible を Packer の[プロビジョナー](https://developer.hashicorp.com/packer/docs/provisioners)として使う。Packer の実行が終わるとカスタム AMI の ID が得られるので、それを Terraform から参照して [[amazon-ec2|EC2]] インスタンスを作る。
@@ -76,8 +76,8 @@ Terraform の最大のメリットは、AWS、Google Cloud、Microsoft Azure な
 - [[terraform-module|モジュール]]
 - [[terraform-state|ステート]]
 - [[hashicorp|HashiCorp]]
-- [[packer|Packer]]
-- [[ansible|Ansible]]
+- Packer
+- Ansible
 - [[amazon-ec2|Amazon EC2]]
 
 %%

@@ -12,11 +12,11 @@ date: 2024-09-23
 
 ## 仕組み
 
-GraphQL サーバは、クエリのフィールドごとに対応する Resolver を実行する。`type Query`、`type Mutation`、`type Subscription` などのルート型の直下にあるフィールドの Resolver を、特に Root Resolver と呼ぶ。
+GraphQL サーバはクエリのフィールドごとに対応する Resolver を実行する。`type Query`、`type Mutation`、`type Subscription` などのルート型の直下にあるフィールドの Resolver を、特に Root Resolver と呼ぶ。
 
 ## 注意点
 
-Resolver はフィールドごとに実行されるので、一覧の各要素について関連データを取得すると [[n-plus-one-problem|N+1 問題]]が起きやすい（[[graphql-n-plus-one|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]）。
+Resolver はフィールドごとに実行されるので、一覧の各要素について関連データを取得すると [[n-plus-one-problem|N+1 問題]]が起きやすい（[[GraphQL における N+1 問題の発生しやすさはデメリットなのか|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]）。
 
 %%
 

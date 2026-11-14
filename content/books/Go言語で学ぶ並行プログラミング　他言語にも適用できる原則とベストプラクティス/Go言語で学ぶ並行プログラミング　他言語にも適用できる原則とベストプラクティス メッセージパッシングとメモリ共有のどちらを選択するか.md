@@ -4,7 +4,7 @@ description: コードの簡潔さ、結合度、メモリ消費、通信の効�
 tags: [book-chapter, go, 並行処理, csp, mutex]
 date: 2025-02-26
 book: "[[Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス]]"
-chapter:
+chapter: 8
 ---
 
 ## TL;DR

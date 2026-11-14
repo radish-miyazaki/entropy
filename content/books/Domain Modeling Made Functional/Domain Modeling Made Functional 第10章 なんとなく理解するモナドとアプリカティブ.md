@@ -62,7 +62,7 @@ pure g <*> x1 <*> x2 <*> ... <*> xn
 
 アプリカティブを使うと、複数のエラーを同時に扱える。
 
-モナドとアプリカティブの違いについては、[[Monad は継続、Applicative は並列]]も参考になる。
+モナドとアプリカティブの違いについては、[Monad は継続、Applicative は並列](https://blog.ojisan.io/monad-applicative/)も参考になる。
 
 ## キーワード
 

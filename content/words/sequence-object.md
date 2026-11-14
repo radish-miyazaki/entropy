@@ -20,7 +20,7 @@ PostgreSQL にも [[mysql|MySQL]] にも存在する。
 
 ## 例
 
-`id` 列（`BIGSERIAL PRIMARY KEY`）でよく使われるが、それ以外の一意な値を作るときにも活用できる。
+`id` 列（`BIGSERIAL PRIMARY KEY`）でよく使われるが、それ以外の一意な値を作るときにも使える。
 
 %%
 

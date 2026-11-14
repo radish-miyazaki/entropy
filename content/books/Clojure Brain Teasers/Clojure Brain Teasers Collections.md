@@ -30,7 +30,7 @@ chapter:
 
 ### When in Rome
 
-`conj` は、コレクションの種類ごとに最も効率の良い方法で要素を追加する。リストやシーケンスでは先頭に追加する。連結リストでは先頭への追加が最も効率が良いからである。ベクタでは末尾に追加する。ベクタが内部で使う [[hash-array-mapped-trie|Hash Array Mapped Trie]] にとって、末尾への追加が最も効率が良いからである。
+`conj` は、コレクションの種類ごとに最も効率の良い方法で要素を追加する。連結リストでは先頭への追加が最も効率が良いので、リストやシーケンスでは先頭に追加する。ベクタが内部で使う Hash Array Mapped Trie にとっては末尾への追加が最も効率が良いので、ベクタでは末尾に追加する。
 
 ```clojure
 (conj '(:colosseum :vatican) :pantheon :trevi-fountain)
@@ -80,7 +80,7 @@ chapter:
 
 ### Needle in a Haystack
 
-`contains?` は値ではなく、キーがあるかどうかを調べる。定数時間か対数時間で動き、線形探索はしない。
+`contains?` は値ではなくキーがあるかどうかを調べる。定数時間か対数時間で動き、線形探索はしない。
 
 ```clojure
 (def haystack (shuffle (conj (range 100) :needle)))
@@ -136,7 +136,7 @@ Clojure のレコードは、具体的な型（レコード名）と必須フィ
 ## キーワード
 
 - [[clojure|Clojure]]
-- [[hash-array-mapped-trie|Hash Array Mapped Trie]]
+- Hash Array Mapped Trie
 - [[computational-complexity|計算量]]
 
 %%

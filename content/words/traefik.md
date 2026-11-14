@@ -8,7 +8,7 @@ date: 2026-07-08
 
 ## TL;DR
 
-OSS の Application Proxy（L7 の[[reverse-proxy|リバースプロキシ]]、ロードバランサ）。インフラを自動で調べて設定を見つけ、ルーティングする。[[go|Go]] 製のシングルバイナリで、公式の Docker イメージもある。
+OSS の Application Proxy（L7 のリバースプロキシ、ロードバランサ）。インフラを自動で調べて設定を見つけ、ルーティングする。[[go|Go]] 製のシングルバイナリで、公式の Docker イメージもある。
 
 ## なぜ必要か
 
@@ -49,7 +49,7 @@ Application Proxy は本来、ファイアウォールの文脈で使う Proxy S
 
 ## 関連
 
-- [[reverse-proxy|リバースプロキシ]]
+- リバースプロキシ
 - [[service-mesh|サービスメッシュ]]
 - [[sidecar|サイドカー]]
 

@@ -18,8 +18,8 @@ chapter: 11
 
 オプション型を DTO にするには、`None` を `null` に置き換える必要がある。ラップしている型によって扱いが変わる。
 
-- **参照型をラップしている場合**: 参照型は `null` を取れるので、そのままでよい。[[fsharp|F#]] では `class` 型や `string` が参照型である（[参照型 - C# reference](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/keywords/reference-types)）
-- **値型をラップしている場合**: 値型は `null` を取れないので、`Nullable<int>` のような null 許容型に変換する（[null 許容値型 - F#](https://learn.microsoft.com/ja-jp/dotnet/fsharp/language-reference/nullable-value-types)）。F# では `struct` 型と、`string` 以外の基本型が値型である（[値型 - C# reference](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-types)）
+- 参照型をラップしている場合: 参照型は `null` を取れるので、そのままでよい。[[fsharp|F#]] では `class` 型や `string` が参照型である（[参照型 - C# reference](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/keywords/reference-types)）
+- 値型をラップしている場合: 値型は `null` を取れないので、`Nullable<int>` のような null 許容型に変換する（[null 許容値型 - F#](https://learn.microsoft.com/ja-jp/dotnet/fsharp/language-reference/nullable-value-types)）。F# では `struct` 型と、`string` 以外の基本型が値型である（[値型 - C# reference](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-types)）
 
 ## キーワード
 

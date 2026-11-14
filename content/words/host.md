@@ -18,6 +18,8 @@ date: 2024-11-13
 
 つまり、ホストには `www.example.com` のような FQDN か、`.` で区切った 4 つの 10 進数の組で表す IP アドレスを書く。
 
+URI の一般的な構文を定めた RFC 3986 では、オーソリティを `[ userinfo "@" ] host [ ":" port ]` と定義している。ホストには、角かっこで囲んだ IP リテラル（IPv6 アドレスなど）、ドット区切りの 10 進数で書いた IPv4 アドレス、DNS 名などの登録名のいずれかを書く。ホストは大文字と小文字を区別しないが、登録名は小文字で書くことが推奨されている。
+
 %%
 
 ## 自分の理解
@@ -38,3 +40,4 @@ date: 2024-11-13
 
 - [URI - MDN](https://developer.mozilla.org/ja/docs/Web/URI#オーソリティ)
 - [RFC 1738](https://datatracker.ietf.org/doc/html/rfc1738#section-3.1)
+- [RFC 3986, Section 3.2.2: Host](https://www.rfc-editor.org/rfc/rfc3986.html#section-3.2.2)

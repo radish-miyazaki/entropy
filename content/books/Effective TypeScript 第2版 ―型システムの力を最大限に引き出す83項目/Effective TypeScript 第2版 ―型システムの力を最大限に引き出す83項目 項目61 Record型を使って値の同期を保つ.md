@@ -9,7 +9,7 @@ chapter: 61
 
 ## TL;DR
 
-- [[fail-open|Fail Open]] と [[fail-closed|Fail Closed]] のどちらにも[[trade-off|トレードオフ]]があり、ジレンマになる。
+- Fail Open と Fail Closed のどちらにも[[trade-off|トレードオフ]]があり、ジレンマになる。
 - `Record` 型を使うと、関連する値と型を同期させ、プロパティを変えたときに対応を強制できる。
 
 ## 内容
@@ -46,8 +46,8 @@ const REQUIRES_UPDATE: Record<keyof ScatterProps, boolean> = {
 
 ## キーワード
 
-- [[fail-open|Fail Open]]
-- [[fail-closed|Fail Closed]]
+- Fail Open
+- Fail Closed
 - [[trade-off|トレードオフ]]
 - [[typescript|TypeScript]]
 

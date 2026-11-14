@@ -12,7 +12,7 @@ date: 2024-10-16
 
 ## なぜ必要か
 
-WASM は多くのプログラミング言語のビルドターゲットにできる。[[rust|Rust]]、C、C++、[[zig|Zig]]、[[kotlin|Kotlin]]、[[swift|Swift]] には WASM を出力するコンパイラがある。[[ruby|Ruby]] や [[javascript|JavaScript]] は処理系ごと WASM にして動かすツールがある。
+WASM は多くのプログラミング言語のビルドターゲットにできる。[[rust|Rust]]、C、C++、[[zig|Zig]]、[[kotlin|Kotlin]]、[[swift|Swift]] には WASM を出力するコンパイラがある。[[ruby|Ruby]] や [[javascript|JavaScript]] には、処理系ごと WASM にして動かすツールがある。
 
 WASM の登場前は、C で書かれた機能を Web サイトで使うには JavaScript で書き直す必要があったが、WASM なら C のまま使える。拡張機能を受け付けるプラットフォームでも、拡張を書ける開発者の幅が広がる。
 

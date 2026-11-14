@@ -1,5 +1,5 @@
 ---
-title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第2章 Lean による初めての証明
+title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第2章 Leanによる初めての証明
 description: elan と lake でプロジェクトを作り、ペアノの公理にもとづく自然数を定義して 1 + 1 = 2 を証明する章
 tags: [book-chapter, lean]
 date: 2026-02-23
@@ -9,14 +9,14 @@ chapter: 2
 
 ## TL;DR
 
-- [[elan|elan]] と [[lake|Lake]] で Lean のプロジェクトを作る。
-- [[peano-axioms|ペアノの公理]]にもとづいて自然数を[[inductive-type|帰納型]]で定義し、`rfl` タクティクで $1 + 1 = 2$ を証明する。
+- elan と Lake で Lean のプロジェクトを作る。
+- ペアノの公理にもとづいて自然数を帰納型で定義し、`rfl` タクティクで $1 + 1 = 2$ を証明する。
 
 ## 内容
 
 ### ツールとプロジェクトの作成
 
-[[elan|elan]] は Lean のバージョン管理ツールで、[[lake|Lake]] はパッケージマネージャ兼ビルドツールである。プロジェクトは `lake new` で作る。
+elan は Lean のバージョン管理ツールで、Lake はパッケージマネージャ兼ビルドツールである。プロジェクトは `lake new` で作る。
 
 ```sh
 lake new LeanBook lib.lean
@@ -55,7 +55,7 @@ VS Code の拡張機能では、`\` と ASCII 文字の組み合わせで Unicod
 
 ### 自然数の定義
 
-この章の目標は $1 + 1 = 2$ の証明である。Lean の標準ライブラリでは、自然数は[[peano-axioms|ペアノの公理]]にもとづいて定義されている。ペアノの公理は次のとおり。
+この章の目標は $1 + 1 = 2$ の証明である。Lean の標準ライブラリでは、自然数はペアノの公理にもとづいて定義されている。ペアノの公理は次のとおり。
 
 - $0$ は自然数である
 - 後者関数と呼ばれる、自然数から自然数への関数 $\mathrm{succ}$ がある。つまり、$n$ が自然数ならば $\mathrm{succ}(n)$ も自然数である
@@ -63,7 +63,7 @@ VS Code の拡張機能では、`\` と ASCII 文字の組み合わせで Unicod
 - $0$ と $\mathrm{succ}$ の像は交わらない
 - 帰納法が成り立つ。自然数上の任意の述語 $P$ について、$P(0)$ が成り立ち、かつ $\forall n, P(n) \Rightarrow P(\mathrm{succ}(n))$ が成り立つならば、すべての自然数 $n$ について $P(n)$ が成り立つ
 
-この自然数を Lean で再現するには `inductive` コマンドを使う。`inductive` で定義したデータ型を[[inductive-type|帰納型]]と呼び、帰納型の項を作るものをコンストラクタと呼ぶ。
+この自然数を Lean で再現するには `inductive` コマンドを使う。`inductive` で定義したデータ型を帰納型と呼び、帰納型の項を作るものをコンストラクタと呼ぶ。
 
 ```lean
 inductive MyNat where
@@ -122,10 +122,10 @@ example : MyNat.add .one .one = .two := by
 ## キーワード
 
 - [[lean|Lean]]
-- [[elan|elan]]
-- [[lake|Lake]]
-- [[peano-axioms|ペアノの公理]]
-- [[inductive-type|帰納型]]
+- elan
+- Lake
+- ペアノの公理
+- 帰納型
 - [[tactic|タクティク]]
 - [[visual-studio-code|Visual Studio Code]]
 

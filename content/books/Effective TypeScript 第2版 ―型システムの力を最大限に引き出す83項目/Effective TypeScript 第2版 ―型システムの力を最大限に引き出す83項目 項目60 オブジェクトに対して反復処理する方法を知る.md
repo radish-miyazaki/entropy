@@ -18,7 +18,7 @@ chapter: 60
 
 オブジェクトを反復処理すると、型を指定していてもキーの型が `string` と推論されることがよくある。主な理由は 2 つある。
 
-1 つ目は、関数のパラメータとして受け取るオブジェクトが、型にないキーを含んでいる可能性があるからである。これは TypeScript が[[structural-typing|構造的型付け]]を採用しているためである。
+1 つ目は、TypeScript が[[structural-typing|構造的型付け]]を採用しているので、関数のパラメータとして受け取るオブジェクトが型にないキーを含んでいる可能性があるからである。
 
 ```ts
 const foo = (abc: ABC) => {
@@ -33,7 +33,7 @@ const x = { a: "1", b: "2", c: 3, d: new Date() }
 foo(x) // OK
 ```
 
-2 つ目は、[[prototype-pollution|プロトタイプ汚染]]の可能性があるからである。`Object.prototype` に定義したプロパティは、他のすべてのオブジェクトに継承される。継承したプロパティは `for-in` ループで列挙されるので、TypeScript は安全側に倒してキーの型を `string` と推論する。
+2 つ目は、プロトタイプ汚染の可能性があるからである。`Object.prototype` に定義したプロパティは、他のすべてのオブジェクトに継承される。継承したプロパティは `for-in` ループで列挙されるので、TypeScript は安全側に倒してキーの型を `string` と推論する。
 
 ### Object.entries を使う
 
@@ -94,7 +94,7 @@ for (const [k, v] of m.entries()) {
 ## キーワード
 
 - [[structural-typing|構造的型付け]]
-- [[prototype-pollution|プロトタイプ汚染]]
+- プロトタイプ汚染
 - [[type-assertion|型アサーション]]
 - [[typescript|TypeScript]]
 

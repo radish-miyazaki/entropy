@@ -33,7 +33,7 @@ PEP には 3 つの種類がある。
 
 ## 関連
 
-- [[record-decision-process|意思決定のプロセスを残す]]: Rejected Ideas はその一種である
+- [[意思決定のプロセスを残す|意思決定のプロセスを残す]]: Rejected Ideas はその一種である
 
 ## 出典
 

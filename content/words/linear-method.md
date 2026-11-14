@@ -12,7 +12,7 @@ date: 2024-01-15
 
 ## 仕組み
 
-Linear Method は、いくつかの原則で構成されている。たとえば「Create momentum – don't sprint」では、全力で駆け抜けるのではなく、一定のリズムで働き続けることを勧めている。
+Linear Method はいくつかの原則で構成されている。たとえば「Create momentum – don't sprint」では、全力で駆け抜けるのではなく、一定のリズムで働き続けることを勧めている。
 
 > We should find a cadence and routine of working. In cycles, we decide priorities and assign responsibilities. Our goal is to maintain a healthy momentum with our teams, not rush towards the end.
 

@@ -2,7 +2,7 @@
 title: Effect.tryPromise
 aliases: []
 description: 失敗する可能性のある非同期処理を、エラーを型に載せて Effect でラップする関数
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

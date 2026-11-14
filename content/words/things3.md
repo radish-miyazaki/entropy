@@ -12,7 +12,9 @@ Cultured Code が開発する、Apple のデバイス向けの個人用タスク
 
 ## 仕組み
 
-Mac、iPhone と Apple Watch、iPad、Vision Pro 向けに提供されており、App Store から入手する。デバイス間の同期、キーボードショートカット、ショートカット（Shortcuts）アプリとの連携に対応している。
+Mac、iPhone と Apple Watch、iPad、Vision Pro 向けに提供されており、App Store から入手する。デバイス間の同期、キーボードショートカット、ショートカット（Shortcuts）アプリとの連携に対応している。公式サイトに載っている MacStories のレビューでは、プロジェクトやタスクのメモに Markdown を使える点も挙げられている。Mac 版には無料の試用版がある。
+
+公式サイトによると、Apple Design Award を 2 回受賞しており、App Store の Editors' Choice にも選ばれている。
 
 %%
 

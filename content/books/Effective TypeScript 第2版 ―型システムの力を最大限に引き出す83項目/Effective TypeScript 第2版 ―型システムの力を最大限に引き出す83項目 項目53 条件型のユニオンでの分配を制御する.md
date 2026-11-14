@@ -26,7 +26,7 @@ double(1) // number を返す
 double("a" as string | number) // string | number を返す
 ```
 
-これは、条件型が[[union-type|ユニオン型]]の各要素に「分配」されるからである。
+条件型が[[union-type|ユニオン型]]の各要素に「分配」されるので、`string | number` が返る。
 
 ```ts
 (string | number) extends string ? string : number

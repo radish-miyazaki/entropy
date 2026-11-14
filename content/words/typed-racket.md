@@ -10,6 +10,10 @@ date: 2025-05-24
 
 [[racket|Racket]] の姉妹言語で、段階的に型付けできる（gradually-typed）。型注釈を少しずつ足し、静的に検査できる。
 
+## なぜ必要か
+
+The Typed Racket Guide によると、Typed Racket の目的は、ほとんどの定義を書き換えずに型検査できるようにすることである。型注釈を受け付ける Racket の基本的な構文を用意しているので、型のないプログラムを移すときは、主に既存の定義に型を足すだけでよい。
+
 ## 仕組み
 
 Racket のモジュールを Typed Racket にするには、次の 3 つを行う。
@@ -30,6 +34,8 @@ Racket のモジュールを Typed Racket にするには、次の 3 つを行�
 (: distance (-> pt pt Real))
 ```
 
+`distance` の本体は、型のない版から変えなくてよい。`(add1 "not a number")` のように型の合わない式は、実行前の型検査で `Number` を期待したのに `String` が渡された、というエラーになる。`leaf?` のような述語で `cond` の分岐ごとに型を絞り込む仕組みもあり、ガイドではこれを occurrence typing と呼んでいる。
+
 %%
 
 ## 自分の理解
@@ -46,3 +52,4 @@ Racket のモジュールを Typed Racket にするには、次の 3 つを行�
 
 - [The Typed Racket Guide](https://docs.racket-lang.org/ts-guide/index.html)
 - [Quick Start - The Typed Racket Guide](https://docs.racket-lang.org/ts-guide/quick.html)
+- [Beginning Typed Racket - The Typed Racket Guide](https://docs.racket-lang.org/ts-guide/beginning.html)

@@ -10,7 +10,7 @@ chapter: 1
 ## TL;DR
 
 - [[clojure|Clojure]] の整数は `java.lang.Long`、小数は `java.lang.Double` で生成される。リテラルの書き方で `BigInt` や `BigDecimal` も作れる。
-- clojure.core には、型変換、数値の判定、比較、四則演算の関数がそろっている。`+` などは[[integer-overflow|オーバーフロー]]するとエラーになり、`+'` などを使うと自動で `BigInt` に昇格する。
+- clojure.core には、型変換、数値の判定、比較、四則演算の関数がそろっている。`+` などはオーバーフローするとエラーになり、`+'` などを使うと自動で `BigInt` に昇格する。
 
 ## 内容
 
@@ -126,7 +126,7 @@ chapter: 1
 
 - [[clojure|Clojure]]
 - [[clojure-var|Var]]
-- [[integer-overflow|オーバーフロー]]
+- オーバーフロー
 
 %%
 

@@ -14,6 +14,8 @@ date: 2026-07-02
 
 IdP は利用者の認証情報を管理し、認証を行った上で、その結果をアサーションとして信頼先の RP（Relying Party）や SP（Service Provider）に発行する。[[saml|SAML]] では、IdP が署名した XML のアサーションを SP が検証してアクセスを許可する。
 
+NIST SP 800-63-4 の定義では、IdP は、フェデレーションの取引で利用者についてのアサーションを作成し、それを RP に送る当事者である。
+
 %%
 
 ## 自分の理解
@@ -26,3 +28,7 @@ IdP は利用者の認証情報を管理し、認証を行った上で、その�
 - [[iam|IAM]]: IdP は IAM のうち「誰であるか（認証）」を担当するコンポーネントである
 - [[saml|SAML]]
 - [[oidc|OIDC]]
+
+## 出典
+
+- [identity provider - NIST CSRC Glossary](https://csrc.nist.gov/glossary/term/identity_provider)

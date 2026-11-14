@@ -1,6 +1,6 @@
 ---
-title: AWS Infrastructure as Code ――使って比べるTerraform＆AWS CDK
-aliases: [AWS Infrastructure as Code ―⁠―使って比べるTerraform＆AWS CDK]
+title: ［詳解］AWS Infrastructure as Code ――使って比べるTerraform＆AWS CDK
+aliases: [AWS Infrastructure as Code ――使って比べるTerraform＆AWS CDK]
 description: AWS のリソースを対象に、Terraform と AWS CDK の使い方と仕組みを比べながら IaC の汎用的なスキルを身につける本
 tags: [book]
 date: 2025-07-01

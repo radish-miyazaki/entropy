@@ -67,7 +67,7 @@ int main (void) {
       (println "TRUE"))))
 ```
 
-[[rust|Rust]] では、`macro_rules!` を使う[[declarative-macro|宣言的マクロ]]が健全なマクロである（[[Effective Rust 項目28 分別をもってマクロを使おう|Effective Rust 項目28]]）。
+[[Effective Rust 項目28 分別をもってマクロを使おう|Effective Rust 項目28]] によると、[[rust|Rust]] では `macro_rules!` を使う[[declarative-macro|宣言的マクロ]]が健全なマクロである。
 
 ## 自分の理解
 

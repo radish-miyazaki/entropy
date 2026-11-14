@@ -8,7 +8,7 @@ date: 2023-12-19
 
 ## TL;DR
 
-コードの一部が、必要以上に[[complexity|複雑]]であることを示す兆候。
+英語の red flag は、何かがおかしいことを示す合図や警告を指す。[[A Philosophy of Software Design]] の定義では、コードの一部が必要以上に[[complexity|複雑]]であることを示す兆候。
 
 ## 例
 
@@ -35,3 +35,8 @@ date: 2023-12-19
 
 - [[complexity|複雑さ]]
 - [[A Philosophy of Software Design]]
+
+## 出典
+
+- [[A Philosophy of Software Design]]
+- [red flag - Wiktionary](https://en.wiktionary.org/wiki/red_flag)

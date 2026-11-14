@@ -10,6 +10,12 @@ date: 2024-11-05
 
 [[port-number|ポート番号]]やファイルのタイプ（[[content-type|Content-Type]]）など、Web に関するデータベースを管理する団体。
 
+## 仕組み
+
+公式サイトによると、IANA は世界で調整して割り当てる識別子とその定義を記録した、正式な公開レジストリを管理している。レジストリは誰でも見られ、サービスは無料である。扱う範囲は、[[dns|DNS]] のルートゾーンなどのドメイン名、[[ip-address|IP アドレス]]などの番号資源、プロトコルのパラメータやタイムゾーンのデータベースに分かれている。
+
+IANA の機能は、ICANN の関連組織である PTI（Public Technical Identifiers）が担っている。その起源は 1970 年代までさかのぼる。
+
 %%
 
 ## 自分の理解
@@ -26,3 +32,4 @@ date: 2024-11-05
 ## 出典
 
 - [IANA](https://www.iana.org/)
+- [About us - IANA](https://www.iana.org/about)

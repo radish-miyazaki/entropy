@@ -43,7 +43,7 @@ mx >>= return = mx
 - [[computation-expression|コンピュテーション式]]
 - [[dry-monads|dry-monads]]
 - [[Domain Modeling Made Functional 第10章 なんとなく理解するモナドとアプリカティブ]]
-- [[Monad は継続、Applicative は並列]]
+- [Monad は継続、Applicative は並列](https://blog.ojisan.io/monad-applicative/)
 
 ## 出典
 

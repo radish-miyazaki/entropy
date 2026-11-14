@@ -18,7 +18,7 @@ date: 2025-02-01
 
 Rune は Svelte コンパイラに指示を出すための記号で、言語の構文の一部としてキーワードのように働く。import は不要である。値ではないので、変数に代入したり引数として渡したりはできない。使える場所が決まっていて、誤った使い方はコンパイラが報告する。
 
-主な Rune には、`$state`、`$derived`、`$effect`、`$props`、`$bindable`、`$inspect`、`$host` がある。
+主な Rune には `$state`、`$derived`、`$effect`、`$props`、`$bindable`、`$inspect`、`$host` がある。
 
 Rune は `.svelte` ファイルだけでなく、`.svelte.js` や `.svelte.ts` ファイルでも使える。そのため、[[react|React]] の[[custom-hook|カスタムフック]]や [[vue|Vue]] の [[composables|Composable]] のように、ビジネスロジックをコンポーネントから切り離せるようになった。
 

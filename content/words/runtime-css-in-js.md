@@ -8,7 +8,7 @@ date: 2024-08-30
 
 ## TL;DR
 
-[[javascript|JavaScript]] や [[typescript|TypeScript]] のコードに [[css|CSS]] を直接書く [[css-in-js|CSS-in-JS]] のうち、アプリケーションの実行時にライブラリがスタイルを解釈して適用するもの。代表的なライブラリに [[styled-components]] や [[emotion|Emotion]] がある。
+[[javascript|JavaScript]] や [[typescript|TypeScript]] のコードに [[css|CSS]] を直接書く [[css-in-js|CSS-in-JS]] のうち、アプリケーションの実行時にライブラリがスタイルを解釈して適用するもの。代表的なライブラリに [[styled-components]] や Emotion がある。
 
 ## 仕組み
 

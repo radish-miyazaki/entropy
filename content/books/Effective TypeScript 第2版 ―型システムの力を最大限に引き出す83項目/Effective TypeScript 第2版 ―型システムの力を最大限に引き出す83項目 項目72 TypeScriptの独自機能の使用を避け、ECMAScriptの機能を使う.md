@@ -90,7 +90,7 @@ const p: PersonClass = { name: "Jed Bartlet" } // OK
 
 ### 実験的デコレータ
 
-[`experimentalDecorators`](https://www.typescriptlang.org/tsconfig/#experimentalDecorators) を有効にすると使える非標準の[[decorator|デコレータ]]で、2015 年に Angular をサポートするために導入された。2025 年時点で [[tc39|TC39]] のステージ 3 にある[標準のデコレータ](https://github.com/tc39/proposal-decorators)とは別物である。TypeScript は基本的にステージ 3 以降の機能をサポートしているので、標準のデコレータは追加の設定なしで使える。
+[`experimentalDecorators`](https://www.typescriptlang.org/tsconfig/#experimentalDecorators) を有効にすると使える非標準のデコレータで、2015 年に Angular をサポートするために導入された。2025 年時点で [[tc39|TC39]] のステージ 3 にある[標準のデコレータ](https://github.com/tc39/proposal-decorators)とは別物である。TypeScript は基本的にステージ 3 以降の機能をサポートしているので、標準のデコレータは追加の設定なしで使える。
 
 ```ts
 function logged(originalFn: any, context: ClassMethodDecoratorContext) {
@@ -152,7 +152,7 @@ checker.#passwordHash
 - [[nominal-typing|名前的型付け]]
 - [[literal-type|リテラル型]]
 - [[union-type|ユニオン型]]
-- [[decorator|デコレータ]]
+- デコレータ
 - [[tc39|TC39]]
 - [[type-assertion|型アサーション]]
 - [[composition-over-inheritance|継承より委譲]]

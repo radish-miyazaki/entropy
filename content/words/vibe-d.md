@@ -48,7 +48,7 @@ void main()
 
 ## 関連
 
-- [[dlang-tour|DLang Tour]]
+- [[DLang Tour|DLang Tour]]
 
 ## 出典
 

@@ -18,7 +18,7 @@ chapter: 7
 
 本書では、型に含まれる値の集合を「ドメイン」と呼ぶ。実行時、変数は [[javascript|JavaScript]] のあらゆる値のうち、ただ 1 つの値を持つ。一方、[[typescript|TypeScript]] が型チェックをするとき、変数は型しか持っていない。そのため、型を「その変数が取りうる値の集合」と考えるとよい。
 
-最も小さい集合は空集合で、TypeScript では [[never-type|never 型]]にあたる。`never` は型階層の一番下にあるので、ボトム型とも呼ばれる。対極にあるのが [[unknown-type|unknown 型]]である。`unknown` のドメインには JavaScript のすべての値が含まれ、型階層の一番上にあるのでトップ型とも呼ばれる（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目46 型が不明な値には、anyではなくunknownを使う|項目46]]）。次に小さいのは値を 1 つだけ含む集合で、TypeScript では[[literal-type|リテラル型]]にあたる。他の言語ではユニット型と呼ぶこともある。
+最も小さい集合は空集合で、TypeScript では never 型にあたる。`never` は型階層の一番下にあるので、ボトム型とも呼ばれる。対極にあるのが unknown 型である。`unknown` のドメインには JavaScript のすべての値が含まれ、型階層の一番上にあるのでトップ型とも呼ばれる（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目46 型が不明な値には、anyではなくunknownを使う|項目46]]）。次に小さいのは値を 1 つだけ含む集合で、TypeScript では[[literal-type|リテラル型]]にあたる。他の言語ではユニット型と呼ぶこともある。
 
 TypeScript のエラーでよく見る「assignable（代入可能）」は、集合の言葉では「〜の要素である」（値と型の関係）か「〜の部分集合である」（2 つの型の関係）のどちらかを意味する。
 
@@ -84,7 +84,7 @@ const list = [1, 2]
 const tuple: [number, number] = list
 ```
 
-また、3 要素のタプルは 2 要素のタプルに代入できない。TypeScript は 2 要素の数値のタプルを、`{ 0: number, 1: number }` ではなく、`{ 0: number, 1: number, length: 2 }` としてモデリングしているからである。
+また、TypeScript は 2 要素の数値のタプルを `{ 0: number, 1: number }` ではなく `{ 0: number, 1: number, length: 2 }` としてモデリングしているので、3 要素のタプルは 2 要素のタプルに代入できない。
 
 ```ts
 const triple: [number, number, number] = [1, 2, 3]
@@ -111,8 +111,8 @@ TypeScript は、代入可能性（部分集合の関係）を常にチェック
 
 ## キーワード
 
-- [[never-type|never 型]]
-- [[unknown-type|unknown 型]]
+- never 型
+- unknown 型
 - [[literal-type|リテラル型]]
 - [[union-type|ユニオン型]]
 - [[intersection-type|インターセクション型]]

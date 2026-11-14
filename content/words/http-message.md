@@ -20,7 +20,7 @@ HTTP メッセージは、スタートライン、ヘッダ、ボディの 3 つ
 
 リクエストではリクエストライン、レスポンスではステータスラインと呼ぶ。
 
-リクエストラインは、[[http-method|HTTP メソッド]]、アクセスするリソース、HTTP のバージョンの 3 つを含む。[RFC 7230 3.1.1](https://datatracker.ietf.org/doc/html/rfc7230#section-3.1.1) では `request-line = method SP request-target SP HTTP-version CRLF` と定義されている。`SP` は空白 1 文字、`CRLF` は改行を表す。
+リクエストラインは、HTTP メソッド、アクセスするリソース、HTTP のバージョンの 3 つを含む。[RFC 7230 3.1.1](https://datatracker.ietf.org/doc/html/rfc7230#section-3.1.1) では `request-line = method SP request-target SP HTTP-version CRLF` と定義されている。`SP` は空白 1 文字、`CRLF` は改行を表す。
 
 ステータスラインは、HTTP のバージョン、[[status-code|ステータスコード]]、理由フレーズ（`OK` や `Not Found` など）の 3 つを含む。[RFC 7230 3.1.2](https://datatracker.ietf.org/doc/html/rfc7230#section-3.1.2) では `status-line = HTTP-version SP status-code SP reason-phrase CRLF` と定義されている。
 
@@ -28,7 +28,7 @@ HTTP メッセージは、スタートライン、ヘッダ、ボディの 3 つ
 
 スタートラインの次の行から、空行までの部分である。1 つの[[header-field|ヘッダフィールド]]は、`:` で区切った Key-Value の組で書く（[RFC 7230 3.2](https://datatracker.ietf.org/doc/html/rfc7230#section-3.2)）。
 
-ヘッダは基本的に任意だが、HTTP/1.1 からはリクエストに [[host-header|Host]] ヘッダが必須になった。1 つの [[ip-address|IP アドレス]]と[[port-number|ポート番号]]で複数の Web サイトを運用しているとき、サーバは Host ヘッダの値でアクセス先の Web サイトを判断するからである。
+ヘッダは基本的に任意である。ただし、1 つの [[ip-address|IP アドレス]]と[[port-number|ポート番号]]で複数の Web サイトを運用しているとき、サーバは Host ヘッダの値でアクセス先の Web サイトを判断するので、HTTP/1.1 からはリクエストに [[host-header|Host]] ヘッダが必須になった。
 
 ヘッダの順番に決まりはない。ただし [RFC 7230 3.2.2](https://datatracker.ietf.org/doc/html/rfc7230#section-3.2.2) は、サーバがメッセージを処理しないことをできるだけ早く判断できるよう、制御データを含むヘッダ（リクエストの `Host`、レスポンスの `Date`）を先に送ることを推奨している。
 

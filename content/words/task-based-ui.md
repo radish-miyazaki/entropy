@@ -8,7 +8,7 @@ date: 2023-12-16
 
 ## TL;DR
 
-[[cli|CLI]] のように、動詞を起点として設計された操作モデル。オブジェクトを起点にする [[ooui|OOUI]] と対になる。
+CLI のように、動詞を起点として設計された操作モデル。オブジェクトを起点にする [[ooui|OOUI]] と対になる。
 
 %%
 
@@ -20,4 +20,4 @@ date: 2023-12-16
 ## 関連
 
 - [[ooui|OOUI]]: 対になる操作モデル
-- [[タスクベースUIとCQRS]]
+- [タスクベースUIとCQRS](https://qiita.com/amashigeseiji/items/3ad45bc08d15ecf7b0a7)

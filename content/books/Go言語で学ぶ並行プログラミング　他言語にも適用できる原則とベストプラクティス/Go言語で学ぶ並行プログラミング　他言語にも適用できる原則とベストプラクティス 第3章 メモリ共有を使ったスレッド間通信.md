@@ -10,11 +10,11 @@ chapter: 3
 ## TL;DR
 
 - [[shared-memory|メモリ共有]]を使ったスレッド間通信を扱う章である。
-- `go build -gcflags='-m'` を実行すると、[[escape-analysis|エスケープ分析]]の情報を確認できる。
+- `go build -gcflags='-m'` を実行すると、エスケープ分析の情報を確認できる。
 
 ## 内容
 
-次のコマンドを実行すると、コンパイラによる[[escape-analysis|エスケープ分析]]の結果を出力できる。
+次のコマンドを実行すると、コンパイラによるエスケープ分析の結果を出力できる。
 
 ```sh
 go build -gcflags='-m' countdown.go
@@ -23,7 +23,7 @@ go build -gcflags='-m' countdown.go
 ## キーワード
 
 - [[shared-memory|メモリ共有]]
-- [[escape-analysis|エスケープ分析]]
+- エスケープ分析
 
 %%
 

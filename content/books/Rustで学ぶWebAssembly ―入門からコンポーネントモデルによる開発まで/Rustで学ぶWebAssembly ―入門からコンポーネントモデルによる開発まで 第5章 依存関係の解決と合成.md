@@ -113,7 +113,7 @@ let message = hello_world.radish_greet_sayable().call_say(&mut store)?;
 
 ### wasi:cli/imports の実装
 
-ビルドターゲットを `wasm32-unknown-unknown` から `wasm32-wasip1` に変えると、実行時に `component imports instance wasi:cli/environment@0.2.0, but a matching implementation was not found in the linker` というエラーになる。cargo-component は、ターゲットが `wasm32-wasip1` のとき、`wasi:cli/imports` World のインタフェースを依存関係に自動で追加するためである。追加された import は [[wasm-tools]] の `wasm-tools component wit` で確認できる。
+cargo-component はターゲットが `wasm32-wasip1` のとき `wasi:cli/imports` World のインタフェースを依存関係に自動で追加するので、ビルドターゲットを `wasm32-unknown-unknown` から `wasm32-wasip1` に変えると、実行時に `component imports instance wasi:cli/environment@0.2.0, but a matching implementation was not found in the linker` というエラーになる。追加された import は [[wasm-tools]] の `wasm-tools component wit` で確認できる。
 
 これらの [[wasi|WASI]] のインタフェースは、[[wasmtime-wasi]] クレートで実装できる。使うには、`Store` のデータとなる構造体に [`WasiView`](https://docs.rs/wasmtime-wasi/latest/wasmtime_wasi/trait.WasiView.html) トレイトを実装する。`WasiCtx` は環境変数、標準入出力のストリーム、Component からアクセスを許可したディレクトリなど、WASI の実行状態を持つ。`ResourceTable` はリソースの使用状況を管理するデータ構造である。
 

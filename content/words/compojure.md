@@ -14,6 +14,13 @@ date: 2024-01-08
 
 Compojure で定義したルートから、Ring のハンドラ（HTTP リクエストを処理する関数）が作られる。
 
+公式の Wiki によると、ルートは HTTP メソッドのマクロ、パス、束縛、本体の 4 つでできている。`GET` などのマクロは、リクエストのメソッドやパスが合わなければ nil を返す。パスの `:id` のような部分は、次の `/` か `.` までの文字列をパラメータとして取り出し、束縛のベクタ `[id]` で受け取れる。`routes` 関数は複数のルートを順に試し、最初に nil 以外を返したルートの結果を使う。`defroutes` は、これを定義するための省略形である。
+
+```clojure
+(GET "/user/:id" [id]
+  (str "<h1>Hello user " id "</h1>"))
+```
+
 ## 例
 
 公式の README では、2 つのルートから Ring のハンドラを作る例を紹介している。1 つ目は `GET /` を処理し、2 つ目はどのルートにも当てはまらないときの受け皿になる。
@@ -43,3 +50,4 @@ Compojure で定義したルートから、Ring のハンドラ（HTTP リクエ
 ## 出典
 
 - [weavejester/compojure](https://github.com/weavejester/compojure)
+- [Routes In Detail - compojure Wiki](https://github.com/weavejester/compojure/wiki/Routes-In-Detail)

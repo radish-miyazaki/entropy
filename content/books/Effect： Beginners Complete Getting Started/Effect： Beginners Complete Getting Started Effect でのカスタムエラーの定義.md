@@ -4,7 +4,7 @@ description: Effect で _tag を持つカスタムエラーを定義し、Effect
 tags: [book-chapter, effect-ts, typescript]
 date: 2025-05-30
 book: "[[Effect： Beginners Complete Getting Started]]"
-chapter:
+chapter: 2
 ---
 
 ## TL;DR

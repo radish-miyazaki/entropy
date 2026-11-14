@@ -12,13 +12,13 @@ date: 2025-03-21
 
 ## なぜ必要か
 
-設計思想は [[philosophy-of-biff|Philosophy of Biff]] にまとめている。
+設計思想は [[Philosophy of Biff|Philosophy of Biff]] にまとめている。
 
 ## 仕組み
 
 ### XTDB と Malli
 
-データベースに [[xtdb|XTDB]] を使う。XTDB は、保存したデータを変更・削除せず履歴として残す（イミュータブル）。そのため、データがいつ、どのように変わったかを簡単に追える。XTDB はスキーマレスなので、[[malli|Malli]] でスキーマを明確にし、不正なデータを防ぐ。
+データベースに XTDB を使う。XTDB は保存したデータを変更・削除せず履歴として残す（イミュータブル）。そのため、データがいつ、どのように変わったかを簡単に追える。XTDB はスキーマレスなので、[[malli|Malli]] でスキーマを明確にし、不正なデータを防ぐ。
 
 ### HTMX
 
@@ -50,7 +50,7 @@ XTDB がデータを履歴として残す考え方は、永続データ構造に
 
 ## 関連
 
-- [[philosophy-of-biff|Philosophy of Biff]]
+- [[Philosophy of Biff|Philosophy of Biff]]
 - [[htmx|HTMX]]
 - [[ring|Ring]]
 - [[clojure|Clojure]]

@@ -75,13 +75,13 @@ pub fn the_answer() -> &'static Wrapper {
 }
 ```
 
-ただし、ヒープに確保した値が永遠に解放されないので、[[memory-leak|メモリリーク]]が起こりうる。それでも、メモリリークは [[rust|Rust]] の[[memory-safety|メモリ安全性]]には影響しない。
+ただし、ヒープに確保した値が永遠に解放されないので、メモリリークが起こりうる。それでも、メモリリークは [[rust|Rust]] の[[memory-safety|メモリ安全性]]には影響しない。
 
 ## キーワード
 
 - [[lifetime|生存期間]]
 - [[interior-mutability|内部可変性]]
-- [[memory-leak|メモリリーク]]
+- メモリリーク
 - [[memory-safety|メモリ安全性]]
 
 %%

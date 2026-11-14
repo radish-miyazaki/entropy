@@ -35,7 +35,7 @@ chapter:
 
 ### Be-NaN-a Peel
 
-`##NaN` どうしを比べると、常に `false` を返す。`##NaN` は [[ieee-754|IEEE 754]] で定義された Not a Number を表し、特定の数ではないからである。そのため、マップや集合のキーに `##NaN` を使うと、決して取り出せない値を格納できてしまう。
+`##NaN` は IEEE 754 で定義された Not a Number を表し、特定の数ではないので、`##NaN` どうしを比べると常に `false` を返す。そのため、マップや集合のキーに `##NaN` を使うと、決して取り出せない値を格納できてしまう。
 
 ```clojure
 (def m {##NaN 100})
@@ -69,7 +69,7 @@ Clojure では、`false` と `nil` 以外のすべての値が、条件式や `b
 
 ### Vacuums Suck
 
-`and` や `every?` を引数なしで呼ぶと、[[vacuous-truth|空虚な真]]に従って `true` を返す。一方、`or` を引数なしで呼ぶと `nil` を返す。`or` は引数の中から最初の truthy な値を探し、見つからなければ `nil` を返すからである。`and` も `or` と同じく、式の評価結果そのものを返す。
+`and` や `every?` を引数なしで呼ぶと、[[vacuous-truth|空虚な真]]に従って `true` を返す。一方、`or` は引数の中から最初の truthy な値を探し、見つからなければ `nil` を返すので、引数なしで呼ぶと `nil` を返す。`and` も `or` と同じく、式の評価結果そのものを返す。
 
 ```clojure
 (and 1 2)          ; 最後の truthy な値である 2 を返す
@@ -79,7 +79,7 @@ Clojure では、`false` と `nil` 以外のすべての値が、条件式や `b
 ## キーワード
 
 - [[clojure|Clojure]]
-- [[ieee-754|IEEE 754]]
+- IEEE 754
 - [[vacuous-truth|空虚な真]]
 
 ## 自分の理解

@@ -12,11 +12,13 @@ date: 2024-10-18
 
 ## 仕組み
 
+MDN によると、JavaScript の `WebAssembly.Instance` は、ステートフルで実行できる `WebAssembly.Module` のインスタンスである。JavaScript から WebAssembly のコードを呼び出すための、エクスポートされた関数をすべて含む。`exports` プロパティは、エクスポートされた関数をメンバーに持つ読み取り専用のオブジェクトを返す。
+
 処理は[[sandbox|サンドボックス]]の中で行われるので、ブラウザが持つリソースにはアクセスできない。たとえば JavaScript の変数にはアクセスできない。
 
 ## 例
 
-JavaScript では `WebAssembly.instantiateStreaming` でモジュールをコンパイルし、インスタンス化する。戻り値の `instance`（`WebAssembly.Instance`）の `exports` から、export section で宣言された関数を呼べる。
+MDN は、インスタンスを非同期で取得することを勧めている。JavaScript では `WebAssembly.instantiateStreaming` でモジュールをコンパイルし、インスタンス化する。戻り値の `instance`（`WebAssembly.Instance`）の `exports` から、export section で宣言された関数を呼べる。
 
 ```js
 const { module, instance } = await WebAssembly.instantiateStreaming(fetch("add.wasm"))
@@ -39,4 +41,5 @@ const four = instance.exports.add_two(2)
 
 - [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで]]
 - [WebAssembly.instantiateStreaming() | MDN](https://developer.mozilla.org/ja/docs/WebAssembly/JavaScript_interface/instantiateStreaming_static)
+- [WebAssembly.Instance | MDN](https://developer.mozilla.org/ja/docs/WebAssembly/JavaScript_interface/Instance)
 - [WebAssembly.Module.exports() | MDN](https://developer.mozilla.org/ja/docs/WebAssembly/JavaScript_interface/Module/exports_static)

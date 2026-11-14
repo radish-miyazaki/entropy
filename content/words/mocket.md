@@ -8,7 +8,7 @@ date: 2025-12-04
 
 ## TL;DR
 
-[[moonbit|MoonBit]] の [[web-framework|Web フレームワーク]]。JavaScript バックエンドとネイティブバックエンドの両方をサポートしている。
+[[moonbit|MoonBit]] の Web フレームワーク。JavaScript バックエンドとネイティブバックエンドの両方をサポートしている。
 
 ## 仕組み
 
@@ -21,12 +21,12 @@ moon add oboard/mocket
 
 `@mocket.new()` でアプリケーションを作り、ルートを登録してから `serve` で起動する。機能ごとの詳細は次のページにまとめている。
 
-- [[mocket-routing|Routing -- Mocket]]
-- [[mocket-responder|Responder -- Mocket]]
-- [[mocket-body-reader|Body Reader -- Mocket]]
-- [[mocket-middleware|Middleware -- Mocket]]
-- [[mocket-cookie|Cookie -- Mocket]]
-- [[mocket-websocket|WebSocket -- Mocket]]
+- [[Routing - Mocket|Routing -- Mocket]]
+- [[Responder - Mocket|Responder -- Mocket]]
+- [[Body Reader - Mocket|Body Reader -- Mocket]]
+- [[Middleware - Mocket|Middleware -- Mocket]]
+- [[Cookie - Mocket|Cookie -- Mocket]]
+- [[WebSocket - Mocket|WebSocket -- Mocket]]
 
 ## 例
 

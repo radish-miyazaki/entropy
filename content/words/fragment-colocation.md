@@ -12,7 +12,7 @@ date: 2024-09-25
 
 ## なぜ必要か
 
-コンポーネントの変更で必要なデータが増減しても、修正するファイルはそのコンポーネントの中に閉じる。そのため保守性が上がる。また、フィールドの増減に気付きやすいので、[[over-fetching|オーバーフェッチ]]の危険も小さくなる。
+コンポーネントの変更で必要なデータが増減しても、修正するファイルはそのコンポーネントの中に閉じるので、保守性が上がる。また、フィールドの増減に気付きやすいので、[[over-fetching|オーバーフェッチ]]の危険も小さくなる。
 
 ## 仕組み
 
@@ -71,7 +71,7 @@ export const Post = ({ postFragment }: { postFragment: FragmentType<typeof PostF
 
 `useFragment` の戻り値には、Fragment に対応する型が付く。そのため、`Post` で `publishedAt` を表示しようとして `{post.publishedAt}` と書くと、型エラーになる。実装者は、Fragment を直して新しいフィールドを取得する必要があると気付ける。
 
-また、`Post` からは `Author` の詳しい情報を読めない。これは GraphQL Code Generator の [[fragment-masking|Fragment Masking]] によるものである。
+また、GraphQL Code Generator の [[fragment-masking|Fragment Masking]] によって、`Post` からは `Author` の詳しい情報を読めない。
 
 ## 自分の理解
 

@@ -53,7 +53,7 @@ Hello, world!
 cargo add ferris-says
 ```
 
-`cargo component add` はクレートを追加するコマンドではない。WebAssembly Component を依存関係に追加するためのコマンドなので注意する。
+`cargo component add` はクレートではなく WebAssembly Component を依存関係に追加するためのコマンドなので注意する。
 
 `ferris_says::say` を呼ぶように `src/main.rs` を書き換えてビルドし、`wasmtime` で実行すると、カニのアスキーアートが Hello, world! を話す。
 

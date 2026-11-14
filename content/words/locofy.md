@@ -16,6 +16,7 @@ date: 2024-10-24
 
 - Locofy Plugin: Figma か Penpot にプラグインを入れ、デザインを変換する（デザイナー向け）
 - Locofy CLI: 手元に CLI を入れ、Figma の URL を指定して変換する（開発者向け）
+- Locofy MCP: [[model-context-protocol|MCP]] サーバを設定し、エージェントやコパイロットからデザインを変換する（開発者向け）
 - Import from URL: Figma のフレームの URL を貼り付けて変換する。プラグインの設定はいらない
 
 %%

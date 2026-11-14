@@ -9,7 +9,7 @@ chapter: 47
 
 ## TL;DR
 
-- 組み込みオブジェクトにプロパティを追加する[[monkey-patching|モンキーパッチ]]は、グローバル変数と同じなので避ける。
+- 組み込みオブジェクトにプロパティを追加するモンキーパッチは、グローバル変数と同じなので避ける。
 - 避けられないときは、`any` ではなくオーグメンテーションか狭い型アサーションを使う。
 
 ## 内容
@@ -96,7 +96,7 @@ export function greetUser() {
 ## キーワード
 
 - [[typescript|TypeScript]]
-- [[monkey-patching|モンキーパッチ]]
+- モンキーパッチ
 - [[side-effect|副作用]]
 - [[race-condition|競合状態]]
 - [[type-assertion|型アサーション]]

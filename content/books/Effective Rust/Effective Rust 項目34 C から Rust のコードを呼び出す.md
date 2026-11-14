@@ -68,7 +68,7 @@ pub extern "C" fn new_struct(v: u32) -> *mut FfiStruct {
 }
 ```
 
-そのため、生ポインタはスタックではなくヒープのメモリを指すべきである。ただし、単に `Box` に入れるだけでは足りない。`Box` 自体はスタック上にあり、関数が終わると `Box` と一緒にヒープのメモリも解放されるからである（[[Effective Rust 項目14 生存期間とヒープ|生存期間とヒープ]]）。
+そのため、生ポインタはスタックではなくヒープのメモリを指すべきである。ただし、`Box` 自体はスタック上にあり、関数が終わると `Box` と一緒にヒープのメモリも解放されるので（[[Effective Rust 項目14 生存期間とヒープ|生存期間とヒープ]]）、単に `Box` に入れるだけでは足りない。
 
 代わりに [`Box::into_raw`](https://doc.rust-lang.org/std/boxed/struct.Box.html#method.into_raw) を使うと、`Box` を消費して、ヒープのメモリを管理する責任を呼び出し側が引き受けられる。
 
@@ -95,7 +95,7 @@ pub extern "C" fn free_struct_raw(p: *mut FfiStruct) {
 }
 ```
 
-ただし、C 側が誤って同じポインタで `free_struct_raw` を 2 回呼ぶと、[[double-free|二重解放]]になり[[undefined-behavior|未定義動作]]を引き起こす。これは Rust では防げない。
+ただし、C 側が誤って同じポインタで `free_struct_raw` を 2 回呼ぶと、二重解放になり[[undefined-behavior|未定義動作]]を引き起こす。これは Rust では防げない。
 
 ### panic! を FFI 境界の外に出さない
 
@@ -107,7 +107,7 @@ pub extern "C" fn free_struct_raw(p: *mut FfiStruct) {
 - [[name-mangling|マングリング]]
 - [[raw-pointer|生ポインタ]]
 - [[invariant|不変条件]]
-- [[double-free|二重解放]]
+- 二重解放
 - [[undefined-behavior|未定義動作]]
 - [[rust|Rust]]
 

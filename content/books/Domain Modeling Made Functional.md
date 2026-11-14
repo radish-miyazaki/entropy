@@ -1,6 +1,11 @@
 ---
 title: Domain Modeling Made Functional
-aliases: [関数型ドメインモデリング, DMMF]
+aliases:
+  [
+    関数型ドメインモデリング,
+    DMMF,
+    "Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#",
+  ]
 description: ドメイン駆動設計と関数型プログラミングを組み合わせ、型を使ってドメインを柔軟かつ簡潔にモデリングする方法を解説する本
 tags: [book, fp, ddd]
 date: 2023-12-12
@@ -143,7 +148,7 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
 
 ## 感想
 
-[[clojure|Clojure]] でも、Spec を活用すれば同じことができそうだと思った。[[データ指向プログラミング（書籍）|データ指向プログラミング]]も参考になりそうだ。
+[[clojure|Clojure]] でも、Spec を活用すれば同じことができそうだと思った。データ指向プログラミングも参考になりそうだ。
 
 ## 関連
 

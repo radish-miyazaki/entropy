@@ -9,7 +9,7 @@ chapter: 4
 
 ## TL;DR
 
-- 省略可能な値は [[option-type|Option]]、失敗しうる処理は [[result-type|Result]] という選択型で表す。
+- 省略可能な値は Option、失敗しうる処理は [[result-type|Result]] という選択型で表す。
 - 値がないことは `unit` で表し、ドメインモデルのコレクションには `list` を使う。
 
 ## 内容
@@ -113,7 +113,7 @@ let printList2 aList =
 
 ## キーワード
 
-- [[option-type|Option 型]]
+- Option 型
 - [[result-type|Result 型]]
 - [[discriminated-union|判別共用体]]
 - [[side-effect|副作用]]

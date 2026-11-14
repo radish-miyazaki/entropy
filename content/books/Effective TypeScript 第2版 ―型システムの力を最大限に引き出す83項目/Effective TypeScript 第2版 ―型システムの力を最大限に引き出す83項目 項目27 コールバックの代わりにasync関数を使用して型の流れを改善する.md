@@ -30,7 +30,7 @@ fetchURL(url1, function (response1) {
 })
 ```
 
-ネストが深くなり（[[callback-hell|コールバック地獄]]）、実行順序がコードの順序と逆になるなど、[[readability|可読性]]が低かった。
+ネストが深くなり（コールバック地獄）、実行順序がコードの順序と逆になるなど、[[readability|可読性]]が低かった。
 
 ES2015 で `Promise` が導入され、簡潔に書けるようになった。ネストが浅くなり、実行順序とコードの順序も一致した。`Promise.all` のような便利な関数も登場した。
 
@@ -95,7 +95,7 @@ async function fetchPages() {
 
 コールバックで同じことをすると、より多くのコードと[[type-annotation|型アノテーション]]が必要になる。エラー処理や、`Promise.all` のような汎用の関数を自前で用意するのも難しい。
 
-[`Promise.race`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise/race) は、複数の `Promise` のうち最初に完了したものの結果を返す。次の関数の戻り値は `Promise<Response>` と[[type-inference|推論]]される。`timeout` が返す `Promise<never>` との合併が `Promise<Response | never>` にならないのは、`never` とのユニオンを取っても集合が変わらないので、`Promise<Response>` に単純化されるからである。
+[`Promise.race`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise/race) は、複数の `Promise` のうち最初に完了したものの結果を返す。次の関数の戻り値は `Promise<Response>` と[[type-inference|推論]]される。`never` とのユニオンを取っても集合は変わらないので、`timeout` が返す `Promise<never>` との合併は `Promise<Response | never>` ではなく `Promise<Response>` に単純化される。
 
 ```ts
 async function fetchWithTimeout(url: string, timeoutMs: number) {
@@ -126,7 +126,7 @@ const getNumber = () => Promise.resolve(42)
 - [[javascript|JavaScript]]
 - [[promise|Promise]]
 - [[async-await|async/await]]
-- [[callback-hell|コールバック地獄]]
+- コールバック地獄
 - [[type-inference|型推論]]
 - [[readability|可読性]]
 

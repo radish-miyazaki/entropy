@@ -10,7 +10,7 @@ chapter: 3
 ## TL;DR
 
 - [[purescript|PureScript]] の基本的な型とレコード、独自の型の定義を学ぶ。
-- [[type-constructor|型構築子]]と[[kind|カインド]]、量化された型、[[eta-conversion|η 変換]]による[[point-free-style|ポイントフリースタイル]]、[[function-composition|関数合成]]も扱う。
+- 型構築子とカインド、量化された型、η 変換によるポイントフリースタイル、[[function-composition|関数合成]]も扱う。
 
 ## 内容
 
@@ -112,10 +112,10 @@ findEntry firstName lastName = head <<< filter filterEntry          -- 関数合
 ## キーワード
 
 - [[purescript|PureScript]]
-- [[type-constructor|型構築子]]
-- [[kind|カインド]]
-- [[eta-conversion|η 変換]]
-- [[point-free-style|ポイントフリースタイル]]
+- 型構築子
+- カインド
+- η 変換
+- ポイントフリースタイル
 - [[function-composition|関数合成]]
 
 ## 自分の理解

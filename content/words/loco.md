@@ -16,7 +16,7 @@ date: 2024-01-06
 
 ## 仕組み
 
-内部では [[axum]] と [[seaorm|SeaORM]] を使っている。各構成要素のファイルは、Rails と同じく CLI（[[cargo|Cargo]] のコマンド）で生成する。ハンドラはマクロを使わない普通の `async fn` で、`Result<Response>` を返す。
+内部では [[axum]] と SeaORM を使っている。各構成要素のファイルは、Rails と同じく CLI（[[cargo|Cargo]] のコマンド）で生成する。ハンドラはマクロを使わない普通の `async fn` で、`Result<Response>` を返す。
 
 ## 例
 
@@ -40,7 +40,7 @@ cargo install sea-orm-cli
 
 - [[ruby-on-rails|Ruby on Rails]]
 - [[axum]]
-- [[seaorm|SeaORM]]
+- SeaORM
 
 ## 出典
 

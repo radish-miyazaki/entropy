@@ -2,7 +2,7 @@
 title: pipe（Effect）
 aliases: []
 description: 関数の結果を次の関数に順に渡し、ネストを深くせずに処理をつなぐ Effect の関数
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

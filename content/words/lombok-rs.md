@@ -16,7 +16,7 @@ Lombok のアノテーションに対応する derive マクロを提供して�
 
 ## 例
 
-`Cargo.toml` に追加して使う。使い方の例は、リポジトリの `tests/tests.rs` にある。
+`Cargo.toml` に追加して使う。使い方の例はリポジトリの `tests/tests.rs` にある。
 
 ```toml
 [dependencies]

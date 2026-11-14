@@ -11,7 +11,7 @@ isbn:
 
 ## TL;DR
 
-- AI エージェントと協働するときに [[git|Git]] で起きる問題を、[[jujutsu|Jujutsu]] で解決する方法を学ぶ本である。
+- AI エージェントと協働するときに [[git|Git]] で起きる問題を、Jujutsu で解決する方法を学ぶ本である。
 - Jujutsu を軽く体験し、Git との[[mental-model|メンタルモデル]]の違いを理解してから、コマンドの詳細、AI との協働ワークフロー、よくある問題への対処へと進む。
 
 ## 対象読者
@@ -30,11 +30,11 @@ Jujutsu は変更を自動でコミットし、どの操作も取り消せる。
 
 ## 感想
 
-重い腰を上げて、Jujutsu をキャッチアップするために購入した。[[git-worktree|git worktree]] での作業があまりにもしんどくなってきたからである。Worktrunk があるとはいえ、つらい。
+[[git-worktree|git worktree]] での作業があまりにもしんどくなってきたので、重い腰を上げて、Jujutsu をキャッチアップするために購入した。Worktrunk があるとはいえ、つらい。
 
 ## 関連
 
-- [[jujutsu|Jujutsu]]
+- Jujutsu
 - [[git|Git]]
 - [[git-worktree|git worktree]]
 - [技術書典の頒布ページ](https://techbookfest.org/product/nCUm1fLEJi5AywW1pyYWMW?productVariantID=8ag2Dv9pup0RWxJHtu6ZMh)

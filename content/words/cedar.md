@@ -22,9 +22,9 @@ date: 2025-06-15
 - Action: 操作の内容
 - Resource: 操作の対象
 
-ポリシーの効果は permit（許可）か forbid（禁止）のどちらかである。複数のポリシーが当てはまるときは、forbid が優先される。条件には、エンティティの属性や、リクエスト時の時刻や IP アドレスなどの情報（Context）も使える。ポリシーは作成・更新時にスキーマに照らして検証される。
+ポリシーの効果は permit（許可）か forbid（禁止）のどちらかである。複数のポリシーが当てはまるときは、forbid が優先される。条件にはエンティティの属性や、リクエスト時の時刻や IP アドレスなどの情報（Context）も使える。ポリシーは作成・更新時にスキーマに照らして検証される。
 
-AWS は、マネージド版の Cedar エンジンとして [[amazon-verified-permissions|Amazon Verified Permissions]] を提供している。AWS SDK を使って各言語から呼び出せ、認証の Amazon Cognito とも連携できる。
+AWS はマネージド版の Cedar エンジンとして Amazon Verified Permissions を提供している。AWS SDK を使って各言語から呼び出せ、認証の Amazon Cognito とも連携できる。
 
 ## 自分の理解
 

@@ -10,7 +10,7 @@ chapter: 23
 ## TL;DR
 
 - 値のエイリアスは、TypeScript による[[type-narrowing|型の絞り込み]]を妨げることがある。エイリアスを作ったら一貫してそれを使う。
-- [[destructuring-assignment|分割代入]]を使うと、名前に一貫性が生まれ、コードも簡潔になる。
+- [[destructuring|分割代入]]を使うと、名前に一貫性が生まれ、コードも簡潔になる。
 
 ## 内容
 
@@ -32,7 +32,7 @@ place.latLng // [0, -74.2692]
 
 ### TypeScript でのエイリアス
 
-[[typescript|TypeScript]] では、エイリアスを導入したら一貫してそれを使う。エイリアスが型の絞り込みを妨げることがあるからである。次のコードでは、`polygon.bbox` で絞り込んでも、エイリアスの `box` は絞り込まれない。
+[[typescript|TypeScript]] では、エイリアスが型の絞り込みを妨げることがあるので、エイリアスを導入したら一貫してそれを使う。次のコードでは、`polygon.bbox` で絞り込んでも、エイリアスの `box` は絞り込まれない。
 
 ```ts
 const isPointInPolygon = (polygon: Polygon, pt: Coordinate) => {
@@ -79,7 +79,7 @@ if (polygon.bbox) {
 
 - [[typescript|TypeScript]]
 - [[type-narrowing|型の絞り込み]]
-- [[destructuring-assignment|分割代入]]
+- [[destructuring|分割代入]]
 - [[consistency|一貫性]]
 - [[soundness|健全]]
 - [[side-effect|副作用]]

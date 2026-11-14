@@ -60,7 +60,7 @@ const o = { darkmode: true, title: "MS Hearts" } as Options // OK
 
 ### 弱い型
 
-オプションのプロパティだけを持つ型を[[weak-type|弱い型]]と呼ぶ。弱い型に代入するときは、代入可能性のチェックを通るために、少なくとも 1 つのプロパティが一致する必要がある。
+オプションのプロパティだけを持つ型を弱い型と呼ぶ。弱い型に代入するときは、代入可能性のチェックを通るために、少なくとも 1 つのプロパティが一致する必要がある。
 
 ```ts
 interface LineChartOptions {
@@ -81,7 +81,7 @@ setOptions(opts2); // OK
 
 - [[excess-property-checking|余剰プロパティチェック]]
 - [[structural-typing|構造的型付け]]
-- [[weak-type|弱い型]]
+- 弱い型
 - [[type-assertion|型アサーション]]
 - [[mental-model|メンタルモデル]]
 

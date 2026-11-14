@@ -8,7 +8,7 @@ date: 2024-09-06
 
 ## TL;DR
 
-[[react|React]] のルーティングライブラリ。[[remix|Remix]] と同じチームが開発しており、Remix の内部でも使われている。`createBrowserRouter` でルートを定義すると、データの取得と更新をルートに結び付ける Data APIs が使える。
+[[react|React]] のルーティングライブラリ。Remix と同じチームが開発しており、Remix の内部でも使われている。`createBrowserRouter` でルートを定義すると、データの取得と更新をルートに結び付ける Data APIs が使える。
 
 ## 仕組み
 
@@ -114,7 +114,7 @@ Data APIs が使えるので、困ったら `createBrowserRouter` を使うの�
 ## 関連
 
 - [[react|React]]
-- [[remix|Remix]]
+- Remix
 - [[error-boundary|Error Boundary]]
 - [[react-hooks|React Hooks]]
 

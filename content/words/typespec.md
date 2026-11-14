@@ -8,7 +8,7 @@ date: 2025-05-16
 
 ## TL;DR
 
-API の仕様を記述するために Microsoft が開発した [[dsl|DSL]]。構文は [[typescript|TypeScript]] とほとんど同じで、拡張子は `.tsp`。
+API の仕様を記述するために Microsoft が開発した [[domain-specific-language|DSL]]。構文は [[typescript|TypeScript]] とほとんど同じで、拡張子は `.tsp`。
 
 ## なぜ必要か
 

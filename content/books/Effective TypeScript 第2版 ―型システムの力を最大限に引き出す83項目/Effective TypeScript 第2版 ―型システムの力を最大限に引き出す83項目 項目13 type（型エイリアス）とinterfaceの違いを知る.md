@@ -39,7 +39,7 @@ type TFnAlt = { (x: number): string }
 
 ### 違い
 
-`interface` では[[union-type|ユニオン型]]を表現できない。一般に `type` のほうが高機能で、ユニオン型のほかに[[mapped-type|マップ型]]や[[conditional-type|条件型]]も使える。`type` は `interface` を拡張できるが、`interface` が拡張できるのは `interface` としても定義できるオブジェクト型だけである。そのため、ユニオン型は `interface` で拡張できない。
+`interface` では[[union-type|ユニオン型]]を表現できない。一般に `type` のほうが高機能で、ユニオン型のほかに[[mapped-type|マップ型]]や[[conditional-types|条件型]]も使える。`type` は `interface` を拡張できるが、`interface` が拡張できるのは `interface` としても定義できるオブジェクト型だけである。そのため、ユニオン型は `interface` で拡張できない。
 
 `interface` の拡張は、`type` の拡張より少し厳格である。次の例で、`type` の交差型はエラーにならないが、使い物にならない型になる。一方、`interface` の `extends` はエラーになる。
 
@@ -104,13 +104,13 @@ export declare function getHummer(): {
 }
 ```
 
-ここで `type` の代わりに `interface` を使うと、`Return type of exported function has or is using private name 'Hummingbird'.` というエラーになる。`Hummingbird` を名前で参照しようとするが、型宣言ファイルではその名前を使えないからである。また、インライン化によって型が極端に重複し、コンパイラのパフォーマンスに影響することもある（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目78 コンパイラーのパフォーマンスに注意を払う|項目78]]）。
+ここで `type` の代わりに `interface` を使うと、`Hummingbird` を名前で参照しようとするが、型宣言ファイルではその名前を使えないので、`Return type of exported function has or is using private name 'Hummingbird'.` というエラーになる。また、インライン化によって型が極端に重複し、コンパイラのパフォーマンスに影響することもある（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目78 コンパイラーのパフォーマンスに注意を払う|項目78]]）。
 
 ### どちらを使うか
 
 ユニオン型などの複雑な型には、`type` しか選択肢がない。関数型、タプル型、配列型は、`type` のほうが簡潔に書ける。
 
-オブジェクト型は、スタイルが確立しているならそれに従う。新しいプロジェクトなどスタイルが確立していないなら、`interface` を優先して使う。型名がエラーメッセージや型の表示で一貫して使われることと、正しく拡張しているかを厳格にチェックできることが理由である。
+オブジェクト型は、スタイルが確立しているならそれに従う。型名がエラーメッセージや型の表示で一貫して使われ、正しく拡張しているかを厳格にチェックできるので、新しいプロジェクトなどスタイルが確立していないなら、`interface` を優先して使う。
 
 [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces) にも次のように書かれている。
 
@@ -123,7 +123,7 @@ export declare function getHummer(): {
 - [[declaration-merging|宣言のマージ]]
 - [[union-type|ユニオン型]]
 - [[mapped-type|マップ型]]
-- [[conditional-type|条件型]]
+- [[conditional-types|条件型]]
 - [[generics|ジェネリクス]]
 - [[index-signature|インデックスシグネチャ]]
 - [[structural-typing|構造的型付け]]

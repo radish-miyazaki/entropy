@@ -10,7 +10,7 @@ chapter: 34
 ## TL;DR
 
 - [[union-type|ユニオン型]]のプロパティを複数持つインタフェースは、プロパティ間の関係を表せていないことがある。その場合はインタフェースのユニオンにする。
-- 制御フロー解析で絞り込みやすくするため、[[tagged-union|タグ付きユニオン]]を使うとよい。
+- 制御フロー解析で絞り込みやすくするため、[[discriminated-union|タグ付きユニオン]]を使うとよい。
 - 一緒に存在する複数のオプションプロパティは、1 つのオプションプロパティにまとめる。
 
 ## 内容
@@ -122,7 +122,7 @@ type Person = Name | PersonWithBirth
 
 - [[typescript|TypeScript]]
 - [[union-type|ユニオン型]]
-- [[tagged-union|タグ付きユニオン]]
+- [[discriminated-union|タグ付きユニオン]]
 - [[type-narrowing|型の絞り込み]]
 
 %%

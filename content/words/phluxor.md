@@ -12,7 +12,7 @@ date: 2024-12-22
 
 ## 仕組み
 
-メッセージのクラスは [[protocol-buffers|Protocol Buffers]] の定義から自動生成する。シリアライズとデシリアライズに Protocol Buffers を採用し、クラスタリングには [[grpc|gRPC]] を使うためである。
+シリアライズとデシリアライズに [[protocol-buffers|Protocol Buffers]] を採用し、クラスタリングには [[grpc|gRPC]] を使うので、メッセージのクラスは Protocol Buffers の定義から自動生成する。
 
 > Serialize / DeserializeにはProtocol Buffersを採用し、クラスタリングにはgRPCを利用します。
 

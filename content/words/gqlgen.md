@@ -22,6 +22,17 @@ gqlgen は「Schema first」「型安全」「コード生成」の 3 つを原�
 $ go install github.com/99designs/gqlgen@latest
 ```
 
+今の公式のクイックスタートでは、モジュールを作ってから gqlgen をツールの依存として追加し、`go tool gqlgen init` で設定ファイルとモデルを生成する。そのあと `go run server.go` でサーバを起動する。
+
+```sh
+$ go mod init example
+$ go get -tool github.com/99designs/gqlgen
+$ go tool gqlgen init
+$ go run server.go
+```
+
+設定ファイルの `gqlgen.yml` では、GraphQL の型と Go のモデルの対応（`models:`）などを指定する。
+
 %%
 
 ## 自分の理解

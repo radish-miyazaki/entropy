@@ -14,6 +14,10 @@ date: 2025-01-24
 
 ソースファイルの一部を変更したとき、対応するオブジェクトファイルだけを作り直せばよい。作り直したオブジェクトファイルをほかのオブジェクトファイルとリンクして、実行ファイルを再構築する。
 
+## 例
+
+[[rust|Rust]] では、コンパイルの単位は[[crate|クレート]]である。Rust Reference によると、1 回のコンパイルは 1 つのクレートをソースの形で処理し、成功すれば実行ファイルかライブラリのどちらかのバイナリ形式のクレートを 1 つ作る。クレートは、コンパイルとリンクの単位でもある。
+
 %%
 
 ## 自分の理解
@@ -29,3 +33,4 @@ date: 2025-01-24
 ## 出典
 
 - [[Effective Rust]]
+- [Crates and source files - The Rust Reference](https://doc.rust-lang.org/reference/crates-and-source-files.html)

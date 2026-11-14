@@ -16,7 +16,7 @@ chapter: 3
 
 ### 同値の表し方
 
-命題 $P$ と $Q$ が同値であるとは、$P \to Q$ と $Q \to P$ がともに成り立つことを指す。Lean では同値を `↔` で表す。なお、Lean では同値な命題を基本的に区別しない。これを[[propositional-extensionality|命題外延性]]と呼ぶ。
+命題 $P$ と $Q$ が同値であるとは、$P \to Q$ と $Q \to P$ がともに成り立つことを指す。Lean では同値を `↔` で表す。なお、Lean では同値な命題を基本的に区別しない。これを命題外延性と呼ぶ。
 
 ### constructor タクティク
 
@@ -83,7 +83,7 @@ example (P Q : Prop) (h : P ↔ Q) (hp : P) : Q := by
 
 - [[lean|Lean]]
 - [[tactic|タクティク]]
-- [[propositional-extensionality|命題外延性]]
+- 命題外延性
 
 %%
 

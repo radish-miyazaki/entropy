@@ -10,7 +10,7 @@ chapter: 54
 ## TL;DR
 
 - [[template-literal-types|テンプレートリテラル型]]を使うと、`string` より構造化された文字列をモデリングできる。
-- [[generics|ジェネリクス]]や[[type-inference|型推論]]、[[conditional-types|条件型]]と組み合わせると、型どうしの関係や [[dsl|DSL]] のパーサを型で表現できる。
+- [[generics|ジェネリクス]]や[[type-inference|型推論]]、[[conditional-types|条件型]]と組み合わせると、型どうしの関係や [[domain-specific-language|DSL]] のパーサを型で表現できる。
 
 ## 内容
 
@@ -100,7 +100,7 @@ const val2 = camel.foo_bar
 - [[mapped-type|マップ型]]
 - [[generics|ジェネリクス]]
 - [[type-inference|型推論]]
-- [[dsl|DSL]]
+- [[domain-specific-language|DSL]]
 - [[domain|ドメイン]]
 - [[typescript|TypeScript]]
 

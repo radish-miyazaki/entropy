@@ -8,7 +8,7 @@ draft: false
 
 ## TL;DR
 
-- [[opam|opam]] でローカルスイッチを作り、[[dune|dune]] でプロジェクトを作成して、[[dream|Dream]] のプロジェクトの雛形を作った。
+- opam でローカルスイッチを作り、dune でプロジェクトを作成して、Dream のプロジェクトの雛形を作った。
 - 依存パッケージは dune-project に書き、`dune build` で opam ファイルを生成してから `opam install . --deps-only` で入れる。
 
 ## 背景
@@ -41,7 +41,7 @@ let () =
 ## 検証
 
 1. `mkdir` で空のディレクトリを作る
-2. `cd` で移動し、`opam switch create` でローカルスイッチを作る。[[python|Python]] の [[virtualenv|virtualenv]] をイメージすると分かりやすい
+2. `cd` で移動し、`opam switch create` でローカルスイッチを作る。[[python|Python]] の virtualenv をイメージすると分かりやすい
 3. `eval $(opam env)` を実行する
 4. `opam install dune` で dune をローカルに入れる
 5. `dune init proj .` でプロジェクトを作る
@@ -72,10 +72,10 @@ OCaml は始めたばかりなので、この手順が正しいかは自信が�
 ## キーワード
 
 - [[ocaml|OCaml]]
-- [[dream|Dream]]
-- [[opam|opam]]
-- [[dune|dune]]
-- [[virtualenv|virtualenv]]
+- Dream
+- opam
+- dune
+- virtualenv
 
 ## 参考
 

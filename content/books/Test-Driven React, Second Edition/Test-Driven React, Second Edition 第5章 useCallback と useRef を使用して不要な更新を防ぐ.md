@@ -11,7 +11,7 @@ chapter: 5
 ## TL;DR
 
 - 再描画のたびに `incrementSlideIndex` が作り直され、自動送りのタイマーがリセットされてしまう。
-- [[use-callback|useCallback]] で関数をメモ化し、依存関係は `slides.length` に絞り、コールバックは [[use-ref|useRef]] で保持して直す。
+- useCallback で関数をメモ化し、依存関係は `slides.length` に絞り、コールバックは [[use-ref|useRef]] で保持して直す。
 
 ## 内容
 
@@ -51,7 +51,7 @@ it("does not reset the auto-advance timer on re-render", () => {
 
 ### useCallback でメモ化する
 
-[[use-callback|useCallback]] は、[[use-effect|useEffect]] と同じく 2 つの引数を取る。1 つ目が関数、2 つ目が依存関係の配列である。関数を実行する代わりにその関数を返し、依存関係が変わらない限り同じ関数を返す。これで関数をメモ化できる。
+useCallback は、[[use-effect|useEffect]] と同じく 2 つの引数を取る。1 つ目が関数、2 つ目が依存関係の配列である。関数を実行する代わりにその関数を返し、依存関係が変わらない限り同じ関数を返す。これで関数をメモ化できる。
 
 ```tsx
 // useSlideIndex.tsx
@@ -131,7 +131,7 @@ const incrementSlideIndex = useCallback(() => {
 
 ## キーワード
 
-- [[use-callback|useCallback]]
+- useCallback
 - [[use-ref|useRef]]
 - [[use-effect|useEffect]]
 - [[shallow-comparison|浅い比較]]

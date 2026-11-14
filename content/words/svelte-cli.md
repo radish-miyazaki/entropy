@@ -22,6 +22,12 @@ npx sv create
 
 `pnpm dlx` など、各パッケージマネージャの同等のコマンドでも実行できる。
 
+`sv add` は、既存のプロジェクトに機能を足すコマンドである。[[eslint|ESLint]]、[[prettier|Prettier]]、[[tailwind-css|Tailwind CSS]]、[[drizzle|Drizzle]]、[[vitest|Vitest]]、Playwright などの公式アドオンを、スペース区切りで複数選べる。引数なしで実行すると、対話形式で選べる。
+
+## 注意点
+
+`sv add` では、npm パッケージとして公開されたコミュニティのアドオンも使える。ただし、Svelte のメンテナはそれらに悪意のあるコードがないかを確かめていない。
+
 %%
 
 ## 自分の理解
@@ -37,3 +43,4 @@ npx sv create
 
 - [sveltejs/cli](https://github.com/sveltejs/cli)
 - [Overview - Svelte CLI Docs](https://svelte.dev/docs/cli/overview)
+- [sv add - Svelte CLI Docs](https://svelte.dev/docs/cli/sv-add)

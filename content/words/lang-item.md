@@ -35,7 +35,7 @@ pub trait Copy: Clone {
 
 ## 関連
 
-- [[rust-unstable-book|The Rust Unstable Book]]
+- [[The Unstable Book|The Rust Unstable Book]]
 
 ## 出典
 

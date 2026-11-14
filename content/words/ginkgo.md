@@ -22,7 +22,7 @@ date: 2023-12-17
 
 Ginkgo がテストの構造を担い、Gomega がアサーションを担う。`RegisterFailHandler(Fail)` で 2 つをつなぐと、Gomega の失敗が Ginkgo を通して報告される。
 
-`ginkgo` コマンドも提供されている。内部では `go test` を呼び出しているだけで、`ginkgo bootstrap` でスイートのファイルを生成し、`ginkgo` でスイートを実行する。
+`ginkgo` コマンドも提供されている。内部では `go test` を呼び出しているだけである。`ginkgo bootstrap` でスイートのファイルを生成し、`ginkgo` でスイートを実行する。
 
 ## 注意点
 

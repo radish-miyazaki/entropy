@@ -8,11 +8,11 @@ date: 2025-06-14
 
 ## TL;DR
 
-動的なシステムの振る舞いを記述するための[[formal-specification-language|形式仕様言語]]。Leslie Lamport が作った。名前は Temporal Logic of Actions の略である。
+動的なシステムの振る舞いを記述するための形式仕様言語。Leslie Lamport が作った。名前は Temporal Logic of Actions の略である。
 
 ## なぜ必要か
 
-[[concurrency|並行]]システムや[[distributed-system|分散システム]]の、時間による変化を記述できる。これにより、[[race-condition|競合状態]]、[[deadlock|デッドロック]]、[[livelock|ライブロック]]などを設計の段階で見つけられる。こうした設計の根本的な誤りは、コードになってからでは見つけにくく、直すのにも費用がかかる。
+[[concurrency|並行]]システムや[[distributed-system|分散システム]]の、時間による変化を記述できる。これにより、[[race-condition|競合状態]]、[[deadlock|デッドロック]]、ライブロックなどを設計の段階で見つけられる。こうした設計の根本的な誤りは、コードになってからでは見つけにくく、直すのにも費用がかかる。
 
 ## 仕組み
 

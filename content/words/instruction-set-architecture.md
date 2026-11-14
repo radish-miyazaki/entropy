@@ -28,7 +28,7 @@ ISA は次の要素を定める。
 
 ## 例
 
-ISA は大きく [[cisc|CISC]] と [[risc|RISC]] に分かれる。CISC（Complex Instruction Set Computer）は、複雑な処理を 1 つの命令で実行できる。x86 がその代表である。RISC（Reduced Instruction Set Computer）は、単純で速い命令をたくさん実行して効率を上げる。ARM、RISC-V、MIPS がその例である。
+ISA は大きく CISC と RISC に分かれる。CISC（Complex Instruction Set Computer）は、複雑な処理を 1 つの命令で実行できる。x86 がその代表である。RISC（Reduced Instruction Set Computer）は、単純で速い命令をたくさん実行して効率を上げる。ARM、RISC-V、MIPS がその例である。
 
 [[webassembly|WebAssembly]] は、仮想マシンとその命令セットを定めた仮想的な ISA である。
 
@@ -45,8 +45,8 @@ ISA は大きく [[cisc|CISC]] と [[risc|RISC]] に分かれる。CISC（Comple
 ## 関連
 
 - [[cpu-register|レジスタ]]
-- [[cisc|CISC]]
-- [[risc|RISC]]
+- CISC
+- RISC
 - [[simd|SIMD]]
 - [[webassembly|WebAssembly]]
 

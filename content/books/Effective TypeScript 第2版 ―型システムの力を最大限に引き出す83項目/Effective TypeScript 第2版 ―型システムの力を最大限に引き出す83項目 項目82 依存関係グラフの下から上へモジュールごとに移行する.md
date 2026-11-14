@@ -30,7 +30,7 @@ npm i --save-dev @types/lodash
 
 移行するときは、リファクタリングよりも型の追加に集中する。直近の目標は TypeScript への移行であり、設計の改善ではない。リファクタリングにまで手を出すと、作業が遅くなり、コードレビューも難しくなり、バグを生むリスクも高まる。
 
-[[jsdoc|JSDoc]] と `@ts-check` を使っていた場合、TypeScript に移行すると型安全性を失うことがある。TypeScript では JSDoc の型が強制されなくなるからである。たとえば次の `num` は暗黙の `any` になる。
+[[jsdoc|JSDoc]] と `@ts-check` を使っていた場合、TypeScript では JSDoc の型が強制されなくなるので、TypeScript に移行すると型安全性を失うことがある。たとえば次の `num` は暗黙の `any` になる。
 
 ```ts
 /**

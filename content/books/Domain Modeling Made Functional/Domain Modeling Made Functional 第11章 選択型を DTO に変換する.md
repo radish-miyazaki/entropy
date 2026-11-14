@@ -78,9 +78,9 @@ let fromDomain (domainObj: Domain.Example): ExampleDto =
 
 ケースごとに `null` の作り方が違う。
 
-- **B**: `Nullable<_>` には `null` を直接代入できないので、`Nullable` のコンストラクタを使う（[null 許容値型 - F#](https://learn.microsoft.com/ja-jp/dotnet/fsharp/language-reference/nullable-value-types)、[Nullable\<T\> コンストラクター](<https://learn.microsoft.com/ja-jp/dotnet/api/system.nullable-1.-ctor?view=net-8.0#system-nullable-1-ctor(-0)>)）
-- **C**: 配列は .NET のクラスなので、`null` を代入できる
-- **D**: `NameDto` のようなレコードにも `null` を代入できないので、`Unchecked.defaultof<_>` で `null` 値を作る（[Unchecked.defaultof](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-operators-unchecked.html#defaultof)）
+- B: `Nullable<_>` には `null` を直接代入できないので、`Nullable` のコンストラクタを使う（[null 許容値型 - F#](https://learn.microsoft.com/ja-jp/dotnet/fsharp/language-reference/nullable-value-types)、[Nullable\<T\> コンストラクター](<https://learn.microsoft.com/ja-jp/dotnet/api/system.nullable-1.-ctor?view=net-8.0#system-nullable-1-ctor(-0)>)）
+- C: 配列は .NET のクラスなので、`null` を代入できる
+- D: `NameDto` のようなレコードにも `null` を代入できないので、`Unchecked.defaultof<_>` で `null` 値を作る（[Unchecked.defaultof](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-operators-unchecked.html#defaultof)）
 
 ### デシリアライズの実装
 

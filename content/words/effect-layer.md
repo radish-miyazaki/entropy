@@ -2,7 +2,7 @@
 title: Effect Layer
 aliases: []
 description: Effect で Service の構築と Service 間の依存関係を管理するための仕組み
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

@@ -26,7 +26,7 @@ Open →（Renew）→ Close の順で処理される。結果が必要になっ
 
 ### 参照できる場所
 
-`ephemeral.<TYPE>.<LABEL>` の構文で参照する。参照できる場所は、managed resource の[[write-only-argument|write-only 引数]]、別の ephemeral ブロック、locals、`ephemeral = true` を付けた variable や output、provider の設定などに限られる。locals で参照すると、その locals の値も state と plan に保存されない。メタ引数は `count`、`for_each`（どちらか一方）、`depends_on`、`provider`、`lifecycle`（`precondition`、`postcondition`）が使える。
+`ephemeral.<TYPE>.<LABEL>` の構文で参照する。参照できる場所は、managed resource のwrite-only 引数、別の ephemeral ブロック、locals、`ephemeral = true` を付けた variable や output、provider の設定などに限られる。locals で参照すると、その locals の値も state と plan に保存されない。メタ引数は `count`、`for_each`（どちらか一方）、`depends_on`、`provider`、`lifecycle`（`precondition`、`postcondition`）が使える。
 
 ## 例
 
@@ -51,7 +51,6 @@ resource "aws_db_instance" "example" {
 
 write-only 引数は ephemeral resource ではなく、managed resource 側の引数である。「state に残さない」点は同じだが別物で、両者を組み合わせて使うのが典型である。
 
-
 %%
 
 ## 自分の理解
@@ -61,7 +60,7 @@ write-only 引数は ephemeral resource ではなく、managed resource 側の�
 
 ## 関連
 
-- [[write-only-argument|write-only 引数]]
+- write-only 引数
 - [[terraform-basic-blocks|Terraform の基本ブロックを整理する]]
 - [[hashicorp-vault|HashiCorp Vault]]
 

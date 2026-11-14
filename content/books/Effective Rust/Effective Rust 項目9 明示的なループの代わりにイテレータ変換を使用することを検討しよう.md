@@ -53,7 +53,7 @@ println!("Collection = {collection:?}") // コンパイルエラー
 
 ### イテレータを変換するメソッド
 
-`Iterator` トレイトには、多くのメソッドが[[default-implementation|デフォルト実装]]されている。
+`Iterator` トレイトには、多くのメソッドがデフォルト実装されている。
 
 - 繰り返し全体を変える: `take(n)`、`skip(n)`、`step_by(n)`、`chain(other)`、`cycle()`（イテレータが `Clone` を実装している必要がある）、`rev()`（[DoubleEndedIterator](https://doc.rust-lang.org/std/iter/trait.DoubleEndedIterator.html) が必要）
 - 要素を変える: `map(f)`、`cloned()`（`Item` が `Clone`）、`copied()`（`Item` が `Copy`）、`enumerate()`（`(usize, Item)` の組にする）、`zip(it)`
@@ -110,7 +110,7 @@ let result: Vec<u8> = inputs
 - [[iterator|イテレータ]]
 - [[trait|トレイト]]
 - [[ownership|所有権]]
-- [[default-implementation|デフォルト実装]]
+- デフォルト実装
 - [[abstraction|抽象化]]
 - [[compiler-explorer|Godbolt compiler explorer]]
 - [[functional-programming|関数型プログラミング]]

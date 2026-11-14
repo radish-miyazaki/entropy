@@ -18,7 +18,13 @@ date: 2024-10-14
 cargo install cargo-features-manager
 ```
 
+プロジェクトのルートで `cargo features` を実行すると、依存関係ごとに使えるフィーチャの一覧が表示され、キー操作で有効・無効を切り替えられる。変更はそのまま [[cargo-toml|Cargo.toml]] に反映される。`-d <依存関係の名前>` を付けると、その依存関係のフィーチャの画面を直接開く。
+
 `cargo features prune` を実行すると、コンパイルに不要なフィーチャをすべて削除する。
+
+## 注意点
+
+README によると、コンパイルが通っても実際には必要なフィーチャがあり、`Known-Features.toml` に載ったものは prune でも残される。残したいフィーチャは `Cargo.toml` の `cargo-features-manager.keep`（ワークスペース全体なら `workspace.cargo-features-manager.keep`）に書いておける。`--dry-run` を付けると、`Cargo.toml` を書き換えずに結果だけを確かめられる。`--skip-tests` を付けるとテストのコンパイルを省いて速くなるが、テストでだけ使うフィーチャが消えることがある。
 
 %%
 

@@ -49,8 +49,8 @@ Unhandled Promise Rejection: NotAllowedError: The request is not allowed by the 
 
 ## キーワード
 
-- [[clipboard-api|Clipboard API]]
-- [[safari|Safari]]
+- Clipboard API
+- Safari
 - [[promise|Promise]]
 
 ## 参考

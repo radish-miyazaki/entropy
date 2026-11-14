@@ -10,6 +10,14 @@ date: 2024-08-21
 
 [[query-parameter|クエリパラメータ]]で状態を管理するライブラリ。[[client-component|Client Component]] と [[react-server-component|Server Component]] の両方に対応している。
 
+## 仕組み
+
+公式サイトでは「React 向けの型安全な検索パラメータの状態管理ライブラリ」と紹介されている。React の `useState` に似た API で、状態を URL と同期させる。よく使う型のパーサとシリアライザが組み込まれていて、自分で作ることもできる。複数のキーは `useQueryStates` でまとめて扱える。
+
+更新はデフォルトでクライアントだけの浅い更新になり、必要なときだけサーバに通知して Server Component を描画し直せる。履歴を置き換えるか積むかも選べるので、積む設定にすればブラウザの戻るボタンで状態の変化をたどれる。
+
+nuqs 2 は、[[nextjs|Next.js]] 14.2.0 以降（App Router と Pages Router）、React の SPA、Remix、React Router、TanStack Router に対応している。
+
 ## 例
 
 Client Component で使う例。
@@ -51,4 +59,6 @@ export function Demo() {
 ## 出典
 
 - [nuqs](https://nuqs.47ng.com/)
+- [nuqs](https://nuqs.dev/)
+- [Installation - nuqs](https://nuqs.dev/docs)
 - https://zenn.dev/rehabforjapan/articles/83782ae386c9db

@@ -58,6 +58,12 @@ export default function Page({ params, searchParams }: Props) {
 }
 ```
 
+## 注意点
+
+公式ドキュメントによると、ストリーミングが始まる前なら Next.js は [[status-code|ステータスコード]] 404 を返すが、始まった後はステータスコードが 200 のまま not-found の UI を描画する。どちらの場合も `<meta name="robots" content="noindex" />` が挿入される。
+
+ルートの `app/not-found.tsx` は、`notFound` が呼ばれたときだけでなく、どのルートにも一致しない URL にアクセスしたときにも表示される。not-found.tsx は既定で Server Component なので、`async` にしてデータを取得できる。props は受け取らない。
+
 ## 自分の理解
 
 拡張子は `.jsx`（`.js`）でもよい。

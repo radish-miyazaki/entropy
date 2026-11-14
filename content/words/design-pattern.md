@@ -16,11 +16,15 @@ Uncle Bob は『Functional Design: Principles, Patterns, and Practices』で、�
 
 > デザインパターンの価値は、名前と解決策が標準的であり、それを知っている人たちが名前を見ただけで相互理解できる点である。
 
+英語版 Wikipedia によると、ソフトウェアのデザインパターンは、よく必要になる振る舞いに対する再利用可能な解決策を記述したものである。パターンはもともと、建築家の Christopher Alexander が 1977 年の『A Pattern Language』で示した建築の概念で、1994 年に「Gang of Four」が出版した『Design Patterns』によってコンピュータサイエンスで広まった。
+
 ## 注意点
 
 [[abstraction|抽象化]]と同じく、パターンがなぜそうなっているのか（Why）を大事にする必要がある。
 
 デザインパターンには、[[object-oriented-programming|オブジェクト指向プログラミング]]の制約を回避するために生まれた面もある。ただし、Uncle Bob によれば、すべてのパターンがそうではなく、そのようなパターンであっても[[functional-programming|関数型プログラミング]]に適用できる一般的な形を持っていることがある。
+
+英語版 Wikipedia によると、Peter Norvig は、主に C++ を対象とした『Design Patterns』のパターンの多くが、Lisp や Dylan では言語の機能によって単純になるか、不要になることを示した。
 
 ## 自分の理解
 
@@ -35,3 +39,4 @@ Uncle Bob は『Functional Design: Principles, Patterns, and Practices』で、�
 ## 出典
 
 - Robert C. Martin『Functional Design: Principles, Patterns, and Practices』
+- [Software design pattern - Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)

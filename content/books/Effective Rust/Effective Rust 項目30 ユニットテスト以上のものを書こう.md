@@ -9,7 +9,7 @@ chapter: 30
 
 ## TL;DR
 
-- private なコードを含む個々の機能は[[unit-test|単体テスト]]で、public な API は[[integration-test|統合テスト]]で、各 API の使い方は[[doctest|ドキュメンテーションテスト]]で確かめる。どれも `cargo test` で実行する。
+- private なコードを含む個々の機能は[[unit-test|単体テスト]]で、public な API は[[integration-test|統合テスト]]で、各 API の使い方はドキュメンテーションテストで確かめる。どれも `cargo test` で実行する。
 - API 全体の使い方はサンプルコードで示し、性能が重要ならベンチマークを測り、信頼できない入力を受け取るコードには[[fuzz-testing|ファズテスト]]を書く。
 
 ## 内容
@@ -20,7 +20,7 @@ chapter: 30
 
 テストの失敗は panic で表すので、テストコードでは `expect` や `unwrap` を使ってよい。`assert!` や `assert_eq!` も失敗すると panic を起こす。[[Effective Rust 項目18 Don't panic|項目18]]はテストには当てはまらない。テスト対象が panic を起こしうるなら、テスト関数に `#[should_panic]` を付ける。
 
-型システムで保証されていることはテストしなくてよい。一方、依存クレートの機能を使うコードにはテストを書くべきである。[[semantic-versioning|SemVer]] には表れない、シグネチャ以外の振る舞いの変化に気づくためである。
+型システムで保証されていることはテストしなくてよい。一方、[[semantic-versioning|SemVer]] には表れない、シグネチャ以外の振る舞いの変化に気づくために、依存クレートの機能を使うコードにはテストを書くべきである。
 
 ### 統合テスト
 
@@ -120,7 +120,7 @@ fuzz_target!(|data: &[u8]| {
 
 - [[unit-test|単体テスト]]
 - [[integration-test|統合テスト]]
-- [[doctest|ドキュメンテーションテスト]]
+- ドキュメンテーションテスト
 - [[fuzz-testing|ファズテスト]]
 - [[cargo-fuzz]]
 - [[libfuzzer|libFuzzer]]

@@ -16,7 +16,7 @@ chapter: 11
 
 [[Domain Modeling Made Functional 第3章 境界づけられたコンテキストのコミュニケーション]]で見たように、[[serialization|シリアライズ]]を簡単にするには、ドメインオブジェクトをシリアライズ専用の型である DTO に変換し、その DTO をシリアライズすればよい。デシリアライズでは逆に、受け取ったデータを DTO にデシリアライズし、DTO をドメインオブジェクトに変換する。
 
-ドメイン固有のチェックは、DTO からドメインオブジェクトに変換するときに行うべきである。[[bounded-context|境界づけられたコンテキスト]]の内側のほうが、エラー処理を制御しやすいからである（[[Domain Modeling Made Functional 第10章 Implementation： Working with Errors|第10章]]）。
+[[bounded-context|境界づけられたコンテキスト]]の内側のほうがエラー処理を制御しやすいので（[[Domain Modeling Made Functional 第10章 Implementation： Working with Errors|第10章]]）、ドメイン固有のチェックは、DTO からドメインオブジェクトに変換するときに行うべきである。
 
 ## キーワード
 

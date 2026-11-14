@@ -8,7 +8,7 @@ draft: false
 
 ## TL;DR
 
-- [[dash|Dash]] が v7 からサブスクリプションになったようなので、代わりに [[raycast|Raycast]] のプラグインから [[devdocs|DevDocs]] を開くようにした。
+- Dash が v7 からサブスクリプションになったようなので、代わりに Raycast のプラグインから DevDocs を開くようにした。
 - ただ、IDE との連携を考えると Dash のほうが便利である。
 
 ## 背景
@@ -25,9 +25,9 @@ IDE との相性を考えると、Dash に軍配が上がる。ネイティブ�
 
 ## キーワード
 
-- [[dash|Dash]]
-- [[raycast|Raycast]]
-- [[devdocs|DevDocs]]
+- Dash
+- Raycast
+- DevDocs
 
 ## 参考
 

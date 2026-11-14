@@ -34,7 +34,7 @@ const city = "new york city"
 console.log(city.toUppercase())
 ```
 
-ただし、型チェックを通っても実行時に問題が起きることはある。次のコードは配列の範囲外を参照しているが、型エラーにはならない。これは TypeScript の型システムが[[soundness|健全]]ではないために起きる。
+ただし、型チェックを通っても実行時に問題が起きることはある。TypeScript の型システムは[[soundness|健全]]ではないので、次のコードは配列の範囲外を参照しているが、型エラーにはならない。
 
 ```ts
 const names = ["Alice", "Bob"]

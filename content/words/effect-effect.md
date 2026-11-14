@@ -2,7 +2,7 @@
 title: Effect.Effect
 aliases: []
 description: 副作用を値として扱うための、Effect の中心となる型 Effect<A, E, R>
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

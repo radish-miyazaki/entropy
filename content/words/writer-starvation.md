@@ -8,7 +8,7 @@ date: 2025-02-21
 
 ## TL;DR
 
-[[starvation]] の一種。reader を優先する [[reader-writer-mutex|reader-writer mutex]] で、reader が共有データに継続的にアクセスし続けるために、writer のアクセスが長時間ブロックされる問題である。
+[[starvation]] の一種。reader を優先する [[reader-writer-mutex|reader-writer mutex]] で、reader が共有データにアクセスし続けるために、writer のアクセスが長時間ブロックされる問題である。
 
 ## 仕組み
 

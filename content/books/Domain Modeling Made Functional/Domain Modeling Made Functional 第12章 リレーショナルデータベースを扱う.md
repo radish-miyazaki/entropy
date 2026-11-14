@@ -31,7 +31,7 @@ chapter: 12
 
 RDB とやり取りするときは、ドメインオブジェクトと DTO を相互に変換する。読み取りは [[Domain Modeling Made Functional 第12章 RDB からの読み取り|RDB からの読み取り]] と [[Domain Modeling Made Functional 第12章 RDB から選択型を読み取る|RDB から選択型を読み取る]]、書き込みは [[Domain Modeling Made Functional 第12章 RDB への書き込み|RDB への書き込み]] にまとめた。
 
-RDB の結果をドメインオブジェクトにマッピングするときは、ORM を使わない。ORM では[[domain|ドメイン]]の[[coherence|整合性]]を保てないためである。
+ORM では[[domain|ドメイン]]の[[coherence|整合性]]を保てないので、RDB の結果をドメインオブジェクトにマッピングするときは ORM を使わない。
 
 ## キーワード
 

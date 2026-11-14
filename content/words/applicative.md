@@ -20,6 +20,8 @@ date: 2025-01-24
 pure g <*> x1 <*> x2 <*> ... <*> xn
 ```
 
+Haskell の `Control.Applicative` のドキュメントでは、アプリカティブを関手とモナドの中間の構造としている。純粋な値を埋め込む `pure` と、計算を順に行って結果を組み合わせる `<*>`（または `liftA2`）を持つ。すべてのアプリカティブは関手である。モナドの `>>=` を持たないので、モナドより表現力は弱い。その代わり、当てはまる型が多く、実行する前に計算を解析できる。
+
 ## 例
 
 アプリカティブを使うと、複数のエラーを同時（並列）に扱える。
@@ -37,8 +39,9 @@ pure g <*> x1 <*> x2 <*> ... <*> xn
 - [[functor|関手]]
 - [[computation-expression|コンピュテーション式]]
 - [[Domain Modeling Made Functional 第10章 なんとなく理解するモナドとアプリカティブ]]
-- [[Monad は継続、Applicative は並列]]
+- [Monad は継続、Applicative は並列](https://blog.ojisan.io/monad-applicative/)
 
 ## 出典
 
 - https://qiita.com/suin/items/0255f0637921dcdfe83b#applicative
+- [Control.Applicative - base](https://hackage.haskell.org/package/base/docs/Control-Applicative.html)

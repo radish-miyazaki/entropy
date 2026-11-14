@@ -8,7 +8,7 @@ date: 2024-09-30
 
 ## TL;DR
 
-1997 年に RFC 2068 で発表された [[http|HTTP]] の標準バージョン。[[persistent-connection|持続的接続]]（Keep-Alive）と [[http-pipelining|パイプライン化]]を導入した。
+1997 年に RFC 2068 で発表された [[http|HTTP]] の標準バージョン。[[persistent-connection|持続的接続]]（Keep-Alive）とパイプライン化を導入した。
 
 ## なぜ必要か
 

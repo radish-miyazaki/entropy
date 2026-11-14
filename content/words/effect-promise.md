@@ -2,7 +2,7 @@
 title: Effect.promise
 aliases: []
 description: 失敗しない非同期処理の結果を Effect でラップする関数
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

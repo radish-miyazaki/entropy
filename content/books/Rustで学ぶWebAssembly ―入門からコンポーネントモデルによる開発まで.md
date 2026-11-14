@@ -1,5 +1,5 @@
 ---
-title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで
+title: Rustで学ぶWebAssembly ――入門からコンポーネントモデルによる開発まで
 aliases: []
 description: Rust を使い、コンポーネントモデルを中心に「新しい」WebAssembly を手を動かしながら学ぶ本
 tags: [book, rust, webassembly]

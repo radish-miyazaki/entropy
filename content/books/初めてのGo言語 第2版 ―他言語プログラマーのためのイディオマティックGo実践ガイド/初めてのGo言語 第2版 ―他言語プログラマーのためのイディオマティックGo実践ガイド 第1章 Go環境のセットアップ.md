@@ -10,13 +10,13 @@ chapter: 1
 ## TL;DR
 
 - [[go|Go]] の文末の `;` は、コンパイラがセミコロン挿入規則に沿って自動で入れるので、開発者は書かない。
-- [[go-playground|Go Playground]] は 1 つの入力欄で複数ファイルを再現でき、[[makefile|Makefile]] では `.PHONY` と `.DEFAULT_GOAL` が便利である。
+- Go Playground は 1 つの入力欄で複数ファイルを再現でき、Makefile では `.PHONY` と `.DEFAULT_GOAL` が便利である。
 
 ## 内容
 
 ### セミコロン挿入規則
 
-Go も Java などと同じく、各文の終わりに `;` が必要である。ただし開発者が書くことはない。[[effective-go|Effective Go]] に書かれた[セミコロン挿入規則](https://go.dev/doc/effective_go#semicolons)に沿って、コンパイラが挿入するからである。具体的には、改行の直前のトークンが次のどれかのときに `;` が入る。
+Go も Java などと同じく、各文の終わりに `;` が必要である。ただし、[[Effective Go|Effective Go]] に書かれた[セミコロン挿入規則](https://go.dev/doc/effective_go#semicolons)に沿ってコンパイラが挿入するので、開発者が書くことはない。具体的には、改行の直前のトークンが次のどれかのときに `;` が入る。
 
 - 識別子
 - 事前宣言された型のリテラル
@@ -70,9 +70,9 @@ build:
 ## キーワード
 
 - [[go|Go]]
-- [[effective-go|Effective Go]]
-- [[go-playground|Go Playground]]
-- [[makefile|Makefile]]
+- [[Effective Go|Effective Go]]
+- Go Playground
+- Makefile
 
 %%
 

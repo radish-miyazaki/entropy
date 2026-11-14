@@ -2,7 +2,7 @@
 title: Effect.catchTags
 aliases: []
 description: 複数の種類のエラーをタグごとにまとめて処理する Effect の関数
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

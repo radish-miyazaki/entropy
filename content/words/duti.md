@@ -8,7 +8,7 @@ date: 2025-01-07
 
 ## TL;DR
 
-Apple の [[uniform-type-identifiers|Uniform Type Identifiers]]（UTI）を使って、macOS のドキュメントの種類ごとにデフォルトアプリケーションを設定する CLI ツールである。
+Apple の Uniform Type Identifiers（UTI）を使って、macOS のドキュメントの種類ごとにデフォルトアプリケーションを設定する CLI ツールである。
 
 ## 例
 
@@ -27,7 +27,7 @@ $ duti -s com.coteditor.CotEditor public.plain-text all
 
 ## 関連
 
-- [[coteditor-cli|CotEditor を CLI から開く]]
+- CotEditor を CLI から開く
 
 ## 出典
 

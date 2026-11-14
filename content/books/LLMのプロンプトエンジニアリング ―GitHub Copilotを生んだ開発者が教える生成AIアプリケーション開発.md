@@ -11,7 +11,7 @@ isbn: 9784814401130
 
 ## TL;DR
 
-- [[llm|LLM]] の能力や特性を理解したうえで、プロンプトに何を含め、どう組み立てるかという本来の意味での[[prompt-engineering|プロンプトエンジニアリング]]を解説する本である。
+- [[large-language-model|LLM]] の能力や特性を理解したうえで、プロンプトに何を含め、どう組み立てるかという本来の意味でのプロンプトエンジニアリングを解説する本である。
 - 著者は GitHub Copilot の開発者で、その実装で得た知見や評価手法、設計上の判断も紹介している。
 
 ## 対象読者
@@ -44,7 +44,7 @@ LLM を使ったアプリケーション開発の実際を知りたい開発者�
 
 ## 関連
 
-- [[llm|LLM]]
-- [[prompt-engineering|プロンプトエンジニアリング]]
+- [[large-language-model|LLM]]
+- プロンプトエンジニアリング
 - [[llm-as-a-judge|LLM-as-a-Judge]]
 - https://www.oreilly.co.jp/books/9784814401130/

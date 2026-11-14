@@ -30,6 +30,17 @@ user=> (str (h/html [:span {:class "foo"} "bar"]))
 "<span class=\"foo\">bar</span>"
 ```
 
+README によると、`id` と `class` は CSS のような省略記法でも書ける。`#` の後ろが `id` に、`.` の後ろが `class` になる。
+
+```clojure
+[:div#foo.bar.baz "bang"]
+;; => <div id="foo" class="bar baz">bang</div>
+```
+
+## 注意点
+
+README によると、Hiccup 2 では文字列が自動でエスケープされ、`html` マクロの戻り値は `RawString` になる。エスケープせずに出力したい文字列は `hiccup2.core/raw` で囲む。Hiccup 1 は標準ではエスケープしないので、README はユーザのデータを扱うアプリケーションでは Hiccup 2 を使うよう勧めている。
+
 %%
 
 ## 自分の理解

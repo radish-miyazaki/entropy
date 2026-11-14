@@ -24,7 +24,7 @@ WebAssembly のほか、[[javascript|JavaScript]] やネイティブのコード
 
 > AI-friendly language design, featuring safe-guard, easy testing, minimizing LLM hallucinations.
 
-AI フレンドリーな言語設計として、安全面への配慮とテストのしやすさにより、[[llm|LLM]] のハルシネーションを最小限に抑えることをうたっている。組み込みの AI アシスタントがテストやドキュメントの作成を自動化し、高精度で速いコード生成ができるとしている。
+AI フレンドリーな言語設計として、安全面への配慮とテストのしやすさにより、[[large-language-model|LLM]] のハルシネーションを最小限に抑えることをうたっている。組み込みの AI アシスタントがテストやドキュメントの作成を自動化し、高精度で速いコード生成ができるとしている。
 
 パッケージは [mooncakes.io](https://mooncakes.io/) で管理する。
 

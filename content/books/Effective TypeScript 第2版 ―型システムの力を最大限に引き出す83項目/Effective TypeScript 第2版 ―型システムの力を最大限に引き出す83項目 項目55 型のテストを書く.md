@@ -97,7 +97,7 @@ const spiceGirls = ["scary", "sporty", "baby", "ginger", "posh"]
 
 ### 型をテストするときの注意
 
-型をテストするときは、等価性と代入可能性の違いに注意する。特に関数型は、パラメータの数がより多い別の関数型に代入できる。これは TypeScript が JavaScript の振る舞いをモデリングしているためである。
+型をテストするときは、等価性と代入可能性の違いに注意する。特に関数型は、TypeScript が JavaScript の振る舞いをモデリングしているので、パラメータの数がより多い別の関数型に代入できる。
 
 ```ts
 const add = (a: number, b: number) => a + b

@@ -16,7 +16,7 @@ chapter: 8
 
 ### 型空間と値空間
 
-[TS Playground](https://www.typescriptlang.org/play/) で生成される [[javascript|JavaScript]] を確認すると、型空間と値空間を見分ける直感を養える。型空間のコードは、JavaScript のコードには残らないからである（[[type-erasure|型消去]]）。
+型空間のコードは [[javascript|JavaScript]] のコードには残らないので（[[type-erasure|型消去]]）、[TS Playground](https://www.typescriptlang.org/play/) で生成される JavaScript を確認すると、型空間と値空間を見分ける直感を養える。
 
 すべての値には静的な型があるが、型には型空間からしかアクセスできない。`type` や `interface` のような型空間の構文は、変換時に消える。
 

@@ -10,7 +10,7 @@ chapter: 15
 ## TL;DR
 
 - 相互に関連するデータ構造を管理するには、[[smart-pointer|スマートポインタ]]を使う。
-- `Rc<RefCell<T>>` は[[borrow-checker|借用チェッカ]]の制約を避けられる代わりに、借用違反が実行時の panic! になり、使い方によっては[[circular-reference|循環参照]]を生む。
+- `Rc<RefCell<T>>` は[[borrow-checker|借用チェッカ]]の制約を避けられる代わりに、借用違反が実行時の panic! になり、使い方によっては[[reference-cycle|循環参照]]を生む。
 
 ## 内容
 
@@ -30,7 +30,7 @@ Rust のスマートポインタには、主に次のものがある（[[Effecti
 
 `Rc<RefCell<T>>` を使うと借用チェッカの制約を避けられるが、Rust の安全性の一部を受けられなくなる。たとえば、他に参照があるときに `borrow_mut` を呼ぶと、コンパイルエラーではなく実行時に panic! が起きる。
 
-また、子ノードが親ノードへの参照を持つ木構造で `Rc<RefCell<T>>` を使うと、循環参照が生まれる（[[［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 第4章 HTMLを解析する──HTMLからDOMツリーへの変換|［作って学ぶ］ブラウザのしくみ 第4章]]でも同じ構造が出てくる）。これを避けるには、親への参照に、強い参照である `Rc<T>` ではなく[[weak-reference|弱い参照]]の `Weak<T>` を使う。
+また、子ノードが親ノードへの参照を持つ木構造で `Rc<RefCell<T>>` を使うと、循環参照が生まれる（[[［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 第4章 HTMLを解析する──HTMLからDOMツリーへの変換|［作って学ぶ］ブラウザのしくみ 第4章]]でも同じ構造が出てくる）。これを避けるには、親への参照に、強い参照である `Rc<T>` ではなく弱い参照の `Weak<T>` を使う。
 
 ```rust
 use std::{
@@ -89,8 +89,8 @@ impl Branch {
 - [[smart-pointer|スマートポインタ]]
 - [[interior-mutability|内部可変性]]
 - [[borrow-checker|借用チェッカ]]
-- [[circular-reference|循環参照]]
-- [[weak-reference|弱い参照]]
+- [[reference-cycle|循環参照]]
+- 弱い参照
 - [[raw-pointer|生ポインタ]]
 - [[thread|スレッド]]
 - [[rust|Rust]]

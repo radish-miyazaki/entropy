@@ -18,7 +18,7 @@ chapter: 3
 
 [[tactical-programming|戦術的プログラミング]]は、動くことを最優先し、タスクをできるだけ早く終わらせようとする。より良い設計を探さずに妥協を重ねるので、システムの[[complexity|複雑さ]]は少しずつ増えていく（[[A Philosophy of Software Design 第2章 The Nature of Complexity|第2章 The Nature of Complexity]]）。問題が起きても[[refactoring|リファクタリング]]より目先の機能実装を優先するので、複雑さはさらに増える。気づいたときには、複雑さを一掃するのに数か月かかる状態になっており、それでも目先の機能を優先してしまう。一度戦術的プログラミングを選ぶと、そこから抜け出すのは難しい。
 
-戦術的プログラミングを極限まで突き詰める開発者を、[[tactical-tornado|Tactical Tornado]] と呼ぶ。どの組織にも少なくとも 1 人はいる。他の人よりはるかに速くコードを書いて機能を実装するので、経営陣からは英雄視される。しかし、そのコードに後から触れるエンジニアから英雄視されることはない。
+戦術的プログラミングを極限まで突き詰める開発者を、Tactical Tornado と呼ぶ。どの組織にも少なくとも 1 人はいる。他の人よりはるかに速くコードを書いて機能を実装するので、経営陣からは英雄視される。しかし、そのコードに後から触れるエンジニアから英雄視されることはない。
 
 ### 戦略的プログラミング
 
@@ -44,7 +44,7 @@ chapter: 3
 
 - [[tactical-programming|戦術的プログラミング]]
 - [[strategic-programming|戦略的プログラミング]]
-- [[tactical-tornado|Tactical Tornado]]
+- Tactical Tornado
 - [[complexity|複雑さ]]
 - [[continuous-investment|継続的な投資]]
 - [[mindset|マインドセット]]

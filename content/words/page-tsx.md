@@ -25,6 +25,22 @@ export default function Page() {
 }
 ```
 
+公式ドキュメントによると、`page` はそのルートに固有の UI を定義するファイルで、ルートのサブツリーの末端（leaf）になる。ルートセグメントを公開してアクセスできるようにするには、`page` ファイルが必要である。デフォルトでは [[react-server-component|Server Component]] だが、[[client-component|Client Component]] にもできる。同じセグメントの [[layout-tsx|layout.tsx]]、template.js、[[error-tsx|error.tsx]]、[[loading-tsx|loading.tsx]] に包まれる、最も内側のファイルである。
+
+props として `params` と `searchParams` を受け取る。`params` は [[dynamic-routes|Dynamic Routes]] のパラメータを、`searchParams` は URL の[[query-parameter|クエリパラメータ]]を持つオブジェクトに解決される Promise である。Next.js 15 から Promise になったので、`await` か React の `use` で値を取り出す。
+
+## 例
+
+`params` で、URL の `slug` に応じた内容を表示する例。
+
+```tsx
+// app/blog/[slug]/page.tsx
+export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  return <h1>Blog Post: {slug}</h1>
+}
+```
+
 ## 自分の理解
 
 拡張子は `.jsx`（`.js`）でもよい。
@@ -36,3 +52,7 @@ export default function Page() {
 - [[not-found-tsx|not-found.tsx]]
 - [[error-tsx|error.tsx]]
 - [[dynamic-routes|Dynamic Routes]]
+
+## 出典
+
+- [File-system conventions: page.js - Next.js](https://nextjs.org/docs/app/api-reference/file-conventions/page)

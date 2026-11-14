@@ -33,5 +33,5 @@ date: 2024-12-20
 
 ## 出典
 
-- [[プログラミングRust 第2版]]
+- プログラミングRust 第2版
 - [Traits: Defining Shared Behavior - The Rust Programming Language](https://doc.rust-lang.org/book/ch10-02-traits.html)

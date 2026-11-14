@@ -30,7 +30,7 @@ date: 2024-09-16
 
 ## 注意点
 
-Next.js 15 から、ページコンポーネントでは Client-side Router Cache がデフォルトで無効になった。`<Link>` や `useRouter` でページを移動しても、ページのセグメントはキャッシュから再利用されない。ブラウザの戻る・進むと、共有されるレイアウト（[[layout-tsx|layout.tsx]]、[[loading-tsx|loading.tsx]]）では引き続き再利用される。
+Next.js 15 から、ページコンポーネントでは Client-side Router Cache がデフォルトで無効になった。`<Link>` や `useRouter` でページを移動しても、ページのセグメントはキャッシュから再利用されない。ブラウザの戻る・進むでの移動と、共有されるレイアウト（[[layout-tsx|layout.tsx]]、[[loading-tsx|loading.tsx]]）では引き続き再利用される。
 
 以前と同じ動作にするには、`next.config.js` で `experimental.staleTimes` を指定する。
 

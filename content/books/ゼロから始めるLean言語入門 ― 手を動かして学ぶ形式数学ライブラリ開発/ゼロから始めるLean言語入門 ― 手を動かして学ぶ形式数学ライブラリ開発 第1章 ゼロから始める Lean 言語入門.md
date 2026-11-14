@@ -1,5 +1,5 @@
 ---
-title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第1章 ゼロから始める Lean 言語入門
+title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第1章 ゼロから始めるLean言語入門
 description: Lean はプログラミング言語であり定理証明支援系でもあり、依存型やタクティクを持つことを、プログラムの例とともに紹介する章
 tags: [book-chapter, lean]
 date: 2026-02-23
@@ -9,18 +9,18 @@ chapter: 1
 
 ## TL;DR
 
-- [[lean|Lean]] はプログラミング言語であると同時に[[proof-assistant|定理証明支援系]]でもあり、[[dependent-type|依存型]]や[[tactic|タクティク]]による証明の自動化を備えている。
+- [[lean|Lean]] はプログラミング言語であると同時に定理証明支援系でもあり、[[dependent-type|依存型]]や[[tactic|タクティク]]による証明の自動化を備えている。
 - 言語としては静的型付けの純粋な関数型言語で、do 記法、マクロ、フィールド記法などを使って普通のプログラムも書ける。
 
 ## 内容
 
 ### Lean の特徴
 
-Lean は、プログラミング言語と[[proof-assistant|定理証明支援系]]を兼ねている。言語としては、静的型付けの純粋な[[functional-programming|関数型]]言語である。
+Lean は、プログラミング言語と定理証明支援系を兼ねている。言語としては、静的型付けの純粋な[[functional-programming|関数型]]言語である。
 
 型システムには[[dependent-type|依存型]]がある。依存型を使うと、`f a` の型が項 `a` によって変わることを表せる。
 
-証明は[[tactic|タクティク]]（tactic）で自動化できる。タクティクとは、定理の証明に必要な操作をプログラムとして対話的に書くための機能である。Lean 固有の機能ではなく、[[rocq|Rocq]]（旧称 Coq）なども持っている。たとえば、数学の証明によく出てくる「これ以上簡単にできなくなるまで式を簡単にする」操作は `simp_all` で書ける。サードパーティ製のタクティクも使える。[[mathlib|Mathlib]] には、線型方程式系を解く `linarith` や、可換環（半環）の等式を示す `ring` がある。
+証明は[[tactic|タクティク]]（tactic）で自動化できる。タクティクとは、定理の証明に必要な操作をプログラムとして対話的に書くための機能である。Lean 固有の機能ではなく、Rocq（旧称 Coq）なども持っている。たとえば、数学の証明によく出てくる「これ以上簡単にできなくなるまで式を簡単にする」操作は `simp_all` で書ける。サードパーティ製のタクティクも使える。Mathlib には、線型方程式系を解く `linarith` や、可換環（半環）の等式を示す `ring` がある。
 
 証明は IDE の上で対話的に進める。[[visual-studio-code|Visual Studio Code]] には [Lean 4 の拡張機能](https://marketplace.cursorapi.com/items/?itemName=leanprover.lean4)がある。`#eval` と書くと、その場で関数が実行されて結果がエディタに表示される。「いま何を証明しているのか」もすべて表示されるので、覚えておく必要はない。
 
@@ -102,11 +102,11 @@ p.x + p.y
 ## キーワード
 
 - [[lean|Lean]]
-- [[proof-assistant|定理証明支援系]]
+- 定理証明支援系
 - [[dependent-type|依存型]]
 - [[tactic|タクティク]]
-- [[mathlib|Mathlib]]
-- [[rocq|Rocq]]
+- Mathlib
+- Rocq
 - [[functional-programming|関数型プログラミング]]
 - [[monad|モナド]]
 - [[visual-studio-code|Visual Studio Code]]

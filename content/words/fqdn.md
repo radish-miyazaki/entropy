@@ -14,6 +14,8 @@ date: 2024-11-13
 
 ドメイン名の各ラベルは `.` で区切られる。FQDN は、ホスト名から最上位のドメインまでをすべてつなげて書いたものである。
 
+RFC 8499 によると、FQDN は多くの場合「ノードのドメイン名」を明確に言い表したものである。厳密には長さ 0 のルートのラベルまで含むので、`www.example.net.` のように末尾にドットを付けて書く。
+
 ## 例
 
 `www.example.com`
@@ -31,3 +33,7 @@ date: 2024-11-13
 - [[domain-name|ドメイン名]]
 - [[dns|DNS]]
 - [[url|URL]]
+
+## 出典
+
+- [RFC 8499: DNS Terminology](https://www.rfc-editor.org/rfc/rfc8499.html)

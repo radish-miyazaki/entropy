@@ -20,7 +20,7 @@ wa.dev は、Warg のクライアントツールからも使える。
 
 - [[cargo-component]]
 - [warg-cli](https://github.com/bytecodealliance/registry): Warg プロトコルのクライアント。wa.dev へのログインに使う（`cargo install warg-cli`）
-- [[wkg|wkg]]: WIT パッケージを操作するツール（`cargo install wkg`）
+- wkg: WIT パッケージを操作するツール（`cargo install wkg`）
 - [[wac]]: レジストリに公開されている WebAssembly Component と、ローカルの Component を合成するツール
 
 ## 注意点
@@ -33,7 +33,7 @@ wkg config --default-registry wa.dev
 
 ## 自分の理解
 
-WIT パッケージの操作には wit-cli を使うつもりだったが、wit-cli は [[wkg|wkg]] という別の CLI ツールのサブコマンドとして移植されるらしい。そのため wkg を入れることにした。
+WIT パッケージの操作には wit-cli を使うつもりだったが、wit-cli は wkg という別の CLI ツールのサブコマンドとして移植されるらしい。そのため wkg を入れることにした。
 
 - [bytecodealliance/cargo-component#342](https://github.com/bytecodealliance/cargo-component/pull/342)
 - [wit-cli - tanishiking-pub](https://scrapbox.io/tanishiking-pub/wit-cli)

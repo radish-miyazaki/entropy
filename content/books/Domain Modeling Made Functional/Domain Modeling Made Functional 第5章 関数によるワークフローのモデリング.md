@@ -10,7 +10,7 @@ chapter: 5
 ## TL;DR
 
 - [[ubiquitous-language|ユビキタス言語]]の名詞は型で、動詞にあたる[[business-process|ビジネスプロセス]]や[[workflow|ワークフロー]]は関数の型でモデリングする。
-- 複数の入出力はレコード型や選択型で表し、失敗や非同期といった[[effect|エフェクト]]は型シグネチャに書く。
+- 複数の入出力はレコード型や選択型で表し、失敗や非同期といった[[side-effect|エフェクト]]は型シグネチャに書く。
 
 ## 内容
 
@@ -75,7 +75,7 @@ type ValidationError = {
 }
 ```
 
-[[functional-programming|関数型プログラミング]]では、関数が主な出力以外に行うことを[[effect|エフェクト]]と呼ぶ。`Result` はエラーのエフェクトを持つ可能性があることを、`Async` は非同期であることを文書化する。複数のエフェクトを組み合わせることもできる。
+[[functional-programming|関数型プログラミング]]では、関数が主な出力以外に行うことを[[side-effect|エフェクト]]と呼ぶ。`Result` はエラーのエフェクトを持つ可能性があることを、`Async` は非同期であることを文書化する。複数のエフェクトを組み合わせることもできる。
 
 ```fsharp
 type ValidateOrder =
@@ -101,7 +101,7 @@ type ValidateOrder =
 - [[discriminated-union|判別共用体]]
 - [[dependency-injection|依存性の注入]]
 - [[result-type|Result 型]]
-- [[effect|エフェクト]]
+- [[side-effect|エフェクト]]
 - [[type-alias|型エイリアス]]
 
 %%

@@ -8,11 +8,11 @@ draft: false
 
 ## TL;DR
 
-- [[spacemacs|Spacemacs]] で [[cider|CIDER]] を使うとき、テストファイルをロードしてから `M-x cider-test-run-ns-tests`（`C-c C-t n`）を実行すると、[[emacs|Emacs]] から [[clojure|Clojure]] のテストを実行できる。
+- [[spacemacs|Spacemacs]] で CIDER を使うとき、テストファイルをロードしてから `M-x cider-test-run-ns-tests`（`C-c C-t n`）を実行すると、Emacs から [[clojure|Clojure]] のテストを実行できる。
 
 ## キーワード
 
 - [[clojure|Clojure]]
-- [[emacs|Emacs]]
+- Emacs
 - [[spacemacs|Spacemacs]]
-- [[cider|CIDER]]
+- CIDER

@@ -92,7 +92,7 @@ export const authOptions: NextAuthOptions = {
 }
 ```
 
-[`providers`](https://next-auth.js.org/configuration/options#providers) には、利用する [[oauth|OAuth]] のサービスを複数指定できる。次は Google の例である。
+[`providers`](https://next-auth.js.org/configuration/options#providers) には、利用する [[oauth-2|OAuth]] のサービスを複数指定できる。次は Google の例である。
 
 ```ts
 import GoogleProvider from "next-auth/providers/google"
@@ -191,7 +191,7 @@ export const getServerSession = cache(async () => {
 - [[nextauth-js|NextAuth.js]]
 - [[nextjs|Next.js]]
 - [[jwt|JWT]]
-- [[oauth|OAuth]]
+- [[oauth-2|OAuth]]
 - [[cookie|Cookie]]
 - [[persistence|永続化]]
 - [[prisma-client|Prisma Client]]

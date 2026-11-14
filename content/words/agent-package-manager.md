@@ -18,11 +18,11 @@ AI エージェント向けの依存関係管理ツール（CLI）。AI エー�
 
 npm や pip、cargo のマニフェストとロックファイルという形を、AI エージェントを構成するファイルに当てはめたものである。AI エージェントの実行には介入しない。マニフェストは `apm.yml`、ロックファイルは `apm.lock.yaml` で、パッケージに含まれる Skill などの原本は `.apm/` に置く。`apm install` を実行すると、推移的な依存関係も含めた依存ツリー全体を解決し、各エージェントが読むファイルとして展開する。
 
-管理できるのは Instructions、Skills、Prompts、Agents、Hooks、Commands、Plugins、MCP サーバである。出力先は、GitHub Copilot（`.github/`）、Codex（`.codex/`、`.agents/`）、Claude（`.claude/`）、Gemini（`.gemini/`）、OpenCode（`.opencode/`）、[[cursor|Cursor]]（`.cursor/`）、Antigravity（`.agents/`）、[[windsurf|Windsurf]]（`.windsurf/`）、Kiro（`.kiro/`）などに対応している。
+管理できるのは Instructions、Skills、Prompts、Agents、Hooks、Commands、Plugins、MCP サーバである。出力先は GitHub Copilot（`.github/`）、Codex（`.codex/`、`.agents/`）、Claude（`.claude/`）、Gemini（`.gemini/`）、OpenCode（`.opencode/`）、[[cursor|Cursor]]（`.cursor/`）、Antigravity（`.agents/`）、[[windsurf|Windsurf]]（`.windsurf/`）、Kiro（`.kiro/`）などに対応している。
 
 ### 安全性とポリシー
 
-`apm install` は、エージェントの挙動を乗っ取り得る不可視の Unicode を検査し、コンテンツのハッシュをロックファイルに固定する。推移的な MCP サーバは、明示的な確認なしには通さない。`apm audit` で意図しない変更がないかを確認できる。
+`apm install` は、エージェントの挙動を乗っ取り得る不可視の Unicode を検査し、コンテンツのハッシュをロックファイルに固定する。推移的な MCP サーバは明示的な確認なしには通さない。`apm audit` で意図しない変更がないかを確認できる。
 
 GitHub Organization の `.github` リポジトリに `apm-policy.yml` を置くと、Organization 内の全リポジトリに対して、ソース、スコープ、プリミティブの許可リストを定義できる。`apm install` と `apm audit --ci --policy org` の実行時に、Git の remote から自動で検出される。
 

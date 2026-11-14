@@ -18,19 +18,19 @@ url: https://go.dev/blog/supply-chain
 
 ### すべてのビルドは「ロック」されている
 
-[[go-mod|go.mod]] が、ビルドに使うすべての依存のバージョンを決める。ほかのエコシステムのように、バージョンの制約とロックファイルを別々に持つ構成ではない。Go 1.16 以降は、`go.mod` が不完全だと `go build` や `go test` が失敗する。`go.mod` を変更するのは `go get` と `go mod tidy` だけで、これらは CI で自動実行することを想定していない。そのため、依存の変更は必ず意図して行われる。
+go.mod がビルドに使うすべての依存のバージョンを決める。ほかのエコシステムと違い、バージョンの制約とロックファイルを別々には持たない。Go 1.16 以降は、`go.mod` が不完全だと `go build` や `go test` が失敗する。`go.mod` を変更するのは `go get` と `go mod tidy` だけで、これらは CI で自動実行することを想定していない。そのため、依存の変更は必ず意図して行われる。
 
 依存を追加するときも、[[minimal-version-selection|MVS]] によって最新版ではなく、依存元の `go.mod` で指定されたバージョンが使われる。`go install example.com/cmd/tool@latest` でも同じである。つまり、悪意のあるバージョンが公開されても、明示的に更新しない限り影響を受けない。
 
 ### バージョンの中身は変わらない
 
-[[go-sum|go.sum]] が、各依存の暗号学的ハッシュを持つ。`go.sum` が不完全だとエラーになり、変更するのは `go get` と `go mod tidy` だけなので、コードレビューの機会が生まれる。
+[[go-sum|go.sum]] が各依存の暗号学的ハッシュを持つ。`go.sum` が不完全だとエラーになり、変更するのは `go get` と `go mod tidy` だけなので、コードレビューの機会が生まれる。
 
 さらに [[checksum-database|Checksum Database]]（sumdb）が、追記しかできず暗号学的に検証できるグローバルなリストとしてハッシュを公開している。これにより、特定のプロジェクトだけにバックドア入りのソースを配布することはできない。モジュールの作者が鍵を管理する必要もない。
 
 ### VCS が信頼できる唯一の情報源である
 
-ほかのエコシステムでは、[[vcs|VCS]] からパッケージリポジトリにアップロードするので、2 つのアカウントが攻撃対象になる。Go にはパッケージリポジトリのアカウントがなく、import path に VCS から直接取得するための情報が含まれている。[[go-module-mirror|Go Module Mirror]] はあくまでプロキシであり、作者が登録やアップロードをするものではない。中身が一意であることは sumdb が保証する。
+ほかのエコシステムでは、VCS からパッケージリポジトリにアップロードするので、2 つのアカウントが攻撃対象になる。Go にはパッケージリポジトリのアカウントがなく、import path に VCS から直接取得するための情報が含まれている。[[go-module-mirror|Go Module Mirror]] はあくまでプロキシであり、作者が登録やアップロードをするものではない。中身が一意であることは sumdb が保証する。
 
 VCS ツールそのものへの攻撃にも備えている。プロキシ側ではサンドボックス内で動かし、クライアント側はデフォルトで Git と Mercurial しかサポートしない。
 
@@ -42,18 +42,18 @@ VCS ツールそのものへの攻撃にも備えている。プロキシ側で�
 
 ### 少しのコピーは少しの依存に勝る
 
-[[go-proverbs|Go Proverbs]] の「A little copying is better than a little dependency」のとおり、Go には巨大な依存ツリーを避ける文化がある。依存がゼロであることは、高品質なモジュールの誇りとされる。豊富な[[standard-library|標準ライブラリ]]と `golang.org/x/...` のモジュール群（HTTP、TLS、JSON エンコーディングなど）がそれを支えている。どんなに優れたツールでもコードの再利用のリスクをゼロにはできず、最も強い緩和策は小さな依存ツリーそのものである。
+Go Proverbs の「A little copying is better than a little dependency」のとおり、Go には巨大な依存ツリーを避ける文化がある。依存がゼロであることは、高品質なモジュールの誇りとされる。豊富な標準ライブラリと `golang.org/x/...` のモジュール群（HTTP、TLS、JSON エンコーディングなど）がそれを支えている。どんなに優れたツールでもコードの再利用のリスクをゼロにはできず、最も強い緩和策は小さな依存ツリーそのものである。
 
 ## キーワード
 
 - [[supply-chain-attack|サプライチェーン攻撃]]
-- [[go-mod|go.mod]]
+- go.mod
 - [[go-sum|go.sum]]
 - [[minimal-version-selection|MVS]]
 - [[checksum-database|Checksum Database]]
 - [[go-module-mirror|Go Module Mirror]]
-- [[vcs|VCS]]
-- [[go-proverbs|Go Proverbs]]
+- VCS
+- Go Proverbs
 
 %%
 

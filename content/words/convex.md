@@ -8,11 +8,11 @@ date: 2025-07-01
 
 ## TL;DR
 
-[[typescript|TypeScript]] を中心にした統合的なアプローチを取る BaaS。[[firebase|Firebase]] や [[supabase|Supabase]] と同じ分野のサービスである。
+[[typescript|TypeScript]] を中心にした統合的なアプローチを取る BaaS。Firebase や [[supabase|Supabase]] と同じ分野のサービスである。
 
 ## なぜ必要か
 
-アーキテクチャの構成や設計思想、ベストプラクティスまで公式に提供している。ローカルで立ち上げられるので開発しやすい。AI 駆動開発を支える機能も多く、MCP サーバや AI 向けのルールを提供している。AI エージェントを開発する基盤やベクトルストレージもある。
+Convex はアーキテクチャの構成や設計思想、ベストプラクティスまで公式に提供している。ローカルで立ち上げられるので開発しやすい。AI 駆動開発を支える機能も多く、MCP サーバや AI 向けのルールを提供している。AI エージェントを開発する基盤やベクトルストレージもある。
 
 ## 仕組み
 
@@ -55,7 +55,7 @@ bunx convex dev --local
 ## 関連
 
 - [[supabase|Supabase]]
-- [[firebase|Firebase]]
+- Firebase
 - [[model-context-protocol|Model Context Protocol]]
 
 ## 出典

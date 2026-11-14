@@ -30,5 +30,5 @@ const hungryFunc = (x: number) => hungryFunc
 
 ## 関連
 
-- [[recursive-function|再帰関数]]
+- 再帰関数
 - [[higher-order-function|高階関数]]

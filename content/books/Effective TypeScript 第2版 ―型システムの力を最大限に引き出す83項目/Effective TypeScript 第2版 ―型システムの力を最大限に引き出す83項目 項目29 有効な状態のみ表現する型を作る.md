@@ -29,7 +29,7 @@ interface RequestState {
 }
 ```
 
-状態ごとに型を分け、`state` をタグにした[[union-type|ユニオン型]]（[[tagged-union|タグ付きユニオン]]）でまとめると、有効な状態しか表現できなくなる。
+状態ごとに型を分け、`state` をタグにした[[union-type|ユニオン型]]（[[discriminated-union|タグ付きユニオン]]）でまとめると、有効な状態しか表現できなくなる。
 
 ```ts
 // OK
@@ -55,7 +55,7 @@ type RequestState = RequestPending | RequestError | RequestSuccess
 
 - [[typescript|TypeScript]]
 - [[union-type|ユニオン型]]
-- [[tagged-union|タグ付きユニオン]]
+- [[discriminated-union|タグ付きユニオン]]
 - [[state-machine|ステートマシン]]
 
 ## 自分の理解

@@ -16,7 +16,7 @@ API モードで構築した Rails アプリケーションでは、`Application
 
 > Keep in mind that templates are not going to be rendered, so you need to ensure your controller is calling either render or redirect_to in all actions, otherwise it will return 204 No Content.
 
-API モードではテンプレートが描画されない。そのため、すべてのアクションで `render` か `redirect_to` を呼ばないと、[[http|HTTP]] のステータスコード 204 No Content が返る。
+API モードではテンプレートが描画されないので、すべてのアクションで `render` か `redirect_to` を呼ばないと、[[http|HTTP]] のステータスコード 204 No Content が返る。
 
 ## キーワード
 

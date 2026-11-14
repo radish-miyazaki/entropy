@@ -20,9 +20,15 @@ date: 2024-10-06
 cargo nextest run
 ```
 
+### テストごとにプロセスを分ける理由
+
+公式の設計文書によると、nextest はデフォルトで、テストを 1 つずつ別のプロセスで実行する。グローバルな状態（環境変数や GPU のコンテキストなど）を占有するテストでも、他のテストとの調整なしにそのまま動く。あるテストがクラッシュしたりメモリを壊したりしても、影響はそのテストにとどまる。タイムアウトしたテストは、そのプロセスにだけ終了のシグナルを送れば止められる。スレッドを安全に止めるのは難しいので、プロセスで分けるほうが扱いやすい。
+
 ## 注意点
 
 doctest には対応していない。doctest は `cargo test --doc` で別に実行する。
+
+テストどうしがプロセス内のメモリを共有できないので、メモリ上のセマフォやキャッシュ、プロセス内で立てたサーバを共有するテストは、作りを変える必要がある。また、Windows ではプロセスの起動が遅く、macOS でもマルウェア対策ソフトが邪魔をして遅くなることがある。
 
 %%
 
@@ -40,3 +46,4 @@ doctest には対応していない。doctest は `cargo test --doc` で別に�
 
 - [cargo-nextest](https://nexte.st/)
 - [nextest-rs/nextest - GitHub](https://github.com/nextest-rs/nextest)
+- [Why process-per-test? - cargo-nextest](https://nexte.st/docs/design/why-process-per-test/)

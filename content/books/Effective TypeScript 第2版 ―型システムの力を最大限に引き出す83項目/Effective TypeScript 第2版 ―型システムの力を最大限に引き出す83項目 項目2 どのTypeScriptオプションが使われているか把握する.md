@@ -49,7 +49,7 @@ tenses[3].toUpperCase() // エラー
 
 ## キーワード
 
-- [[tsconfig|tsconfig.json]]
+- tsconfig.json
 - [[any-type|any 型]]
 - [[index-signature|インデックスシグネチャ]]
 

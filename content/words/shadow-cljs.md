@@ -16,6 +16,12 @@ npm で管理する JavaScript のパッケージをそのまま使える。Cloj
 
 動かすには Node.js か Bun、npm などのパッケージマネージャ、Java SDK が必要である。
 
+User's Guide によると、shadow-cljs は実際のビルドを行う Clojure のライブラリと、コマンドラインの起動役になる npm パッケージの 2 つからなる。ビルドは `shadow-cljs.edn` に定義し、ビルドごとの `:target` で、ブラウザや Node.js、Chrome 拡張などの実行環境に合わせたプリセットを選ぶ。開発用のビルドは素早いフィードバックを重視して REPL を備える。リリース用のビルドは開発用のコードを取り除き、Closure Compiler で出力を小さくする。
+
+## 例
+
+基本のコマンドは、1 回ビルドする `compile`、変更を監視してビルドし直す `watch`、リリース用にビルドする `release` の 3 つである。
+
 %%
 
 ## 自分の理解
@@ -30,3 +36,4 @@ npm で管理する JavaScript のパッケージをそのまま使える。Cloj
 ## 出典
 
 - [thheller/shadow-cljs](https://github.com/thheller/shadow-cljs)
+- [Shadow CLJS User's Guide](https://shadow-cljs.github.io/docs/UsersGuide.html)

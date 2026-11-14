@@ -10,7 +10,7 @@ chapter: 1
 ## TL;DR
 
 - [[clojure|Clojure]] のコレクションは、`clojure.lang.IPersistentCollection` インタフェースを実装したインスタンスである。
-- `empty`、`count`、`conj`、`get` などの関数は、リスト、ベクタ、セット、マップのどれにも使える。`for` マクロで[[list-comprehension|リスト内包表記]]を書ける。
+- `empty`、`count`、`conj`、`get` などの関数は、リスト、ベクタ、セット、マップのどれにも使える。`for` マクロでリスト内包表記を書ける。
 
 ## 内容
 
@@ -96,7 +96,7 @@ chapter: 1
 - [[clojure-var|Var]]
 - [[clojure-sequence|シーケンス]]
 - [[lazy-sequence|遅延シーケンス]]
-- [[list-comprehension|リスト内包表記]]
+- リスト内包表記
 
 %%
 

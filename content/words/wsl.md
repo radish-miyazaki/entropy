@@ -8,7 +8,7 @@ date: 2025-05-30
 
 ## TL;DR
 
-Windows Subsystem for Linux の略。別の仮想マシンやデュアルブートを用意せずに、Windows 上で [[linux|Linux]] 環境を動かせる Windows の機能である。
+Windows Subsystem for Linux の略。別の仮想マシンやデュアルブートを用意せずに、Windows 上で Linux 環境を動かせる Windows の機能である。
 
 ## なぜ必要か
 

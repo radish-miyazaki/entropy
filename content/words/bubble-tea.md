@@ -8,7 +8,7 @@ date: 2025-07-25
 
 ## TL;DR
 
-TUI を作るための [[go|Go]] のフレームワーク。[[the-elm-architecture|The Elm Architecture]] に基づいている。
+TUI を作るための [[go|Go]] のフレームワーク。The Elm Architecture に基づいている。
 
 ## 仕組み
 
@@ -36,7 +36,7 @@ TUI を作るための [[go|Go]] のフレームワーク。[[the-elm-architectu
 
 ## 関連
 
-- [[the-elm-architecture|The Elm Architecture]]
+- The Elm Architecture
 - [[elm|Elm]]
 - [[go|Go]]
 

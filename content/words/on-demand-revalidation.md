@@ -34,7 +34,7 @@ revalidateTag("a")
 
 ## 注意点
 
-`revalidateTag` は [[route-handler|Route Handler]] でも実行できるが、変更をすぐに画面に反映したいなら `router.refresh` との併用が必要である。Route Handler は特定のルートに結び付いていないので、[[client-side-router-cache|Client-side Router Cache]] が無効化されず、古い結果が返るからである。`router.refresh` は今のルートのレンダリングを再リクエストするので、`router.push` で別の画面に移る場合などは無駄なリクエストになる。
+`revalidateTag` は [[route-handler|Route Handler]] でも実行できる。ただし、Route Handler は特定のルートに結び付いていないので、[[client-side-router-cache|Client-side Router Cache]] が無効化されずに古い結果が返り、変更をすぐに画面に反映したいなら `router.refresh` との併用が必要である。`router.refresh` は今のルートのレンダリングを再リクエストするので、`router.push` で別の画面に移る場合などは無駄なリクエストになる。
 
 そのため、[[server-actions|Server Actions]] を優先して使うほうがよい。Server Actions で実行すると、`router.refresh` なしで Router Cache も無効化される。また [`redirect`](https://nextjs.org/docs/app/building-your-application/routing/redirecting#redirect-function) を使えば、更新と同時に画面を遷移させられる。
 

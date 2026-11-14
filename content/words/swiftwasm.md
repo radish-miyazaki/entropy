@@ -12,11 +12,11 @@ date: 2024-10-18
 
 ## 仕組み
 
-SwiftWasm は Swift のコンパイラに手を加えたものである。チームは、その変更を公式の Swift コンパイラに取り込んでもらう作業を進めている。Swift から Web の API を呼ぶには、JavaScriptKit を使う。ブラウザ上で試せる SwiftWasm Pad も提供されている。
+SwiftWasm は Swift のコンパイラに手を加えたものである。チームはその変更を公式の Swift コンパイラに取り込んでもらう作業を進めている。Swift から Web の API を呼ぶには、JavaScriptKit を使う。ブラウザ上で試せる SwiftWasm Pad も提供されている。
 
 ## 例
 
-Goodnotes は、Swift で書かれた iOS 向けのアプリを Web や Android などに展開するとき、SwiftWasm を使って既存のコードを再利用した（[[webassembly|WebAssembly]] を参照）。
+Goodnotes は Swift で書かれた iOS 向けのアプリを Web や Android などに展開するとき、SwiftWasm を使って既存のコードを再利用した（[[webassembly|WebAssembly]] を参照）。
 
 ## 注意点
 

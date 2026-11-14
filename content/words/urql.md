@@ -18,9 +18,9 @@ date: 2024-09-25
 
 ### シンプル
 
-Apollo Client や Relay は、クエリの結果を `id` と `__typename` をキーに正規化してキャッシュする（[[normalized-cache|正規化キャッシュ]]）。[[graphql-mutation|Mutation]] でデータを更新したときも、キャッシュ上のどのデータを更新すべきか分かるので、ネットワークにアクセスせずにクライアントの状態を更新できる。
+Apollo Client や Relay は、クエリの結果を `id` と `__typename` をキーに正規化してキャッシュする（正規化キャッシュ）。[[graphql-mutation|Mutation]] でデータを更新したときも、キャッシュ上のどのデータを更新すべきか分かるので、ネットワークにアクセスせずにクライアントの状態を更新できる。
 
-一方、urql はデフォルトで[[document-cache|ドキュメントキャッシュ]]を採用している。Mutation でデータを更新すると、同じ `__typename` を持つクエリのキャッシュを破棄して再取得する。ネットワークへのアクセスは増えるが、更新したデータをすぐ画面に表示する必要がないアプリケーションなら、正規化キャッシュのような高度なキャッシュ戦略は要らない。必要になれば、Graphcache を使って正規化キャッシュに移行できる。
+一方、urql はデフォルトでドキュメントキャッシュを採用している。Mutation でデータを更新すると、同じ `__typename` を持つクエリのキャッシュを破棄して再取得する。ネットワークへのアクセスは増えるが、更新したデータをすぐ画面に表示する必要がないアプリケーションなら、正規化キャッシュのような高度なキャッシュ戦略は要らない。必要になれば、Graphcache を使って正規化キャッシュに移行できる。
 
 > urql is the only library that provides Offline Support out of the box as part of Graphcache's feature set.
 

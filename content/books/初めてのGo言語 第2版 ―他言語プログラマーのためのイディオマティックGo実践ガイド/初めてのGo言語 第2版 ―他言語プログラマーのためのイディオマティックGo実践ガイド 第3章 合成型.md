@@ -9,7 +9,7 @@ chapter: 3
 
 ## TL;DR
 
-- [[go|Go]] の配列は大きさまで型に含まれ比較できるが、[[slice|スライス]]とマップは比較できず、ゼロ値は `nil` である。
+- [[go|Go]] の配列は大きさまで型に含まれ比較できるが、スライスとマップは比較できず、ゼロ値は `nil` である。
 - スライス式で作ったサブスライスは元のスライスとメモリを共有するので、`append` と組み合わせると思わぬ上書きが起きる。
 
 ## 内容
@@ -78,7 +78,7 @@ fmt.Println(len(s)) // 9
 
 ### セット
 
-Go にセットはないが、値が `bool` のマップで代わりにできる。値を空の構造体 `struct{}` にする方法もあるが、存在の確認を [[comma-ok-idiom|comma ok イディオム]]で書く必要があり、コードが長くなる。Go 1.24 でマップの内部実装が [[swiss-table|Swiss Table]] に変わったため、`bool` と空の構造体でメモリ消費量は変わらなくなった（[参考](https://zenn.dev/naoki_kuroda/articles/c225d315a3a5ae)）。
+Go にセットはないが、値が `bool` のマップで代わりにできる。値を空の構造体 `struct{}` にする方法もあるが、存在の確認を comma ok イディオムで書く必要があり、コードが長くなる。Go 1.24 でマップの内部実装が [[swiss-table|Swiss Table]] に変わったため、`bool` と空の構造体でメモリ消費量は変わらなくなった（[参考](https://zenn.dev/naoki_kuroda/articles/c225d315a3a5ae)）。
 
 ```go
 intSet := map[int]struct{}{}
@@ -113,12 +113,12 @@ fmt.Println(f == g)
 ## キーワード
 
 - [[go|Go]]
-- [[slice|スライス]]
+- スライス
 - [[full-slice-expression|完全スライス式（フルスライス式）]]
 - [[zero-value|ゼロ値]]
 - [[rune|rune]]
 - [[utf-8|UTF-8]]
-- [[comma-ok-idiom|comma ok イディオム]]
+- comma ok イディオム
 - [[swiss-table|Swiss Table]]
 - [[panic|panic]]
 

@@ -16,7 +16,7 @@ chapter: 68
 
 ### TSDoc で書く
 
-公開する API を説明するコメントは TSDoc で書くべきである。多くの IDE やエディタ（[[zed|Zed]] など）が TSDoc に対応しているからである。TSDoc は [[jsdoc|JSDoc]] とほぼ同じ書き方ができ、[`@param`](https://tsdoc.org/pages/tags/param/) や [`@returns`](https://tsdoc.org/pages/tags/returns/) などのタグを使える。
+多くの IDE やエディタ（[[zed|Zed]] など）が TSDoc に対応しているので、公開する API を説明するコメントは TSDoc で書くべきである。TSDoc は [[jsdoc|JSDoc]] とほぼ同じ書き方ができ、[`@param`](https://tsdoc.org/pages/tags/param/) や [`@returns`](https://tsdoc.org/pages/tags/returns/) などのタグを使える。
 
 型定義にも TSDoc を書ける。
 

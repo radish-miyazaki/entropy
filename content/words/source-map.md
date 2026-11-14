@@ -8,7 +8,7 @@ date: 2025-06-07
 
 ## TL;DR
 
-[[minification|minify]] や[[transpile|トランスパイル]]をした [[javascript|JavaScript]] のコードを、開発時の元のソースコードに対応させるためのファイル。
+minify や[[transpile|トランスパイル]]をした [[javascript|JavaScript]] のコードを、開発時の元のソースコードに対応させるためのファイル。
 
 ## なぜ必要か
 

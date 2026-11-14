@@ -8,7 +8,7 @@ date: 2025-08-08
 
 ## TL;DR
 
-[[swiftui|SwiftUI]] や [[jetpack-compose|Jetpack Compose]] を使って、ネイティブな UI を構築するための [[expo|Expo]] のコンポーネント群（`@expo/ui`）。
+SwiftUI や Jetpack Compose を使って、ネイティブな UI を構築するための [[expo|Expo]] のコンポーネント群（`@expo/ui`）。
 
 > a set of native input components that allows you to build fully native interfaces with Jetpack Compose and SwiftUI.
 

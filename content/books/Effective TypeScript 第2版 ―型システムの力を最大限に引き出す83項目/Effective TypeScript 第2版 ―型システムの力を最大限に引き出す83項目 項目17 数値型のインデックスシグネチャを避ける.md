@@ -51,7 +51,7 @@ const xN = xs[inputEl.value] // inputEl.value は string なので型エラー
 
 ### 数値のインデックスシグネチャの代わり
 
-以上から、インデックスシグネチャに `number` を使うのは避けるべきである。数値のキーが存在するという誤解を、読み手に与えかねない。数値でインデックスしたいときは、代わりに `Array<T>`、タプル型、`ArrayLike<T>`、`Iterable<T>` を使う。
+以上から、数値のキーが存在するという誤解を読み手に与えかねないので、インデックスシグネチャに `number` を使うのは避けるべきである。数値でインデックスしたいときは、代わりに `Array<T>`、タプル型、`ArrayLike<T>`、`Iterable<T>` を使う。
 
 `push` や `concat` のような破壊的な操作が不要なら、[`ArrayLike<T>`](https://github.com/microsoft/TypeScript/blob/62b172b515452b3fe19f4f2da81d4869caedc904/src/lib/es5.d.ts#L1552-L1555) を使う。`ArrayLike<T>` は、`length` と数値のインデックスシグネチャだけを持つ型である。
 

@@ -15,7 +15,7 @@ date: 2024-11-01
 - [[wasmtime|Wasmtime]]
 - [WasmEdge](https://wasmedge.org/)
 - [WebAssembly Micro Runtime](https://github.com/bytecodealliance/wasm-micro-runtime)（WAMR）: 組み込み機器での利用を想定した処理系
-- [[v8|V8]]、JavaScriptCore、SpiderMonkey: ブラウザに組み込まれた処理系
+- V8、JavaScriptCore、SpiderMonkey: ブラウザに組み込まれた処理系
 
 %%
 

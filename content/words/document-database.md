@@ -18,11 +18,17 @@ date: 2024-08-09
 2. DTO を JSON 文字列に変換する
 3. ストレージの API を通して CRUD 操作を行う
 
+MongoDB の公式ドキュメントによると、MongoDB ではドキュメントがデータの基本単位で、データを BSON ドキュメントとして保存する。BSON は [[json|JSON]] のドキュメントをバイナリで表したもので、JSON より多くのデータ型を持つ。ドキュメントはフィールドと値の組からなり、値には他のドキュメントや配列、ドキュメントの配列も入れられる。各ドキュメントは主キーとして一意な `_id` フィールドを持つ。
+
 ## 例
 
-- [[mongodb|MongoDB]]
+- MongoDB
 - [[amazon-dynamodb|Amazon DynamoDB]]
 - Azure Blob Storage
+
+## 注意点
+
+MongoDB では、1 つの BSON ドキュメントの大きさは最大 16 MiB である。1 つのドキュメントが RAM や転送時の帯域を使いすぎないようにするための制限で、それより大きいデータは GridFS の API で保存する。
 
 %%
 
@@ -39,3 +45,4 @@ date: 2024-08-09
 ## 出典
 
 - [[Domain Modeling Made Functional 第12章 ドキュメントデータベースを扱う|Domain Modeling Made Functional 第12章 ドキュメントデータベースを扱う]]
+- [Documents - MongoDB Docs](https://www.mongodb.com/docs/manual/core/document/)

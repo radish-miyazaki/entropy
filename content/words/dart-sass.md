@@ -8,7 +8,7 @@ date: 2024-09-10
 
 ## TL;DR
 
-[[sass|Sass]] の主要な実装（primary implementation）。新しい機能は、ほかの実装より先に Dart Sass に入る。
+Sass の主要な実装（primary implementation）。新しい機能は、ほかの実装より先に Dart Sass に入る。
 
 ## 仕組み
 
@@ -32,7 +32,7 @@ date: 2024-09-10
 
 ## 関連
 
-- [[sass|Sass]]
+- Sass
 
 ## 出典
 

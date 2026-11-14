@@ -2,13 +2,13 @@
 title: Effect Configuration
 aliases: []
 description: 環境変数などの設定を読み込むための、Effect 組み込みの Config
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 
 ## TL;DR
 
-[[effect-ts|Effect]] が提供する、[[environment-variable|環境変数]]を扱うための組み込みの仕組み（`Config`）。
+[[effect-ts|Effect]] が提供する、環境変数を扱うための組み込みの仕組み（`Config`）。
 
 ## 仕組み
 

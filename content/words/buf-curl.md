@@ -12,7 +12,7 @@ date: 2024-09-29
 
 ## 仕組み
 
-使うプロトコルは `--protocol` で指定する。HTTPS でない URL に gRPC で送るときは、`--http2-prior-knowledge` も付ける。このフラグがないと [[http-1-1|HTTP/1.1]] が使われるが、gRPC には [[http2|HTTP/2]] が必要だからである。
+使うプロトコルは `--protocol` で指定する。gRPC には [[http2|HTTP/2]] が必要だが、`--http2-prior-knowledge` がないと [[http-1-1|HTTP/1.1]] が使われるので、HTTPS でない URL に gRPC で送るときはこのフラグも付ける。
 
 ## 例
 

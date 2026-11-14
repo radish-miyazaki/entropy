@@ -132,6 +132,43 @@ export default function Page() {
 
 公式ドキュメントにも、この組み合わせでモーダルを作る例がある（[Intercepting Routes: Modals](https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes#modals)）。
 
+### キーボードイベントを捉えるカスタムフック
+
+モーダルで開いた写真は、キーボードで別の写真に切り替えられる。[サンプルコード](https://github.com/practical-nextjs-book/applications/blob/main/packages/sns-web-3/src/app/_hooks/useKey.ts)では、指定したキーが押されたときにコールバックを呼ぶ[[custom-hook|カスタムフック]] `useKey` を使っている。
+
+```ts
+// useKey.ts
+import { useEffect, useRef } from "react"
+
+export function useKey(code: string, cb: (event: KeyboardEvent) => void) {
+  const cbRef = useRef(cb)
+  cbRef.current = cb
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.code === code) {
+        cbRef.current(event)
+      }
+    }
+    window.addEventListener("keydown", handleKeyPress)
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress)
+    }
+  }, [code])
+}
+```
+
+[[use-effect|useEffect]] で `window` に `keydown` のリスナを登録し、押されたキーの `event.code` が引数の `code` と一致したときだけコールバックを呼ぶ。クリーンアップ関数でリスナを外すので、コンポーネントがアンマウントされるとリスナも消える。
+
+コールバックはレンダリングのたびに [[use-ref|useRef]] の `cbRef.current` へ入れ直し、依存配列には `code` だけを渡している。コールバックが作り直されてもリスナは登録し直されず、呼ばれるのは常に最新のコールバックになる。
+
+使うときは、キーのコードとコールバックを渡す。次は、左矢印キーで前の写真のモーダルに移動する例である。
+
+```ts
+useKey("ArrowLeft", () => {
+  router.replace(`/photos/${prevPhotoId}/view`, { scroll: false })
+})
+```
+
 ## キーワード
 
 - [[nextjs|Next.js]]
@@ -139,6 +176,9 @@ export default function Page() {
 - [[intercepting-routes|Intercepting Routes]]
 - [[route-segment|Route Segment]]
 - [[client-component|Client Component]]
+- [[custom-hook|カスタムフック]]
+- [[use-ref|useRef]]
+- [[use-effect|useEffect]]
 
 %%
 

@@ -18,7 +18,7 @@ chapter: 14
 
 [[javascript|JavaScript]] のプリミティブはイミュータブルだが、配列やオブジェクトはミュータブルである。[[typescript|TypeScript]] では、プロパティに `readonly` 修飾子を付けると、そのプロパティの変更を型チェックで防げる。[`Readonly`](https://www.typescriptlang.org/docs/handbook/utility-types.html#readonlytype) [[utility-types|ユーティリティ型]]を使うと、すべてのプロパティに `readonly` を付けられる。
 
-そのため、関数がオブジェクトを引数として受け取り、それを変更しないなら、その型を `Readonly` で包むとよい。関数の契約が明確になり、実装での不用意な変更を防げる。具体的には、引数が関数本体で変更されないことを TypeScript がチェックする。呼び出し元には、関数が引数を変更しないことが伝わる。呼び出し元は、`readonly` や `Readonly` のオブジェクトを関数に渡せるようになる。
+そのため、関数がオブジェクトを引数として受け取り、それを変更しないなら、その型を `Readonly` で包むとよい。関数の契約が明確になり、実装での不用意な変更を防げる。具体的には、引数が関数本体で変更されないことを TypeScript がチェックする。呼び出し元には関数が引数を変更しないことが伝わり、呼び出し元は `readonly` や `Readonly` のオブジェクトを関数に渡せるようになる。
 
 ### readonly は伝染する
 

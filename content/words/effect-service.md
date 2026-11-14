@@ -2,7 +2,7 @@
 title: Effect Service
 aliases: []
 description: 型安全な依存性の注入のために設計された Effect の仕組み
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

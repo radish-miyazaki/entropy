@@ -8,7 +8,7 @@ date: 2023-12-16
 
 ## TL;DR
 
-不明瞭さ（obscurity）とは、システムに関する重要な情報が、新しい開発者にとって明白でないことである。[[A Philosophy of Software Design]] では、[[dependency|依存関係]]と並ぶ[[complexity|複雑さ]]の原因とされている。
+Dictionary.com によると、英語の obscurity は一般に、意味や表現がはっきりしないこと、あいまいさを指す。[[A Philosophy of Software Design]] の定義では、不明瞭さ（obscurity）とは、システムに関する重要な情報が、新しい開発者にとって明白でないことであり、[[dependency|依存関係]]と並ぶ[[complexity|複雑さ]]の原因とされている。
 
 ## なぜ必要か
 
@@ -40,3 +40,4 @@ date: 2023-12-16
 ## 出典
 
 - [[A Philosophy of Software Design 第2章 The Nature of Complexity|A Philosophy of Software Design 第2章]]
+- [obscurity - Dictionary.com](https://www.dictionary.com/browse/obscurity)

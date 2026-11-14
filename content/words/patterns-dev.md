@@ -15,8 +15,8 @@ Web アプリケーションを作るための[[design-pattern|デザインパ�
 扱う内容は大きく次の 4 つに分かれている。
 
 - JavaScript のパターン: Singleton、Observer、Module、Factory などのパターンと、Dynamic Import、Preload、Tree Shaking などの読み込みやパフォーマンスの手法
-- [[react-patterns|React Patterns]]: [[react|React]] と [[nextjs|Next.js]] での Hooks、Compound、Server-side Rendering、Static Rendering、React Server Components など
-- [[vue-patterns|Vue Patterns]]: コンポーネント、Composables、状態管理など
+- [[React Patterns - patterns.dev|React Patterns]]: [[react|React]] と [[nextjs|Next.js]] での Hooks、Compound、Server-side Rendering、Static Rendering、React Server Components など
+- [[Vue Patterns - patterns.dev|Vue Patterns]]: コンポーネント、Composables、状態管理など
 - レンダリングとパフォーマンス: クライアントサイド、サーバーサイド、静的、インクリメンタルな静的レンダリングと、読み込みの最適化
 
 ## 注意点
@@ -32,8 +32,8 @@ Web アプリケーションを作るための[[design-pattern|デザインパ�
 
 ## 関連
 
-- [[react-patterns|React Patterns]]
-- [[vue-patterns|Vue Patterns]]
+- [[React Patterns - patterns.dev|React Patterns]]
+- [[Vue Patterns - patterns.dev|Vue Patterns]]
 - [[design-pattern|デザインパターン]]
 
 ## 出典

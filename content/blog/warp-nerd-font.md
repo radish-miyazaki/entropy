@@ -8,11 +8,11 @@ draft: false
 
 ## TL;DR
 
-- [[warp|Warp]] で [[nerd-fonts|Nerd Fonts]] を使うには、Font Book でフォントを「すべてのユーザー」にインストールしておく必要がある。
+- [[warp|Warp]] で Nerd Fonts を使うには、Font Book でフォントを「すべてのユーザー」にインストールしておく必要がある。
 
 ## 背景
 
-[[rust|Rust]] で書かれた ls である [[lsd|lsd]] で、ファイルのアイコンを表示したかった。アイコンの表示には Nerd Font が必要なので、ターミナルの Warp に Nerd Font を設定した。
+[[rust|Rust]] で書かれた ls である lsd で、ファイルのアイコンを表示したかった。アイコンの表示には Nerd Font が必要なので、ターミナルの Warp に Nerd Font を設定した。
 
 ## 検証
 
@@ -27,8 +27,8 @@ draft: false
 ## キーワード
 
 - [[warp|Warp]]
-- [[nerd-fonts|Nerd Fonts]]
-- [[lsd|lsd]]
+- Nerd Fonts
+- lsd
 - [[homebrew|Homebrew]]
 
 ## 参考

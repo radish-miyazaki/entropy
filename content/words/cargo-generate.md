@@ -10,7 +10,13 @@ date: 2026-02-08
 
 既存の [[git|Git]] リポジトリをテンプレートにして、新しい [[rust|Rust]] のプロジェクトを作るツール。
 
+## なぜ必要か
+
+公式の README によると、cargo-generate は、既存の Git リポジトリをテンプレートとして使うことで、新しい Rust のプロジェクトをすぐに動かし始められるようにする開発者向けのツールである。よく使う構成をテンプレートのリポジトリにしておけば、プロジェクトを作るたびに同じ準備を繰り返さずに済む。
+
 ## 仕組み
+
+`cargo install cargo-generate --locked` でインストールする。ビルド済みのバイナリを使うなら `cargo binstall cargo-generate` でもよい。
 
 `cargo generate` にテンプレートのリポジトリを渡すと、そこから新しいプロジェクトを作る。GitHub のリポジトリは `ユーザー名/リポジトリ名` の短い形で指定できる。GitLab は `gl:`、Bitbucket は `bb:`、SourceHut は `sr:` のプレフィックスを付ける。
 
@@ -19,7 +25,7 @@ cargo generate --git https://github.com/username-on-github/mytemplate.git
 cargo generate username-on-github/mytemplate
 ```
 
-テンプレートは、GitHub で `cargo-generate` のトピックを検索すると見つかる。
+テンプレートは GitHub で `cargo-generate` のトピックを検索すると見つかる。
 
 ## 例
 

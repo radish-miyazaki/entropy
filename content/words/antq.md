@@ -24,6 +24,10 @@ clojure -Sdeps '{:deps {com.github.liquidz/antq {:mvn/version "2.11.1276"}}}' -M
 
 普段使うときは、`deps.edn` にエイリアスを追加して `clojure -M:outdated` で実行する。
 
+## 注意点
+
+`--upgrade` は対話的に更新し、`--force` を付けると確認なしで更新する。ただし Gradle のファイルは `--upgrade` に対応していない。特定のアーティファクトやバージョンを確認から外すときは `--exclude` を、特定の種類のプロジェクトファイルを探さないときは `--skip` を使う。`--focus` は `--exclude` より優先される。
+
 %%
 
 ## 自分の理解

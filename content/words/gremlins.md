@@ -12,7 +12,7 @@ date: 2026-05-19
 
 ## なぜ必要か
 
-コードを意図的に書き換え、テストがその変更を検出できるかを確かめることで、[[test-coverage|テストカバレッジ]]だけでは分からないテストの質を測れる。テストスイートの検証、[[test-driven-development|TDD]] の支援、[[continuous-integration|CI]] での品質ゲートとしての利用が想定されている。
+コードを意図的に書き換え、テストがその変更を検出できるかを確かめることで、[[code-coverage|テストカバレッジ]]だけでは分からないテストの質を測れる。テストスイートの検証、[[test-driven-development|TDD]] の支援、[[continuous-integration|CI]] での品質ゲートとしての利用が想定されている。
 
 ## 仕組み
 

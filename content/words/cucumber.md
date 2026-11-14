@@ -16,7 +16,7 @@ date: 2024-07-24
 
 ## 仕組み
 
-シナリオは [[gherkin|Gherkin]] という文法で書き、ふつうは `.feature` ファイルに置く。Gherkin は、平易な文章を Cucumber が解釈できるように構造化するための文法規則である。
+シナリオは Gherkin という文法で書き、ふつうは `.feature` ファイルに置く。Gherkin は、平易な文章を Cucumber が解釈できるように構造化するための文法規則である。
 
 シナリオの各行（ステップ）は、ステップ定義によってプログラムのコードに結び付けられる。ステップ定義は [[javascript|JavaScript]] など複数の言語で書ける。Cucumber はシナリオごとに、成功か失敗かを報告する。
 
@@ -30,7 +30,7 @@ date: 2024-07-24
 ## 関連
 
 - [[bdd|BDD]]
-- [[gherkin|Gherkin]]
+- Gherkin
 - [[rspec|RSpec]]
 
 ## 出典

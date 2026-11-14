@@ -71,7 +71,7 @@ node_modules/
 一方で、DefinitelyTyped に比べて次の不利な点がある。
 
 - バンドルした型に問題があっても、利用者が「実装にだけ依存する」選択を取れない
-- 型の依存関係を宣言できない。公開したライブラリの型が他のライブラリの型宣言に依存していると、利用者のコードで型エラーが起きる。`devDependencies` は利用者側に入らないためである（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目65 TypeScriptと@typesはdevDependenciesに追加する|項目65 TypeScriptと@typesはdevDependenciesに追加する]]）。DefinitelyTyped はこれを自動で扱う
+- 型の依存関係を宣言できない。`devDependencies` は利用者側に入らないので（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目65 TypeScriptと@typesはdevDependenciesに追加する|項目65 TypeScriptと@typesはdevDependenciesに追加する]]）、公開したライブラリの型が他のライブラリの型宣言に依存していると、利用者のコードで型エラーが起きる。DefinitelyTyped はこれを自動で扱う
 - 複数のバージョンの型宣言を同時にメンテナンスしにくい。DefinitelyTyped にはそのための仕組みがある
 - すべて自分でメンテナンスする必要がある。DefinitelyTyped のコミュニティには膨大な数のメンテナがいる
 

@@ -14,11 +14,11 @@ date: 2025-04-30
 
 主な特徴は次のとおり。
 
-- **データを最初の引数に取る**: 公式は、このほうがコードが読みやすいとしている
-- **`Option` と `Result`**: 値がないことや処理の結果を、例外に頼らずに表せる
-- **イミュータブル**: すべての関数はイミュータブルなデータを返し、副作用を持たない
-- **Tree Shaking**: 使わない関数をバンドルから除ける
-- **速さ**: ReScript で書かれており、公式のベンチマークでは lodash、[[ramda|Ramda]]、Remeda より速い
+- データを最初の引数に取る: 公式は、このほうがコードが読みやすいとしている
+- `Option` と `Result`: 値がないことや処理の結果を、例外に頼らずに表せる
+- イミュータブル: すべての関数はイミュータブルなデータを返し、副作用を持たない
+- Tree Shaking: 使わない関数をバンドルから除ける
+- 速さ: ReScript で書かれており、公式のベンチマークでは lodash、[[ramda|Ramda]]、Remeda より速い
 
 TypeScript のほかに Flow にも対応している。モジュールは Array、Boolean、Function、Guards、Number、Object（Dict）、Option、Result、String がある。
 

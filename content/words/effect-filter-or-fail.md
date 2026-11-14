@@ -2,13 +2,23 @@
 title: Effect.filterOrFail
 aliases: []
 description: 成功値が条件を満たさないとき、指定したエラーで Effect を失敗させる関数
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 
 ## TL;DR
 
 第 1 引数の[[predicate|述語関数]]が `false` を返したとき、第 2 引数で作ったエラーで元の [[effect-effect|Effect]] を失敗させる関数。
+
+## 仕組み
+
+公式ドキュメントでは、成功チャネルの値を述語で絞り込む演算子として説明している。述語を満たさない値があれば、元の `Effect` はエラーで失敗する。似た関数に次のものがあり、述語を満たさないときの振る舞いが違う。
+
+- `Effect.filterOrDie`: 元の `Effect` を異常終了させる
+- `Effect.filterOrDieMessage`: 異常終了させ、そのときのエラーメッセージを指定できる
+- `Effect.filterOrElse`: 代わりの `Effect` を実行する
+
+ユーザー定義の型ガードと組み合わせると、絞り込んだ後の値の型を狭められる。公式ドキュメントの例では、型ガードで `User | null` を `User` に絞り込んでいる。用意済みの `Predicate.isNotNull` も使える。
 
 ## 例
 

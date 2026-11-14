@@ -18,7 +18,7 @@ date: 2024-07-12
 
 Clojure 本体は JVM 上で動き、[[clojurescript|ClojureScript]] を使えば JavaScript 環境でも動く。.NET 上で動かす [ClojureCLR](https://clojure.org/about/clojureclr) も公式に提供されている。
 
-プロジェクトの構築には、[[leiningen|Leiningen]] か [[clojure-cli|Clojure CLI]] を使う。最近は Clojure CLI が使われることが多い。[[cli-new|cli-new]] を使うと、Leiningen のテンプレートから Clojure CLI のプロジェクトを作成できる。
+プロジェクトの構築には、[[leiningen|Leiningen]] か [[clojure-cli|Clojure CLI]] を使う。最近は Clojure CLI が使われることが多い。[[clj-new|cli-new]] を使うと、Leiningen のテンプレートから Clojure CLI のプロジェクトを作成できる。
 
 ## 例
 
@@ -28,7 +28,7 @@ Clojure 本体は JVM 上で動き、[[clojurescript|ClojureScript]] を使え�
 
 [[common-lisp|Common Lisp]] なども触ったが、Clojure が一番好きである。関数型であること、`let` や関数の引数の書き方など可読性が高いこと、Java や JavaScript の偉大な資産の恩恵を受けられることが理由である。
 
-Web 開発に必要なライブラリが一通りそろっていることは、学習のモチベーションを上げる上で大事である。マイグレーションまわりも言語レベルで統一したいので、[[flyway|Flyway]] は使いたくない。
+Web 開発に必要なライブラリが一通りそろっていることは、学習のモチベーションを上げる上で大事である。マイグレーションまわりも言語レベルで統一したいので、Flyway は使いたくない。
 
 ## 関連
 

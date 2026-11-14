@@ -2,7 +2,7 @@
 title: Dual API
 aliases: []
 description: 引数をまとめて渡す書き方と、部分適用する書き方の両方に対応した Effect の API
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

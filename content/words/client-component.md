@@ -39,7 +39,7 @@ export default function Counter() {
 
 ## 注意点
 
-「Client Component であれば、ファイルの先頭に `use client` がある」のではない。`use client` は境界を宣言するものである（[[use-client-boundary|use client は境界を宣言する]]）。
+「Client Component であれば、ファイルの先頭に `use client` がある」のではなく、`use client` は境界を宣言するものである（[[use-client-boundary|use client は境界を宣言する]]）。
 
 Client Component から import されるコンポーネントや関連ファイルも、ブラウザ向けにバンドルされる。
 

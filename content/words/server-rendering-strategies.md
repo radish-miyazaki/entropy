@@ -14,7 +14,7 @@ date: 2024-08-21
 
 ### Static Rendering
 
-デフォルトのレンダリング方式。ビルド時か [[revalidate|Revalidate]] 時にレンダリング結果をキャッシュファイルに出力し、Route のレスポンスとして返す。この成果物は [[cdn|CDN]] から配信できる。[[static-site-generation|SSG]] や [[incremental-static-regeneration|ISR]] から派生した機能である。
+デフォルトのレンダリング方式。ビルド時か [[revalidate|Revalidate]] 時にレンダリング結果をキャッシュファイルに出力し、Route のレスポンスとして返す。この成果物は [[cdn|CDN]] から配信できる。[[static-site-generation|SSG]] や ISR から派生した機能である。
 
 ### Dynamic Rendering
 

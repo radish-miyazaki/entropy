@@ -9,7 +9,7 @@ chapter: 4
 
 ## TL;DR
 
-- HTML をブラウザに実装するとは、HTML の文字列を[[lexical-analysis|字句解析]]でトークンに分け、[[parsing|構文解析]]で [[dom|DOM]] ツリーを組み立て、画面に描画することである。
+- HTML をブラウザに実装するとは、HTML の文字列を[[lexical-analysis|字句解析]]でトークンに分け、構文解析で [[dom|DOM]] ツリーを組み立て、画面に描画することである。
 - どちらのアルゴリズムも、HTML Living Standard で[[state-machine|ステートマシン]]として定められている。
 - [[rust|Rust]] で DOM ツリーを作るときは、[[reference-cycle|循環参照]]を避けるために `Rc` と `Weak` を使い分ける。
 
@@ -21,7 +21,7 @@ chapter: 4
 
 ### HTML の字句解析
 
-字句解析のアルゴリズムは、[HTML Living Standard 13.2.5 Tokenization](https://html.spec.whatwg.org/multipage/parsing.html#tokenization) でステートマシンとして定められている。文字列を 1 文字ずつ読み、現在の状態と次の 1 文字によって、状態の更新とトークンの生成を行う。トークンは 6 種類あるが、本書は開始タグ、終了タグ、文字、EOF の 4 種類だけを扱う。状態は 80 種類あるが、本書が扱うのは 17 種類である。
+字句解析のアルゴリズムは、[HTML Living Standard 13.2.5 Tokenization](https://html.spec.whatwg.org/multipage/parsing.html#tokenization) でステートマシンとして定められている。文字列を 1 文字ずつ読み、現在の状態と次の 1 文字によって、状態を更新し、トークンを生成する。トークンは 6 種類あるが、本書は開始タグ、終了タグ、文字、EOF の 4 種類だけを扱う。状態は 80 種類あるが、本書が扱うのは 17 種類である。
 
 初期状態の Data では、`<` を読むと Tag open に移り、それ以外の文字は文字トークンとして返す。Tag open では、`/` を読むと End tag open に移り、アルファベットを読むと開始タグトークンを作って Tag name に移る。Tag name では、アルファベットをタグ名に追加していき、`>` を読むとトークンを返して Data に戻る。ホワイトスペースを読むと属性の処理に入り、Before attribute name、Attribute name、After attribute name、Before attribute value を経て、値が `"` で囲まれているか、`'` で囲まれているか、囲まれていないかに応じた状態で属性値を読み取る。`/` を読むと Self-closing start tag に移り、続けて `>` を読むと、自己終了タグであることを示すフラグを立てた開始タグトークンを返す。`<script>` の中身は Script data から始まる 4 つの状態で扱い、`</script>` が来るまでの文字を文字トークンとして返す。
 
@@ -64,7 +64,7 @@ pub struct Node {
 - [[html|HTML]]
 - [[dom|DOM]]
 - [[lexical-analysis|字句解析]]
-- [[parsing|構文解析]]
+- 構文解析
 - [[state-machine|ステートマシン]]
 - [[reference-cycle|循環参照]]
 - [[rust|Rust]]

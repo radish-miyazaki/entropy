@@ -9,7 +9,7 @@ chapter: 1
 
 ## TL;DR
 
-- [[web-browser|ブラウザ]]のコアとなる役割は、サーバと通信するクライアント、HTML と CSS を描画する[[rendering-engine|レンダリングエンジン]]、JavaScript を実行する[[javascript-engine|JavaScript エンジン]]の 3 つである。
+- [[web-browser|ブラウザ]]のコアとなる役割は、サーバと通信するクライアント、HTML と CSS を描画するレンダリングエンジン、JavaScript を実行するJavaScript エンジンの 3 つである。
 - HTML、CSS、JavaScript はどれも、文字列をトークンに分け、木構造のデータに変換してから扱われる。
 - 現代のブラウザは、これらの機能を複数の[[process|プロセス]]に分けて動かしている。
 
@@ -36,9 +36,9 @@ interface Node : EventTarget {
 
 インタフェースは継承できる。2024 年時点で `Node` を継承するインタフェースは、`Element`、`Attr`、`Text`、`Comment`、`Document` など 9 種類ある。各タグに対応するインタフェースは `Element` を継承する。たとえば `<a>` を表す `HTMLAnchorElement` は、`HTMLElement`、`Element`、`Node` の順に継承している。
 
-[[css|CSS]] も、文字列からトークン、トークンから [[cssom|CSSOM]] へと変換される。CSS のトークンは [CSS Syntax Module Level 3](https://www.w3.org/TR/css-syntax-3/#tokenization) で 24 種類定義されており、`ident-token`、`number-token`、`{-token` などがある。CSSOM は CSS をツリーで表したデータ構造で、各ノードのスタイルや大きさ、位置を決めるのに使う。DOM ツリーのノードがすべて `Node` を実装するのに対し、CSSOM には CSS 文書のルートを表す `CSSStyleSheet` や、1 つの CSS ルールを表す `CSSStyleRule` など、さまざまな種類のノードがある。
+[[css|CSS]] も、文字列からトークン、トークンから CSSOM へと変換される。CSS のトークンは [CSS Syntax Module Level 3](https://www.w3.org/TR/css-syntax-3/#tokenization) で 24 種類定義されており、`ident-token`、`number-token`、`{-token` などがある。CSSOM は CSS をツリーで表したデータ構造で、各ノードのスタイルや大きさ、位置を決めるのに使う。DOM ツリーのノードがすべて `Node` を実装するのに対し、CSSOM には CSS 文書のルートを表す `CSSStyleSheet` や、1 つの CSS ルールを表す `CSSStyleRule` など、さまざまな種類のノードがある。
 
-ブラウザは DOM ツリーと CSSOM をもとに、[[render-tree|レイアウトツリー]]（レンダーツリー）を作る。名前はブラウザによって異なる。レイアウトツリーは、各要素の画面上の位置、幅と高さ、要素どうしの親子・兄弟関係などを決めるためのデータ構造である。
+ブラウザは DOM ツリーと CSSOM をもとに、レイアウトツリー（レンダーツリー）を作る。名前はブラウザによって異なる。レイアウトツリーは、各要素の画面上の位置、幅と高さ、要素どうしの親子・兄弟関係などを決めるためのデータ構造である。
 
 ### JavaScript を実行する JavaScript エンジン
 
@@ -61,7 +61,7 @@ AdditiveExpression :
 
 ### マルチプロセスアーキテクチャ
 
-現代のブラウザは、これらの機能を複数の[[process|プロセス]]で動かすことが多い。この設計を[[multi-process-architecture|マルチプロセスアーキテクチャ]]と呼ぶ。仕様で決まっているわけではないが、主なプロセスは 2 種類ある。データの保管やネットワーク通信を扱うブラウザプロセスと、HTML、CSS、JavaScript を解釈して描画するレンダラプロセスである。ブラウザを開くとブラウザプロセスが起動し、タブを 1 つ開くごとにレンダラプロセスが 1 つ起動する。ただし `<iframe>` を別のレンダラプロセスで実行することもあり、タブとレンダラプロセスは必ずしも 1 対 1 ではない。
+現代のブラウザは、これらの機能を複数の[[process|プロセス]]で動かすことが多い。この設計をマルチプロセスアーキテクチャと呼ぶ。仕様で決まっているわけではないが、主なプロセスは 2 種類ある。データの保管やネットワーク通信を扱うブラウザプロセスと、HTML、CSS、JavaScript を解釈して描画するレンダラプロセスである。ブラウザを開くとブラウザプロセスが起動し、タブを 1 つ開くごとにレンダラプロセスが 1 つ起動する。ただし `<iframe>` を別のレンダラプロセスで実行することもあり、タブとレンダラプロセスは必ずしも 1 対 1 ではない。
 
 プロセスを分けるのは、誰が書いたか分からない HTML や CSS、JavaScript を信用できないからである。プロセスを分けるとメモリ空間も分かれるので、重要な情報を扱うブラウザプロセスへのアクセスを防げる。
 
@@ -76,13 +76,13 @@ iOS のブラウザアプリは例外である。Apple の規約により、iOS 
 ## キーワード
 
 - [[web-browser|ブラウザ]]
-- [[rendering-engine|レンダリングエンジン]]
-- [[javascript-engine|JavaScript エンジン]]
+- レンダリングエンジン
+- JavaScript エンジン
 - [[html|HTML]]
 - [[css|CSS]]
 - [[dom|DOM]]
-- [[cssom|CSSOM]]
-- [[render-tree|レイアウトツリー]]
+- CSSOM
+- レイアウトツリー
 - [[abstract-syntax-tree|抽象構文木]]
 - [[interface-description-language|IDL]]
 - [[http|HTTP]]
@@ -93,7 +93,7 @@ iOS のブラウザアプリは例外である。Apple の規約により、iOS 
 - [[cookie|Cookie]]
 - [[local-storage|Local Storage]]
 - [[session-storage|Session Storage]]
-- [[multi-process-architecture|マルチプロセスアーキテクチャ]]
+- マルチプロセスアーキテクチャ
 - [[process|プロセス]]
 - [[thread|スレッド]]
 - [[worker-thread|ワーカースレッド]]

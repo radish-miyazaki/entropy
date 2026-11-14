@@ -10,7 +10,7 @@ chapter: 25
 ## TL;DR
 
 - [[cargo|Cargo]] は同じクレートの複数のバージョンを許すが、それらは [[semantic-versioning|SemVer]] で非互換でなければならない。依存クレートは SemVer 互換のバージョンを許す形（`"1"` や `"1.4.3"`）で指定する。
-- [[cargo-lock|Cargo.lock]] を使うとビルドが決定的になるが、ライブラリの Cargo.lock は利用者には無視される。
+- Cargo.lock を使うとビルドが決定的になるが、ライブラリの Cargo.lock は利用者には無視される。
 - 依存の問題は `cargo tree`、[[cargo-deny|cargo-deny]]、[[cargo-udeps|cargo-udeps]] で見つける。依存クレートはコードを書く時間を節約するが、コストもある。
 
 ## 内容
@@ -23,7 +23,7 @@ chapter: 25
 
 1 つ目に、クレート名にはハイフンを使える（`some-crate`）が、コードの中ではアンダースコア（`some_crate`）になる。
 
-2 つ目に、Cargo は 1 つのビルドの中で、SemVer 非互換な複数のバージョンを選ぶことがある。逆に、SemVer 互換な複数のバージョンを選ぶことはない。クレート A とその依存先 B がどちらも `some-crate = "^1.0.0"` に依存していれば、A に 1.2、B に 1.3 が選ばれることはない。Cargo は 0 でない最初の数字をメジャーバージョンとして扱うので、`"^0.1.0"` どうしでも同じである。一方、A が 3.x に、B が 1.x に依存していれば、両方がビルドに入る（[[Effective Rust 項目24 APIに型が登場する依存ライブラリは再エクスポートしよう|項目24]]）。ただし、[[ffi|FFI]] で C や C++ のコードを使っていると、複数のバージョンが問題を起こしうる。C や C++ には、関数や定数、グローバル変数の定義は 1 つしか存在できないという ODR（One Definition Rule）があるからである。
+2 つ目に、Cargo は 1 つのビルドの中で、SemVer 非互換な複数のバージョンを選ぶことがある。逆に、SemVer 互換な複数のバージョンを選ぶことはない。クレート A とその依存先 B がどちらも `some-crate = "^1.0.0"` に依存していれば、A に 1.2、B に 1.3 が選ばれることはない。Cargo は 0 でない最初の数字をメジャーバージョンとして扱うので、`"^0.1.0"` どうしでも同じである。一方、A が 3.x に、B が 1.x に依存していれば、両方がビルドに入る（[[Effective Rust 項目24 APIに型が登場する依存ライブラリは再エクスポートしよう|項目24]]）。ただし、C や C++ には、関数や定数、グローバル変数の定義は 1 つしか存在できないという ODR（One Definition Rule）があるので、[[ffi|FFI]] で C や C++ のコードを使っていると、複数のバージョンが問題を起こしうる。
 
 3 つ目は[[feature-unification|フィーチャ統合]]である。ある依存クレートで有効になるフィーチャは、[[dependency-graph|依存グラフ]]全体で指定されたフィーチャの和集合になる（[[Effective Rust 項目26 忍び寄るフィーチャに注意しよう|項目26]]）。
 
@@ -71,7 +71,7 @@ Cargo.lock をバージョン管理するなら、[[dependabot|Dependabot]] な�
 - [[semantic-versioning|セマンティックバージョニング]]
 - [[dependency-graph|依存グラフ]]
 - [[feature-unification|フィーチャ統合]]
-- [[cargo-lock|Cargo.lock]]
+- Cargo.lock
 - [[cargo-toml|Cargo.toml]]
 - [[golden-mean|中庸]]
 - [[cargo-udeps|cargo-udeps]]

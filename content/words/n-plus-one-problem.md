@@ -30,7 +30,7 @@ const userIds = users.map((user) => user.id)
 const posts = await getPostsByUserIds(userIds)
 ```
 
-[[graphql|GraphQL]] では、[[graphql-resolver|Resolver]] がフィールドごとに実行されるので N+1 問題が起きやすい。一般には [[dataloader|DataLoader]] を使って避ける（[[graphql-n-plus-one|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]）。
+[[graphql|GraphQL]] では、[[graphql-resolver|Resolver]] がフィールドごとに実行されるので N+1 問題が起きやすい。一般には [[dataloader|DataLoader]] を使って避ける（[[GraphQL における N+1 問題の発生しやすさはデメリットなのか|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]）。
 
 ## 自分の理解
 
@@ -38,6 +38,6 @@ const posts = await getPostsByUserIds(userIds)
 
 ## 関連
 
-- [[graphql-n-plus-one|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]
+- [[GraphQL における N+1 問題の発生しやすさはデメリットなのか|GraphQL における N+1 問題の発生しやすさはデメリットなのか]]
 - [[dataloader|DataLoader]]
 - [[eager-load-vs-preload|eager_load と preload の使い分け]]

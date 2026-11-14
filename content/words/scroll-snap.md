@@ -14,9 +14,26 @@ date: 2026-07-03
 
 カルーセルやスライドを Web ブラウザで見せるときに役に立つ。
 
+## 仕組み
+
+スクロールコンテナに `scroll-snap-type` を指定して、スナップする軸（`x`、`y`、`block`、`inline`、`both`）と厳しさを決める。`mandatory` では、スクロールしていないときは必ずスナップ位置に合わせる。`proximity` では、スナップするかどうかをブラウザがスクロールの状況から決める。軸だけを指定したときは `proximity` になる。子要素には `scroll-snap-align` で、どの端を揃えるかを指定する。
+
 ## 例
 
 `scroll-snap-type` プロパティの MDN のページにあるサンプルが分かりやすい。
+
+```css
+#example-element {
+  overflow-x: scroll;
+  display: flex;
+  scroll-snap-type: x mandatory;
+}
+
+#example-element > div {
+  flex: 0 0 250px;
+  scroll-snap-align: start;
+}
+```
 
 %%
 

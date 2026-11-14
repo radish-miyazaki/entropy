@@ -10,7 +10,7 @@ chapter: 4
 ## TL;DR
 
 - アプリケーションは OpenTelemetry API で計装し、その呼び出しを OpenTelemetry SDK が処理する。
-- 集めたテレメトリは、[[otlp|OTLP]] と [[opentelemetry-collector|OpenTelemetry Collector]] からなるパイプラインで解析ツールに送る。長期ストレージや分析、GUI は OpenTelemetry に含まれない。
+- 集めたテレメトリは、OTLP と OpenTelemetry Collector からなるパイプラインで解析ツールに送る。長期ストレージや分析、GUI は OpenTelemetry に含まれない。
 
 ## 内容
 
@@ -32,7 +32,7 @@ OpenTelemetry は [[kubernetes|Kubernetes]] や他のクラウドサービスに
 
 アプリケーションやインフラストラクチャから集めたテレメトリは、保存や分析のためにオブザーバビリティツールに送る必要がある。しかし、特に大規模な分散システムでは問題が起きやすい。負荷の高いシステムではテレメトリの量が膨大になり、エグレス、負荷分散、バックプレッシャといったネットワークの問題が大きくなる。また、古いシステムではオブザーバビリティツールが継ぎはぎで配置されていることが多く、さまざまなデータ処理の要件を抱えながら、大量のテレメトリを処理してさまざまな場所に転送しなければならない。
 
-OpenTelemetry は、これを解消するための主要なコンポーネントとして、[[otlp|OTLP]]（OpenTelemetry Protocol）と [[opentelemetry-collector|OpenTelemetry Collector]] の 2 つを持っている。
+OpenTelemetry は、これを解消するための主要なコンポーネントとして、OTLP（OpenTelemetry Protocol）と OpenTelemetry Collector の 2 つを持っている。
 
 ### OpenTelemetry に含まれないもの
 
@@ -46,8 +46,8 @@ OpenTelemetry の動作を試せるデモとして、[OpenTelemetry Demo](https:
 
 - [[opentelemetry|OpenTelemetry]]
 - [[telemetry|テレメトリ]]
-- [[otlp|OTLP]]
-- [[opentelemetry-collector|OpenTelemetry Collector]]
+- OTLP
+- OpenTelemetry Collector
 - [[kubernetes|Kubernetes]]
 - [[observability|オブザーバビリティ]]
 

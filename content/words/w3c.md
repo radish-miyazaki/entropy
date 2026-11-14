@@ -8,12 +8,20 @@ date: 2024-11-05
 
 ## TL;DR
 
-Web に関する標準化を行う非営利団体。主に、[[web-browser|ブラウザ]]に特化した機能の仕様を策定している。
+Web に関する標準化を行う非営利団体。主に、[[web-browser|ブラウザ]]に特化した機能の仕様を策定している。1994 年に Tim Berners-Lee が創設した。
+
+## なぜ必要か
+
+Wikipedia によると、W3C は業界の会員が新しい標準に合意し、互換性を確保することを目的に生まれた。Web の長期的な成長を支えるプロトコルやガイドラインを開発している。
+
+## 仕組み
+
+W3C の仕様は、作業草案（Working Draft）、勧告候補（Candidate Recommendation）、勧告案（Proposed Recommendation）などの段階を経て、W3C 勧告（W3C Recommendation）になる。[[html|HTML]] のほか、[[css|CSS]]、[[dom|DOM]]、[[xml|XML]]、SVG、WCAG などを策定してきた。
 
 ## 例
 
 - [[html|HTML]] の仕様
-- [[server-sent-events|Server-Sent Events]] や [[websocket|WebSocket]] のように、[[javascript|JavaScript]] から使うことを前提とした、HTML を拡張するプロトコル
+- Server-Sent Events や [[websocket|WebSocket]] のように、[[javascript|JavaScript]] から使うことを前提とした、HTML を拡張するプロトコル
 
 ## 注意点
 
@@ -34,3 +42,4 @@ Web に関する標準化を行う非営利団体。主に、[[web-browser|ブ�
 ## 出典
 
 - [W3C](https://www.w3.org/)
+- [World Wide Web Consortium - Wikipedia](https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium)

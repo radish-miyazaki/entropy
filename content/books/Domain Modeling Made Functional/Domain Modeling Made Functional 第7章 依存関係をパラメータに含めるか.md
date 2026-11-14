@@ -46,7 +46,7 @@ type PriceOrder =
 
 どちらの方法でもよいが、次の指針に従うとよい。
 
-- **公開する関数では、依存関係を隠す。** たとえばワークフローを表す型は `type PlaceOrderWorkflow = PriceOrder -> AsyncResult<PlaceOrderEvent list, PlaceOrderError>` とする。呼び出し側は依存関係を知る必要がないからである（[[A Philosophy of Software Design 第4章 Modules Should Be Deep|A Philosophy of Software Design 第4章]]）。
+- **公開する関数では、依存関係を隠す。** 呼び出し側は依存関係を知る必要がないので、たとえばワークフローを表す型は `type PlaceOrderWorkflow = PriceOrder -> AsyncResult<PlaceOrderEvent list, PlaceOrderError>` とする（[[A Philosophy of Software Design 第4章 Modules Should Be Deep|A Philosophy of Software Design 第4章]]）。
 - **内部で使う関数では、依存関係を明示する。** たとえば `ValidateOrder` や `PriceOrder` のようなステップの型である。こうすると、各ステップが実際に必要とするものを文書化できる。また、あるステップの依存関係が変わったときは、そのステップの関数の型を変え、それに合わせて実装も変えることになる。
 
 ## キーワード

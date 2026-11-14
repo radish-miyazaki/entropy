@@ -20,7 +20,7 @@ D のコンパイラは `a.bar()` という記述を見つけると、まず `ba
 
 ## 例
 
-[[dlang|D]] や [[nim|Nim]] が UFCS を採用している。D では、引数のない関数呼び出しの括弧を省略することもできる。
+[[dlang|D]] や Nim が UFCS を採用している。D では、引数のない関数呼び出しの括弧を省略することもできる。
 
 ```d
 import std.uni : toLower;
@@ -41,7 +41,7 @@ import std.range : chain, retro, front, dropOne;
 
 ## 関連
 
-- [[dlang-tour|DLang Tour]]
+- [[DLang Tour|DLang Tour]]
 - [Uniform Function Call Syntax - mrsekut-p](https://scrapbox.io/mrsekut-p/Uniform_Function_Call_Syntax)
 
 ## 出典

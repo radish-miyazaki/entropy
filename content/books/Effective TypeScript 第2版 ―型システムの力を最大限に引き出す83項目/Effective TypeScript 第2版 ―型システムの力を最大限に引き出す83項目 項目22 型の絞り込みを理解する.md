@@ -10,7 +10,7 @@ chapter: 22
 ## TL;DR
 
 - [[typescript|TypeScript]] は、条件分岐や早期 `return` などの制御フローをもとに[[type-narrowing|型を絞り込む]]。
-- [[tagged-union|タグ付きユニオン]]や[[type-guard|ユーザ定義型ガード]]を使うと、絞り込みを助けられる。ただし明示的な型ガードは安全ではない。
+- [[discriminated-union|タグ付きユニオン]]や[[user-defined-type-guard|ユーザ定義型ガード]]を使うと、絞り込みを助けられる。ただし明示的な型ガードは安全ではない。
 - 型と格闘していると気づいたら、TypeScript が追いやすいコードにリファクタリングできないか考える。
 
 ## 内容
@@ -107,7 +107,7 @@ const formInputEls = [...formEls].filter(isInputElement)
 
 ### ユーザ定義型ガードの注意点
 
-明示的なユーザ定義型ガードは、[[type-assertion|型アサーション]]と同じく安全ではない。型ガードの本体が型述語と正しく対応しているかを、誰もチェックしないからである。
+型ガードの本体が型述語と正しく対応しているかを誰もチェックしないので、明示的なユーザ定義型ガードは、[[type-assertion|型アサーション]]と同じく安全ではない。
 
 一方、[TypeScript 5.5 で導入された型述語の推論](https://devblogs.microsoft.com/typescript/announcing-typescript-5-5/#inferred-type-predicates)は安全である。関数が次の条件をすべて満たすと、型述語が推論される。
 
@@ -162,8 +162,8 @@ obj.value = "Cookie Monster"
 
 - [[typescript|TypeScript]]
 - [[type-narrowing|型の絞り込み]]
-- [[tagged-union|タグ付きユニオン]]
-- [[type-guard|型ガード]]
+- [[discriminated-union|タグ付きユニオン]]
+- [[user-defined-type-guard|型ガード]]
 - [[type-assertion|型アサーション]]
 - [[refactoring|リファクタリング]]
 

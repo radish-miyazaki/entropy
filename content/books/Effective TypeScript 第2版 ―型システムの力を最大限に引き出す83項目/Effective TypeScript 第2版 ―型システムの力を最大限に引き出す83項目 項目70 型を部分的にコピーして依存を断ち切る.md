@@ -37,7 +37,7 @@ function parseCSV(contents: string | Buffer): { [column: string]: string }[] {
 Cannot find module 'node:buffer' or its corresponding type declarations.
 ```
 
-`@types/node` を `devDependencies` に入れているためである。`dependencies` に移せばエラーは消えるが、別の問題が起きるので避けたほうがよい。実行時には不要な 10 万行近いコードをインストールさせることになるうえ、そもそも Node.js を使う TypeScript の利用者以外には要らないからである。
+`@types/node` を `devDependencies` に入れているので、このエラーが出る。`dependencies` に移せばエラーは消えるが、別の問題が起きる。実行時には不要な 10 万行近いコードをインストールさせることになるうえ、そもそも Node.js を使う TypeScript の利用者以外には要らないので、避けたほうがよい。
 
 ### 必要な部分だけをコピーする
 

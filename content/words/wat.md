@@ -16,7 +16,7 @@ WASM ファイルはバイナリなので、そのままでは人間が読めな
 
 ## 仕組み
 
-WAT は [[lisp|Lisp]] と同じように [[s-expression|S 式]]で書く。たとえば `(type (;1;) (func (param i32)))` は、`(func (param i32))` という型に `;1;` という名前を付けている。
+WAT は [[lisp|Lisp]] と同じように S 式で書く。たとえば `(type (;1;) (func (param i32)))` は、`(func (param i32))` という型に `;1;` という名前を付けている。
 
 ```wat
 (module $hello_world-e14b9d39b15f9b16.wasm

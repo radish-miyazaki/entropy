@@ -14,6 +14,10 @@ date: 2024-10-22
 
 ソースコードは [[wasmtime|Wasmtime]] と同じリポジトリで管理されている。
 
+docs.rs のドキュメントによると、このクレートは複数のバージョンの WASI を Wasmtime のホスト側で実装したもので、[[tokio|Tokio]] とクレート独自の実装を組み合わせている。各操作は、デフォルトではプラットフォームのネイティブな機能で実装される。コアモジュール向けの WASIp1（`wasi_snapshot_preview1`）は `p1` モジュールで、Component 向けの WASIp2 は `p2` モジュールで提供される。WASIp3 の対応は実験的で、まだ不完全である。
+
+主な型として、WASI の実装に必要な状態を `Store` ごとに持つ `WasiCtx`、それを作る `WasiCtxBuilder`、埋め込み側の型から `WasiCtx` を取り出すトレイト `WasiView` がある。
+
 %%
 
 ## 自分の理解

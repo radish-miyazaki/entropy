@@ -8,7 +8,7 @@ date: 2024-08-20
 
 ## TL;DR
 
-[[javascript|JavaScript]] の `this` は、関数がどのように呼ばれたかで決まる値である。トップレベルではグローバルオブジェクト、メソッドではレシーバのオブジェクトを指す。関数の中では [[strict-mode|strict モード]]かどうかで変わる。
+[[javascript|JavaScript]] の `this` は、関数がどのように呼ばれたかで決まる値である。トップレベルではグローバルオブジェクト、メソッドではレシーバのオブジェクトを指す。関数の中では strict モードかどうかで変わる。
 
 ## 仕組み
 
@@ -114,7 +114,7 @@ new Example() // ['constructor', 'first', 'second']
 ## 関連
 
 - [[arrow-function|アロー関数]]
-- [[strict-mode|strict モード]]
+- strict モード
 
 ## 出典
 

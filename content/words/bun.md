@@ -24,19 +24,19 @@ Node.js の代わりに動くので、`node`、`npx`、`dotenv`、`cross-env`、
 
 ### トランスパイラ
 
-`.js`、`.ts`、`.cjs`、`.mjs`、`.jsx`、`.tsx` のファイルを直接実行できる。このため、[[babel|Babel]]、`ts-node`、`ts-node-esm`、tsx が不要になる。
+`.js`、`.ts`、`.cjs`、`.mjs`、`.jsx`、`.tsx` のファイルを直接実行できるので、[[babel|Babel]]、`ts-node`、`ts-node-esm`、tsx が不要になる。
 
 ### バンドラ
 
-esbuild と互換性のあるプラグイン API を提供している。このため、esbuild、webpack、Parcel、Rollup が不要になる。
+esbuild と互換性のあるプラグイン API を提供しているので、esbuild、webpack、Parcel、Rollup が不要になる。
 
 ### パッケージマネージャ
 
-npm と互換性があり、`package.json` を読み取って `node_modules` に書き込む。このため、npm、Yarn、pnpm、Lerna が不要になる。
+npm と互換性があり、`package.json` を読み取って `node_modules` に書き込むので、npm、Yarn、pnpm、Lerna が不要になる。
 
 ### テストランナー
 
-[[jest|Jest]] と互換性のあるテストランナーで、[[snapshot-testing|スナップショットテスト]]、モック、コードカバレッジをサポートしている。このため、Jest や [[vitest|Vitest]]、`ts-jest` などの関連パッケージが不要になる。
+[[jest|Jest]] と互換性のあるテストランナーで、[[snapshot-testing|スナップショットテスト]]、モック、コードカバレッジをサポートしているので、Jest や [[vitest|Vitest]]、`ts-jest` などの関連パッケージが不要になる。
 
 ## 注意点
 

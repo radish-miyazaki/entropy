@@ -16,7 +16,17 @@ Uber 社内の [[go|Go]] のコードで使われているパターンと規約�
 
 ## 仕組み
 
-ガイドは、Guidelines、Performance、Style、Patterns、Linting の節に分かれている。
+ガイドは、Guidelines、Performance、Style、Patterns、Linting の節に分かれている。もとは Prashant Varanasi と Simon Newton が、同僚が Go を学ぶ助けとして書いたもので、フィードバックを受けて改訂されてきた。Effective Go、Go Common Mistakes、Go Code Review Comments を土台にしている。
+
+## 例
+
+ガイドには、たとえば次のような規約がある。
+
+- インタフェースへのポインタはほぼ使わない。インタフェースは値として渡す（Pointers to Interfaces）
+- `var _ http.Handler = (*Handler)(nil)` のように書き、型がインタフェースを満たすことをコンパイル時に確かめる（Verify Interface Compliance）
+- エラーは一度だけ処理する。ログに出したうえで返すと、呼び出し元でも同じことが起き、ログが重複する（Handle Errors Once）
+- 本番のコードでは [[panic|panic]] を避け、エラーを返して呼び出し側に処理を任せる（Don't Panic）
+- 値と文字列の変換には `fmt` より速い `strconv` を使う（Prefer strconv over fmt）
 
 %%
 

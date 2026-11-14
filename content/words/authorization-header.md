@@ -14,9 +14,13 @@ date: 2024-11-05
 
 [[rfc|RFC]] で、Basic、Digest、Bearer といった標準的な形式が定められている。
 
+RFC 9110 によると、Authorization はユーザエージェントがオリジンサーバに自分を認証させるためのヘッダで、多くは 401（Unauthorized）の[[status-code|ステータスコード]]を受け取った後に送る。値は、要求するリソースの realm に対するユーザエージェントの認証情報（credentials）である。ある realm で認証されると、認証方式が別の扱いを求めない限り、同じ realm への他のリクエストでも同じ認証情報が有効とみなされる。
+
 ## 注意点
 
 [[aws|AWS]] や [[github|GitHub]] の API のように、Web サービス独自の書き方を求められることもある。
+
+リクエストを転送するプロキシは、Authorization ヘッダを書き換えてはならない。
 
 %%
 
@@ -34,3 +38,4 @@ date: 2024-11-05
 
 - [Authorization - HTTP | MDN](https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Authorization)
 - [HTTP Request fields - W3C](https://www.w3.org/Protocols/HTTP/HTRQ_Headers.html#z9)
+- [RFC 9110 11.6.2 Authorization](https://datatracker.ietf.org/doc/html/rfc9110#name-authorization)

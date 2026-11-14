@@ -1,0 +1,41 @@
+---
+title: RSpecについて最近話したことと自分のスタンス
+description: perform_later で非同期に実行されるジョブの副作用を RSpec で確かめたいときは、ActiveJob::TestHelper の perform_enqueued_jobs を使う
+tags: [article, ruby, rspec]
+date: 2023-11-30
+article-authors: []
+site:
+published:
+url: https://uvb-76.hatenablog.com/entry/2022/02/18/082114
+---
+
+## TL;DR
+
+- [[rspec|RSpec]] で `FooJob.perform_later` が非同期で起こす副作用を確かめたいときは、`perform_enqueued_jobs` を使う。
+- `perform_enqueued_jobs` は RSpec ではなく、[[active-job|Active Job]] の `ActiveJob::TestHelper` が提供するメソッドである。
+
+## 内容
+
+あるクラスの処理の中で、`FooJob.perform_later` によってジョブを非同期に実行することがある。そのままテストを実行すると、RSpec は非同期で実行されたジョブの完了を待たないので、期待した結果が返ってこない。記事には次のように書かれている。
+
+> 何らかのクラスの処理の中で `FooJob.perform_later` が非同期で起こす副作用を確認したいこともあるかもしれない。
+> そのまま実行しても非同期で実行されたジョブはRSpecがその処理を待ってくれず、期待した結果が返ってこない。
+> その時は `perform_enqueued_jobs` を使うと良い。RSpecではなく、`ActiveJob::TestHelper` のメソッドである。
+
+## キーワード
+
+- [[ruby|Ruby]]
+- [[rspec|RSpec]]
+- [[ruby-on-rails|Ruby on Rails]]
+- [[active-job|Active Job]]
+
+%%
+
+## 自分の理解
+
+同意できる点、疑問に思った点、試してみたいこと。書くときはこのコメントを外す
+%%
+
+## 関連
+
+- [[rails-perform-enqueued-jobs-in-test|Rails の Controller 内でエンキューしたジョブをテストでのみ即時実行する]]

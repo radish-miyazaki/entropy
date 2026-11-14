@@ -14,7 +14,7 @@ date: 2024-09-24
 
 Juniper は GraphQL の仕様（October 2021）のクエリ言語をすべてサポートしており、インタフェース、ユニオン、イントロスペクション、バリデーションも扱える。定義したスキーマを GraphQL Schema Language として出力することもできる。
 
-Juniper 自体は Web サーバを含まない。そのため、既存のサーバに組み込んで使う。Actix、Hyper、Rocket、Warp、axum との統合が用意されている。シリアライズ形式や通信手段にも依存しない。
+Juniper 自体は Web サーバを含まないので、既存のサーバに組み込んで使う。Actix、Hyper、Rocket、Warp、axum との統合が用意されている。シリアライズ形式や通信手段にも依存しない。
 
 型はデフォルトで non-null になる。たとえば `Vec<Episode>` は `[Episode!]!` になる。
 

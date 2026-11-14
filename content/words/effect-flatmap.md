@@ -2,7 +2,7 @@
 title: Effect.flatMap
 aliases: []
 description: Effect の成功値を取り出して次の Effect に渡し、複数の Effect を合成する関数
-tags: [word, effect（typescript）, typescript]
+tags: [word, effect, typescript]
 date: 2025-05-30
 ---
 

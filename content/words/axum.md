@@ -12,7 +12,7 @@ date: 2024-10-06
 
 ## 仕組み
 
-axum 自身はルータとハンドラしか持たないので、HTTP サーバの構築に必要なそれ以外の機能は、[[hyper]]、[[tower]]、[[tokio|tokio]] といった外部の[[rust-crate|クレート]]に任せている。
+axum 自身はルータとハンドラしか持たないので、HTTP サーバの構築に必要なそれ以外の機能は、[[hyper]]、[[tower]]、[[tokio|tokio]] といった外部の[[crate|クレート]]に任せている。
 
 axum の構成要素は、すべて `tower::Service` として定義されている。axum 固有の機能であるルータは `tower::Service` トレイトを実装しており、`tower::Layer` として管理される。ハンドラも `tower::Service` に変換できる。
 

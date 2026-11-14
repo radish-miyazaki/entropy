@@ -8,7 +8,7 @@ date: 2025-03-17
 
 ## TL;DR
 
-[[llm|LLM]] を使う AI アプリケーションを、外部のデータソースやツールにつなぐためのオープンな標準。MCP と略す。公式ドキュメントは「AI アプリケーションのための USB-C ポート」にたとえている。
+[[large-language-model|LLM]] を使う AI アプリケーションを、外部のデータソースやツールにつなぐためのオープンな標準。MCP と略す。公式ドキュメントは「AI アプリケーションのための USB-C ポート」にたとえている。
 
 ## なぜ必要か
 
@@ -32,7 +32,7 @@ MCP クライアントには Claude Desktop、Cline、[[zed|Zed]]、[[visual-stu
 
 ## 自分の理解
 
-[[langchain|LangChain]] の Agent で使える tools の共通プロトコル、というイメージで捉えている。Function calling との違いは、[こちらの記事](https://qiita.com/7shi/items/e27866ce51c6b9a0f605)が参考になる。
+LangChain の Agent で使える tools の共通プロトコル、というイメージで捉えている。Function calling との違いは、[こちらの記事](https://qiita.com/7shi/items/e27866ce51c6b9a0f605)が参考になる。
 
 [[language-server-protocol|LSP]] に似ていると思う。LSP ではサーバに対して [[visual-studio-code|Visual Studio Code]] や Emacs がクライアントになるように、MCP ではサーバに対して Claude Desktop などがクライアントになる。
 
@@ -40,7 +40,7 @@ MCP クライアントには Claude Desktop、Cline、[[zed|Zed]]、[[visual-stu
 
 - [[language-server-protocol|LSP]]
 - [[mastra|Mastra]]
-- [[llm|LLM]]
+- [[large-language-model|LLM]]
 
 ## 出典
 

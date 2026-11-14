@@ -21,13 +21,13 @@ chapter: 33
 
 ### core
 
-制限の強いプラットフォームでも、`Option` や `Result` のような標準ライブラリの基本的な型は使える。名前は `core::` から始まるが、`std::` の型と同じように動く。`std::` の型は `core::` の型を再エクスポートしたものだからである。`no_std` の環境では、これらを明示的に `use` する。`core` はヒープにメモリを確保しないので、ベクタやマップ、セットは提供しない。
+制限の強いプラットフォームでも、`Option` や `Result` のような標準ライブラリの基本的な型は使える。名前は `core::` から始まるが、`std::` の型は `core::` の型を再エクスポートしたものなので、`std::` の型と同じように動く。`no_std` の環境では、これらを明示的に `use` する。`core` はヒープにメモリを確保しないので、ベクタやマップ、セットは提供しない。
 
 ### alloc
 
 `alloc` は、ヒープへのメモリ確保を使う機能を提供するクレートである。`core` と同じく、`std::vec::Vec` は `alloc::vec::Vec` を再エクスポートしたものである。`no_std` のクレートで使うときは、`extern crate alloc;` と書く。`Box`、`Rc`、`Arc`、`Vec`、`String`、`format!`、`BTreeMap`、`BTreeSet` などが使える。
 
-ただし、`HashMap` と `HashSet` はない。ハッシュ衝突攻撃を防ぐために乱数のシードを使っていて、安全な乱数の生成には OS が必要だからである。代わりに `BTreeMap` や `BTreeSet` を使う。`std::sync::Mutex` などの同期機構もない。OS 固有の[[synchronization-primitive|同期プリミティブ]]に頼っているからである。no_std でスレッドセーフなコードを書くなら、[spin-rs](https://github.com/mvdnes/spin-rs) などのサードパーティのライブラリを使う。
+ただし、`HashMap` と `HashSet` はハッシュ衝突攻撃を防ぐために乱数のシードを使っていて、安全な乱数の生成には OS が必要なので、使えない。代わりに `BTreeMap` や `BTreeSet` を使う。`std::sync::Mutex` などの同期機構も、OS 固有の[[synchronization-primitive|同期プリミティブ]]に頼っているので、使えない。no_std でスレッドセーフなコードを書くなら、[spin-rs](https://github.com/mvdnes/spin-rs) などのサードパーティのライブラリを使う。
 
 ### no_std に向けてコードを書く
 
@@ -42,7 +42,7 @@ chapter: 33
 extern crate alloc;
 ```
 
-フィーチャは加法的にする（[[Effective Rust 項目26 忍び寄るフィーチャに注意しよう|項目26]]）。ある利用者が `std` なしで使っても、別の依存ライブラリが同じクレートを `std` 付きで使えば、[[feature-unification|フィーチャ統合]]で両方が有効になるからである。CI ではフィーチャのすべての組み合わせをビルドしよう。
+ある利用者が `std` なしで使っても、別の依存ライブラリが同じクレートを `std` 付きで使えば、[[feature-unification|フィーチャ統合]]で両方が有効になるので、フィーチャは加法的にする（[[Effective Rust 項目26 忍び寄るフィーチャに注意しよう|項目26]]）。CI ではフィーチャのすべての組み合わせをビルドしよう。
 
 ### 失敗しうるメモリ確保
 

@@ -18,6 +18,27 @@ gRPC Web では、ブラウザから gRPC を使うために Envoy などのプ�
 
 gRPC、gRPC Web、Connect の 3 つのプロトコルをサポートする、マルチプロトコルのライブラリである。対応している言語は [[go|Go]]、Node.js（[[javascript|JavaScript]]、[[typescript|TypeScript]]）、Swift、[[kotlin|Kotlin]] である。
 
+Connect プロトコルは [[http|HTTP]] の上で動く RPC のプロトコルで、特定の HTTP バージョンに固有のフレーミングに依存しない。単項（リクエストとレスポンスが 1 つずつ）の RPC は、`/package.Service/Method` の形のパスへの POST リクエストで呼び出す。ボディは gRPC のようなバイナリのフレーミングを使わず、Protobuf か [[json|JSON]] のメッセージをそのまま入れる。双方向ストリーミングには [[http2|HTTP/2]] が必要だが、それ以外の RPC は [[http-1-1|HTTP/1.1]] でも使える。
+
+## 例
+
+公式ドキュメントでは、単項 RPC のやり取りを次のように示している。
+
+```http
+POST /connectrpc.greet.v1.GreetService/Greet HTTP/1.1
+Host: demo.connectrpc.com
+Content-Type: application/json
+
+{"name": "Buf"}
+```
+
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"greeting": "Hello, Buf!"}
+```
+
 %%
 
 ## 自分の理解
@@ -36,3 +57,4 @@ gRPC、gRPC Web、Connect の 3 つのプロトコルをサポートする、マ
 
 - [Connect](https://connectrpc.com/)
 - [Introduction - Connect](https://connectrpc.com/docs/introduction)
+- [Connect Protocol Reference](https://connectrpc.com/docs/protocol)

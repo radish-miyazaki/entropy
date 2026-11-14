@@ -8,7 +8,7 @@ date: 2025-08-01
 
 ## TL;DR
 
-Google のメンバーが 2025 年 7 月に発表した、[[deep-research|Deep Research]] の精度を上げるための手法。ユーザの質問に対してまず回答の下書きを作り、それを最大 20 回ブラッシュアップする。この改良の過程を Diffusion（拡散）と呼んでいる。
+Google のメンバーが 2025 年 7 月に発表した、Deep Research の精度を上げるための手法。ユーザの質問に対してまず回答の下書きを作り、それを最大 20 回ブラッシュアップする。この改良の過程を Diffusion（拡散）と呼んでいる。
 
 ## なぜ必要か
 
@@ -34,8 +34,8 @@ Google のメンバーが 2025 年 7 月に発表した、[[deep-research|Deep R
 
 ## 関連
 
-- [[deep-research|Deep Research]]
-- [[llm|LLM]]
+- Deep Research
+- [[large-language-model|LLM]]
 
 ## 出典
 

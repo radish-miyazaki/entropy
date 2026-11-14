@@ -9,7 +9,7 @@ chapter: 57
 
 ## TL;DR
 
-- 再帰的な[[generics|ジェネリック型]]を末尾再帰にすると、[[tail-call-optimization|末尾呼び出し最適化]]（TCO）が効き、再帰の深さの制限が大幅に緩くなる。
+- 再帰的な[[generics|ジェネリック型]]を末尾再帰にすると、末尾呼び出し最適化（TCO）が効き、再帰の深さの制限が大幅に緩くなる。
 - 多くの場合、アキュムレータを使って書き直せば末尾再帰にできる。
 
 ## 内容
@@ -65,7 +65,7 @@ ES2015 は、[[javascript|JavaScript]] エンジンに末尾呼び出し最適�
 ## キーワード
 
 - [[generics|ジェネリック型]]
-- [[tail-call-optimization|末尾呼び出し最適化]]
+- 末尾呼び出し最適化
 - [[conditional-types|条件型]]
 - [[template-literal-types|テンプレートリテラル型]]
 - [[javascript|JavaScript]]

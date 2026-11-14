@@ -16,6 +16,8 @@ MySQL はクライアント・サーバ型のシステムで、マルチスレ�
 
 ライセンスは GPL である。商用アプリケーションに組み込みたい場合は、商用ライセンス版を購入できる。
 
+公式のリファレンスマニュアルによると、MySQL は C と C++ で書かれ、多くのプラットフォームで動く。カーネルの[[thread|スレッド]]を使う完全なマルチスレッドの設計なので、複数の [[cpu|CPU]] を使える。トランザクションに対応したストレージエンジンと、対応しないストレージエンジンの両方を持ち、新しいストレージエンジンも比較的簡単に追加できる。クライアントからは、TCP/IP や Unix ドメインソケットなどで接続する。C、Java、PHP、Python、Ruby など多くの言語向けの API がある。
+
 %%
 
 ## 自分の理解
@@ -27,9 +29,10 @@ MySQL はクライアント・サーバ型のシステムで、マルチスレ�
 
 - [[postgresql|PostgreSQL]]
 - [[mysql-performance-schema|Performance Schema]]
-- [[rdbms|RDBMS]]
+- [[relational-database|RDBMS]]
 
 ## 出典
 
 - [MySQL](https://www.mysql.com/jp/)
 - [What is MySQL? - MySQL 8.4 Reference Manual](https://dev.mysql.com/doc/refman/8.4/en/what-is-mysql.html)
+- [The Main Features of MySQL - MySQL 8.4 Reference Manual](https://dev.mysql.com/doc/refman/8.4/en/features.html)

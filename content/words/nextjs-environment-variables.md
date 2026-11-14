@@ -43,7 +43,7 @@ date: 2024-08-27
 
 ## 注意点
 
-[[client-component|Client Component]] で `NEXT_PUBLIC_` の付かない環境変数を使おうとすると、Next.js は値を空文字に置き換える。環境変数がクライアントに漏れるのを防ぐためである。
+環境変数がクライアントに漏れるのを防ぐため、[[client-component|Client Component]] で `NEXT_PUBLIC_` の付かない環境変数を使おうとすると、Next.js は値を空文字に置き換える。
 
 %%
 

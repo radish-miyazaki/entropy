@@ -14,6 +14,8 @@ date: 2026-07-02
 
 IAM は、ユーザプロビジョニング、[[rbac|RBAC]]、認証、認可、ガバナンスまでを含む。[[idp|IdP]] はその一部で、「誰であるか（認証）」を担当するコンポーネントである。
 
+NIST の用語集が引く SP 800-175A では、アイデンティティ管理を、企業などのシステムの中で個々のアイデンティティを管理することと広く説明している。企業の IT では、ロールとアクセス権限を確立し、管理することを指す。
+
 ## 例
 
 - [[zitadel|ZITADEL]]
@@ -30,3 +32,7 @@ IAM は、ユーザプロビジョニング、[[rbac|RBAC]]、認証、認可、
 
 - [[idp|IdP]]
 - [[rbac|RBAC]]
+
+## 出典
+
+- [identity and access management - NIST CSRC Glossary](https://csrc.nist.gov/glossary/term/identity_and_access_management)
