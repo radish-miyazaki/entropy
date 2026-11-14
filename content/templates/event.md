@@ -3,7 +3,6 @@ title:
 description:
 tags: [event]
 date: "{{date:YYYY-MM-DD}}"
-written-by: human
 held:
 place:
 url:

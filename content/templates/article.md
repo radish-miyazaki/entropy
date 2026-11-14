@@ -3,7 +3,6 @@ title:
 description:
 tags: [article]
 date: "{{date:YYYY-MM-DD}}"
-written-by: human
 article-authors: []
 site:
 published:

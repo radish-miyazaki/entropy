@@ -3,7 +3,6 @@ title:
 description:
 tags: [talk]
 date: "{{date:YYYY-MM-DD}}"
-written-by: human
 speakers: []
 company:
 event:

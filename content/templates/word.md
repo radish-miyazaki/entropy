@@ -4,7 +4,6 @@ aliases: []
 description:
 tags: [word]
 date: "{{date:YYYY-MM-DD}}"
-written-by: human
 ---
 
 ## TL;DR

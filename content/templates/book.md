@@ -4,7 +4,6 @@ aliases: []
 description:
 tags: [book]
 date: "{{date:YYYY-MM-DD}}"
-written-by: human
 book-authors: []
 publisher:
 isbn:

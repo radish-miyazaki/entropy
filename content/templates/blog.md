@@ -3,7 +3,6 @@ title:
 description:
 tags: [blog]
 date: "{{date:YYYY-MM-DD}}"
-written-by: human
 draft: true
 ---
 

@@ -3,7 +3,6 @@ title:
 description:
 tags: [book-chapter]
 date: "{{date:YYYY-MM-DD}}"
-written-by: human
 book:
 chapter:
 ---
