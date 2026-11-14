@@ -36,7 +36,7 @@ written-by: human
 
 ## 関連
 
-%% [[Singleton パターン]] のような近い概念へのリンク %%
+%% 近い概念の単語ノートへのリンク。[[singleton-pattern|Singleton パターン]] のようにファイル名（英語 slug）と表示名で書く %%
 
 ## 出典
 
