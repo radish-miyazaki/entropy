@@ -49,7 +49,7 @@ plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
-      defaultDateType: modified
+      defaultDateType: created
       priority:
         - frontmatter
         - git
@@ -225,7 +225,17 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
+    options:
+      title: 新着
+      limit: 5
+      linkToMore: false
+      showTags: true
+      hideTagPages: true
+      hideFolderPages: true
+    layout:
+      position: left
+      priority: 25
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
