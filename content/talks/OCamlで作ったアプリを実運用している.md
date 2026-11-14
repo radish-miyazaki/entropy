@@ -3,10 +3,10 @@ title: OCamlで作ったアプリを実運用している
 description: 面談の日程調整アプリを OCaml と ReScript で作って運用した経験と、マイナー言語を採用するときの考え方の紹介
 tags: [talk, ocaml, rescript]
 date: 2026-07-10
-speakers: []
+speakers: [lmdexpr]
 company:
 event: "[[関数型まつり 2026]]"
-held:
+held: 2026-07-11
 slide:
 video:
 ---
@@ -28,7 +28,7 @@ OCaml だから、マイナーだから、という問題は起きていない�
 
 一方で、ライブラリやエコシステムは貧弱である。ただ、AI が普通にコードを書いてくれるし、境界が小さければ自作もできる。HTTP、JSON、OAuth、JWT、TLS、ログのライブラリは一通り揃っている。AWS や Google、Slack などのベンダー向けのライブラリは足りないので自作しており、そのうち OSS にする予定である。
 
-開発は一人で行っている。OCaml Meeting や日本語の Discord など、日本のコミュニティは活発で、イベントの 2 か月前に 50 人近く集まる勢いがある。
+開発は一人で行っている。OCaml Meeting や日本語の Discord など、日本のコミュニティは活発で、イベントの 2 か月前に 50 人近く集まるポテンシャルがある。
 
 ### なぜ OCaml にしたか
 

@@ -35,7 +35,7 @@ Terraform CLI は、まずホスト名に対してリモートのサービスデ
 
 ## 注意点
 
-公開の Terraform Registry は、UI のためにこのページの仕様より多くの API を持つ。CLI が使うのは、ここに書いた部分だけである。サードパーティのレジストリを使えるのは、Terraform CLI 0.11 以降に限られる。
+公開の Terraform Registry は、レジストリの UI で使う情報のために、HashiCorp の仕様ページに書かれた API に拡張を加えている。Terraform CLI はこの拡張を使わない。サードパーティのレジストリを使えるのは、Terraform CLI 0.11 以降に限られる。
 
 %%
 

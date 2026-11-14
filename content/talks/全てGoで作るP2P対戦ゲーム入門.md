@@ -30,7 +30,7 @@ video:
 
 プレイヤー同士の通信には WebRTC を使う。Go のライブラリでは [pion/webrtc](https://github.com/pion/webrtc) が有名である。
 
-WebRTC で接続するには、シグナリングサーバが必要になる。シグナリングサーバが接続用の情報交換を仲介するので、双方のブラウザが互いを見つけて通信を始められる。発表では [Ayame](https://github.com/OpenAyame/ayame) と、その Go クライアントの [go-ayame](https://github.com/hakobera/go-ayame) を使っていた。
+WebRTC で通信を確立するには、接続用の情報を交換する必要がある。シグナリングサーバはこの情報交換を仲介し、双方のブラウザが互いを見つけて通信を始められるようにする。発表ではシグナリングサーバの OSS として、時雨堂の Go 製の [Ayame](https://github.com/OpenAyame/ayame) が紹介された。Go のクライアントには [go-ayame](https://github.com/hakobera/go-ayame) がある。
 
 ### 描画とゲームロジックの分離
 

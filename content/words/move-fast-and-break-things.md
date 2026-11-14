@@ -12,7 +12,7 @@ Facebook が 2014 年まで社内で使っていたモットー。マーク・�
 
 ## 例
 
-英語版 Wikipedia の Facebook F8 の記事では、2014 年の F8 の写真に、このモットーが「初期のハッカー向けのモットー」として紹介されている。同じ年に、モットーは「Move fast with stable infra」に変わった。
+英語版 Wikipedia の Facebook F8 の記事では、2014 年の節に写真が 2 枚並んでいる。1 枚目の説明はこのモットーを「初期のハッカー向けのモットー」と呼び、2 枚目の説明は新しいモットーを「Move Fast with Stable Infra」としている。
 
 %%
 

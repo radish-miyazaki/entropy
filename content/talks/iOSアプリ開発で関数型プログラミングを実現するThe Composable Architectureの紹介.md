@@ -22,7 +22,7 @@ video:
 
 [[functional-programming|関数型プログラミング]]は、コードの再利用性を高め、コードを高品質な部品として再利用できるようにする手段である。
 
-iOS 開発は外部依存だらけである。そのリスクを減らすには、自分のコードの振る舞いを予測可能にして自動で検証できるようにし、そのような信頼性の高い部品を組み合わせて作りたい。その第一歩が[[side-effect|副作用]]の分離であり、TCA を使うと副作用を分離できる。TCA では、View を State と Action の Reducer として定義する。TCA を使った例として [CopilotForXcode](https://github.com/github/CopilotForXcode) がある。
+iOS 開発は外部依存だらけである。そのリスクを減らすには、自分のコードの振る舞いを予測可能にして自動で検証できるようにし、そのような信頼性の高い部品を組み合わせて作りたい。その第一歩が[[side-effect|副作用]]の分離であり、TCA を使うと副作用を分離できる。TCA では、Reducer が Action を受けて State を変更し、View は State を反映するだけにする。TCA を使った例として [CopilotForXcode](https://github.com/github/CopilotForXcode) がある。
 
 ### TCA のメリット
 

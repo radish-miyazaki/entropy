@@ -1,6 +1,6 @@
 ---
 title: Laravel の中間テーブル名は単数形
-description: Laravel の中間テーブル名はモデル名を単数形にしてアルファベット順に結合し、Ruby on Rails は複数形のまま結合する
+description: Laravel の中間テーブル名はテーブル名を単数形にしてアルファベット順に結合し、Ruby on Rails は複数形のまま結合する
 tags: [blog, laravel, ruby-on-rails]
 date: 2025-01-14
 draft: false

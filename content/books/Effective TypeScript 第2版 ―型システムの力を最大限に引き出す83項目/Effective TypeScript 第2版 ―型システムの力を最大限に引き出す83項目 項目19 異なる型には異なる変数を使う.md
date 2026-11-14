@@ -50,7 +50,7 @@ fetchProduct(productId)
 
 ただし、シャドーイングも可読性を下げるので避けたほうがよい。[[eslint|ESLint]] の [no-shadow](https://eslint.org/docs/latest/rules/no-shadow) ルールで禁止できる。
 
-オブジェクトにも同じことが当てはまる（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目21 オブジェクトを一度に構築する|項目21]]）。
+異なる型の値に同じ変数を使い回さないことは、オブジェクトにも当てはまる（[[Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目21 オブジェクトを一度に構築する|項目21]]）。
 
 ## キーワード
 

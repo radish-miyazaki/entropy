@@ -37,7 +37,7 @@ tokio::task::spawn(async move {
 
 ## 注意点
 
-低レベルなライブラリなので、手軽な HTTP クライアントが欲しいだけなら、公式ドキュメントは reqwest を勧めている。
+公式ドキュメントは hyper を低レベルなライブラリと位置づけ、手軽な HTTP クライアントが欲しいだけなら reqwest を検討するよう勧めている。GitHub の README は、HTTP サーバに迷ったら、hyper の上に作られた axum や warp を検討するよう勧めている。
 
 %%
 

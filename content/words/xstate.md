@@ -52,7 +52,7 @@ countActor.send({ type: "INC" }) // 1 が出力される
 
 コードから状態遷移図を確認できるのは凄い。[[alloy|Alloy]] を彷彿とさせる。
 
-[入門の本](https://zenn.dev/hayato94087/books/0a206dc72782be)と公式ドキュメントを見ながら、実際に動かしてみた。本の第 2 章は Node.js を使っているが [[xstate-basics-with-deno|Deno を用いて xState の基本を学ぶ]]で Deno で、第 3 章は [[nextjs|Next.js]] を使っているが [[xstate-basics-with-svelte|Svelte を用いて xState の基本を学ぶ]]で [[sveltekit|SvelteKit]] でやってみた。
+[入門の本](https://zenn.dev/hayato94087/books/0a206dc72782be)と公式ドキュメントを見ながら、実際に動かしてみた。本の第 2 章は Node.js の代わりに Deno で（[[xstate-basics-with-deno|Deno を用いて xState の基本を学ぶ]]）、第 3 章は [[nextjs|Next.js]] の代わりに [[sveltekit|SvelteKit]] で（[[xstate-basics-with-svelte|Svelte を用いて xState の基本を学ぶ]]）試した。
 
 ## 関連
 

@@ -11,7 +11,7 @@ isbn:
 
 ## TL;DR
 
-- [[git|Git]] を題材に、[[functional-programming|関数型]]言語の [[clojure|Clojure]] でゼロから実装する本である。git の init、add、commit ができるところまで作る。
+- [[git|Git]] を、[[functional-programming|関数型]]言語の [[clojure|Clojure]] でゼロから実装する本である。git の init、add、commit ができるところまで作る。
 - 動作とドキュメントから互換ソフトウェアを作る方法、バイナリデータの扱い、関数型言語での実装方法など、車輪の再発明から得られる学びを紹介している。
 
 %%

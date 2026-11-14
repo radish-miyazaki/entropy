@@ -20,9 +20,9 @@ video:
 
 ### 長い名前はコードを読みにくくする
 
-発表では、長い名前がコードの意図を[[obscurity|不明瞭]]にすると述べている。
+発表では、ローカル変数の名前は短くするよう勧めている。長い名前はコードが何をするのかを[[obscurity|不明瞭]]にする。
 
-> Long names obscure what the code does.
+> Keep them short; long names obscure what the code does.
 
 名前の長さは、宣言とそれを使う場所との距離で決める。距離が遠いほど、名前を長く付ける。
 
@@ -30,35 +30,35 @@ video:
 
 ### 良い例と悪い例
 
-次の関数では、`i`、`n`、`b` は宣言のすぐ近くでしか使わないので、短い名前で十分である。
-
-```go
-func RuneCount(b []byte) int {
-	i, n := 0, 0
-	for i < len(b) {
-		if b[i] < RuneSelf {
-			i++
-		} else {
-			_, size := DecodeRune(b[i:])
-			i += size
-		}
-		n++
-	}
-	return n
-}
-```
-
-同じ処理で `buffer`、`index`、`count` のような長い名前を使うと、かえって読みにくくなる。
+発表では、`index` より `i`、`buffer` より `b` を使うよう勧めている。`RuneCount` という関数の中なら、`runeCount` より `count` でよい。次の関数は `buffer`、`index`、`runeCount` と長い名前を使った悪い例である。
 
 ```go
 func RuneCount(buffer []byte) int {
-	index, count := 0, 0
-	for index < len(buffer) {
+	runeCount := 0
+	for index := 0; index < len(buffer); {
 		if buffer[index] < RuneSelf {
 			index++
 		} else {
 			_, size := DecodeRune(buffer[index:])
 			index += size
+		}
+		runeCount++
+	}
+	return runeCount
+}
+```
+
+同じ処理を `b`、`i`、`count` と短い名前で書いた良い例は次のとおり。
+
+```go
+func RuneCount(b []byte) int {
+	count := 0
+	for i := 0; i < len(b); {
+		if b[i] < RuneSelf {
+			i++
+		} else {
+			_, n := DecodeRune(b[i:])
+			i += n
 		}
 		count++
 	}

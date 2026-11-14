@@ -3,7 +3,7 @@ title: 普通のエンジニアがLaravelコアチームメンバーになるま
 description: Laravel Holdings に転職し Laravel のコアチームメンバーになった登壇者が、自分からチャンスを掴みにいった経緯を話した
 tags: [talk, php, laravel, phpカンファレンス2024]
 date: 2024-12-22
-speakers: []
+speakers: [濱崎竜太]
 company: Laravel Holdings
 event: PHPカンファレンス2024
 held:
@@ -14,7 +14,7 @@ video:
 ## TL;DR
 
 - 登壇者は [[laravel|Laravel]] を開発する Laravel Holdings に転職し、コアチームメンバーになった。
-- 自信がなくても自分からチャンスを掴みにいき、英語で世界に向けて発信してきたことがきっかけになった。
+- 自信がなくても自分からチャンスを掴みにいき、英語で世界に向けて発信してきた。
 
 ## 内容
 

@@ -7,20 +7,20 @@ speakers: [zeriyoshi]
 company:
 event: PHPカンファレンス2024
 held:
-slide: https://speakerdeck.com/zeriyoshi/phpcon2024-kudo-tmp
+slide: https://speakerdeck.com/colopl/bu-kunai-zerokarashi-meruphpsosukodokonpairuru-men
 video:
 ---
 
 ## TL;DR
 
-- [[php|PHP]] は Autoconf で構成されているので、`./configure` を実行すればソースコードからビルドできる。
+- [[php|PHP]] は Autoconf で構成されているので、必要なパッケージを入れて `./configure` と `make` を実行すれば、ソースコードからビルドできる。
 - バグを報告するときはデバッグビルドが便利である。
 
 ## 内容
 
 ### ビルドの基本
 
-[[docker|Docker]] で環境を作り、実際にビルドしてみる。PHP は Autoconf で構成されているので、`./configure` スクリプトを実行してからビルドする。最低限、`gcc`、`pkg-config`、`libxml2-dev`、`libsqlite3-dev`、`make` のパッケージが必要である。
+[[docker|Docker]] で環境を作り、実際にビルドしてみる。PHP は Autoconf で構成されているので、`./configure` スクリプトを実行してからビルドする。Debian 12 では最低限 `gcc`、`pkg-config`、`libxml2-dev`、`libsqlite3-dev`、`make` のパッケージが必要である。
 
 ### ビルド構成の変更
 
@@ -28,7 +28,7 @@ video:
 
 ### コンパイラの選び方
 
-PHP は C99 に準拠しているので、`clang` など他の C コンパイラでもコンパイルできる。ただし、既存の PHP は `gcc` の拡張である GRV（Global Register Variables）に大きく依存しているので、`clang` ではパフォーマンスが落ちる。一方で `clang` はデバッグ情報が豊富なので、開発中に切り替えるのはよい。コンパイラのオプションも変えられる。
+PHP は C99 に準拠しているので、C99 に対応するコンパイラであれば、`clang` などでもコンパイルできる。ただし、既存の PHP は `gcc` の拡張である GRV（Global Register Variables）に大きく依存しているので、`clang` ではパフォーマンスが落ちる。一方で `clang` はデバッグ情報が豊富なので、開発中に切り替えるのはよい。コンパイラのオプションも変えられる。
 
 ### デバッグビルド
 

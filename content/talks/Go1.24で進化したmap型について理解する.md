@@ -14,7 +14,7 @@ video:
 ## TL;DR
 
 - [[go|Go]] 1.24 から、map の内部実装が [[swiss-table|Swiss Table]] に変わった。
-- キーと値の位置は Directory、Table、Group、Slot の順にたどって特定し、各段階の工夫で CPU 負荷とメモリ効率が改善された。
+- キーと値の位置は Directory、Table、Group、Slot の順にたどって特定する。Table の特定では Extendible hashing、Group の特定では二次探査、Slot の特定では 8 スロットの一括検証を使う。
 
 ## 内容
 

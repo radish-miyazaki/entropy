@@ -24,13 +24,13 @@ Guest（プラグイン本体）で実行する処理を、Host（プラグイ�
 
 ### Go の WASI 対応
 
-[[wasi|WASI]] の仕様は Preview 2（WASI 0.2）までリリースされている。一方、Go が実装しているのは Go 1.21 で対応した Preview 1（WASI 0.1）までで、ネットワークソケットやスレッドは使えない。Go 1.21 で wasmimport（Host 関数の利用）が、1.24 で wasmexport（Guest 関数の公開）が使えるようになった。TinyGo を使うとサイズは小さくなるが、`reflect` を使うコードなどはビルドできない。
+[[wasi|WASI]] の仕様は Preview 2（WASI 0.2）までリリースされている。一方、Go が実装しているのは Go 1.21 で対応した Preview 1（WASI 0.1）までで、ネットワークソケットやスレッドは使えない。Go 1.21 で wasmimport（Guest から Host の関数を呼ぶ）が、1.24 で wasmexport（Host から Guest の関数を呼ぶ）が使えるようになった。TinyGo を使うとサイズは小さくなるが、`reflect` を使うコードなどはビルドできない。
 
 ランタイムは wazero 一択である。Pure Go で実装された唯一のランタイムで、採用実績もある。WASM の命令を逐次実行するインタプリタと、機械語を生成して実行するコンパイラの 2 つを持つ。
 
 ### WebAssembly の壁
 
-Guest の関数を呼び出すと、関数を抜けた時点で非同期処理も止まる。インスタンスはシングルスレッドで非同期割り込みもなく、スレッドセーフではない。最小の Go コードでもインスタンス化に 8 MB のメモリを使うので、リクエストごとにインスタンスを作って[[concurrency|並行処理]]するのは難しい。
+Guest の関数を呼び出すと、関数を抜けた時点で非同期処理も止まる。インスタンスはシングルスレッドで非同期割り込みもなく、スレッドセーフではないので、Host から並行に呼び出せない。最小の Go コードでもインスタンス化に 8 MB のメモリを使うので、リクエストごとにインスタンスを作って[[concurrency|並行処理]]するのは難しい。
 
 ネットワークソケットは、wasmimport で HTTP リクエストを Host に委譲できる。しかし、サードパーティのライブラリまで含めてすべての箇所を置き換えるのは現実的ではない。また、WASI Preview 1 のビルドにはサーバ証明書を検証するためのシステム証明書ストアがないので、証明書を明示しないと [[tls|TLS]] の通信が失敗する。`exec.Command` によるコマンド実行もサポートされていない。
 
@@ -40,11 +40,13 @@ Guest の関数を呼び出すと、関数を抜けた時点で非同期処理�
 
 TLS とコマンド実行も、標準ライブラリの差し替えで対応する。`crypto/x509.(*Certificate).Verify` や `os/exec.(*Cmd).Start` などを差し替え、差し替えた関数から wasmimport で Host に処理を委譲する。処理が Host に戻るので、実行したくないコマンドをはじくといった安全な実行もできる。
 
+並行処理は wasmexport を使わず、Guest の main ループで STDIN からリクエストを受け取り、レスポンスを Host 関数で返す形にする。
+
 メモリは、インスタンスをいくつか起動しておき、ロードバランスする運用が有効である。Host と Guest のメモリ管理は別なので、Guest 側で[[garbage-collection|ガベージコレクション]]が適切に動くよう環境変数を設定したり、`runtime.GC()` を明示的に呼んだりする工夫も効く。
 
 ### Tips
 
-`GOMAXPROCS` に 2 以上を指定すると [[panic|panic]] するので、環境変数を Guest に渡すときは `GOMAXPROCS` を除く。外部の API を使うときは、`GOOGLE_API_USE_CLIENT_CERTIFICATE=false` と `GOOGLE_API_USE_MTLS_ENDPOINT=never` で mTLS の処理を無効にする必要がある。
+`GOMAXPROCS` に 2 以上を指定すると [[panic|panic]] するので、環境変数を Guest に渡すときは `GOMAXPROCS` を除く。Google Cloud の API を使うときは、`GOOGLE_API_USE_CLIENT_CERTIFICATE=false` と `GOOGLE_API_USE_MTLS_ENDPOINT=never` で mTLS の処理を無効にする必要がある。
 
 ## キーワード
 

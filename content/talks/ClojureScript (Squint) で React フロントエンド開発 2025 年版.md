@@ -36,9 +36,9 @@ ClojureScript の Map や Vector は JavaScript のオブジェクトや配列�
 
 ### 使うときの注意
 
-仕様が固まっておらず細かい不具合もまだ多いので、本番環境で使うときは注意が必要である。既存の ClojureScript の資産も使えない。たとえば、動的な型チェックに使う [[malli|Malli]] は使えない。代わりになるツールは軒並み [[typescript|TypeScript]] 製に置き換わっている。かつて [[react|React]] で使われていた prop-types はあるが、メンテナンスされていなさそうである。
+仕様が固まっておらず細かい不具合もまだ多いので、本番環境で使うときは注意が必要である。既存の ClojureScript の資産も使えない。たとえば、動的な型チェックに使う [[malli|Malli]] は使えない。JavaScript で代わりになる型チェックのライブラリは、軒並み [[typescript|TypeScript]] 製に置き換わっている。かつて [[react|React]] で使われていた prop-types はあるが、メンテナンスされていなさそうである。
 
-回避策として、[[zod|Zod]] や Valibot のようなバリデーションライブラリを、関数の入力値の動的な型チェックに使う。`pre` / `post` で事前条件と事後条件を設定できる（[[design-by-contract|契約による設計]]）ので、これを利用する。チェックは `NODE_ENV=development` のときだけ行う。
+回避策として、[[zod|Zod]] や Valibot のようなバリデーションライブラリを、関数の入力値の動的な型チェックに使う。Clojure の関数には `pre` / `post` で事前条件と事後条件を設定できる（[[design-by-contract|契約による設計]]）ので、そこでバリデーションライブラリを使う。チェックは `NODE_ENV=development` のときだけ行う。
 
 ## キーワード
 

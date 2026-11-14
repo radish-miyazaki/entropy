@@ -3,30 +3,30 @@ title: Go1.25新機能 testing/synctest で高速＆確実な並列テストを�
 description: testing/synctest の bubble と durably blocked の仕組みで、非同期処理のテストを速く確実に書く方法の解説
 tags: [talk, go]
 date: 2025-09-28
-speakers: []
+speakers: [k3forx]
 company:
 event: "[[Go Conference 2025]]"
 held: 2025-09-28
-slide:
+slide: https://speakerdeck.com/k3forx/go1-dot-25xin-ji-neng-testing-synctest-tegao-su-and-que-shi-nabing-xing-tesutowoshi-xian-surufang-fa
 video:
 ---
 
 ## TL;DR
 
-- `testing/synctest` は、bubble と呼ばれる環境の中で偽の時計を使い、非同期処理のテストを待ち時間なしで確実に実行する。
+- `testing/synctest` は、bubble と呼ばれる環境の中で偽の時計を使い、非同期処理のテストを実時間を待たずに確実に実行する。
 - bubble 内のすべてのゴルーチンが durably blocked になると時刻が進む。`Wait` で非同期処理が落ち着くのを待ってから検証する。
 
 ## 内容
 
 ### 導入の経緯
 
-非同期処理のテストは難しい。`time.Sleep` で待つとテストに時間がかかり、待ち時間が足りないと [[flaky-test|Flaky test]] になりやすい。この問題を解決するために、Go 1.24 で `testing/synctest` パッケージが導入された。
+非同期処理のテストは難しい。`time.Sleep` で待つとテストに時間がかかり、待ち時間が足りないと [[flaky-test|Flaky test]] になりやすい。この問題を解決するために Go 1.24 で導入された `testing/synctest` パッケージが、Go 1.25 で標準パッケージになった。
 
 ### Test 関数
 
-処理を待つ時間は無駄なので、短くしたい。これを実現するのが `synctest.Test` 関数である。`Test` は、渡された関数を bubble の中で実行する。すべてのゴルーチンがブロックされ、タイマーもスケジュールされていなければ panic を起こす。
+処理を待つ時間は無駄なので、短くしたい。これを実現するのが `synctest.Test` 関数である。`Test` は、渡された関数を bubble の中で実行し、bubble 内のすべてのゴルーチンが終了するまで待つ。すべてのゴルーチンが durably blocked で、進める先の時刻もなければ、デッドロックとみなして panic を起こす。
 
-bubble 内の時刻は偽の時計（fake clock）で、UTC の 2000-01-01 から始まる。**bubble 内のすべての[[goroutine|ゴルーチン]]が durably blocked になると、bubble 内の時刻が進む。** `time.Sleep` や[[channel|チャネル]]の送受信は、ゴルーチンを durably blocked にする。これらを bubble の外から操作すると panic になる。
+bubble 内の時刻は偽の時計（fake clock）で、UTC の 2000-01-01 から始まる。**bubble 内のすべての[[goroutine|ゴルーチン]]が durably blocked になると、bubble 内の時刻が進む。** `time.Sleep` や[[channel|チャネル]]の送受信は、ゴルーチンを durably blocked にする。`sync.Mutex` での待ちは durably blocked にならない。bubble 内で作ったチャネルを bubble の外から操作すると panic になる。
 
 ### Wait 関数
 

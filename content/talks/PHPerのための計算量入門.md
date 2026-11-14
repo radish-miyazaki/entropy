@@ -3,11 +3,11 @@ title: PHPerのための計算量入門
 description: 時間計算量と空間計算量の測り方と、計算量を下げるべき場面・下げなくてよい場面を PHP 開発者向けに解説する発表
 tags: [talk, php, phpカンファレンス2024]
 date: 2024-12-22
-speakers: []
+speakers: [hanhan1978]
 company:
 event: "PHPカンファレンス2024"
-held:
-slide:
+held: 2024-12-22
+slide: https://speakerdeck.com/hanhan1978/complexity101-for-phper
 video:
 ---
 

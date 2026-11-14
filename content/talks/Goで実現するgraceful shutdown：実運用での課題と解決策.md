@@ -24,13 +24,13 @@ Graceful shutdown は、処理中のタスクのリソースを解放してか�
 
 ### Go での実現
 
-[[go|Go]] では、`signal.NotifyContext` と `context.WithTimeout` を組み合わせる。`signal.NotifyContext` を使うと、OS からの SIGTERM を `ctx.Done()` で受け取れる。`context.WithTimeout` で、決めた時間内にシャットダウン処理を終えるようにする。
+[[go|Go]] では、`signal.NotifyContext` と `context.WithTimeout` を組み合わせる。`signal.NotifyContext` を使うと、OS からの SIGTERM を `ctx.Done()` で受け取れる。`context.WithTimeout` でタイムアウトを設定したコンテキストを `Shutdown` メソッドに渡し、決めた時間内にシャットダウン処理を終えるようにする。
 
-HTTP サーバは、`net/http` の `Shutdown` メソッドで安全に止められる。`Shutdown` は、アイドル状態のコネクションを閉じ終えるか、タイムアウトした時点で終了する。
+HTTP サーバは、`net/http` の `Shutdown` メソッドで安全に止められる。`Shutdown` はすべてのリスナーを閉じてからアイドル状態のコネクションを閉じる。アイドル状態のコネクションを閉じ終えるか、タイムアウトした時点で終了する。
 
 ### 実運用
 
-発表者は、非同期タスクマネージャで graceful shutdown を実際に運用している。登録した非同期タスクが完了するまで、シャットダウンを待つ。
+発表者の会社では、メールの一括送信を非同期で始めた後、デプロイによる終了で送信処理が途中で止まった。そこで、非同期タスクマネージャで graceful shutdown を実装し、運用している。登録した非同期タスクが完了するまで、シャットダウンを待つ。
 
 ## キーワード
 

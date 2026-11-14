@@ -26,7 +26,7 @@ chapter: 5
 vi.useFakeTimers()
 ```
 
-ただし、2024 年 9 月時点では、これだけだと `userEvent` でユーザ操作をシミュレートしているテストがすべて失敗する。タイマーが置き換えられたことを認識できないのが原因である（[testing-library/react-testing-library#1197](https://github.com/testing-library/react-testing-library/issues/1197)）。回避策として、`vite.config.ts` に `shouldAdvanceTime` を設定する。
+ただし、2024 年 9 月時点では、これだけだと `userEvent` でユーザ操作をシミュレートしているテストがすべて失敗する。Vitest が、タイマーが置き換えられたことを認識できないのが原因である（[testing-library/react-testing-library#1197](https://github.com/testing-library/react-testing-library/issues/1197)）。回避策として、`vite.config.ts` に `shouldAdvanceTime` を設定する。
 
 ```ts
 // vite.config.ts

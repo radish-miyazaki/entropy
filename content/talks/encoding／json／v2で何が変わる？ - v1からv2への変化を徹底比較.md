@@ -20,7 +20,7 @@ video:
 
 ### v1 の課題
 
-v1 は [[json|JSON]] の扱いに問題がある。キーが重複すると後の値が優先されるので、署名検証、監査、差分適用の場面で脆弱性になりうる（例: [CVE-2017-12635](https://nvd.nist.gov/vuln/detail/CVE-2017-12635)）。無効な [[utf-8|UTF-8]] がエラーにならないので、データが壊れるおそれがある。キーの大文字と小文字を区別しないが、RFC 8259 では区別する。map や slice の[[zero-value|ゼロ値]]は `null` になるが、`[]` や `{}` にしたいことが多い。また、値レシーバからはポインタレシーバで定義されたメソッドを呼べないので、レシーバが値かポインタかで結果が変わることがある。
+v1 は [[json|JSON]] の標準仕様に完全には準拠していない。キーが重複すると後の値が優先されるので、署名検証、監査、差分適用の場面で脆弱性になりうる（例: [CVE-2017-12635](https://nvd.nist.gov/vuln/detail/CVE-2017-12635)）。無効な [[utf-8|UTF-8]] がエラーにならないので、データが壊れるおそれがある。構造体へのマッピングではキーの大文字と小文字を区別しないが、RFC 8259 では区別する。map や slice の[[zero-value|ゼロ値]]（nil）は `null` になるが、外部との連携では `[]` や `{}` にしたい。また、`MarshalJSON` をポインタレシーバで定義すると、値レシーバからはそのメソッドを呼べないので、`v` と `&v` で結果が変わることがある。
 
 API も扱いづらい。`json.NewDecoder(r).Decode(v)` は入力の末尾の余分なデータを拒否できず、チェックには追加のコードが要る。
 
@@ -36,7 +36,7 @@ if err := dec.Decode(&struct{}{}); err != io.EOF {
 }
 ```
 
-`DisallowUnknownFields()` のような Decoder のオプションはインスタンスごとに設定するもので、`Marshal` / `Unmarshal` では使えない。`Compact` などのユーティリティ関数は入力が `[]byte`、出力が `*bytes.Buffer` なので、すべてをメモリに載せる前提になり、`io.Writer` に直接書けない。
+`DisallowUnknownFields()` のような Encoder / Decoder のオプションはインスタンスごとに設定するもので、`Marshal` / `Unmarshal` では使えない。`Compact` などのユーティリティ関数は入力が `[]byte`、出力が `*bytes.Buffer` なので、すべてをメモリに載せる前提になり、`io.Writer` に直接書けない。
 
 性能面では、ストリーミングに対応しておらず JSON 全体を内部でバッファリングする。`MarshalJSON` が `[]byte` を返すので、メモリアロケーションが避けられない。`UnmarshalJSON` では境界の検出と実際のパースで 2 回読むので、ネストした構造では[[computational-complexity|計算量]]が指数関数的に増える。実際に [[kubernetes|Kubernetes]] でも問題になった（[issue](https://github.com/kubernetes/kube-openapi/issues/315)）。
 

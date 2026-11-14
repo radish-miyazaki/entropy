@@ -3,8 +3,8 @@ title: Swiss Table の実装に Deep Dive !
 description: Go の map に使われている Swiss Table の仕組みと、Extendible hashing やイテレーション中の変更への対応など Go 独自の工夫の解説
 tags: [talk, go]
 date: 2025-09-28
-speakers: []
-company:
+speakers: [Keisuke Ishigami]
+company: CyberAgent
 event: "[[Go Conference 2025]]"
 held: 2025-09-28
 slide: https://www.slideshare.net/slideshow/swiss-table-deep-dive-go-conference-2025/283475359

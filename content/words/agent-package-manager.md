@@ -22,7 +22,7 @@ npm や pip、cargo のマニフェストとロックファイルという形を
 
 ### 安全性とポリシー
 
-`apm install` は、エージェントの挙動を乗っ取り得る不可視の Unicode を検査し、コンテンツのハッシュをロックファイルに固定する。推移的な MCP サーバは明示的な確認なしには通さない。`apm audit` で意図しない変更がないかを確認できる。
+`apm install` は、エージェントの挙動を乗っ取り得る不可視の Unicode を検査し、コンテンツのハッシュをロックファイルに固定する。深い依存関係が持ち込む MCP サーバは、トップレベルの `apm.yml` で宣言し直すか、`--trust-transitive-mcp` で信頼を明示しない限り、ディスクに書き込む前の検査でブロックする。`apm audit` で意図しない変更がないかを確認できる。
 
 GitHub Organization の `.github` リポジトリに `apm-policy.yml` を置くと、Organization 内の全リポジトリに対して、ソース、スコープ、プリミティブの許可リストを定義できる。`apm install` と `apm audit --ci --policy org` の実行時に、Git の remote から自動で検出される。
 

@@ -14,13 +14,13 @@ video:
 ## TL;DR
 
 - [[large-language-model|LLM]] の登場で、言語の仕様だけ人間が決め、実装や周辺ツールは AI に任せられるようになり、言語を作るハードルが下がった。
-- LLM に書かせる前提の言語 Nexus を題材に、LLM に最適化する方法を議論する。
+- 自作の LLM 向け言語 Nexus などでベンチマークを取りつつ、LLM に書かせる前提の言語の設計を考える。LLM 向けの言語の作り方はまだ open problem とされた。
 
 ## 内容
 
 [[large-language-model|LLM]] の登場で、プログラミング言語を作るハードルが下がった。気になるところだけを自分でやり、それ以外は AI に任せられる。たとえば処理系の仕様だけを人間が決め、実装や Formatter、Linter などの周辺ツールは AI に任せる。[agentlanguages.dev](https://agentlanguages.dev/) にも、LLM 向けの言語が多く紹介されている。
 
-発表者は LLM に書かせる前提の言語 [Nexus](https://github.com/nexus-llm-lang/Nexus) を作っている。言語を LLM に最適化する方法として、事後学習、フィードバックの生成、既存のさまざまな手法が挙げられた。
+発表者は LLM に書かせる前提の言語 [Nexus](https://github.com/nexus-llm-lang/Nexus) を作っている。まとめでは、LLM 向けの言語の作り方は open problem とされ、事後学習、フィードバックの生成、既存のさまざまな手法が挙げられた。
 
 ## キーワード
 
