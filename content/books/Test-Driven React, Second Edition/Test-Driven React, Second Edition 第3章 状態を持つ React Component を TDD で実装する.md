@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第3章 状態を持つ React Component を TDD で実装する
+title: Test-Driven React, Second Edition › 状態を持つ React Component を TDD で実装する
 aliases: [状態を持つ React Component を TDD で実装する]
 description: 表示中のスライドを状態として持つ Carousel を TDD で作り、内部状態に触れずに DOM の変化でテストする方法を示す
 tags: [book-chapter, react, tdd]

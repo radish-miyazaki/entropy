@@ -1,5 +1,5 @@
 ---
-title: RustによるWebアプリケーション開発 設計からリリース・運用まで 第7章 ビルドスピードの改善
+title: RustによるWebアプリケーション開発 設計からリリース・運用まで › ビルドスピードの改善
 description: Rust のビルド時間を、ビルドの調整、Docker イメージの調整、CI の調整の 3 つの面から短くする方法をまとめた節
 tags: [book-chapter, rust]
 date: 2024-10-14

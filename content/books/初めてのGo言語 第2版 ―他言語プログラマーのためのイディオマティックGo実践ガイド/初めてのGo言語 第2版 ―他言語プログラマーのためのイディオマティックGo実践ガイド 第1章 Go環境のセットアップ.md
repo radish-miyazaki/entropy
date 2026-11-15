@@ -1,5 +1,5 @@
 ---
-title: "初めてのGo言語 第2版 ―他言語プログラマーのためのイディオマティックGo実践ガイド 第1章 Go環境のセットアップ"
+title: 初めてのGo言語 第2版 ―他言語プログラマーのためのイディオマティックGo実践ガイド › Go環境のセットアップ
 description: Go のセミコロン挿入規則、Go Playground でのファイル分割、Makefile の .PHONY と .DEFAULT_GOAL を扱う章
 tags: [book-chapter, go]
 date: 2025-08-13

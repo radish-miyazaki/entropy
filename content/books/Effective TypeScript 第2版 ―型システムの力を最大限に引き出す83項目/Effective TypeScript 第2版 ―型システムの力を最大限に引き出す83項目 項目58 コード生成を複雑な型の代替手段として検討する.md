@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目58 コード生成を複雑な型の代替手段として検討する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › コード生成を複雑な型の代替手段として検討する
 description: 型が複雑になりそうなときは型レベルの計算にこだわらず、コードと型を生成する方法を検討する項目
 tags: [book-chapter, typescript]
 date: 2025-05-02

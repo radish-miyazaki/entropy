@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第8章 全域関数
+title: Domain Modeling Made Functional › 全域関数
 description: 関数を全域関数として設計すると、すべてのエフェクトを型シグネチャで文書化できる
 tags: [book-chapter]
 date: 2024-07-26

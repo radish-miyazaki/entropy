@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 レコード型や選択型のマップを使ったシリアライズ
+title: Domain Modeling Made Functional › レコード型や選択型のマップを使ったシリアライズ
 description: レコード型や選択型の DTO を IDictionary<string,obj> で表すとコンテキスト間の契約がなくなり疎結合になるが、期待の食い違いを検知しにくくなり実装も複雑になる
 tags: [book-chapter]
 date: 2024-08-07

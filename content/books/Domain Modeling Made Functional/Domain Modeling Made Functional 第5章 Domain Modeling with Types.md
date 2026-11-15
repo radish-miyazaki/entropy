@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第5章 Domain Modeling with Types
+title: Domain Modeling Made Functional › Domain Modeling with Types
 description: 型システムを使えば、ドメインエキスパートも読めるドキュメントとして機能するコードでドメインモデルを書ける
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-16

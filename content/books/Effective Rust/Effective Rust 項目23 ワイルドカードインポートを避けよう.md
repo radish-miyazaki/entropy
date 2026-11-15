@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目23 ワイルドカードインポートを避けよう
+title: Effective Rust › ワイルドカードインポートを避けよう
 description: 外部クレートの破壊的でない変更でも名前が衝突してコードが壊れうるので、自分で制御できないクレートのワイルドカードインポートは避けようという項目
 tags: [book-chapter, rust]
 date: 2024-12-29

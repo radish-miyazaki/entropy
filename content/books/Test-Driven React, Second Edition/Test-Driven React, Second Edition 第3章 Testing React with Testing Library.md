@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第3章 Testing React with Testing Library
+title: Test-Driven React, Second Edition › Testing React with Testing Library
 aliases: [Testing React with Testing Library]
 description: TDD で React コンポーネントの単体テストを書く章。Vite で環境を作り、Testing Library で ARIA ロールを使って要素を取得する
 tags: [book-chapter]

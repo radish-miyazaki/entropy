@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 var でスレッドごとの状態を管理
+title: Programming Clojure, Third Edition › var でスレッドごとの状態を管理
 description: var は binding でダイナミックスコープを持つスレッドローカルな束縛を作れ、離れた関数の動作を変えられるが、関数が純粋でなくなるので基本的には使わない
 tags: [book-chapter, clojure]
 date: 2023-09-05

@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第11章 Spec に失敗した理由を出力する
+title: Clojure Book › Spec に失敗した理由を出力する
 description: s/explain で Spec に失敗した理由を出力する
 tags: [book-chapter, clojure]
 date: 2023-08-18

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目52 オーバーロードシグネチャより条件型を優先的に使用する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › オーバーロードシグネチャより条件型を優先的に使用する
 description: 条件型はユニオン型に分配されるので、オーバーロードシグネチャより条件型を優先して使うべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-06-03

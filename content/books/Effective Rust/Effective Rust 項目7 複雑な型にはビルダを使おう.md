@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目7 複雑な型にはビルダを使おう
+title: Effective Rust › 複雑な型にはビルダを使おう
 description: すべてのフィールドの指定を要求する Rust の構造体を作りやすくするために、ビルダパターンを使おうという項目
 tags: [book-chapter, rust]
 date: 2024-12-20

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第9章 パイプラインのステップを 1 つに合成する
+title: Domain Modeling Made Functional › パイプラインのステップを 1 つに合成する
 description: 実装したステップを 1 つのワークフローに合成するとき、入出力の型が合わない問題を部分適用や命令型の書き方で解決する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-31

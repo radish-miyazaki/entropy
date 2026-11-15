@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第18章 Code Should Be Obvious
+title: A Philosophy of Software Design › Code Should Be Obvious
 description: 明白なコードとは何か、どう書くか、何がコードを不明瞭にするかを扱う章
 tags: [book-chapter, 設計]
 date: 2023-12-16

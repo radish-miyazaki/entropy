@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目2 どのTypeScriptオプションが使われているか把握する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › どのTypeScriptオプションが使われているか把握する
 description: 100 を超えるコンパイラオプションのうち、少なくとも noImplicitAny と strictNullChecks を理解し、できるだけ早く有効にするよう勧める項目
 tags: [book-chapter, typescript]
 date: 2025-04-15

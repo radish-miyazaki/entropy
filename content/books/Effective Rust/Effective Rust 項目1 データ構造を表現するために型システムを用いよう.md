@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目1 データ構造を表現するために型システムを用いよう
+title: Effective Rust › データ構造を表現するために型システムを用いよう
 description: Rust の基本型・集約型・enum を整理し、フィールド付き enum で不変条件を型にエンコードして無効な状態を表現できないようにする項目
 tags: [book-chapter, rust]
 date: 2024-12-10

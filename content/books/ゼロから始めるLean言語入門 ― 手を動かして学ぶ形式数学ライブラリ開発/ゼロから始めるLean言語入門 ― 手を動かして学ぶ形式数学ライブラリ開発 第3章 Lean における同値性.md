@@ -1,5 +1,5 @@
 ---
-title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第3章 Lean における同値性
+title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 › Lean における同値性
 description: Lean では同値を ↔ で表し、constructor で 2 つの含意に分け、rw で同値な命題に書き換える
 tags: [book-chapter, lean]
 date: 2026-02-23

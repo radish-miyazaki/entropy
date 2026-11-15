@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 RDB への書き込み
+title: Domain Modeling Made Functional › RDB への書き込み
 description: ドメインオブジェクトをプリミティブな値に分解し、型プロバイダで挿入や更新のコマンドを実行して RDB に書き込む節
 tags: [book-chapter]
 date: 2024-08-10

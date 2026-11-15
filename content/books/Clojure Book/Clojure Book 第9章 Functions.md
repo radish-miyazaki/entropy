@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 Functions
+title: Clojure Book › Functions
 description: Clojure の関数の定義、引数と可変長引数、戻り値、再帰と recur、マルチメソッド、事前条件・事後条件、ドキュメント化、無名関数、高階関数を扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-17

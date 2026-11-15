@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目82 依存関係グラフの下から上へモジュールごとに移行する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 依存関係グラフの下から上へモジュールごとに移行する
 description: JavaScript から TypeScript へは依存関係グラフの下から順にモジュールごとに移行し、移行中はリファクタリングより型の追加に集中する項目
 tags: [book-chapter, typescript]
 date: 2025-05-09

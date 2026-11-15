@@ -1,5 +1,5 @@
 ---
-title: Async Rust ―高いパフォーマンスと安全性を両立するRustによる非同期処理 第1章 非同期プログラミング入門
+title: Async Rust ―高いパフォーマンスと安全性を両立するRustによる非同期処理 › 非同期プログラミング入門
 description: 非同期処理の考え方と Rust での実現方法を整理し、スレッドと async/await の本質的な違いと使い分けを説明する章
 tags: [book-chapter, rust]
 date: 2025-07-18

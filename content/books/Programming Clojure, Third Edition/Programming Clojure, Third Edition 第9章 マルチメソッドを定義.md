@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第9章 マルチメソッドを定義
+title: Programming Clojure, Third Edition › マルチメソッドを定義
 description: defmulti でディスパッチ関数を指定し、defmethod でディスパッチ値ごとの実装を足すと、実装を選ぶ処理と実装の中身を分離でき、ディスパッチは isa? で Java の継承も考慮する
 tags: [book-chapter, clojure]
 date: 2023-09-19

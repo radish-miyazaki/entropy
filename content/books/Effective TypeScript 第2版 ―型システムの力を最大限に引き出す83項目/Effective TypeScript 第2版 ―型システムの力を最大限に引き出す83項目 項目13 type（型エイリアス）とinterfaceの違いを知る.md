@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目13 type（型エイリアス）とinterfaceの違いを知る
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › type（型エイリアス）とinterfaceの違いを知る
 description: type と interface の共通点と違いを整理し、スタイルが決まっていないプロジェクトではオブジェクト型に interface を使うよう勧める項目
 tags: [book-chapter, typescript]
 date: 2025-04-19

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第10章 Java から Clojure を呼び出す
+title: Programming Clojure, Third Edition › Java から Clojure を呼び出す
 description: Java からは clojure.java.api.Clojure クラスの var と read で Clojure の関数やデータを扱い、clojure.core 以外の名前空間は require で読み込む
 tags: [book-chapter, clojure]
 date: 2023-09-20

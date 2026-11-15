@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第3章 A Functional Architecture
+title: Domain Modeling Made Functional › A Functional Architecture
 description: 境界づけられたコンテキストを自律的なコンポーネントとして扱い、その間の通信と契約、内部のワークフローとコード構造を関数型の観点で設計する章
 tags: [book-chapter, ddd, domain-modeling-made-functional]
 date: 2024-07-03

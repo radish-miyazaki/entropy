@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第4章 Understanding Types
+title: Domain Modeling Made Functional › Understanding Types
 description: F# の代数的な型システムを使って要件を記述するための、関数と型の基礎を説明する章
 tags: [book-chapter, ddd, fp, fsharp]
 date: 2024-07-12

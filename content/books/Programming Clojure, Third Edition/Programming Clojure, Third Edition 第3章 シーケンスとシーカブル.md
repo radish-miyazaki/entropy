@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第3章 シーケンスとシーカブル
+title: Programming Clojure, Third Edition › シーケンスとシーカブル
 description: シーケンスは特定の実装と結びつかない論理的なリストであり、シーケンスとみなせるコレクションをシーカブルと呼ぶ。それらを扱うシーケンスライブラリの位置づけも見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

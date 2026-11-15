@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第3章 境界づけられたコンテキストの中のコード構造
+title: Domain Modeling Made Functional › 境界づけられたコンテキストの中のコード構造
 description: 水平に層を重ねるレイヤードアーキテクチャの問題点を挙げ、ドメインコードを中心に置くオニオンアーキテクチャを勧める節
 tags: [book-chapter, ddd]
 date: 2024-07-12

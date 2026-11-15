@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目8 参照型とポインタ型に慣れよう
+title: Effective Rust › 参照型とポインタ型に慣れよう
 description: Rust の参照と Box、ポインタ関連のトレイト（Deref、AsRef、Borrow、ToOwned）、ファットポインタ（スライス、トレイトオブジェクト）、スマートポインタ（Rc、RefCell、Arc、Mutex、RwLock）を整理する項目
 tags: [book-chapter, rust]
 date: 2025-01-02

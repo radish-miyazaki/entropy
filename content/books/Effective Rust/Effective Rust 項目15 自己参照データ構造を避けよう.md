@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目15 自己参照データ構造を避けよう
+title: Effective Rust › 自己参照データ構造を避けよう
 description: 所有したデータとその参照を同じ構造体に持つ自己参照データ構造は、生存期間のルールで表せない。インデックスで代用するか、Pin や専用のクレートに頼る
 tags: [book-chapter, rust]
 date: 2025-01-31

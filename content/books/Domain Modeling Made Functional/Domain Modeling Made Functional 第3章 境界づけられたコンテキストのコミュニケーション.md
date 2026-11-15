@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第3章 境界づけられたコンテキストのコミュニケーション
+title: Domain Modeling Made Functional › 境界づけられたコンテキストのコミュニケーション
 description: 境界づけられたコンテキスト間はドメインイベントで疎結合に通信し、データは DTO にシリアライズして渡し、境界に入力と出力のゲートを置く節
 tags: [book-chapter, ddd]
 date: 2024-07-12

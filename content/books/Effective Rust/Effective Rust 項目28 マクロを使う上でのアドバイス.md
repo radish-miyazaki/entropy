@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 マクロを使う上でのアドバイス
+title: Effective Rust › マクロを使う上でのアドバイス
 description: マクロは抽象化の唯一の方法である場合やボイラープレートに限って使い、通常のコードに見た目を合わせ、型ごとのコード生成には derive マクロを使う
 tags: [book-chapter, rust]
 date: 2025-01-21

@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目26 忍び寄るフィーチャに注意しよう
+title: Effective Rust › 忍び寄るフィーチャに注意しよう
 description: Cargo のフィーチャは条件コンパイルの仕組みであり、クレート名と名前空間を共有し、フィーチャ統合が起こるため加法的に設計すべきだと説く項目
 tags: [book-chapter, rust]
 date: 2025-01-11

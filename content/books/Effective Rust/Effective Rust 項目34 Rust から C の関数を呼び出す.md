@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目34 Rust から C の関数を呼び出す
+title: Effective Rust › Rust から C の関数を呼び出す
 description: Rust から C の関数を extern "C" で宣言して呼び出す方法と、FFI のコードが unsafe になること、サイズの決まった型を使うべきこと
 tags: [book-chapter, rust]
 date: 2025-01-25

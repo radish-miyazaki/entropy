@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目69 コールバックのthisがAPIの一部なら、それに型を与える
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › コールバックのthisがAPIの一部なら、それに型を与える
 description: this の動的なバインドを踏まえ、コールバックに this をバインドする API では this パラメータに型を与える項目
 tags: [book-chapter, typescript]
 date: 2025-05-06

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 Result を生成する関数の連鎖（bind と errorMap、map）
+title: Domain Modeling Made Functional › Result を生成する関数の連鎖（bind と errorMap、map）
 description: Result を返すスイッチ関数を bind、map、mapError で 2 トラックの関数に変換し、鉄道指向プログラミングの形で合成する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-04

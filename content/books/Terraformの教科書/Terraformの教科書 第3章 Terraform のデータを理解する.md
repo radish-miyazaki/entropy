@@ -1,5 +1,5 @@
 ---
-title: Terraformの教科書 第3章 Terraform のデータを理解する
+title: Terraformの教科書 › Terraform のデータを理解する
 description: data ブロックで既存のインフラの状態や設定を読み込むデータソースを、AWS と Google Cloud の例でまとめた節
 tags: [book-chapter, terraform]
 date: 2026-07-09

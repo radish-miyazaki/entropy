@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第16章 map, filter, reduce, apply
+title: Clojure Book › map, filter, reduce, apply
 description: シーケンスの各要素に関数を適用する map、述語で絞り込む filter、1 つの値にまとめる reduce、シーケンスを引数として渡す apply の使い方を扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-19

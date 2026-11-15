@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 事前条件・事後条件
+title: Clojure Book › 事前条件・事後条件
 description: 関数の引数と戻り値を :pre と :post で検査し、表明プログラミングを実現する方法を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

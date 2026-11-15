@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目15 借用チェッカを理解しよう
+title: Effective Rust › 借用チェッカを理解しよう
 description: Rust の参照は借用なので参照先より長く持てず、借用チェッカは複数の不変参照か単一の可変参照のどちらかしか許さないことを説く項目
 tags: [book-chapter, rust]
 date: 2025-01-16

@@ -1,5 +1,5 @@
 ---
-title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 第1章 ブラウザを知る──Webサイトを表示するアプリケーション
+title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 › ブラウザを知る──Webサイトを表示するアプリケーション
 description: ブラウザの 3 つのコアな役割（サーバとの通信、HTML と CSS の描画、JavaScript の実行）と、それを支える機能やマルチプロセスアーキテクチャを概観する章
 tags: [book-chapter]
 date: 2024-11-12

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目16 インデックスシグネチャよりも適切な代替手段を使う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › インデックスシグネチャよりも適切な代替手段を使う
 description: インデックスシグネチャは型安全性を損ない自動補完も効かないので、interface、Map、Record などの代替手段を使うよう勧める項目
 tags: [book-chapter, typescript]
 date: 2025-04-29

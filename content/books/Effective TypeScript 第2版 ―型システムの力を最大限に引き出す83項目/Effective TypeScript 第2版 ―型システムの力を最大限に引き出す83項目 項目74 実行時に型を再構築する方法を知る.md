@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目74 実行時に型を再構築する方法を知る
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 実行時に型を再構築する方法を知る
 description: 実行時に消える TypeScript の型を実行時にも使うための 3 つの方法（外部ソースから生成、実行時の型ライブラリ、型から値を生成）を比べる項目
 tags: [book-chapter, typescript]
 date: 2025-06-07

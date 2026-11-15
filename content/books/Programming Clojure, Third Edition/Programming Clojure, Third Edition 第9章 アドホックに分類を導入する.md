@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第9章 アドホックに分類を導入する
+title: Programming Clojure, Third Edition › アドホックに分類を導入する
 description: 当座預金と普通預金のマップを名前空間付きキーワードのタグで区別し、複数の値でディスパッチするマルチメソッドと derive で作る親子関係でサービス料を計算する
 tags: [book-chapter, clojure]
 date: 2023-09-19

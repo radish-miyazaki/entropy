@@ -1,5 +1,5 @@
 ---
-title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 第2章 URLを分解する──リソースを指定する住所
+title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 › URLを分解する──リソースを指定する住所
 description: URL を構成要素に分解しながら、Rust の基本的な文法を学ぶ章
 tags: [book-chapter]
 date: 2024-11-13

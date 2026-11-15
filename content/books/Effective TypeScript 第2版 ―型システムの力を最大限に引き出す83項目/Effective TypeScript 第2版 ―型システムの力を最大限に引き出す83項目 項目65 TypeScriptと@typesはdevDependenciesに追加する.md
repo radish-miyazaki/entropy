@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目65 TypeScriptと@typesはdevDependenciesに追加する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › TypeScriptと@typesはdevDependenciesに追加する
 description: npm の依存の種類を整理し、実行時に不要な TypeScript と @types は devDependencies に入れるべき理由を説明する項目
 tags: [book-chapter, typescript]
 date: 2025-04-19

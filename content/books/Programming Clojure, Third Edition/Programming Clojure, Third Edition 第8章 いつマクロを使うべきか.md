@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第8章 いつマクロを使うべきか
+title: Programming Clojure, Third Edition › いつマクロを使うべきか
 description: マクロは書かない、パターンをカプセル化する唯一の方法ならマクロを書く、という 2 つのルールと、呼び出し側が楽になるなら書いてもよいという例外
 tags: [book-chapter, clojure]
 date: 2023-09-16

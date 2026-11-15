@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目29 有効な状態のみ表現する型を作る
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 有効な状態のみ表現する型を作る
 description: 有効な状態と不正な状態が混在する型を避け、有効な状態だけを表現できる型を設計する項目
 tags: [book-chapter, typescript]
 date: 2025-04-12

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 Persistence
+title: Domain Modeling Made Functional › Persistence
 description: 永続性非依存で設計したドメインモデルと、状態を持続させるインフラストラクチャとのミスマッチを解消するためのガイドラインと実装例を扱う章
 tags: [book-chapter, ddd]
 date: 2024-08-04

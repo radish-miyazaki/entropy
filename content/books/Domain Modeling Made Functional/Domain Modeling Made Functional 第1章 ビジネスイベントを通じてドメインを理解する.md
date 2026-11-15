@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第1章 ビジネスイベントを通じてドメインを理解する
+title: Domain Modeling Made Functional › ビジネスイベントを通じてドメインを理解する
 description: データ構造ではなくビジネスイベントとワークフローに注目し、イベントストーミングでドメインイベントとコマンドを洗い出す節
 tags: [book-chapter, ddd]
 date: 2024-07-02

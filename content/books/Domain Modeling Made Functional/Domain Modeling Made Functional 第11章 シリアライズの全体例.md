@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 シリアライズの全体例
+title: Domain Modeling Made Functional › シリアライズの全体例
 description: ドメインオブジェクトと DTO の相互変換を DTO 側のモジュールに実装し、JSON シリアライザをラップしてシリアライズとデシリアライズのパイプラインを組む例
 tags: [book-chapter]
 date: 2024-08-03

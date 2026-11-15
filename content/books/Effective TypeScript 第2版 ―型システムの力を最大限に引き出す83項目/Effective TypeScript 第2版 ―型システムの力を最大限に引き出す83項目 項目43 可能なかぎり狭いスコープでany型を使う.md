@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目43 可能なかぎり狭いスコープでany型を使う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 可能なかぎり狭いスコープでany型を使う
 description: any を使うときはスコープをできるだけ狭くし、関数から any を返さないようにして、コードの他の部分の型安全性を守るべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-05-02

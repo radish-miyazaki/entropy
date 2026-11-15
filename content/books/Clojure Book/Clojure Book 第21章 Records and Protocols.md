@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第21章 Records and Protocols
+title: Clojure Book › Records and Protocols
 description: defrecord でレコードを定義してオブジェクトを作り、defprotocol で定義したプロトコルを継承させてメソッドを持たせる。extend-protocol で既存のレコードにもプロトコルを継承させられる
 tags: [book-chapter, clojure]
 date: 2023-08-22

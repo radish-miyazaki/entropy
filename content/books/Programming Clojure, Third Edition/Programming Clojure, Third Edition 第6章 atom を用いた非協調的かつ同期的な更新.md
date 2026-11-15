@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 atom を用いた非協調的かつ同期的な更新
+title: Programming Clojure, Third Edition › atom を用いた非協調的かつ同期的な更新
 description: atom は ref より軽量な機構で、単一の値を他の値と関係なく、トランザクションなしに reset! と swap! で同期的に更新する
 tags: [book-chapter, clojure]
 date: 2023-09-05

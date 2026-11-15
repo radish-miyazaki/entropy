@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目22 型の絞り込みを理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型の絞り込みを理解する
 description: 制御フローに基づく型の絞り込みの仕組みと、タグ付きユニオンやユーザ定義型ガードで絞り込みを助ける方法、その注意点を扱う項目
 tags: [book-chapter, typescript]
 date: 2025-05-02

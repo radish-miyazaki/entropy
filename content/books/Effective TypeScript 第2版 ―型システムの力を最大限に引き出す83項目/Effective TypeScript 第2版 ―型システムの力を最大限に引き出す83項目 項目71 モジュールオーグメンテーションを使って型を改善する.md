@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目71 モジュールオーグメンテーションを使って型を改善する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › モジュールオーグメンテーションを使って型を改善する
 description: 宣言のマージを使って、any を返す既存 API を unknown を返すように直したり、問題のある使い方を禁止したりする項目
 tags: [book-chapter, typescript]
 date: 2025-06-06

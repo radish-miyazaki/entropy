@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目9 型アノテーションを型アサーションより優先的に使用する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型アノテーションを型アサーションより優先的に使用する
 description: 型アサーションより型アノテーションを使い、型アサーションは TypeScript が知らない情報をプログラマが知っているときだけ、理由をコメントに書いて使うよう説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-12

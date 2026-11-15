@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第13章 Comments Should Describe Things that Aren't Obvious from the Code
+title: "A Philosophy of Software Design › Comments Should Describe Things that Aren't Obvious from the Code"
 description: コメントには、コードを読んでも分からないことを書くべきだと説く章
 tags: [book-chapter, 設計]
 date: 2023-12-20

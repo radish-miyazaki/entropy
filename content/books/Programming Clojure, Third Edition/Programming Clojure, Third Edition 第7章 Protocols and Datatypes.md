@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第7章 Protocols and Datatypes
+title: Programming Clojure, Third Edition › Protocols and Datatypes
 description: Java のインタフェースやクラスを書かずに、プロトコルとデータ型（deftype、defrecord、reify）で抽象化と実装を行い、既存の型にも抽象化を後付けする章
 tags: [book-chapter, clojure]
 date: 2023-09-11

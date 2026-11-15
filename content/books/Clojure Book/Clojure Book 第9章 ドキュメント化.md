@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 ドキュメント化
+title: Clojure Book › ドキュメント化
 description: 関数名と引数の間に Markdown 形式でドキュメントを書き、doc 関数や IDE で確かめる方法を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

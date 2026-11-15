@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 高階関数
+title: Clojure Book › 高階関数
 description: 無名関数を使って、関数を返す高階関数を実装する節
 tags: [book-chapter, clojure]
 date: 2023-08-17

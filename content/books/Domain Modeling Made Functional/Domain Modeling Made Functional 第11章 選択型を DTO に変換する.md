@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 選択型を DTO に変換する
+title: Domain Modeling Made Functional › 選択型を DTO に変換する
 description: 選択型は、使われたケースを示すタグと、ケースごとのデータを持つフィールドからなるレコード型で表現し、フォーマットを自分でコントロールする
 tags: [book-chapter]
 date: 2024-08-07

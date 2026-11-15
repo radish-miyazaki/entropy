@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第14章 Sequence
+title: Clojure Book › Sequence
 description: count や partition がリストだけでなくベクタ、集合、マップにも使えることと、seq でコレクションをシーケンスに変換することを扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-18

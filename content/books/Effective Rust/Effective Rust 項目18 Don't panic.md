@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目18 Don't panic
+title: "Effective Rust › Don't panic"
 description: panic は回復不能なバグのための仕組みなので、catch_unwind で例外のように使わず、ライブラリでは Result を返そうという項目
 tags: [book-chapter, rust]
 date: 2025-01-03

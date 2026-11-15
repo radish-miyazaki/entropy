@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第3章 First Steps
+title: Clojure Book › First Steps
 description: Clojure の算術計算、数値型と文字列型、def と let による変数の定義、.clj ファイルの実行方法を扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-16

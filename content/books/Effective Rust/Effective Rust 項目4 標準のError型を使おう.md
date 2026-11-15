@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目4 標準のError型を使おう
+title: Effective Rust › 標準のError型を使おう
 description: 独自のエラー型には std::error::Error を実装し、ライブラリでは enum と thiserror、アプリケーションでは anyhow を使い分けようという項目
 tags: [book-chapter, rust]
 date: 2024-12-17

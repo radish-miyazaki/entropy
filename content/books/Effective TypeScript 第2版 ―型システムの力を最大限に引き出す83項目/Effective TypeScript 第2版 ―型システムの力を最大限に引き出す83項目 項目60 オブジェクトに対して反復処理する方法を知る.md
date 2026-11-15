@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目60 オブジェクトに対して反復処理する方法を知る
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › オブジェクトに対して反復処理する方法を知る
 description: オブジェクトの反復処理でキーが string と推論される理由と、Object.entries やキーの列挙、Map を使った回避策を説明する項目
 tags: [book-chapter, typescript]
 date: 2025-05-05

@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第11章 基本
+title: Clojure Book › 基本
 description: Spec を require し、s/valid? と string? などの述語で値の型を確かめる
 tags: [book-chapter, clojure]
 date: 2023-08-18

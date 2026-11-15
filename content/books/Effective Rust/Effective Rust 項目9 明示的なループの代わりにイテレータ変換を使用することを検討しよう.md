@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目9 明示的なループの代わりにイテレータ変換を使用することを検討しよう
+title: Effective Rust › 明示的なループの代わりにイテレータ変換を使用することを検討しよう
 description: Iterator と IntoIterator の仕組み、イテレータを変換・消費するメソッド、イテレータ変換より明示的なループが向いている場面を説明する項目
 tags: [book-chapter, rust]
 date: 2025-01-11

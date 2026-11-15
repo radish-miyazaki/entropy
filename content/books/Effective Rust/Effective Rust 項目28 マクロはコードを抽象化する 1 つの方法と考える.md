@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 マクロはコードを抽象化する 1 つの方法と考える
+title: Effective Rust › マクロはコードを抽象化する 1 つの方法と考える
 description: マクロは同じ目的のコード片を 1 つにまとめる抽象化の手段であり、関数やジェネリクスと並ぶ方法の 1 つだと捉える
 tags: [book-chapter, rust]
 date: 2025-01-20

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目36 特別な値には専用の型を使用する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 特別な値には専用の型を使用する
 description: 特別なケースの戻り値に通常ケースと同じ型の値（-1 や "" など）を使わず、null や undefined で表すべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-24

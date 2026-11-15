@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 最も簡単な関数
+title: Clojure Book › 最も簡単な関数
 description: defn を使って、引数を受け取らずに Hello world! を出力する関数を定義する節
 tags: [book-chapter, clojure]
 date: 2023-08-17

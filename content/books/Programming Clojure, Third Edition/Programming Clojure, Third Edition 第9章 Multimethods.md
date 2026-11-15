@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第9章 Multimethods
+title: Programming Clojure, Third Edition › Multimethods
 description: 引数すべてに基づいて実装を選べるマルチメソッドを defmulti と defmethod で定義し、prefer-method で衝突を解消し、derive でアドホックな分類を導入する章
 tags: [book-chapter, clojure]
 date: 2023-09-19

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 シリアライズのための設計
+title: Domain Modeling Made Functional › シリアライズのための設計
 description: ドメインオブジェクトをシリアライズ専用の DTO に変換してからシリアライズし、ドメイン固有のチェックは DTO からの変換時に行う
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-03

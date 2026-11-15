@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 複数の引数を受け取る
+title: Clojure Book › 複数の引数を受け取る
 description: 2 つ以上の引数を受け取る関数と、引数の数によって実行する処理を分けるオーバーロードを扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 分別をもってマクロを使おう
+title: Effective Rust › 分別をもってマクロを使おう
 description: Rust のマクロをコードを抽象化する手段の 1 つとして捉え、使うべき場面とデメリット、注意点を見極めて使うよう説く項目
 tags: [book-chapter, rust]
 date: 2025-01-15

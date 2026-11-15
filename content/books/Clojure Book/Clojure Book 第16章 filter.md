@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第16章 filter
+title: Clojure Book › filter
 description: filter は渡された述語を満たす要素だけを持つシーケンスを返す
 tags: [book-chapter, clojure]
 date: 2023-08-19

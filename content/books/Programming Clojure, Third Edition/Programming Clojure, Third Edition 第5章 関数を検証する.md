@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第5章 関数を検証する
+title: Programming Clojure, Third Edition › 関数を検証する
 description: 正規表現オペレーションの spec で可変長引数やマルチアリティの引数リストを記述し、s/fdef で関数の spec を定義して、stest/instrument で引数をチェックする
 tags: [book-chapter, clojure]
 date: 2023-09-02

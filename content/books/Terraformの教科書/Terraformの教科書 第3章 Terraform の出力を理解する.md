@@ -1,5 +1,5 @@
 ---
-title: Terraformの教科書 第3章 Terraform の出力を理解する
+title: Terraformの教科書 › Terraform の出力を理解する
 description: output ブロックで出力値を定義する方法、主なユースケース、description・sensitive・depends_on 引数をまとめた節
 tags: [book-chapter, terraform]
 date: 2026-07-09

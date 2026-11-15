@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 単純型を DTO に変換する
+title: Domain Modeling Made Functional › 単純型を DTO に変換する
 description: 単純型は DTO では元のプリミティブ型で表現する
 tags: [book-chapter]
 date: 2024-08-07

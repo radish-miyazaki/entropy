@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第20章 Splitting Large Programs
+title: Clojure Book › Splitting Large Programs
 description: load-file 関数で別の Clojure ファイルを読み込み、そこに定義した関数を呼び出す
 tags: [book-chapter, clojure]
 date: 2023-08-22

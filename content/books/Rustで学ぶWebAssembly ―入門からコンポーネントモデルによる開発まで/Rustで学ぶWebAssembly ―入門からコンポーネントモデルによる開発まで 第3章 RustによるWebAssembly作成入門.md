@@ -1,5 +1,5 @@
 ---
-title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第3章 RustによるWebAssembly作成入門
+title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで › RustによるWebAssembly作成入門
 description: cargo-component で CLI として実行できる WebAssembly Component を作り、Wasmtime で実行し、wasmtime-wasi を使って Rust のプログラムからも呼び出す章
 tags: [book-chapter, rust, webassembly]
 date: 2024-10-18

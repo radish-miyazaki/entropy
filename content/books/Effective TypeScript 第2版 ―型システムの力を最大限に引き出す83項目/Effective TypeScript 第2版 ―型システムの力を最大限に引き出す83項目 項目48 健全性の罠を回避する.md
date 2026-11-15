@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目48 健全性の罠を回避する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 健全性の罠を回避する
 description: 実行時の値が静的な型と食い違う不健全性が TypeScript のどこで生じるかを挙げ、それぞれの回避策を示す項目
 tags: [book-chapter, typescript]
 date: 2025-04-12

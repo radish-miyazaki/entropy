@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core の nil と真偽値に関する var
+title: めだかのclojure.core学校 › clojure.core の nil と真偽値に関する var
 description: 真偽値への変換や判定、nil の判定を行う clojure.core の Var をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-11-28

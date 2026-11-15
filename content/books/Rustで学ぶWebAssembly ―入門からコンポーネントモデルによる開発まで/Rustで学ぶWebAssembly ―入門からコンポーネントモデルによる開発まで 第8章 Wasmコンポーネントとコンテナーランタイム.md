@@ -1,5 +1,5 @@
 ---
-title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第8章 Wasmコンポーネントとコンテナーランタイム
+title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで › Wasmコンポーネントとコンテナーランタイム
 description: Docker Desktop のランタイムを切り替えて、WebAssembly Component や Spin アプリケーションをコンテナイメージにして実行する章
 tags: [book-chapter, rust, webassembly]
 date: 2024-11-01

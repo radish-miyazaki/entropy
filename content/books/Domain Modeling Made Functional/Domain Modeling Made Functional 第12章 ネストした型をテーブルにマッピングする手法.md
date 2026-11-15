@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 ネストした型をテーブルにマッピングする手法
+title: Domain Modeling Made Functional › ネストした型をテーブルにマッピングする手法
 description: ネストした型は、エンティティなら別のテーブルに、値オブジェクトなら同じテーブルに保存する
 tags: [book-chapter]
 date: 2024-08-10

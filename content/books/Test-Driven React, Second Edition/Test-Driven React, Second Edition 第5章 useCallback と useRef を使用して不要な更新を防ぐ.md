@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第5章 useCallback と useRef を使用して不要な更新を防ぐ
+title: Test-Driven React, Second Edition › useCallback と useRef を使用して不要な更新を防ぐ
 aliases: [useCallback と useRef を使用して不要な更新を防ぐ]
 description: 再描画のたびに自動送りのタイマーがリセットされる問題を、useCallback によるメモ化と useRef による最新値の保持で直す
 tags: [book-chapter]

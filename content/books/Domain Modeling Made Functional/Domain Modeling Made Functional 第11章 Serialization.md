@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 Serialization
+title: Domain Modeling Made Functional › Serialization
 description: 境界づけられたコンテキストに出入りするコマンドやイベントのために、ドメインモデルをシリアライズ・デシリアライズする方法を扱う章
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-31

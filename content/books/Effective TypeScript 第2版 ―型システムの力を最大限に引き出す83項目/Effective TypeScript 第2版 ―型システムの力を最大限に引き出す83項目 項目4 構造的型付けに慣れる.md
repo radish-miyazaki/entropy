@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目4 構造的型付けに慣れる
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 構造的型付けに慣れる
 description: TypeScript は構造的型付けで JavaScript のダックタイピングをモデリングしており、値は型宣言にないプロパティを持ちうると説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-18

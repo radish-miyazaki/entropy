@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 RDB から選択型を読み取る
+title: Domain Modeling Made Functional › RDB から選択型を読み取る
 description: 1 つのテーブルに格納した選択型を、フラグでケースを判定しながらドメインオブジェクトに組み立てて読み取る節
 tags: [book-chapter]
 date: 2024-08-10

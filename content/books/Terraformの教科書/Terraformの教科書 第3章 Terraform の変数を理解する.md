@@ -1,5 +1,5 @@
 ---
-title: Terraformの教科書 第3章 Terraform の変数を理解する
+title: Terraformの教科書 › Terraform の変数を理解する
 description: variable ブロックで入力変数を宣言し、環境変数・tfvars ファイル・コマンドライン・デフォルト値で値を渡す方法をまとめた節
 tags: [book-chapter, terraform]
 date: 2026-07-08

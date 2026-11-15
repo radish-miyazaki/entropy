@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第9章 最初のステップの実装
+title: Domain Modeling Made Functional › 最初のステップの実装
 description: 注文ワークフローの最初のステップ「検証」を、ヘルパ関数と関数アダプタを使って実装する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-29

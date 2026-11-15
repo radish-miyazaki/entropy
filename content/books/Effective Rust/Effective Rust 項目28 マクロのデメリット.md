@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 マクロのデメリット
+title: Effective Rust › マクロのデメリット
 description: マクロは可読性と保守性を下げ、コードの肥大化を招きやすいというデメリットがある
 tags: [book-chapter, rust]
 date: 2025-01-21

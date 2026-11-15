@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第7章 データ型
+title: Programming Clojure, Third Edition › データ型
 description: deftype で暗号化された入出力を扱う CryptoVault データ型を作り、Vault プロトコルと IOFactory プロトコルを実装して gulp や spit、slurp に渡せるようにする
 tags: [book-chapter, clojure]
 date: 2023-09-11

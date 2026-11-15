@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目6 newtypeパターンを活用しよう
+title: Effective Rust › newtypeパターンを活用しよう
 description: Newtype パターンで同じ内部型を持つ型を区別し、孤児ルールを回避できるが、内部の型への委譲の手間がかかるという項目
 tags: [book-chapter, rust]
 date: 2024-12-19

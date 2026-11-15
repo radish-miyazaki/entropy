@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core の数値に関する var
+title: めだかのclojure.core学校 › clojure.core の数値に関する var
 description: Clojure の数値リテラルと型、型変換、数値の判定、比較、四則演算を行う clojure.core の Var をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-11-28

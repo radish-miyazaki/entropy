@@ -1,5 +1,5 @@
 ---
-title: "Effective Rust 項目14 'static ライフタイム"
+title: "Effective Rust › 'static ライフタイム"
 description: プログラムの実行中ずっと有効な 'static ライフタイムの意味と、static 変数・const の昇格・Box::leak の 3 つの得かたを説明する節
 tags: [book-chapter, rust]
 date: 2025-01-15

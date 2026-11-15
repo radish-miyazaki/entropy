@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目72 TypeScriptの独自機能の使用を避け、ECMAScriptの機能を使う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › TypeScriptの独自機能の使用を避け、ECMAScriptの機能を使う
 description: enum やパラメータプロパティ、namespace、実験的デコレータ、アクセス修飾子といった TypeScript 独自の機能を避け、ECMAScript の標準機能で置き換える項目
 tags: [book-chapter, typescript]
 date: 2025-06-07

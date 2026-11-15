@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 再帰
+title: Clojure Book › 再帰
 description: 関数名で自分自身を呼ぶ再帰と recur を使う再帰、末尾再帰の制約、デフォルト引数の代わりにラッパー関数を作る方法を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

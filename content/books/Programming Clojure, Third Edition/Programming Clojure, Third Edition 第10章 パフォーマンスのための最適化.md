@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第10章 パフォーマンスのための最適化
+title: Programming Clojure, Third Edition › パフォーマンスのための最適化
 description: 測定してから型ヒントでリフレクションを避け、無検査、デフォルト、自動格上げの 3 種類の整数演算子とプリミティブ型の型ヒントを使い分けて、必要な部分だけを最適化する
 tags: [book-chapter, clojure]
 date: 2023-09-20

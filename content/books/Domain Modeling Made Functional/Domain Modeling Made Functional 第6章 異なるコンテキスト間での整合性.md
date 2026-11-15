@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 異なるコンテキスト間での整合性
+title: Domain Modeling Made Functional › 異なるコンテキスト間での整合性
 description: 異なる境界づけられたコンテキストの間はメッセージで非同期にやり取りし、整合性は結果整合性で担保する
 tags: [book-chapter]
 date: 2024-07-19

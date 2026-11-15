@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目35 手動でFFIマッピングを書かずにbindgenを用いよう
+title: Effective Rust › 手動でFFIマッピングを書かずにbindgenを用いよう
 description: C の構造体や関数に対応する Rust の宣言は手で書かず bindgen で生成し、C++ との連携には cxx を検討するべきだと説く項目
 tags: [book-chapter, rust]
 date: 2025-01-24

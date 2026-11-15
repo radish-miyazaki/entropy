@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目39 差異のモデリングより型の統一を優先する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 差異のモデリングより型の統一を優先する
 description: 型の小さな違いをモデリングするより、違いをなくして 1 つの型に統一したほうが認知的負荷と変換コードを減らせると説く項目
 tags: [book-chapter, typescript]
 date: 2025-05-09

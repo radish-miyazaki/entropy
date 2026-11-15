@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第14章 Choosing Names
+title: A Philosophy of Software Design › Choosing Names
 description: 良い名前は正確さと一貫性を併せ持ち、コードの理解を助ける抽象化の一形態だと説く章
 tags: [book-chapter, 設計]
 date: 2023-12-27

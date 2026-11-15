@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 コメントとフロー制御
+title: Programming Clojure, Third Edition › コメントとフロー制御
 description: ;、comment、#_ によるコメントと、if、do、loop と recur によるフロー制御を見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

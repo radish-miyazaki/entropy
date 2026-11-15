@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目16 unsafeコードを書かないようにしよう
+title: Effective Rust › unsafeコードを書かないようにしよう
 description: unsafe コードは FFI や低レイヤの実装など必要な場面を除いて自分で書かず、標準ライブラリやクレートがカプセル化したものを使うべきだと説く項目
 tags: [book-chapter, rust]
 date: 2025-01-04

@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第18章 Threading Macros
+title: Clojure Book › Threading Macros
 description: 値を次のフォームの第 1 引数や最終引数、任意の位置に渡していく ->、->>、as->、cond->、cond->> マクロで、コードを直感的に書く章
 tags: [book-chapter, clojure]
 date: 2023-08-19

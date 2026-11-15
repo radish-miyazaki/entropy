@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第11章 Spec
+title: Clojure Book › Spec
 description: Clojure に組み込まれた Spec で値やコレクション、マップの形を検証し、失敗の理由を出力し、関数の事前条件や事後条件に使う章
 tags: [book-chapter, clojure]
 date: 2023-08-18

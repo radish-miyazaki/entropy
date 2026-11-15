@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 コンピュテーション式の導入
+title: Domain Modeling Made Functional › コンピュテーション式の導入
 description: F# のコンピュテーション式で result ビルダーを自作し、bind や map を意識せずに Result を扱う。Result のリストは sequence で変換する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-05

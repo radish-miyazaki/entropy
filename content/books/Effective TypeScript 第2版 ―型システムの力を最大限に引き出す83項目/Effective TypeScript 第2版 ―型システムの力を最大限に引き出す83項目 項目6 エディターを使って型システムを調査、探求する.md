@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目6 エディターを使って型システムを調査、探求する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › エディターを使って型システムを調査、探求する
 description: エディタの言語サービスで型を確かめながら書くと、型システムと型推論の直感が身につき、ライブラリの型宣言も読めると説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-19

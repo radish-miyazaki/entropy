@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目15 借用チェッカのエラーを解消するにはまずエラーメッセージを読もう
+title: Effective Rust › 借用チェッカのエラーを解消するにはまずエラーメッセージを読もう
 description: 借用チェッカのエラーはまずメッセージを読み、複雑な変換では各ステップを型注釈付きのローカル変数に分けて原因を特定する
 tags: [book-chapter, rust]
 date: 2025-01-30

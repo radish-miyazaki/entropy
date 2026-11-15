@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第3章 入れ子になった React Component を TDD で実装する
+title: Test-Driven React, Second Edition › 入れ子になった React Component を TDD で実装する
 aliases: [入れ子になった React Component を TDD で実装する]
 description: figure、img、figcaption、strong を組み合わせて描画する CarouselSlide を、5 段階に分けて TDD で作る
 tags: [book-chapter, react, tdd]

@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第12章 Why Write Comments? The Four Excuses
+title: A Philosophy of Software Design › Why Write Comments? The Four Excuses
 description: コメントは抽象化に欠かせないものであり、コメントを書かない 4 つの言い訳にはどれも反論できると説く章
 tags: [book-chapter, 設計]
 date: 2023-12-25

@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第17章 Destructuring
+title: Clojure Book › Destructuring
 description: JavaScript の分割代入に似た分配束縛で、ベクタやマップの要素を let で変数に束縛する章
 tags: [book-chapter, clojure]
 date: 2023-08-19

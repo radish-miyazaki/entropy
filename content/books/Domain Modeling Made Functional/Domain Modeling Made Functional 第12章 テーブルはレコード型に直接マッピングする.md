@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 テーブルはレコード型に直接マッピングする
+title: Domain Modeling Made Functional › テーブルはレコード型に直接マッピングする
 description: 関数型のドメインモデルではデータと振る舞いが分かれているので、RDB のテーブルをレコード型に直接マッピングできると説明する節
 tags: [book-chapter]
 date: 2024-08-10

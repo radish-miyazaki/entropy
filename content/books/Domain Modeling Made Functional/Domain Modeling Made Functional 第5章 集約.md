@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第5章 集約
+title: Domain Modeling Made Functional › 集約
 description: イミュータブルなデータでは子のエンティティの変更も集約ルートのレベルで行う。集約は整合性の境界であり、不変条件と永続化の単位でもある
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-18

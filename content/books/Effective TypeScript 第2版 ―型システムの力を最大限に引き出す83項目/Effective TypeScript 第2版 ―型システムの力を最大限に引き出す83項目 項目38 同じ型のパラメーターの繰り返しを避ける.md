@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目38 同じ型のパラメーターの繰り返しを避ける
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 同じ型のパラメーターの繰り返しを避ける
 description: 同じ型のパラメータを連続させると呼び出しの正しさが分かりにくくなるので、別々の型を取るか 1 つのオブジェクトにまとめるべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-25

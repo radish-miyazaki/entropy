@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 RDB からの読み取り
+title: Domain Modeling Made Functional › RDB からの読み取り
 description: F# の型プロバイダで SQL に合わせた型を作り、DB のレコードをドメインオブジェクトに変換して 1 件を読み取る関数を組み立てる節
 tags: [book-chapter]
 date: 2024-08-10

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目73 ソースマップを使ってTypeScriptをデバッグする
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › ソースマップを使ってTypeScriptをデバッグする
 description: TypeScript のデバッグにはソースマップを使い、ブラウザだけでなく Node.js も DevTools でデバッグできることを示す項目
 tags: [book-chapter, typescript]
 date: 2025-06-07

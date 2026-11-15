@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 ワークフローの入力
+title: Domain Modeling Made Functional › ワークフローの入力
 description: ワークフローの入力はコマンドであり、共通のフィールドはジェネリクスで共有し、複数のコマンドは選択型でまとめる
 tags: [book-chapter]
 date: 2024-07-21

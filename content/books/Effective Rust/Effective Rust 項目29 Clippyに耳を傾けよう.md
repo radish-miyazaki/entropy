@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目29 Clippyに耳を傾けよう
+title: Effective Rust › Clippyに耳を傾けよう
 description: Clippy の警告が出ない状態を保ち、CI でも実行し、lint の一覧を読んで Rust らしい書き方を身につけようという項目
 tags: [book-chapter, rust]
 date: 2024-12-20

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 型システムで不変条件を強制する
+title: Domain Modeling Made Functional › 型システムで不変条件を強制する
 description: 「注文には 1 行以上の明細がある」のような不変条件は、NonEmptyList のような型で直接表現できる
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-19

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第4章 Functional Programming
+title: Programming Clojure, Third Edition › Functional Programming
 description: 関数型プログラミングの概念と Clojure での 6 つのガイドラインを押さえ、遅延シーケンス、シーケンスライブラリの組み合わせ、相互再帰の解き方、トランスデューサによる即時変換を学ぶ章
 tags: [book-chapter, clojure]
 date: 2023-08-27

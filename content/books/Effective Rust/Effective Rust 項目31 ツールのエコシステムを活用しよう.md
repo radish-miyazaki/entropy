@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目31 ツールのエコシステムを活用しよう
+title: Effective Rust › ツールのエコシステムを活用しよう
 description: 標準の cargo サブコマンドとサードパーティの cargo ツールを紹介し、使えるツールを自分で探して CI や IDE に組み込むよう勧める項目
 tags: [book-chapter, rust]
 date: 2025-01-16

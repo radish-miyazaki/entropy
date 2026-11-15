@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第1章 Test-Driven Development with Jest
+title: Test-Driven React, Second Edition › Test-Driven Development with Jest
 aliases: [Test-Driven Development with Jest]
 description: テストを後から書くことの欠点を挙げ、TDD の本質は小さなテストと実装を繰り返す「迅速な反復」にあると説く章
 tags: [book-chapter]

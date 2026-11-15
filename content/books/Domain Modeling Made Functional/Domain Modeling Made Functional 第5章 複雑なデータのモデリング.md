@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第5章 複雑なデータのモデリング
+title: Domain Modeling Made Functional › 複雑なデータのモデリング
 description: AND の組み合わせはレコード型で、OR の選択肢は判別共用体で表し、中身が未定の型は Undefined としておく
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-16

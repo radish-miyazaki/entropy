@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第5章 単純な値のモデリング
+title: Domain Modeling Made Functional › 単純な値のモデリング
 description: プリミティブ値を単一ケースの判別共用体（単純型）で包み、異なる型の混同をコンパイル時に防ぐ。性能が問題なら型エイリアスや構造体を使う
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-16

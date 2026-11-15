@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第3章 すべてはシーケンスである
+title: Programming Clojure, Third Edition › すべてはシーケンスである
 description: シーケンスの核となる first、rest、cons と、seq、next の違い、マップと集合のシーケンス化、conj と into、遅延評価と不変性を見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 なんとなく理解するモナドとアプリカティブ
+title: Domain Modeling Made Functional › なんとなく理解するモナドとアプリカティブ
 description: モナディック関数を直列につなぐのがモナド、並列に組み合わせるのがアプリカティブ、という大まかな理解
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-06

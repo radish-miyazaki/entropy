@@ -1,5 +1,5 @@
 ---
-title: 実践Next.js ——App Routerで進化するWebアプリ開発 第8章 Parallel RoutesとIntercepting Routesを用いたモーダル
+title: 実践Next.js ——App Routerで進化するWebアプリ開発 › Parallel RoutesとIntercepting Routesを用いたモーダル
 description: 汎用的なモーダルコンポーネントを作り、Parallel Routes と Intercepting Routes を組み合わせて URL と連動するモーダルを実装する章
 tags: [book-chapter, next.js, parallel-routes, intercepting-routes]
 date: 2024-08-29

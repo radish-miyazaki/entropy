@@ -1,5 +1,5 @@
 ---
-title: PureScript by Example 第3章 関数とレコード
+title: PureScript by Example › 関数とレコード
 description: PureScript の基本的な型、レコード、型構築子とカインド、量化された型、η 変換、中置演算子、関数合成を扱う章
 tags: [book-chapter, purescript]
 date: 2025-05-02

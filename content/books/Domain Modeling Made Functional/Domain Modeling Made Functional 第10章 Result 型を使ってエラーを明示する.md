@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 Result 型を使ってエラーを明示する
+title: Domain Modeling Made Functional › Result 型を使ってエラーを明示する
 description: 例外ではなく Result 型を使い、成功か失敗か、失敗の原因は何かを関数のシグネチャで明示する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-02

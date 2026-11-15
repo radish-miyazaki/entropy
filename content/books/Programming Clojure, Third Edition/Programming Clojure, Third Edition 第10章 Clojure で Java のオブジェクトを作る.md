@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第10章 Clojure で Java のオブジェクトを作る
+title: Programming Clojure, Third Edition › Clojure で Java のオブジェクトを作る
 description: Clojure のオブジェクトは Java の型や主要なインタフェースを実装しているのでそのまま Java の API に渡せ、reify や defrecord でインタフェースを実装し、proxy でクラスを継承する
 tags: [book-chapter, clojure]
 date: 2023-09-20

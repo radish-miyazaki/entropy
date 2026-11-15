@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第19章 Regular Expression
+title: Clojure Book › Regular Expression
 description: Clojure では #"" で正規表現を書き、re-matches、re-find、re-seq で文字列と照合する。(?i) などのフラグや、clojure.string の replace、split と組み合わせる方法も扱う
 tags: [book-chapter, clojure]
 date: 2023-08-22

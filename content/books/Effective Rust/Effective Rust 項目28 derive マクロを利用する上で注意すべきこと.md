@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 derive マクロを利用する上で注意すべきこと
+title: Effective Rust › derive マクロを利用する上で注意すべきこと
 description: derive マクロは入力を置き換えずにコードを追加し、ヘルパ属性を宣言でき、入力のパースには syn クレートが使える
 tags: [book-chapter, rust]
 date: 2025-01-21

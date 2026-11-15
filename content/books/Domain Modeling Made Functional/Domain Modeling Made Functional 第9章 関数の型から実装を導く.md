@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第9章 関数の型から実装を導く
+title: Domain Modeling Made Functional › 関数の型から実装を導く
 description: F# で関数を関数型の値として定義し、引数と戻り値の型を関数の型から決める書き方
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-30

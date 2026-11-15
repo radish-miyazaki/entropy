@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 シリアライズコードとワークフローの連携
+title: Domain Modeling Made Functional › シリアライズコードとワークフローの連携
 description: ワークフローの前にデシリアライズ、後にシリアライズのステップをつなぎ、境界づけられたコンテキスト間の契約となる DTO の形を自分たちで管理する
 tags: [book-chapter]
 date: 2024-08-03

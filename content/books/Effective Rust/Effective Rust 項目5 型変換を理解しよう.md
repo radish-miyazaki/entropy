@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目5 型変換を理解しよう
+title: Effective Rust › 型変換を理解しよう
 description: Rust の 3 種類の型変換（From/Into による変換、as によるキャスト、暗黙の型強制）を整理し、変換には From を実装してトレイト境界には Into を使おうという項目
 tags: [book-chapter, rust]
 date: 2024-12-18

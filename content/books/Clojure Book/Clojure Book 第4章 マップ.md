@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第4章 マップ
+title: Clojure Book › マップ
 description: Clojure のマップの定義、get とキーワードによる値の取得、assoc と dissoc による要素の追加と削除、keys と vals を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-16

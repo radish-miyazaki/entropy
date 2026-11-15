@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目25 依存グラフを管理しよう
+title: Effective Rust › 依存グラフを管理しよう
 description: crates.io の名前空間、Cargo のバージョン選択、Cargo.lock の扱い、バージョンの指定方法、依存の問題を見つけるツールと依存を増やすコストを説明する項目
 tags: [book-chapter, rust]
 date: 2025-01-10

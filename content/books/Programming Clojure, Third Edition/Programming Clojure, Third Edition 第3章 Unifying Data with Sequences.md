@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第3章 Unifying Data with Sequences
+title: Programming Clojure, Third Edition › Unifying Data with Sequences
 description: Clojure があらゆるデータ構造をシーケンスという単一の抽象で扱うことと、シーケンスライブラリ、遅延シーケンス、Java のシーカブル、構造に特化した関数を見る章
 tags: [book-chapter, clojure]
 date: 2023-08-25

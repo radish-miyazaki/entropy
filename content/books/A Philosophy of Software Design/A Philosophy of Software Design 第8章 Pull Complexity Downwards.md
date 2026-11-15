@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第8章 Pull Complexity Downwards
+title: A Philosophy of Software Design › Pull Complexity Downwards
 description: モジュールの機能に関わる複雑さは、利用者に任せずモジュールの内部で引き受けるべきだと説く章
 tags: [book-chapter, 設計]
 date: 2023-12-21

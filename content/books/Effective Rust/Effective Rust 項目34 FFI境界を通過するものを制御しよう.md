@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目34 FFI境界を通過するものを制御しよう
+title: Effective Rust › FFI境界を通過するものを制御しよう
 description: FFI 境界での問題を減らすため、unsafe な FFI コードを safe なラッパで包み、メモリの確保と解放を片側に寄せ、panic! を境界の外に出さないよう説く項目
 tags: [book-chapter, rust]
 date: 2025-01-24

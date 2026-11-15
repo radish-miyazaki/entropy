@@ -1,5 +1,5 @@
 ---
-title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第8章 importブロックを使いこなす
+title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで › importブロックを使いこなす
 description: v1.5.0 で追加された import ブロックを使い、既存リソースから HCL のコードを生成してステートに取り込む方法を説明する章
 tags: [book-chapter, terraform]
 date: 2025-10-24

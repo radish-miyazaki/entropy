@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第16章 apply
+title: Clojure Book › apply
 description: apply は第 1 引数の関数に、第 2 引数のシーケンスの要素を引数として渡す
 tags: [book-chapter, clojure]
 date: 2023-08-19

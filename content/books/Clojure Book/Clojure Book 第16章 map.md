@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第16章 map
+title: Clojure Book › map
 description: map はシーケンスの各要素に関数を適用し、複数の引数を取る関数には引数の数だけシーケンスを渡す
 tags: [book-chapter, clojure]
 date: 2023-08-19

@@ -1,5 +1,5 @@
 ---
-title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第4章 Terraformの基本文法
+title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで › Terraformの基本文法
 description: resource、data、variable、locals、module、output の各ブロックと、count、for_each、for、条件式による繰り返しや分岐を説明する章
 tags: [book-chapter, terraform]
 date: 2025-10-10

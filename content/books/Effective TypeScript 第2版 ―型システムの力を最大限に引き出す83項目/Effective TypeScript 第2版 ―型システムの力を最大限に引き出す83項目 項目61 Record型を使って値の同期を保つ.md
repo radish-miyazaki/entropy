@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目61 Record型を使って値の同期を保つ
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › Record型を使って値の同期を保つ
 description: Fail Open と Fail Closed のジレンマを意識し、Record 型で関連する値と型を同期させてプロパティの追加漏れを防ぐ項目
 tags: [book-chapter, typescript]
 date: 2025-05-05

@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 無名関数
+title: Clojure Book › 無名関数
 description: fn で名前のない関数を定義する方法と、defn が def と fn を組み合わせたシンタックスシュガーであることを扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

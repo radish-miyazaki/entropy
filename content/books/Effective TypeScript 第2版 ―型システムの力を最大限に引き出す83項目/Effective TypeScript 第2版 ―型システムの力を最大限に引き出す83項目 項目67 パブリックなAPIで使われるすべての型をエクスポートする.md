@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目67 パブリックなAPIで使われるすべての型をエクスポートする
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › パブリックなAPIで使われるすべての型をエクスポートする
 description: パブリックなメソッドで使う型は、隠してもどのみち取り出せるので、すべてエクスポートしておく項目
 tags: [book-chapter, typescript]
 date: 2025-04-25

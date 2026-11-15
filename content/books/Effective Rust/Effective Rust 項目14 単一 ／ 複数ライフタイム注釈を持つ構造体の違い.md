@@ -1,5 +1,5 @@
 ---
-title: "Effective Rust 項目14 単一 / 複数ライフタイム注釈を持つ構造体の違い"
+title: Effective Rust › 単一 / 複数ライフタイム注釈を持つ構造体の違い
 description: 参照フィールドに同じライフタイム注釈を付ける構造体と、別々の注釈を付ける構造体の違いと使い分けを、例で整理したページ
 tags: [book-chapter, rust]
 date: 2025-01-15

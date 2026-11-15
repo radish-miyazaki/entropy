@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第1章 共有されたモデルの重要性
+title: Domain Modeling Made Functional › 共有されたモデルの重要性
 description: ドメインエキスパート、開発チーム、ソースコードが同じモデルを共有することが DDD の最終目標であり、そのメリットと共有モデルを作るガイドラインを示す節
 tags: [book-chapter, ddd]
 date: 2024-07-02

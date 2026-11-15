@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目25 進化する型を理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 進化する型を理解する
 description: null や undefined、空配列で初期化した変数の型が代入に応じて変化する「進化する型」の仕組みと注意点を扱う項目
 tags: [book-chapter, typescript]
 date: 2025-04-12

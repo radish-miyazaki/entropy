@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 Java を呼び出す
+title: Programming Clojure, Third Edition › Java を呼び出す
 description: new と . によるコンストラクタ、メソッド、フィールドへのアクセス、より簡潔な構文、パッケージのインポート、javadoc 関数を見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

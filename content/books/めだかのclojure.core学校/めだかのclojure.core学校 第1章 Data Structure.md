@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 Data Structure
+title: めだかのclojure.core学校 › Data Structure
 description: 数値、識別子、真偽値、文字、コレクションなど、Clojure のデータ構造を扱う clojure.core の Var をまとめた章
 tags: [book-chapter, clojure]
 date: 2024-11-27

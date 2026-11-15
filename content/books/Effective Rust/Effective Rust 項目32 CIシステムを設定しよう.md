@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目32 CIシステムを設定しよう
+title: Effective Rust › CIシステムを設定しよう
 description: すべてのテストを CI で実行し、CI は素早く決定的で偽陽性ゼロにし、人間の時間を無駄にしないよう設計するべきだと説く項目
 tags: [book-chapter, rust, ci]
 date: 2025-01-22

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第9章 依存関係の注入
+title: Domain Modeling Made Functional › 依存関係の注入
 description: 関数型プログラミングで依存性の注入を行う方法として、すべての依存関係をトップレベルの関数から明示的に受け渡す方法を解説する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-31

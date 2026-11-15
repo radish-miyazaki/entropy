@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目57 再帰的なジェネリック型は末尾再帰にする
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 再帰的なジェネリック型は末尾再帰にする
 description: 再帰的なジェネリック型をアキュムレータで末尾再帰に書き直すと、末尾呼び出し最適化が効いて再帰の深さの制限が緩くなる項目
 tags: [book-chapter, typescript]
 date: 2025-04-25

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目81 allowJsを使ってTypeScriptとJavaScriptを共存させる
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › allowJsを使ってTypeScriptとJavaScriptを共存させる
 description: 大規模な JavaScript プロジェクトを移行するときは allowJs を有効にし、JavaScript と TypeScript のコードを共存させながら進める項目
 tags: [book-chapter, typescript]
 date: 2025-05-02

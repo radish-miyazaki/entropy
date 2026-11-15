@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 ドキュメントデータベースを扱う
+title: Domain Modeling Made Functional › ドキュメントデータベースを扱う
 description: ドキュメントデータベースへの永続化は、DTO への変換、JSON への変換、ストレージ API での CRUD の 3 ステップで済む
 tags: [book-chapter]
 date: 2024-08-09

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第7章 レコード
+title: Programming Clojure, Third Edition › レコード
 description: アプリケーションドメインの情報はマップでモデリングするのが推奨され、マップとして扱えてプロトコルでポリモーフィズムも使えるレコードを defrecord で作り、音符を MIDI で演奏する
 tags: [book-chapter, clojure]
 date: 2023-09-11

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 Clojure の基本
+title: Programming Clojure, Third Edition › Clojure の基本
 description: Clojure のコードはデータで組み立てられ、リーダがフォーム単位で読み込む。シンボル、文字と文字列、真偽値と nil のルールを見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

@@ -1,5 +1,5 @@
 ---
-title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第5章 依存関係の解決と合成
+title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで › 依存関係の解決と合成
 description: WIT の import で依存するインタフェースの実装を、Component どうしの合成か、ホストコードでのトレイト実装によって与える方法をまとめた章
 tags: [book-chapter, rust, webassembly]
 date: 2024-10-21

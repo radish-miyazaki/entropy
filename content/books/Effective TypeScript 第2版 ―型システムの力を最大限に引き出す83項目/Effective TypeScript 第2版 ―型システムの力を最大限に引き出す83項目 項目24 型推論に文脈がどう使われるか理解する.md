@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目24 型推論に文脈がどう使われるか理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型推論に文脈がどう使われるか理解する
 description: TypeScript は値の使われる文脈も考慮して型を推論するので、値と文脈を切り離したときに起きる型エラーとその解消方法を扱う項目
 tags: [book-chapter, typescript]
 date: 2025-05-04

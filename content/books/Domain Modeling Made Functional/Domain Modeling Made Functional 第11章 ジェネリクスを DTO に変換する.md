@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 ジェネリクスを DTO に変換する
+title: Domain Modeling Made Functional › ジェネリクスを DTO に変換する
 description: シリアライズライブラリがジェネリクスに対応していればジェネリックな DTO を作り、対応していなければ具体的なケースごとに具象型の DTO を作る
 tags: [book-chapter]
 date: 2024-08-07

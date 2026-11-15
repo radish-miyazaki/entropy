@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第4章 リスト
+title: Clojure Book › リスト
 description: Clojure のリストの定義、ベクタと共通する要素の取得方法、cons と conj がどちらも先頭に要素を追加することを扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-16

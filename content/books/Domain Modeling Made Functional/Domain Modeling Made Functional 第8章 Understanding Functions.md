@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第8章 Understanding Functions
+title: Domain Modeling Made Functional › Understanding Functions
 description: 関数型プログラミングとは何か、実装にどんな道具や考え方が必要かを理解する章
 tags: [book-chapter, ddd, domain-modeling-made-functional]
 date: 2024-07-26

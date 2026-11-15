@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第2章 Understanding the Domain
+title: Domain Modeling Made Functional › Understanding the Domain
 description: 開発者目線を捨ててドメインエキスパートにインタビューし、データベースやクラスの先入観を持ち込まずに、ワークフローとデータ構造をテキストで文書化する章
 tags: [book-chapter, ddd, domain-modeling-made-functional]
 date: 2024-07-03

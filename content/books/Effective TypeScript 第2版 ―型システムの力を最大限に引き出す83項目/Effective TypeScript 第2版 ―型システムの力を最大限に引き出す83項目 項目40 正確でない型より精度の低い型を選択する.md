@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目40 正確でない型より精度の低い型を選択する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 正確でない型より精度の低い型を選択する
 description: 複雑で不正確な型は開発体験を損ないバグの温床になるので、精度と開発者体験のバランスを取り、ときには精度の低い型を選ぶべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-05-16

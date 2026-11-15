@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目5 any型の使用を制限する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › any型の使用を制限する
 description: any 型を使うと型安全性や言語サービスの支援を失い、型設計も見えなくなるので、使用をできるだけ制限するよう説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-18

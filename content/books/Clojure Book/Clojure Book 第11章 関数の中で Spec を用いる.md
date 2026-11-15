@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第11章 関数の中で Spec を用いる
+title: Clojure Book › 関数の中で Spec を用いる
 description: "関数の事前条件（:pre）や事後条件（:post）に Spec を使い、渡されたデータの整合性をチェックする"
 tags: [book-chapter, clojure]
 date: 2023-08-18

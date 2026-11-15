@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第7章 Conditions and branching
+title: Clojure Book › Conditions and branching
 description: Clojure の条件分岐 if、when、cond、case の書き方と、do で複数の式をまとめる方法を扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-17

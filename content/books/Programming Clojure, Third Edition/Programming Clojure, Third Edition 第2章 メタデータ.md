@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 メタデータ
+title: Programming Clojure, Third Edition › メタデータ
 description: オブジェクトの論理的な値と直交するデータであるメタデータを、var のメタデータ、メタデータリーダマクロ、共通のキーの順に見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

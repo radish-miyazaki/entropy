@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 ドメインエラーを扱う
+title: Domain Modeling Made Functional › ドメインエラーを扱う
 description: エラーをドメインエラー、パニック、インフラストラクチャエラーの 3 種類に分け、ドメインエラーを選択型でモデリングする
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-04

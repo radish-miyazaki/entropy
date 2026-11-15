@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core のベクタに関する var
+title: めだかのclojure.core学校 › clojure.core のベクタに関する var
 description: ベクタの生成と判定を行う clojure.core の vec、vector、vector?、vector-of をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-11-29

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目77 型チェックとユニットテストの関係を理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型チェックとユニットテストの関係を理解する
 description: 型チェックと単体テストは補い合う関係にあり、できるだけ型チェックに任せつつ、型で表せない振る舞いには単体テストを書くべきだとする項目
 tags: [book-chapter, typescript]
 date: 2025-06-06

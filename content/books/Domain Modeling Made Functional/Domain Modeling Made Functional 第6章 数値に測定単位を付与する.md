@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 数値に測定単位を付与する
+title: Domain Modeling Made Functional › 数値に測定単位を付与する
 description: F# では数値に測定単位を付けられ、単位が一致しないとコンパイルエラーになる。物理的な単位以外にも使える
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-19

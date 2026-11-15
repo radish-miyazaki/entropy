@@ -1,5 +1,5 @@
 ---
-title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第4章 他のプログラムから利用されるWasmコンポーネント
+title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで › 他のプログラムから利用されるWasmコンポーネント
 description: WIT でインタフェースを定義したライブラリとしての WebAssembly Component を作り、Wasmtime の API や bindgen マクロを使ってホスト側の Rust プログラムから呼び出す章
 tags: [book-chapter, rust, webassembly]
 date: 2024-10-18

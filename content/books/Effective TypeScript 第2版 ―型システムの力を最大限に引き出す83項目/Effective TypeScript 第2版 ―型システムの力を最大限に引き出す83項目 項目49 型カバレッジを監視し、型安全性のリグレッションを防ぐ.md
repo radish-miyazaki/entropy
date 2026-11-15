@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目49 型カバレッジを監視し、型安全性のリグレッションを防ぐ
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型カバレッジを監視し、型安全性のリグレッションを防ぐ
 description: noImplicitAny を有効にしても any は入り込むので、type-coverage などで型カバレッジを監視し、型安全性を保つべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-05-02

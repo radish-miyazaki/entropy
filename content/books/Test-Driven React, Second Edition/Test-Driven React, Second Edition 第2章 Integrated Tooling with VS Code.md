@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第2章 Integrated Tooling with VS Code
+title: Test-Driven React, Second Edition › Integrated Tooling with VS Code
 aliases: [Integrated Tooling with VS Code]
 description: TDD の迅速な反復を支えるため、TypeScript、ESLint、Prettier、Wallaby を VS Code に統合して自動で即座にフィードバックを得る章
 tags: [book-chapter]

@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 Rust におけるマクロ
+title: Effective Rust › Rust におけるマクロ
 description: Rust のマクロはトークン列や抽象構文木に対して動作し、宣言的マクロと手続き的マクロの 2 種類がある
 tags: [book-chapter, rust]
 date: 2025-01-20

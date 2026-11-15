@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 タプルを DTO に変換する
+title: Domain Modeling Made Functional › タプルを DTO に変換する
 description: タプルはほとんどのシリアライズフォーマットで扱えないので、DTO ではレコード型で表現する
 tags: [book-chapter]
 date: 2024-08-07

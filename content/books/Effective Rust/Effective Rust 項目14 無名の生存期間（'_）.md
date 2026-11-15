@@ -1,5 +1,5 @@
 ---
-title: "Effective Rust 項目14 無名の生存期間（'_）"
+title: "Effective Rust › 無名の生存期間（'_）"
 description: 戻り値の型が生存期間パラメータを持つことを '_ で明示する方法と、名前の要らない生存期間に '_ を使う場面を説明する節
 tags: [book-chapter, rust]
 date: 2025-01-15

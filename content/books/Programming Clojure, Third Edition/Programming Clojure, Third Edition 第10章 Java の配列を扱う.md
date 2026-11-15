@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第10章 Java の配列を扱う
+title: Programming Clojure, Third Edition › Java の配列を扱う
 description: 基本は Clojure のコレクションを使い、Java の配列が必要なときは make-array や aset、aget、alength、より高レベルな to-array、into-array、amap、areduce を使う
 tags: [book-chapter, clojure]
 date: 2023-09-20

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 実際のパイプラインでの bind と map の利用
+title: Domain Modeling Made Functional › 実際のパイプラインでの bind と map の利用
 description: 注文確定のパイプラインに Result を導入し、mapError、bind、map で合成し直す。入力が複数ある関数は別の対策が必要になる
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-05

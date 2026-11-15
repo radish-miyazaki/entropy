@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第3章 境界づけられたコンテキスト間の契約
+title: Domain Modeling Made Functional › 境界づけられたコンテキスト間の契約
 description: コンテキスト間で共有するフォーマットの契約を誰が決めるかは関係性によって決まり、外部システムとの間には腐敗防止層を置く節
 tags: [book-chapter, ddd]
 date: 2024-07-12

@@ -1,5 +1,5 @@
 ---
-title: Clojure Brain Teasers Evaluation
+title: Clojure Brain Teasers › Evaluation
 description: 読み取り時と評価時の違いに関わる Clojure のつまずきやすい挙動を、#_ や comment、集合リテラル、クォート、-> マクロなどの例で示す章
 tags: [book-chapter, clojure]
 date: 2025-05-23

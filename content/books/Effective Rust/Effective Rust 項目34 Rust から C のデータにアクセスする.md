@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目34 Rust から C のデータにアクセスする
+title: Effective Rust › Rust から C のデータにアクセスする
 description: FFI で使う Rust の型には repr(C) を付けてメモリレイアウトを合わせ、文字列は CString と CStr で扱う
 tags: [book-chapter, rust]
 date: 2025-01-25

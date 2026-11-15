@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第4章 ベクタとリストの違い
+title: Clojure Book › ベクタとリストの違い
 description: ランダムアクセスに強いベクタと、先頭への追加に強いリストのメリットとデメリットを比べる節
 tags: [book-chapter, clojure]
 date: 2023-08-16

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目12 可能なら関数式全体に型を適用する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 可能なら関数式全体に型を適用する
 description: 関数式を使って関数全体に関数型を適用すると、繰り返しが減り、型と実装を分けられ、他の関数のシグネチャにも合わせられると説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-19

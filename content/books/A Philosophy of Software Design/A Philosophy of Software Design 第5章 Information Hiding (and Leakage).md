@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第5章 Information Hiding (and Leakage)
+title: A Philosophy of Software Design › Information Hiding (and Leakage)
 description: 深いモジュールを作るための情報隠蔽と、その反対の情報漏洩、そして情報漏洩の主な原因である時間的分解を扱う章
 tags: [book-chapter, 設計]
 date: 2023-12-19

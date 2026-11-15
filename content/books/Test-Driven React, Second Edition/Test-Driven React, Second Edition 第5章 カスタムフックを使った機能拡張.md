@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第5章 カスタムフックを使った機能拡張
+title: Test-Driven React, Second Edition › カスタムフックを使った機能拡張
 aliases: [カスタムフックを使った機能拡張]
 description: Vitest のフェイクタイマーでテストを書き、カスタムフック useTimeout でカルーセルにスライドを自動で進める機能を足す
 tags: [book-chapter]

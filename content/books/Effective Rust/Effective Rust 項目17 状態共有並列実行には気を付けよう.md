@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目17 状態共有並列実行には気を付けよう
+title: Effective Rust › 状態共有並列実行には気を付けよう
 description: 状態を共有する並列処理はデータ競合、デッドロック、競合状態を招くので、まず避け、避けられなければロックの扱いに気を付けるべきだと説く項目
 tags: [book-chapter, rust]
 date: 2025-01-16

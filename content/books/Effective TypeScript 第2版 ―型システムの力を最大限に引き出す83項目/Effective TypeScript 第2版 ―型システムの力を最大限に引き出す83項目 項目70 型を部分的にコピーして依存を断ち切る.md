@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目70 型を部分的にコピーして依存を断ち切る
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型を部分的にコピーして依存を断ち切る
 description: npm パッケージを公開するときは、必要な部分だけを持つ型を自分で定義して、型の推移的依存関係を断ち切る項目
 tags: [book-chapter, typescript]
 date: 2025-06-06

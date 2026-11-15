@@ -1,5 +1,5 @@
 ---
-title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 第3章 HTTPを実装する──ネットワーク通信を支える約束事
+title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 › HTTPを実装する──ネットワーク通信を支える約束事
 description: HTTP の各バージョンと HTTP メッセージを扱い、ブラウザに HTTP を実装する章
 tags: [book-chapter]
 date: 2024-11-14

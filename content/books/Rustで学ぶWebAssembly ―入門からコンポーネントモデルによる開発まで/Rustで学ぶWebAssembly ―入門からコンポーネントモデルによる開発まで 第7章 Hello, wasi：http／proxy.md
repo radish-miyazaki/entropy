@@ -1,5 +1,5 @@
 ---
-title: "Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第7章 Hello, wasi:http/proxy"
+title: "Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで › Hello, wasi:http/proxy"
 description: wasi:http/proxy World を実装した WebAssembly Component で HTTP レスポンスを返し、cargo component serve で動かす章
 tags: [book-chapter, rust, webassembly, wasi]
 date: 2024-10-30

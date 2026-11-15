@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第3章 遅延シーケンスと無限シーケンス
+title: Programming Clojure, Third Edition › 遅延シーケンスと無限シーケンス
 description: 素数の無限シーケンスを例に遅延シーケンスの利点を見て、基本は遅延シーケンスを使うこと、副作用があるときは doall と dorun で計算を強制することを学ぶ
 tags: [book-chapter, clojure]
 date: 2023-08-25

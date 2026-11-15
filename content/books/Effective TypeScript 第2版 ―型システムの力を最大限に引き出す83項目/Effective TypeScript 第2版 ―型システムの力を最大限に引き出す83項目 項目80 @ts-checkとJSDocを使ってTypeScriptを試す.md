@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目80 @ts-checkとJSDocを使ってTypeScriptを試す
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › @ts-checkとJSDocを使ってTypeScriptを試す
 description: JavaScript ファイルに // @ts-check を書いて型チェックを試し、出てくるエラーを型宣言ファイルや JSDoc で解消する項目
 tags: [book-chapter, typescript]
 date: 2025-05-09

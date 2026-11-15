@@ -1,5 +1,5 @@
 ---
-title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第1章 Infrastructure as Code（IaC）とTerraform
+title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで › Infrastructure as Code（IaC）とTerraform
 description: IaC のメリットと IaC ツールの分類を整理し、HCL で宣言的にインフラを記述する Terraform の特徴を紹介する章
 tags: [book-chapter, terraform]
 date: 2025-10-09

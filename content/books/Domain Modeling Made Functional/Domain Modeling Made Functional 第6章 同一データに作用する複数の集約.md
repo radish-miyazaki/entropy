@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 同一データに作用する複数の集約
+title: Domain Modeling Made Functional › 同一データに作用する複数の集約
 description: 同じデータに作用する複数の集約では、制約を型でモデリングして共有する
 tags: [book-chapter]
 date: 2024-07-19

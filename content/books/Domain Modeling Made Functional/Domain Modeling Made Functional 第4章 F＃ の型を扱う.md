@@ -1,5 +1,5 @@
 ---
-title: "Domain Modeling Made Functional 第4章 F# の型を扱う"
+title: "Domain Modeling Made Functional › F# の型を扱う"
 description: F# では型の定義と値の構築の書き方が似ており、レコードは分割代入やドット記法で、判別共用体はパターンマッチで値を取り出す
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-12

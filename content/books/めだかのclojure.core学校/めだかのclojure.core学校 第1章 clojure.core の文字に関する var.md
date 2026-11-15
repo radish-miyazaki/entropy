@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core の文字に関する var
+title: めだかのclojure.core学校 › clojure.core の文字に関する var
 description: 文字の生成、判定、文字名やエスケープ文字列の取得を行う clojure.core の Var をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-11-28

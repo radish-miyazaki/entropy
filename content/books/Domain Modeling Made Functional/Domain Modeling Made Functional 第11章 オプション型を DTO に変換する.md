@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 オプション型を DTO に変換する
+title: Domain Modeling Made Functional › オプション型を DTO に変換する
 description: オプション型は None を null に置き換えて DTO にする。値型をラップしている場合は null 許容型に変換する
 tags: [book-chapter]
 date: 2024-08-07

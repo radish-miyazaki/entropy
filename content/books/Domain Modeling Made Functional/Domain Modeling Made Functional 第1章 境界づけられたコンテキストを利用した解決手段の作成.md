@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第1章 境界づけられたコンテキストを利用した解決手段の作成
+title: Domain Modeling Made Functional › 境界づけられたコンテキストを利用した解決手段の作成
 description: 問題空間のドメインを解決空間の境界づけられたコンテキストに写し、コンテキストマップで関係を示し、コアドメインから実装する節
 tags: [book-chapter, ddd]
 date: 2024-07-02

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第9章 単純なディスパッチの先に
+title: Programming Clojure, Third Edition › 単純なディスパッチの先に
 description: ベクタに Collection と IPersistentVector の両方のディスパッチ値がマッチして衝突したとき、Clojure は衝突を許容し prefer-method で優先するほうを指定して解消する
 tags: [book-chapter, clojure]
 date: 2023-09-19

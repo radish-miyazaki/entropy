@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 リレーショナルデータベースを扱う
+title: Domain Modeling Made Functional › リレーショナルデータベースを扱う
 description: 関数型のドメインモデルをリレーショナルデータベースに保存するとき、テーブルと型をどう対応させ、どう読み書きするかをまとめた節
 tags: [book-chapter]
 date: 2024-08-09

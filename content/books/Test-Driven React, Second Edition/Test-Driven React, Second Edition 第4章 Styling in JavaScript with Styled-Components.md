@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第4章 Styling in JavaScript with Styled-Components
+title: Test-Driven React, Second Edition › Styling in JavaScript with Styled-Components
 aliases: [Styling in JavaScript with Styled-Components]
 description: CSS-in-JS ならスタイルも単体テストできるが、スタイルは目で見るのが一番のフィードバックなので、テストを後から書くのも手だとする章
 tags: [book-chapter]

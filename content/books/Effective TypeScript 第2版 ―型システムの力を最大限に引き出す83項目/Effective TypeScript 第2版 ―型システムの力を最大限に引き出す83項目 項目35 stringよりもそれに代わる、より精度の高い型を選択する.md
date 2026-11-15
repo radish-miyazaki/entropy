@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目35 stringよりもそれに代わる、より精度の高い型を選択する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › stringよりもそれに代わる、より精度の高い型を選択する
 description: どんな文字列でも受け入れるわけではない値には string ではなく文字列リテラル型や keyof T を使い、Stringly typed なコードを避ける項目
 tags: [book-chapter, typescript]
 date: 2025-05-06

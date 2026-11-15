@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目15 スマートポインタを活用しよう
+title: Effective Rust › スマートポインタを活用しよう
 description: 相互に関連するデータ構造はスマートポインタで管理する。Rc と RefCell を中心に、実行時 panic! や循環参照といった注意点を整理する
 tags: [book-chapter, rust]
 date: 2025-01-31

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第3章 Java をシーカブルとして扱う
+title: Programming Clojure, Third Edition › Java をシーカブルとして扱う
 description: Java のコレクション、正規表現のマッチ結果、ファイルシステム、ストリーム、XML を、シーケンスとして扱う方法を見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

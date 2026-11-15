@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 戻り値
+title: Clojure Book › 戻り値
 description: Clojure の関数は最後に実行した式の値を返し、それより前の式の結果は捨てられることを扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

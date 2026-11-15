@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第4章 関数型プログラミング（FP）の概念
+title: Programming Clojure, Third Edition › 関数型プログラミング（FP）の概念
 description: 純粋関数、永続的データ構造と構造の共有、遅延評価と再帰、参照透過性、FP の利点と、Clojure の FP における 6 つのガイドラインを見る
 tags: [book-chapter, clojure]
 date: 2023-08-27

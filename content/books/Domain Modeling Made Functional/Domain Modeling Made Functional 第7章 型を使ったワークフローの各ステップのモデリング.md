@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 型を使ったワークフローの各ステップのモデリング
+title: Domain Modeling Made Functional › 型を使ったワークフローの各ステップのモデリング
 description: 注文確定ワークフローの検証、価格設定、注文確認、イベント作成の各ステップを、依存関係を含む関数の型で表す
 tags: [book-chapter]
 date: 2024-07-23

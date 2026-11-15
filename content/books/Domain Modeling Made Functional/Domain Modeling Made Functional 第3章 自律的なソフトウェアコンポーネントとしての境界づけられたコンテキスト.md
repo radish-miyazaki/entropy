@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第3章 自律的なソフトウェアコンポーネントとしての境界づけられたコンテキスト
+title: Domain Modeling Made Functional › 自律的なソフトウェアコンポーネントとしての境界づけられたコンテキスト
 description: 境界づけられたコンテキストは明確な境界を持つ自律的なサブシステムであり、デプロイの形は初期に決めず、まずモノリスで作るのがよいとする節
 tags: [book-chapter, ddd]
 date: 2024-07-12

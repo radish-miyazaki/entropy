@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目59 never型を使って網羅性チェックを行う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › never型を使って網羅性チェックを行う
 description: never 型への代入を使って条件分岐の網羅性をチェックし、戻り値の型アノテーションやテンプレートリテラル型も活用する項目
 tags: [book-chapter, typescript]
 date: 2025-05-05

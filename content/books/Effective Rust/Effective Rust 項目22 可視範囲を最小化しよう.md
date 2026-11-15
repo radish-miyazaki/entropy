@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目22 可視範囲を最小化しよう
+title: Effective Rust › 可視範囲を最小化しよう
 description: Rust の可視性の文法（pub、pub(crate)、pub(super)、pub(in path)）を整理し、一度公開したものは戻しにくいので可視範囲はできるだけ狭くしようという項目
 tags: [book-chapter, rust]
 date: 2024-12-27

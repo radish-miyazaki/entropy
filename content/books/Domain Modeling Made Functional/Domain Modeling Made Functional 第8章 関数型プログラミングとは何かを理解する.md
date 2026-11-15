@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第8章 関数型プログラミングとは何かを理解する
+title: Domain Modeling Made Functional › 関数型プログラミングとは何かを理解する
 description: 関数型プログラミングは関数をあらゆる場所で使うプログラミングであり、オブジェクト指向とは考え方そのものが異なる
 tags: [book-chapter]
 date: 2024-07-26

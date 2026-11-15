@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目14 readonlyを使用して変更にまつわるエラーを避ける
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › readonlyを使用して変更にまつわるエラーを避ける
 description: 関数が引数を変更しないなら readonly や Readonly で型として示すよう勧め、その効果が浅くメソッドによる変更を防げない点にも注意を促す項目
 tags: [book-chapter, typescript]
 date: 2025-04-20

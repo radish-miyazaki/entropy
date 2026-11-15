@@ -1,5 +1,5 @@
 ---
-title: Terraformの教科書 第3章 Terraformをはじめよう
+title: Terraformの教科書 › Terraformをはじめよう
 description: Terraform の基本要素であるプロバイダ、リソース、変数、出力、データを順に扱う章
 tags: [book-chapter, terraform]
 date: 2026-07-07

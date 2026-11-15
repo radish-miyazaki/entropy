@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 State and Concurrency
+title: Programming Clojure, Third Edition › State and Concurrency
 description: Clojure が同一実体と値を区別し、ref、atom、agent、var の 4 つの参照型で状態と並行性を扱う方法を学ぶ章
 tags: [book-chapter, clojure]
 date: 2023-09-05

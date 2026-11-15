@@ -1,5 +1,5 @@
 ---
-title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第3章 Lean における含意
+title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 › Lean における含意
 description: Lean では含意を → で表し、apply タクティクで含意を使い、intro タクティクで含意を示す
 tags: [book-chapter, lean]
 date: 2026-02-23

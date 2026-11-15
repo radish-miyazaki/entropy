@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第5章 Reading Clojure Documentation
+title: Clojure Book › Reading Clojure Documentation
 description: REPL 上で doc、find-doc、apropos を使って Clojure のドキュメントを調べる方法と、clojuredocs.org を扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-17

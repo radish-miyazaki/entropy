@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目24 APIに型が登場する依存ライブラリは再エクスポートしよう
+title: Effective Rust › APIに型が登場する依存ライブラリは再エクスポートしよう
 description: 依存クレートの型を API に含めるライブラリは、そのクレートを再エクスポートすることで、利用者がバージョンの違う同じクレートを扱えるようにすべきだと説く項目
 tags: [book-chapter, rust]
 date: 2025-01-08

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目20 変数の型がどのように決まるか理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 変数の型がどのように決まるか理解する
 description: 単一の値から取りうる値の集合を決める「型の拡大」の仕組みと、const・型アノテーション・as const・satisfies でそれを制御する方法を扱う項目
 tags: [book-chapter, typescript]
 date: 2025-05-02

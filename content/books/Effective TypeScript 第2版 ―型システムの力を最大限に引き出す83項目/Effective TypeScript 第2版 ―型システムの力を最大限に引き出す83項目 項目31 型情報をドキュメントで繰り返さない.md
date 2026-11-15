@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目31 型情報をドキュメントで繰り返さない
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型情報をドキュメントで繰り返さない
 description: コメントや変数名で型情報を繰り返さず、readonly などの型で表し、型から分からない単位は変数名に含める項目
 tags: [book-chapter, typescript]
 date: 2025-05-04

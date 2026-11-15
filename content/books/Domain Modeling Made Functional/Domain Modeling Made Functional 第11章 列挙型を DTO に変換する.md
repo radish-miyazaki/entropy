@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 列挙型を DTO に変換する
+title: Domain Modeling Made Functional › 列挙型を DTO に変換する
 description: データを持たないケースだけの選択型は、DTO では整数の列挙型で表現し、デシリアライズでは値が定義済みかを必ずチェックする
 tags: [book-chapter]
 date: 2024-08-07

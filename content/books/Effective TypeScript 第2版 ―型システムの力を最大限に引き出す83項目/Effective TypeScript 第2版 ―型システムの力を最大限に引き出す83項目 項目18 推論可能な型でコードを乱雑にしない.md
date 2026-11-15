@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目18 推論可能な型でコードを乱雑にしない
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 推論可能な型でコードを乱雑にしない
 description: 型推論が効く場所では型アノテーションを省き、関数のシグネチャやオブジェクトリテラル、戻り値など必要な場所にだけ付ける項目
 tags: [book-chapter, typescript]
 date: 2025-04-30

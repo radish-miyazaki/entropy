@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目19 異なる型には異なる変数を使う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 異なる型には異なる変数を使う
 description: TypeScript では変数の値は変わっても型は基本的に変わらないので、異なる型の値に同じ変数を使い回さないようにする項目
 tags: [book-chapter, typescript]
 date: 2025-04-19

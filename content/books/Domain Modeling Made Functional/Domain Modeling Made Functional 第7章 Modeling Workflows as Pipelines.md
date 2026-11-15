@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 Modeling Workflows as Pipelines
+title: Domain Modeling Made Functional › Modeling Workflows as Pipelines
 description: ワークフローを、小さな変換ステップをつないだパイプラインとして型でモデリングする章
 tags: [book-chapter, ddd]
 date: 2024-07-19

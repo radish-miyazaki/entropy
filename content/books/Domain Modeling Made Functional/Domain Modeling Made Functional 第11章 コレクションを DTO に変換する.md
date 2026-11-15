@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 コレクションを DTO に変換する
+title: Domain Modeling Made Functional › コレクションを DTO に変換する
 description: リスト、シーケンス、セットは DTO では配列で表現する。マップなどの複雑なコレクションはシリアライズフォーマットしだい
 tags: [book-chapter]
 date: 2024-08-07

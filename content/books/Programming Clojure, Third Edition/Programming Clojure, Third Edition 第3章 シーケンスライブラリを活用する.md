@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第3章 シーケンスライブラリを活用する
+title: Programming Clojure, Third Edition › シーケンスライブラリを活用する
 description: シーケンスを生成する range や iterate、フィルタする filter や take-while、述語の every? や some、変換する map や reduce、sort と、for によるシーケンス内包表記を見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

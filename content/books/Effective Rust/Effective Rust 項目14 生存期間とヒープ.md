@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目14 生存期間とヒープ
+title: Effective Rust › 生存期間とヒープ
 description: ヒープ上の値にも所有者がいて、所有権の連鎖の終点がスタック上の変数か static 変数かで生存期間が決まることを説明する節
 tags: [book-chapter, rust]
 date: 2025-01-15

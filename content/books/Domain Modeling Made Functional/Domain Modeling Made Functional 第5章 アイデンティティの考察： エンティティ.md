@@ -1,5 +1,5 @@
 ---
-title: "Domain Modeling Made Functional 第5章 アイデンティティの考察: エンティティ"
+title: "Domain Modeling Made Functional › アイデンティティの考察: エンティティ"
 description: 構成要素が変わっても同じものと見なすエンティティは、一意な識別子を持ち、識別子だけで等値性を判断し、変更はコピーで表す
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-18

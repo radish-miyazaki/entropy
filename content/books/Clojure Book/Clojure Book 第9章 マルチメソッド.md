@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 マルチメソッド
+title: Clojure Book › マルチメソッド
 description: defmulti と defmethod でマルチメソッドを定義し、ディスパッチ関数が返すディスパッチ値によって実装を切り替える方法を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

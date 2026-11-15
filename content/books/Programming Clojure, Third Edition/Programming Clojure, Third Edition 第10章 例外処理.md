@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第10章 例外処理
+title: Programming Clojure, Third Edition › 例外処理
 description: Clojure は検査例外の処理を強制せず、ex-info と ex-data でデータを持つ例外を扱い、with-open でリソースを解放するので、try と throw を直接使う必要はほとんどない
 tags: [book-chapter, clojure]
 date: 2023-09-20

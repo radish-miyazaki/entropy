@@ -1,5 +1,5 @@
 ---
-title: Clojure Brain Teasers Runtime and Library
+title: Clojure Brain Teasers › Runtime and Library
 description: case、concat、clojure.string/split、with-open、for、partial、分割束縛の :or、型ヒントなど、Clojure のランタイムと標準ライブラリのつまずきやすい挙動を扱う章
 tags: [book-chapter, clojure]
 date: 2025-05-23

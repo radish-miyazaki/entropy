@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 マクロを使うべきケース
+title: Effective Rust › マクロを使うべきケース
 description: マクロを使う一番の理由は同じ記述を避けることであり、同じ構造のコードを繰り返し書いているときにマクロとしてまとめる
 tags: [book-chapter, rust]
 date: 2025-01-21

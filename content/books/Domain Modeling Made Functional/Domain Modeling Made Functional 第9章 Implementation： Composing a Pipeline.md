@@ -1,5 +1,5 @@
 ---
-title: "Domain Modeling Made Functional 第9章 Implementation: Composing a Pipeline"
+title: "Domain Modeling Made Functional › Implementation: Composing a Pipeline"
 description: 第7章で設計したパイプラインを F# で実装する。各ステップを独立した関数として実装し、それらを合成する
 tags: [book-chapter, ddd]
 date: 2024-07-29

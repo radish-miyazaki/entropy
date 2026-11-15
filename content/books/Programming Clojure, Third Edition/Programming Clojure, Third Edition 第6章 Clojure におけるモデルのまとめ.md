@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 Clojure におけるモデルのまとめ
+title: Programming Clojure, Third Edition › Clojure におけるモデルのまとめ
 description: ref、atom、agent は直前の状態を更新関数に渡す統一された更新モデルに従い、これに var と Java のロックを加えた 5 つのモデルを用途ごとに使い分ける
 tags: [book-chapter, clojure]
 date: 2023-09-05

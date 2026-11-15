@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目30 入力には寛容に、出力には厳格に
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 入力には寛容に、出力には厳格に
 description: 関数のシグネチャに Postel の法則を当てはめ、引数の型は寛容に、戻り値の型は厳格にする項目
 tags: [book-chapter, typescript]
 date: 2025-04-22

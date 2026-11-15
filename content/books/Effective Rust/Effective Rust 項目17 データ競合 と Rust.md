@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目17 データ競合 と Rust
+title: Effective Rust › データ競合 と Rust
 description: Rust は借用ルールでスレッド間の可変な共有を禁じ、Mutex と Arc を組み合わせて安全に共有させる。そのため安全な Rust ではデータ競合が起きない
 tags: [book-chapter, rust]
 date: 2025-01-31

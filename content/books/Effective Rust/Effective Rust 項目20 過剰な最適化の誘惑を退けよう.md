@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目20 過剰な最適化の誘惑を退けよう
+title: Effective Rust › 過剰な最適化の誘惑を退けよう
 description: 参照でコピーを避ける最適化にこだわらず、まず使いやすさと保守性を優先し、パフォーマンスが本当に重要なときだけ最適化するべきだと説く項目
 tags: [book-chapter, rust]
 date: 2025-01-16

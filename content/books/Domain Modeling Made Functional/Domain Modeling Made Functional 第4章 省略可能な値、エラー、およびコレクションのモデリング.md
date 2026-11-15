@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第4章 省略可能な値、エラー、およびコレクションのモデリング
+title: Domain Modeling Made Functional › 省略可能な値、エラー、およびコレクションのモデリング
 description: F# では省略可能な値を Option、エラーを Result、値がないことを unit で表し、コレクションには list を使う
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-12

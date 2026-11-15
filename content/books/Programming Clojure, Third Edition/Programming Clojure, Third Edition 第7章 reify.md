@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第7章 reify
+title: Programming Clojure, Third Edition › reify
 description: reify はプロトコルかインタフェースを実装する無名のデータ型を作り、明示的なフィールドの代わりにクロージャで値を束縛する
 tags: [book-chapter, clojure]
 date: 2023-09-11

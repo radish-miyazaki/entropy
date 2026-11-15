@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 Integrity and Consistency in the Domain
+title: Domain Modeling Made Functional › Integrity and Consistency in the Domain
 description: 境界づけられたコンテキストの中で、ドメインモデルの完全性（妥当性）と整合性を常に保証する方法を扱う章
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-19

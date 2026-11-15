@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目27 コールバックの代わりにasync関数を使用して型の流れを改善する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › コールバックの代わりにasync関数を使用して型の流れを改善する
 description: 非同期処理はコールバックではなく Promise で、できれば async/await で書くと、組み合わせやすさと型の流れ、可読性が改善するという項目
 tags: [book-chapter, typescript, javascript]
 date: 2025-05-01

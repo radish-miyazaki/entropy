@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第1章 ドメインをサブドメインに分割する
+title: Domain Modeling Made Functional › ドメインをサブドメインに分割する
 description: ビジネスプロセスをドメインに分け、さらにサブドメインに分割する節
 tags: [book-chapter, ddd]
 date: 2024-07-02

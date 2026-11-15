@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 長時間稼働するワークフロー
+title: Domain Modeling Made Functional › 長時間稼働するワークフロー
 description: 外部サービスの呼び出しに長い時間がかかるワークフローは、状態を保存しながら進む一連の小さなワークフローとして考える
 tags: [book-chapter]
 date: 2024-07-26

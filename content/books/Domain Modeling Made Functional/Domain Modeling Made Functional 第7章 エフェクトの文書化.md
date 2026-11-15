@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 エフェクトの文書化
+title: Domain Modeling Made Functional › エフェクトの文書化
 description: ワークフローの各ステップが起こしうるエラーや I/O を、Result や Async のエフェクトとして型シグネチャに書く
 tags: [book-chapter]
 date: 2024-07-25

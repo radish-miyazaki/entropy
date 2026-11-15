@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第6章 Logic and comparison
+title: Clojure Book › Logic and comparison
 description: Clojure の同値演算 =、比較演算 <、<=、>、>=、論理演算 and、or、not を扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-17

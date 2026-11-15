@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第4章 Modules Should Be Deep
+title: A Philosophy of Software Design › Modules Should Be Deep
 description: モジュールをインタフェースと実装に分け、シンプルなインタフェースの裏に強力な機能を隠す「深いモジュール」を目指すべきだと説く章
 tags: [book-chapter, 設計]
 date: 2023-12-18

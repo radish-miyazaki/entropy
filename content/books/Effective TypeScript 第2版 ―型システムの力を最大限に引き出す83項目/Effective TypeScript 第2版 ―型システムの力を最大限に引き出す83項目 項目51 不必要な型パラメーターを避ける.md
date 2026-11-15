@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目51 不必要な型パラメーターを避ける
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 不必要な型パラメーターを避ける
 description: 型パラメータは複数の値の型を関連づけるためのものなので、シグネチャに 2 回以上登場しない型パラメータは取り除くべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-06-03

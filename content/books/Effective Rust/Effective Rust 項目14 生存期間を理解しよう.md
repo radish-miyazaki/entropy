@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目14 生存期間を理解しよう
+title: Effective Rust › 生存期間を理解しよう
 description: Rust の参照に付く生存期間とライフタイム注釈の意味、参照を含むデータ構造の扱い、'static と '_ を説明する項目
 tags: [book-chapter, rust]
 date: 2025-01-13

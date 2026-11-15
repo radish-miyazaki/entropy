@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第7章 プロトコル
+title: Programming Clojure, Third Edition › プロトコル
 description: defprotocol でプロトコルを定義し、extend、extend-type、extend-protocol で既存の Java の型に元のコードを触らずにプロトコルを追加する
 tags: [book-chapter, clojure]
 date: 2023-09-11

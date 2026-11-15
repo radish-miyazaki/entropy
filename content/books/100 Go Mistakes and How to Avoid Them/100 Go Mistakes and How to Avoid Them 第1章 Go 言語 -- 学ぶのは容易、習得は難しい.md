@@ -1,5 +1,5 @@
 ---
-title: "100 Go Mistakes and How to Avoid Them 第1章 Go: Simple to learn but hard to master"
+title: "100 Go Mistakes and How to Avoid Them › Go: Simple to learn but hard to master"
 description: Go は学ぶのは簡単だが習得は難しいことを並行処理のバグの研究から示し、本書で扱う間違いを 7 つに分類する章
 tags: [book-chapter, go, 100gomistakes]
 date: 2024-04-11

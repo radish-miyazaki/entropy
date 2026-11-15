@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第15章 Lazy Sequence
+title: Clojure Book › Lazy Sequence
 description: 必要なときだけ評価される遅延シーケンスを、repeat、cycle、iterate で作り、first、take、nth などで要素を取り出す章
 tags: [book-chapter, clojure]
 date: 2023-08-18

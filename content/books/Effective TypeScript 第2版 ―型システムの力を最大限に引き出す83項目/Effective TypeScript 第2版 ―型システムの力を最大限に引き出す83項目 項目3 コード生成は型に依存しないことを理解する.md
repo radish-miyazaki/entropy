@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目3 コード生成は型に依存しないことを理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › コード生成は型に依存しないことを理解する
 description: TypeScript の型は実行時には消えるので、生成される JavaScript は型に依存せず、型で実行時の動作やパフォーマンスは変わらないと説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-16

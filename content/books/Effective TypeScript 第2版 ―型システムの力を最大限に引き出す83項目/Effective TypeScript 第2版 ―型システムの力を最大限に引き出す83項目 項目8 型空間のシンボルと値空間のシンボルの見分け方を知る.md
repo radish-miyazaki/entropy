@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目8 型空間のシンボルと値空間のシンボルの見分け方を知る
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型空間のシンボルと値空間のシンボルの見分け方を知る
 description: TypeScript のシンボルは型空間と値空間のどちらかにあり、typeof や extends のように空間によって意味が変わる構文もあると説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-26

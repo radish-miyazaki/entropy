@@ -1,5 +1,5 @@
 ---
-title: Terraformの教科書 第3章 Terraform プロバイダの紹介
+title: Terraformの教科書 › Terraform プロバイダの紹介
 description: Terraform のプロバイダの定義方法と、AWS と Google Cloud のプロバイダの設定例と主な引数をまとめた節
 tags: [book-chapter, terraform]
 date: 2026-07-08

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第5章 はじめに
+title: Programming Clojure, Third Edition › はじめに
 description: 汎用的なコレクションを再利用する Clojure のコードには明示的な型が不足する。Java のコードと比べ、spec がその問題をどう解決するかを見る
 tags: [book-chapter, clojure]
 date: 2023-09-02

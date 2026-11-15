@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第8章 フロー制御のマクロを書く
+title: Programming Clojure, Third Edition › フロー制御のマクロを書く
 description: 関数では引数が先に評価されるので unless を defmacro で書き、特殊形式がパターンのカプセル化を邪魔すること、macroexpand でマクロ展開を確かめる方法、when と when-not を学ぶ
 tags: [book-chapter, clojure]
 date: 2023-09-16

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目79 モダンなJavaScriptを書く
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › モダンなJavaScriptを書く
 description: TypeScript なら実行環境を問わずモダンな JavaScript の構文が使えるので、ES モジュールやクラス、async/await などの新しい言語機能を積極的に使う項目
 tags: [book-chapter, typescript, javascript]
 date: 2025-05-09

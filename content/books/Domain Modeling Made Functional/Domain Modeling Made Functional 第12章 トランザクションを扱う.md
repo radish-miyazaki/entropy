@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 トランザクションを扱う
+title: Domain Modeling Made Functional › トランザクションを扱う
 description: 複数の集約をまとめて更新する必要があるとき、データストアのトランザクションを使うか、補償トランザクションで不整合を直すかを説明する節
 tags: [book-chapter]
 date: 2024-08-09

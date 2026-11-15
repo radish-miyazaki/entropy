@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第4章 型の合成
+title: Domain Modeling Made Functional › 型の合成
 description: F# では AND 型（レコード型）と OR 型（判別共用体）を組み合わせて、小さな型から新しい型を作る
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-12

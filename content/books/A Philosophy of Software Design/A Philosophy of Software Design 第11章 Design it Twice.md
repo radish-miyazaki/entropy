@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第11章 Design it Twice
+title: A Philosophy of Software Design › Design it Twice
 description: 最初に思いついた設計が最良とは限らないので、複数の設計を考えて比べるべきだと説く章
 tags: [book-chapter, 設計]
 date: 2023-12-20

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 永続化を端に追いやる
+title: Domain Modeling Made Functional › 永続化を端に追いやる
 description: ワークフローの中では I/O や永続化を行わず、純粋なビジネスロジックを中心に、I/O を端に置く構成にする
 tags: [book-chapter]
 date: 2024-08-09

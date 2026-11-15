@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目14 生存期間の代数（ライフタイム注釈）
+title: Effective Rust › 生存期間の代数（ライフタイム注釈）
 description: ライフタイム注釈が出力の参照がどの入力に依存するかを表すことと、同じ注釈が同じ生存期間を意味しないことを例で説明する節
 tags: [book-chapter, rust]
 date: 2025-01-15

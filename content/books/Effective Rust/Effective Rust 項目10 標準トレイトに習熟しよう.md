@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目10 標準トレイトに習熟しよう
+title: Effective Rust › 標準トレイトに習熟しよう
 description: Clone、Copy、Default、PartialEq/Eq、PartialOrd/Ord、Hash、Debug/Display などの標準トレイトの意味と、実装すべき場面・すべきでない場面を整理する項目
 tags: [book-chapter, rust]
 date: 2024-12-26

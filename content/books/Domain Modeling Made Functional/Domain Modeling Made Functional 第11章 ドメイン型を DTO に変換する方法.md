@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 ドメイン型を DTO に変換する方法
+title: Domain Modeling Made Functional › ドメイン型を DTO に変換する方法
 description: 単純型、オプション型、コレクション、列挙型、タプル、レコード型、選択型、ジェネリクスで型付けされたドメインオブジェクトを DTO に変換する方法の一覧
 tags: [book-chapter]
 date: 2024-08-07

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目75 DOMの型階層を理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › DOMの型階層を理解する
 description: EventTarget から HTMLElement までの DOM の型階層を理解し、TypeScript で具体的な要素の型を得る方法を知る項目
 tags: [book-chapter, typescript]
 date: 2025-05-06

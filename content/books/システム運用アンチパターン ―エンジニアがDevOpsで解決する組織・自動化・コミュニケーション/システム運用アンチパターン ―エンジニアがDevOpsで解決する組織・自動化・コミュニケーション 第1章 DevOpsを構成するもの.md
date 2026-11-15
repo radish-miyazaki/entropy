@@ -1,5 +1,5 @@
 ---
-title: システム運用アンチパターン ―エンジニアがDevOpsで解決する組織・自動化・コミュニケーション 第1章 DevOpsを構成するもの
+title: システム運用アンチパターン ―エンジニアがDevOpsで解決する組織・自動化・コミュニケーション › DevOpsを構成するもの
 description: DevOps とは何か、何でないかを整理し、DevOps の柱となる CAMS（文化、自動化、メトリクス、共有）を紹介する章
 tags: [book-chapter, devops]
 date: 2025-04-15

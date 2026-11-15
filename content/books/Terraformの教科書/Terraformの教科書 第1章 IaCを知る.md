@@ -1,5 +1,5 @@
 ---
-title: Terraformの教科書 第1章 IaCを知る
+title: Terraformの教科書 › IaCを知る
 description: Terraform が Terraform Core と、RPC で呼び出される Plugin（Provider と Provisioner）から成ることと、terraform init による Plugin の取得とバージョン選択の流れをまとめた章
 tags: [book-chapter, terraform]
 date: 2026-07-07

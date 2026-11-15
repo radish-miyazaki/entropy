@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第4章 ファイルやプロジェクトでの型の整理
+title: Domain Modeling Made Functional › ファイルやプロジェクトでの型の整理
 description: F# は宣言の順番に厳しいので、共有される型を先に、単純な型を上に置くように、依存される側から順に並べる
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-12

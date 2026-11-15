@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 ビジネスルールを型システムで表現する
+title: Domain Modeling Made Functional › ビジネスルールを型システムで表現する
 description: メールアドレスの検証状態や連絡手段の組み合わせのようなビジネスルールを選択型で表し、不正な状態を表現できないようにする
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-19

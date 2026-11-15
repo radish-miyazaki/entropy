@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第3章 シンプルな React Component を TDD で実装する
+title: Test-Driven React, Second Edition › シンプルな React Component を TDD で実装する
 aliases: [シンプルな React Component を TDD で実装する]
 description: button をラップするだけの CarouselButton を、テストと最低限の実装を交互に書きながら TDD で作る
 tags: [book-chapter, react, tdd]

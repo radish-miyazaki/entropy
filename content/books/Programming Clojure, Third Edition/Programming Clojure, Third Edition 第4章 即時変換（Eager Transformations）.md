@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第4章 即時変換（Eager Transformations）
+title: Programming Clojure, Third Edition › 即時変換（Eager Transformations）
 description: 出力先がコレクションのときにトランスデューサで中間シーケンスを作らずに変換する方法と、comp による変換の連結、トランジエント、エダクションによる外部リソースの管理を見る
 tags: [book-chapter, clojure]
 date: 2023-08-27

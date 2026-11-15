@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 他の種類の関数を 2 トラックモデルに適合させる
+title: Domain Modeling Made Functional › 他の種類の関数を 2 トラックモデルに適合させる
 description: 例外を投げる関数と何も返さない関数を、アダプタブロックで 2 トラックモデルに組み込む
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-05

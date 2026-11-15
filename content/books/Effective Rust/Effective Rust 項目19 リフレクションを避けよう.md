@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目19 リフレクションを避けよう
+title: Effective Rust › リフレクションを避けよう
 description: Rust はリフレクションを持たず、std::any の type_name、TypeId、Any でできることは限られるので、トレイトやマクロで代替しようという項目
 tags: [book-chapter, rust]
 date: 2025-01-03

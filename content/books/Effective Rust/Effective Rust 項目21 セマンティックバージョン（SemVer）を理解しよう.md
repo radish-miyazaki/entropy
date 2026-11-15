@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目21 セマンティックバージョン（SemVer）を理解しよう
+title: Effective Rust › セマンティックバージョン（SemVer）を理解しよう
 description: Cargo が依存クレートを選ぶ仕組みである SemVer の要点と限界を、クレートの作者と利用者のそれぞれの立場から説明する項目
 tags: [book-chapter, rust]
 date: 2025-01-07

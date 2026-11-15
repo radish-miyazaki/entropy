@@ -1,5 +1,5 @@
 ---
-title: "Domain Modeling Made Functional 第5章 アイデンティティの考察: 値オブジェクト"
+title: "Domain Modeling Made Functional › アイデンティティの考察: 値オブジェクト"
 description: アイデンティティを持たず交換可能なデータを値オブジェクトと呼び、F# の型はデフォルトでフィールドベースの等値性を持つ
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-17

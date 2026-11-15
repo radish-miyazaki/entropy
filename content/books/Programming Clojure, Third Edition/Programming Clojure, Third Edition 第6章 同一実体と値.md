@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 同一実体と値
+title: Programming Clojure, Third Edition › 同一実体と値
 description: 状態は同一実体のある時点での値であり、Clojure はほぼすべてを値として扱い、同一実体を ref、atom、agent、var の 4 つの参照型で表す
 tags: [book-chapter, clojure]
 date: 2023-09-05

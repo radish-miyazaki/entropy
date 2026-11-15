@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第13章 Evolving a Design and Keeping It Clean
+title: Domain Modeling Made Functional › Evolving a Design and Keeping It Clean
 description: 要件が変わったら最初にドメインモデルを見直し、型駆動設計によるコンパイルエラーを頼りに安全に設計を変えていくことを説く章
 tags: [book-chapter, ddd]
 date: 2024-07-03

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目7 型を値の集合として考える
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型を値の集合として考える
 description: 型を値の集合として考えると型演算や代入可能性が理解しやすくなり、extends、assignable、サブタイプはどれも「部分集合」を意味すると説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-18

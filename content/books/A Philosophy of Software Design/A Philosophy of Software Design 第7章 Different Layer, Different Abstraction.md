@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第7章 Different Layer, Different Abstraction
+title: A Philosophy of Software Design › Different Layer, Different Abstraction
 description: 隣り合うレイヤは異なる抽象化を提供するべきであり、似た抽象化は Pass-through methods や Pass-through variables として表れると説く章
 tags: [book-chapter, 設計]
 date: 2023-12-20

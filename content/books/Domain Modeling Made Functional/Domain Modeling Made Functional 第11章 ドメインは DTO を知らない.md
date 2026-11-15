@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 ドメインは DTO を知らない
+title: Domain Modeling Made Functional › ドメインは DTO を知らない
 description: ドメインは DTO のことを知らないはずなので、ドメインと DTO の相互変換は DTO 側に実装する
 tags: [book-chapter]
 date: 2024-08-03

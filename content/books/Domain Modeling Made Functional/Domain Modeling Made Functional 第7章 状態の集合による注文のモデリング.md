@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 状態の集合による注文のモデリング
+title: Domain Modeling Made Functional › 状態の集合による注文のモデリング
 description: 状態を持つ注文を、フラグ付きの単一のレコード型ではなく、状態ごとの型と、それらをまとめる選択型でモデリングする
 tags: [book-chapter]
 date: 2024-07-23

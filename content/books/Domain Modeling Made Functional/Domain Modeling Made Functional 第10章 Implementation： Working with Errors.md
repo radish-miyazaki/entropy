@@ -1,5 +1,5 @@
 ---
-title: "Domain Modeling Made Functional 第10章 Implementation: Working with Errors"
+title: "Domain Modeling Made Functional › Implementation: Working with Errors"
 description: 第9章で取り除いた Result エフェクトを戻し、try/catch を使わない関数型のエラー処理とドメインエラーの扱い方を学ぶ章
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-29

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目54 テンプレートリテラル型を使ってDSLや文字列間の関係をモデリングする
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › テンプレートリテラル型を使ってDSLや文字列間の関係をモデリングする
 description: テンプレートリテラル型で構造化された文字列を表し、ジェネリクスや条件型と組み合わせて型どうしの関係や DSL のパーサを表現する項目
 tags: [book-chapter, typescript]
 date: 2025-06-03

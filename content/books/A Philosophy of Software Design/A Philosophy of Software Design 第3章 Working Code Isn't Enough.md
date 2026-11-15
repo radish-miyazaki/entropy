@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第3章 Working Code Isn't Enough
+title: "A Philosophy of Software Design › Working Code Isn't Enough"
 description: 動くだけのコードでは不十分で、設計に小さな投資を続ける戦略的プログラミングを選ぶべきだと説く章
 tags: [book-chapter, 設計, 複雑さ]
 date: 2023-12-16

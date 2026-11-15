@@ -1,5 +1,5 @@
 ---
-title: Terraformの教科書 第3章 Terraform のリソースを理解する
+title: Terraformの教科書 › Terraform のリソースを理解する
 description: resource ブロックでインフラオブジェクトを定義する方法と、AWS と Google Cloud のリソースの例をまとめた節
 tags: [book-chapter, terraform]
 date: 2026-07-08

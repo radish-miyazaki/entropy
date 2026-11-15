@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目17 Send トレイトと Sync トレイト
+title: Effective Rust › Send トレイトと Sync トレイト
 description: スレッド間での利用を表す 2 つのマーカトレイト Send と Sync の意味と、実装していない代表的な型
 tags: [book-chapter, rust]
 date: 2025-01-31

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目66 型宣言の依存関係に関わる3つのバージョンを理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型宣言の依存関係に関わる3つのバージョンを理解する
 description: ライブラリ、@types、TypeScript の 3 つのバージョンが食い違う原因と解決策、型宣言をバンドルするか DefinitelyTyped で公開するかの比較を説明する項目
 tags: [book-chapter, typescript]
 date: 2025-06-06

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 ref と STM
+title: Programming Clojure, Third Edition › ref と STM
 description: ref はイミュータブルな値への変更可能な参照で、dosync のトランザクション中で ref-set、alter、commute を使って更新し、STM は MVCC で ACI を保証する
 tags: [book-chapter, clojure]
 date: 2023-09-05

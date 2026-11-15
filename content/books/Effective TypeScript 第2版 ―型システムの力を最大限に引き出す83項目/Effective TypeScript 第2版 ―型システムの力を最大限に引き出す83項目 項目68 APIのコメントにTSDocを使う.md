@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目68 APIのコメントにTSDocを使う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › APIのコメントにTSDocを使う
 description: 公開する API のドキュメントは TSDoc で書き、型情報は繰り返さず、非推奨の API には @deprecated を付ける項目
 tags: [book-chapter, typescript]
 date: 2025-04-18

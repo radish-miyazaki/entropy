@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 可変長引数を受け取る
+title: Clojure Book › 可変長引数を受け取る
 description: 引数名の前に & を付けて可変長引数を受け取る関数と、1 つ以上・2 つ以上の引数を必須にする書き方を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-17

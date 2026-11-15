@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 コマンドとクエリを分離する
+title: Domain Modeling Made Functional › コマンドとクエリを分離する
 description: データを返すクエリと状態を更新するコマンドを分ける CQS と、それをモジュールやデータストアに広げた CQRS をデータベースに適用する
 tags: [book-chapter]
 date: 2024-08-09

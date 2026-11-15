@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 ステップからワークフローを合成する
+title: Domain Modeling Made Functional › ステップからワークフローを合成する
 description: 各ステップの入出力の型が一致しないため、そのままではステップを合成してワークフローを作れない
 tags: [book-chapter]
 date: 2024-07-26

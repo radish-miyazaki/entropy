@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core のマップに関する var
+title: めだかのclojure.core学校 › clojure.core のマップに関する var
 description: マップの生成、要素の追加・更新・削除・取得、マージ、マップエントリ、構造体を扱う clojure.core の Var をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-12-02

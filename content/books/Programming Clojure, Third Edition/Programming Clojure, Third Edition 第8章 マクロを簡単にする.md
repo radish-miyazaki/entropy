@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第8章 マクロを簡単にする
+title: Programming Clojure, Third Edition › マクロを簡単にする
 description: 構文クォート、アンクォート、スプライシングアンクォートでマクロをテンプレートとして書き、auto-gensym でユニークなローカル名を作ってシンボルの捕捉を防ぐ
 tags: [book-chapter, clojure]
 date: 2023-09-16

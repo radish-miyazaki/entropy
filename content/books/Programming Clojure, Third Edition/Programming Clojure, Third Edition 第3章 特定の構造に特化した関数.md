@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第3章 特定の構造に特化した関数
+title: Programming Clojure, Third Edition › 特定の構造に特化した関数
 description: リスト、ベクタ、マップ、集合に特化した関数と、clojure.set による集合論の操作と関係演算を見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

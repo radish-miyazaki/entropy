@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目28 クラスやカリー化を使って型パラメーターを段階的に割り当てる
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › クラスやカリー化を使って型パラメーターを段階的に割り当てる
 description: 型パラメータの一部だけを明示し残りを推論させたいときに、クラスやカリー化で型パラメータを段階的に割り当てる項目
 tags: [book-chapter, typescript]
 date: 2025-04-25

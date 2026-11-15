@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core のリストに関する var
+title: めだかのclojure.core学校 › clojure.core のリストに関する var
 description: リストの生成と判定を行う clojure.core の list、list*、list? をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-11-29

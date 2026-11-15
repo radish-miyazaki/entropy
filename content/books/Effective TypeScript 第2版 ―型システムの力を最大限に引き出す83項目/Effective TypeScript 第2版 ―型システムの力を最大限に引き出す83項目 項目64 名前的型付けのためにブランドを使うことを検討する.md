@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目64 名前的型付けのためにブランドを使うことを検討する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 名前的型付けのためにブランドを使うことを検討する
 description: TypeScript で名前的型付けを実現するために Branded Types を使う利点と、4 つの実装方法を説明する項目
 tags: [book-chapter, typescript]
 date: 2025-05-04

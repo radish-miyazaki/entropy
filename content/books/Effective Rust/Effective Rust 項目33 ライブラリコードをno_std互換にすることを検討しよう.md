@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目33 ライブラリコードをno_std互換にすることを検討しよう
+title: Effective Rust › ライブラリコードをno_std互換にすることを検討しよう
 description: std の多くは core と alloc にあるので、ライブラリを no_std 互換にして CI で確かめることを検討し、メモリ確保の失敗への対応は限られていると知っておく
 tags: [book-chapter, rust]
 date: 2025-01-24

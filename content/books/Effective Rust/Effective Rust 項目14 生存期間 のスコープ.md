@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目14 生存期間 のスコープ
+title: Effective Rust › 生存期間 のスコープ
 description: スタック上の要素の生存期間がいつ始まりいつ終わるかを、名前の有無で分けて説明し、借用チェッカのエラーとノンレキシカル生存期間を紹介する節
 tags: [book-chapter, rust]
 date: 2025-01-15

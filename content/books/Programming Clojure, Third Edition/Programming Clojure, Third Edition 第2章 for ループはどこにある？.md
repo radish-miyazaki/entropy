@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 for ループはどこにある？
+title: Programming Clojure, Third Edition › for ループはどこにある？
 description: Apache Commons の indexOfAny を、for ループと可変な変数を使わずに Clojure で書き直し、Java 版より簡潔で汎用的になることを確かめる
 tags: [book-chapter, clojure]
 date: 2023-08-25

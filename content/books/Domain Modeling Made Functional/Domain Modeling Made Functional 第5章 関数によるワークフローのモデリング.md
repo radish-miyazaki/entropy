@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第5章 関数によるワークフローのモデリング
+title: Domain Modeling Made Functional › 関数によるワークフローのモデリング
 description: ワークフローは関数の型でモデリングし、複数の入出力はレコード型や選択型で、エフェクトは Result や Async で型シグネチャに表す
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-17

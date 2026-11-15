@@ -1,5 +1,5 @@
 ---
-title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 第2章 なぜOpenTelemetryを使うのか
+title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 › なぜOpenTelemetryを使うのか
 description: ばらばらなツールでテレメトリを集める従来の課題と、OpenTelemetry がコンテキストとテレメトリの階層化でそれを解決する方法を説明する章
 tags: [book-chapter, opentelemetry]
 date: 2025-07-04

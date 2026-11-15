@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第4章 def フォームについて
+title: Programming Clojure, Third Edition › def フォームについて
 description: defn や defmacro など var を作る def フォームはすべて def をラップするマクロであり、defonce と defn- のような変種もある
 tags: [book-chapter, clojure]
 date: 2023-08-27

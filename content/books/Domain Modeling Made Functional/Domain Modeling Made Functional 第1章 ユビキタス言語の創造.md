@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第1章 ユビキタス言語の創造
+title: Domain Modeling Made Functional › ユビキタス言語の創造
 description: ドメインエキスパートのメンタルモデルと設計を一致させるため、チーム全員で作り、あらゆる場所で使うユビキタス言語を説明する節
 tags: [book-chapter, ddd]
 date: 2024-07-03

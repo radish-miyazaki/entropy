@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目32 nullやundefinedを型エイリアスに含めない
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › nullやundefinedを型エイリアスに含めない
 description: 読み手が混乱するので、null や undefined をトップレベルの型エイリアスに含めないようにする項目
 tags: [book-chapter, typescript]
 date: 2025-04-18

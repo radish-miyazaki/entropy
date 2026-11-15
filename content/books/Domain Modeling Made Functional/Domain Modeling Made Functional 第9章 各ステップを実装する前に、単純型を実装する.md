@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第9章 各ステップを実装する前に、単純型を実装する
+title: Domain Modeling Made Functional › 各ステップを実装する前に、単純型を実装する
 description: パイプラインの各ステップを実装する前に、OrderId などの単純型を create と value 関数を持つモジュールとして実装する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-30

@@ -1,5 +1,5 @@
 ---
-title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 第3章 OpenTelemetry概要
+title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 › OpenTelemetry概要
 description: OpenTelemetry が扱うトレース、メトリクス、ログの 3 つのシグナルと、トレースが最も重視される理由を説明する章
 tags: [book-chapter, opentelemetry]
 date: 2025-07-04

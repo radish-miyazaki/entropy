@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目11 RAIIパターンにはDropトレイトを実装しよう
+title: Effective Rust › RAIIパターンにはDropトレイトを実装しよう
 description: 解放が必要なリソースを持つ型には Drop を実装し、RAII パターンでメモリ以外のリソースも管理しようという項目
 tags: [book-chapter, rust]
 date: 2024-12-26

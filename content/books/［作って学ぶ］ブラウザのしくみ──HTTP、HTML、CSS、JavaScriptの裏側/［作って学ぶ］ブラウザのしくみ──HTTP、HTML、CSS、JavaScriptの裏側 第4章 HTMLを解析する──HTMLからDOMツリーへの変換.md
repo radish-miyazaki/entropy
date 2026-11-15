@@ -1,5 +1,5 @@
 ---
-title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 第4章 HTMLを解析する──HTMLからDOMツリーへの変換
+title: ［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側 › HTMLを解析する──HTMLからDOMツリーへの変換
 description: HTML Living Standard のステートマシンに沿って HTML を字句解析・構文解析し、Rust で DOM ツリーを構築する章
 tags: [book-chapter]
 date: 2024-11-17

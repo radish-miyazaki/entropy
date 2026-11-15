@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第9章 依存関係のテスト
+title: Domain Modeling Made Functional › 依存関係のテスト
 description: 依存関係を明示的に渡しておくと、モックライブラリを使わずにスタブ関数へ差し替えてテストできる
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-31

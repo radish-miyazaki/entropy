@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 ステートマシン
+title: Domain Modeling Made Functional › ステートマシン
 description: ドメインモデルの状態と遷移をステートマシンとして捉え、F# の選択型と状態遷移関数で実装する
 tags: [book-chapter]
 date: 2024-07-23

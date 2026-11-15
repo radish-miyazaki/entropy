@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第13章 What is Clojure code
+title: Clojure Book › What is Clojure code
 description: Clojure のコードはほぼすべてがリストのデータ構造であり、データ構造をプログラムとして扱えることを、入れ子の式が評価される流れで確かめる章
 tags: [book-chapter, clojure]
 date: 2023-08-18

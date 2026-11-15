@@ -1,5 +1,5 @@
 ---
-title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第6章 繰り返し構文
+title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで › 繰り返し構文
 description: count と for_each の違いと、for_each で使う toset 関数を説明する章
 tags: [book-chapter, terraform]
 date: 2025-10-24

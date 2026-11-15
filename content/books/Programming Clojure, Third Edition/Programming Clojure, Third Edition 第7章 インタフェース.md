@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第7章 インタフェース
+title: Programming Clojure, Third Edition › インタフェース
 description: definterface で Java のインタフェースを定義できるが、既存のクラスに後からインタフェースを足せないので、クラス作者以外には閉じており Expression Problem が生じる
 tags: [book-chapter, clojure]
 date: 2023-09-11

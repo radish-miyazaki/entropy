@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 並行性・並列性・ロック
+title: Programming Clojure, Third Edition › 並行性・並列性・ロック
 description: 複数のオブザーバが 1 つのミュータブルなデータを見る問題をロックや防衛的コピーで解くと競合やデッドロックを生むので、Clojure はプログラムを関数型モデルと参照型モデルの 2 層に分ける
 tags: [book-chapter, clojure]
 date: 2023-09-05

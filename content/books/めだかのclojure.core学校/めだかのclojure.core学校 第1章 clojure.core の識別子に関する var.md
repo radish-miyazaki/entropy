@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core の識別子に関する var
+title: めだかのclojure.core学校 › clojure.core の識別子に関する var
 description: Clojure のキーワードとシンボルを作る・判定する・名前空間と名前を取り出す clojure.core の Var をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-11-28

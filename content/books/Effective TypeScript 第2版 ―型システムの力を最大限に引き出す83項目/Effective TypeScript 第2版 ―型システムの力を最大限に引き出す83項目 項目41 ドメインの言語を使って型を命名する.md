@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目41 ドメインの言語を使って型を命名する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › ドメインの言語を使って型を命名する
 description: 型の名前には扱っているドメインで一般的に使われる用語を正しく使い、曖昧な名前を避け、何であるかに基づいて命名すべきだと説く項目
 tags: [book-chapter, typescript, 命名]
 date: 2025-05-16

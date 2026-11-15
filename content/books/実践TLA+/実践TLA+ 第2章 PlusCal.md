@@ -1,5 +1,5 @@
 ---
-title: 実践TLA+ 第2章 PlusCal
+title: 実践TLA+ › PlusCal
 description: TLA+ のモジュールの書き方と、PlusCal でアルゴリズムを書くための構文、基本的な値と演算子、集合などの型をまとめた章
 tags: [book-chapter, tla+, 形式手法]
 date: 2025-06-27

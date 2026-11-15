@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core のセットに関する var
+title: めだかのclojure.core学校 › clojure.core のセットに関する var
 description: セットの生成、判定、ソート済みセットの作成、要素の除外を行う clojure.core の Var をまとめた節
 tags: [book-chapter, clojure]
 date: 2024-12-02

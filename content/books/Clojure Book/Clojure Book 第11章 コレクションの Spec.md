@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第11章 コレクションの Spec
+title: Clojure Book › コレクションの Spec
 description: s/coll-of、s/cat、s/keys、s/def でコレクションの要素やマップのキーと値を検証する
 tags: [book-chapter, clojure]
 date: 2023-08-18

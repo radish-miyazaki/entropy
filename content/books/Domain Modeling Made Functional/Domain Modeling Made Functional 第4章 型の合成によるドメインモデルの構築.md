@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第4章 型の合成によるドメインモデルの構築
+title: Domain Modeling Made Functional › 型の合成によるドメインモデルの構築
 description: 合成可能な型システムを使うと、型を組み合わせるだけで複雑なドメインモデルをすばやく作れる。振る舞いは関数を表す型で定義する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-12

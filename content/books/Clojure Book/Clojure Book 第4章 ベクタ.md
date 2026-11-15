@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第4章 ベクタ
+title: Clojure Book › ベクタ
 description: Clojure のベクタの定義、first、rest、nth による要素の取得、conj と cons による要素の追加を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-16

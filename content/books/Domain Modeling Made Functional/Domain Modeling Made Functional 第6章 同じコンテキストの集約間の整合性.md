@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 同じコンテキストの集約間の整合性
+title: Domain Modeling Made Functional › 同じコンテキストの集約間の整合性
 description: 基本は 1 つのトランザクションで 1 つの集約だけを更新し、複数の集約を更新するケースはリファクタリングのきっかけにする
 tags: [book-chapter]
 date: 2024-07-19

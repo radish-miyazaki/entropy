@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目44 anyをそのまま使うのではなく、より具体的な形式で使う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › anyをそのまま使うのではなく、より具体的な形式で使う
 description: any を使うときは、any[] や Record<string, any> などより具体的な形式にして、受け付ける値を絞るべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-05-04

@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第6章 Continuous Integration and Collaboration
+title: Test-Driven React, Second Edition › Continuous Integration and Collaboration
 aliases: [Continuous Integration and Collaboration]
 description: ローカルでしか動かないチェックを CI に移して自動化し、Husky や Storybook も加えてチーム開発を支える章
 tags: [book-chapter]

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第9章 マルチメソッドはいつ使うべきか
+title: Programming Clojure, Third Edition › マルチメソッドはいつ使うべきか
 description: マルチメソッドはめったに使われず、clojure.inspector と clojure.test のクラス以外でディスパッチする例と、class 関数という反例から、関数かマルチメソッドかを選ぶルールを導く
 tags: [book-chapter, clojure]
 date: 2023-09-19

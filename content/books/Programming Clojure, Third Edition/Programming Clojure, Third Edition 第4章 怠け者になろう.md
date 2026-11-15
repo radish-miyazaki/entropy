@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第4章 怠け者になろう
+title: Programming Clojure, Third Edition › 怠け者になろう
 description: フィボナッチ数列を単純な再帰、末尾再帰、recur、遅延シーケンスで実装して比べ、シーケンスの現実化を遅らせることと、シーケンスの先頭への参照を保持しないことを学ぶ
 tags: [book-chapter, clojure]
 date: 2023-08-27

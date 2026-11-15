@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第7章 依存関係をパラメータに含めるか
+title: Domain Modeling Made Functional › 依存関係をパラメータに含めるか
 description: 公開 API の関数では依存関係を隠し、内部の関数では依存関係をパラメータとして明示する
 tags: [book-chapter]
 date: 2024-07-26

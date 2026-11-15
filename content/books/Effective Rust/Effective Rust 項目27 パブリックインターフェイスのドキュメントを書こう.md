@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目27 パブリックインターフェイスのドキュメントを書こう
+title: Effective Rust › パブリックインターフェイスのドキュメントを書こう
 description: パブリック API にはドキュメントコメントを書き、前提条件や不変条件、panic の条件、設計判断などコードから分からないことだけを書くべきだと説く項目
 tags: [book-chapter, rust]
 date: 2025-01-07

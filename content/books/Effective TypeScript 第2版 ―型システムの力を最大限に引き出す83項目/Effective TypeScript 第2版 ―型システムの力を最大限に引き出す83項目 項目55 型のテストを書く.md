@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目55 型のテストを書く
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型のテストを書く
 description: 型システムを使う方法と外部ツールを使う方法を比べながら、型のテストの書き方と注意点を説明する項目
 tags: [book-chapter, typescript]
 date: 2025-06-03

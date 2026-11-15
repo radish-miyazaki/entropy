@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目28 宣言的マクロを利用する上で注意すべきこと
+title: Effective Rust › 宣言的マクロを利用する上で注意すべきこと
 description: 宣言的マクロの可視範囲、健全性、引数の扱い、制御フロー、副作用、フォーマット出力について注意すべき点
 tags: [book-chapter, rust]
 date: 2025-01-20

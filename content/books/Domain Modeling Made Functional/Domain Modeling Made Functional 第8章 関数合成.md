@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第8章 関数合成
+title: Domain Modeling Made Functional › 関数合成
 description: 関数の出力を次の関数の入力につないで組み合わせ、基本的な関数からアプリケーション全体を組み立てる
 tags: [book-chapter]
 date: 2024-07-26

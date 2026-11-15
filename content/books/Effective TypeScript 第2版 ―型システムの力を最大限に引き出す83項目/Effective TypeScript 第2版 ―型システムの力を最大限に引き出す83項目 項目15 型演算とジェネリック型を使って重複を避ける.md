@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目15 型演算とジェネリック型を使って重複を避ける
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型演算とジェネリック型を使って重複を避ける
 description: DRY は型にも当てはまるとして、型の命名、extends、keyof、マップ型、ユーティリティ型などで型の重複を減らす方法を説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-29

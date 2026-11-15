@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第4章 型と関数
+title: Domain Modeling Made Functional › 型と関数
 description: 関数型プログラミングにおける型は、関数の入力や出力として使える値の集合に名前を付けたものだと説明する節
 tags: [book-chapter, fp]
 date: 2024-07-12

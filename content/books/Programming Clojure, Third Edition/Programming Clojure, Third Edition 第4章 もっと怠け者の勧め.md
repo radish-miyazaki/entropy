@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第4章 もっと怠け者の勧め
+title: Programming Clojure, Third Edition › もっと怠け者の勧め
 description: コイントスで表が 2 回続いた回数を数える問題を、recur、ペアのシーケンス、partition、comp、partial で書き直し、既存のシーケンス関数を組み合わせる利点を見る
 tags: [book-chapter, clojure]
 date: 2023-08-27

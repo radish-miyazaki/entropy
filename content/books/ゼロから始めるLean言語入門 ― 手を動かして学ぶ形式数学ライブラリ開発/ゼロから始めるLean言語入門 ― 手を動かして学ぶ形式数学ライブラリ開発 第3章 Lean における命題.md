@@ -1,5 +1,5 @@
 ---
-title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第3章 Lean における命題
+title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 › Lean における命題
 description: Lean では命題を Prop 型で表し、真の命題 True は trivial タクティクで証明できる
 tags: [book-chapter, lean]
 date: 2026-02-23

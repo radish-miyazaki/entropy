@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第16章 Modifying Existing Code
+title: A Philosophy of Software Design › Modifying Existing Code
 description: 既存のコードを変えるときも戦略的プログラミングで設計を良くし、いくつかのルールでコメントを最新に保つべきだと説く章
 tags: [book-chapter, 設計]
 date: 2023-12-30

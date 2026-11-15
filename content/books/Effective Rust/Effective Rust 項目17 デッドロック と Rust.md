@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目17 デッドロック と Rust
+title: Effective Rust › デッドロック と Rust
 description: Rust でもロックの取得順が逆になるとデッドロックが起こる。ロックの範囲を狭めると競合状態が生まれるので、互いに整合が必要な状態は 1 つの同期プリミティブでまとめて守る
 tags: [book-chapter, rust]
 date: 2025-01-31

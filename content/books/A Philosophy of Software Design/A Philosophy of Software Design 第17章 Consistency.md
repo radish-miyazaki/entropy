@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第17章 Consistency
+title: A Philosophy of Software Design › Consistency
 description: 一貫性はミスを減らす投資であり、ドキュメント化やルールの強制で保ちつつ、無理に当てはめないことが大切だと説く章
 tags: [book-chapter, 設計]
 date: 2023-12-28

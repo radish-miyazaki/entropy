@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第4章 集合
+title: Clojure Book › 集合
 description: Clojure の集合の定義、set? と contains? による検証、キーワードを関数として使う書き方、conj と disj による要素の追加と削除を扱う節
 tags: [book-chapter, clojure]
 date: 2023-08-16

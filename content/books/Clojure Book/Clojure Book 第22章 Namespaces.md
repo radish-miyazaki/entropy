@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第22章 Namespaces
+title: Clojure Book › Namespaces
 description: ns で名前空間を定義し、同じ名前の変数を文脈ごとに分ける。別の名前空間の値には 名前空間/変数名 でアクセスする
 tags: [book-chapter, clojure]
 date: 2023-08-21

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第5章 データを検証する
+title: Programming Clojure, Third Edition › データを検証する
 description: 述語と s/valid?、列挙値、範囲、s/nilable、s/and と s/or、s/conform と s/explain、コレクション、タプル、s/keys によるマップの spec でデータを検証する
 tags: [book-chapter, clojure]
 date: 2023-09-02

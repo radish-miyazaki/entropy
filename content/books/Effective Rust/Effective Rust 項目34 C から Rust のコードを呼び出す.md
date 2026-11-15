@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目34 C から Rust のコードを呼び出す
+title: Effective Rust › C から Rust のコードを呼び出す
 description: C から Rust の関数を呼び出すときの定義の仕方と、生ポインタ、ヒープメモリ、panic! の扱いで注意すべき点
 tags: [book-chapter, rust]
 date: 2025-01-26

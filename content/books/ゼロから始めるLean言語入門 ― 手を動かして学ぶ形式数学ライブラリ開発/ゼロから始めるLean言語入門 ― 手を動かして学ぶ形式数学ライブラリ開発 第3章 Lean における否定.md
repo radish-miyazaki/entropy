@@ -1,5 +1,5 @@
 ---
-title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第3章 Lean における否定
+title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 › Lean における否定
 description: Lean の否定 ¬ P は P → False という含意として定義され、contradiction や exfalso タクティクで矛盾を扱う
 tags: [book-chapter, lean]
 date: 2026-02-23

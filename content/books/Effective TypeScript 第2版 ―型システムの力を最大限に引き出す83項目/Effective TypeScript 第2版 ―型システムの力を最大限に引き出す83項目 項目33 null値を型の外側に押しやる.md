@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目33 null値を型の外側に押しやる
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › null値を型の外側に押しやる
 description: ある値が null かどうかが別の値の null と暗黙に連動する設計を避け、値をまとめて全体が null か非 null になるようにする項目
 tags: [book-chapter, typescript]
 date: 2025-05-06

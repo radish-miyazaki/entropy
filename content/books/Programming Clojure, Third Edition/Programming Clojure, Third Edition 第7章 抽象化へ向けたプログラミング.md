@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第7章 抽象化へ向けたプログラミング
+title: Programming Clojure, Third Edition › 抽象化へ向けたプログラミング
 description: spit と slurp の代わりに gulp と expectorate を実装し、入出力の型で処理を切り分ける方法は新しい入出力を足すたびに書き換えが要る閉じたコードになることを確かめる
 tags: [book-chapter, clojure]
 date: 2023-09-11

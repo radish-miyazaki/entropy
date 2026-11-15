@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第4章 再帰ふたたび
+title: Programming Clojure, Third Edition › 再帰ふたたび
 description: recur を使えない相互再帰を、自己再帰への書き換え、trampoline、遅延評価への置き換え、メモ化の 4 つのアプローチで解く
 tags: [book-chapter, clojure]
 date: 2023-08-27

@@ -1,5 +1,5 @@
 ---
-title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 第1章 最新のオブザーバビリティの現状
+title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 › 最新のオブザーバビリティの現状
 description: オブザーバビリティの主要な用語とテレメトリの歴史を整理し、ログ・メトリクス・トレースを別々に扱う「三本柱」の問題点を示す章
 tags: [book-chapter, opentelemetry]
 date: 2025-07-04

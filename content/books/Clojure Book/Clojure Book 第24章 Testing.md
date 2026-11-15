@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第24章 Testing
+title: Clojure Book › Testing
 description: clojure.test の deftest、is、testing を使い、最小限の単体テストを書いて実行する
 tags: [book-chapter, clojure]
 date: 2023-08-20

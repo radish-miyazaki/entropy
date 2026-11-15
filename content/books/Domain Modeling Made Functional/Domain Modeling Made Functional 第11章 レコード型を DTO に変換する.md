@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第11章 レコード型を DTO に変換する
+title: Domain Modeling Made Functional › レコード型を DTO に変換する
 description: レコード型は、各フィールドを DTO の型に変換したレコードで表現する
 tags: [book-chapter]
 date: 2024-08-07

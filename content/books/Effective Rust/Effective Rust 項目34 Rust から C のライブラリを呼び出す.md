@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目34 Rust から C のライブラリを呼び出す
+title: Effective Rust › Rust から C のライブラリを呼び出す
 description: Rust から C のライブラリをリンクするには、link 属性か build.rs の cargo:rustc-link-lib で指定し、Cargo.toml の links キーで依存を伝える
 tags: [book-chapter, rust]
 date: 2025-01-25

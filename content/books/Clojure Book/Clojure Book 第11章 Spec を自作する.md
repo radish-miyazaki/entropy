@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第11章 Spec を自作する
+title: Clojure Book › Spec を自作する
 description: s/and や s/or で述語を組み合わせ、自分で Spec を定義する
 tags: [book-chapter, clojure]
 date: 2023-08-18

@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目17 数値型のインデックスシグネチャを避ける
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 数値型のインデックスシグネチャを避ける
 description: JavaScript のオブジェクトのキーは文字列かシンボルなので、数値のインデックスシグネチャは避け、Array、タプル型、ArrayLike、Iterable を使うよう勧める項目
 tags: [book-chapter, typescript]
 date: 2025-04-21

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第10章 Java Interop
+title: Programming Clojure, Third Edition › Java Interop
 description: Clojure から Java のオブジェクトを作る方法、Java から Clojure を呼ぶ方法、例外処理、型ヒントやプリミティブ型によるパフォーマンスの最適化、Java の配列の扱いを学ぶ章
 tags: [book-chapter, clojure]
 date: 2023-09-20

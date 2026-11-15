@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 var・束縛・名前空間
+title: Programming Clojure, Third Edition › var・束縛・名前空間
 description: def で定義したオブジェクトが格納される var、let と分配束縛によるレキシカルな束縛、in-ns、import、require、ns による名前空間の扱いを見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 境界づけられたコンテキストは独自のデータストアを所有する
+title: Domain Modeling Made Functional › 境界づけられたコンテキストは独自のデータストアを所有する
 description: 境界づけられたコンテキストはそれぞれ独自のデータストアを持ち、他のシステムはそのデータに直接アクセスしない。BI のように複数ドメインのデータが必要な場合はデータをコピーする
 tags: [book-chapter]
 date: 2024-08-09

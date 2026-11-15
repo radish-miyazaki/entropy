@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目23 エイリアスを作成したら一貫してそれを使う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › エイリアスを作成したら一貫してそれを使う
 description: 値のエイリアスは型の絞り込みを妨げることがあるので、作ったら一貫してそれを使い、分割代入で名前をそろえる項目
 tags: [book-chapter, typescript]
 date: 2025-05-04

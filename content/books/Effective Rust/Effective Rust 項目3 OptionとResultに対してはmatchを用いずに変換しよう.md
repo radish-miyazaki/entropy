@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目3 OptionとResultに対してはmatchを用いずに変換しよう
+title: Effective Rust › OptionとResultに対してはmatchを用いずに変換しよう
 description: Option と Result は明示的な match ではなく変換メソッドと ? 演算子で扱い、Option より Result を使おうという項目
 tags: [book-chapter, rust]
 date: 2024-12-16

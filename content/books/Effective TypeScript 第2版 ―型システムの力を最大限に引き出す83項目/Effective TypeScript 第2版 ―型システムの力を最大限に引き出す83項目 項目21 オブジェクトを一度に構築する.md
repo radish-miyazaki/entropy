@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目21 オブジェクトを一度に構築する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › オブジェクトを一度に構築する
 description: オブジェクトはプロパティを後から足さずに一度に構築し、追加が必要ならスプレッド構文で型安全に行う項目
 tags: [book-chapter, typescript]
 date: 2025-04-30

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第6章 agent を用いた非同期的な更新
+title: Programming Clojure, Third Edition › agent を用いた非同期的な更新
 description: agent は send で更新関数をキューに入れて非同期に状態を更新し、エラーモードを持ち、トランザクション成功時に一度だけ副作用を起こすのにも使える
 tags: [book-chapter, clojure]
 date: 2023-09-05

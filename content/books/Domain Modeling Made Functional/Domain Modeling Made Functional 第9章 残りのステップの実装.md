@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第9章 残りのステップの実装
+title: Domain Modeling Made Functional › 残りのステップの実装
 description: 価格設定、注文確認、イベント作成の各ステップを、検証のステップと同じ方法で実装する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-30

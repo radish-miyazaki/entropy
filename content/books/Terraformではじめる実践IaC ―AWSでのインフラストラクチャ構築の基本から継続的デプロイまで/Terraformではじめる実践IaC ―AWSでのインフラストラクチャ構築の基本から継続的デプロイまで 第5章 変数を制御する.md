@@ -1,5 +1,5 @@
 ---
-title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第5章 変数を制御する
+title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで › 変数を制御する
 description: variable ブロックのパラメータと、type や validation で期待しない値の代入を防ぎ、堅牢な変数を定義する方法を説明する章
 tags: [book-chapter, terraform]
 date: 2025-10-10

@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第11章 conform 関数
+title: Clojure Book › conform 関数
 description: "s/conform は成功すると値そのものを、失敗すると :clojure.spec.alpha/invalid を返す"
 tags: [book-chapter, clojure]
 date: 2023-08-18

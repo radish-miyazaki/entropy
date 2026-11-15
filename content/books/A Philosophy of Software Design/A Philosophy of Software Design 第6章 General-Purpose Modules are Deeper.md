@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第6章 General-Purpose Modules are Deeper
+title: A Philosophy of Software Design › General-Purpose Modules are Deeper
 description: モジュールのインタフェースは「ある程度汎用的」に作ると、シンプルで深いモジュールになると説く章
 tags: [book-chapter, 設計]
 date: 2023-12-20

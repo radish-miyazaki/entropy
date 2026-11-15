@@ -1,5 +1,5 @@
 ---
-title: Clojure Brain Teasers Basics
+title: Clojure Brain Teasers › Basics
 description: Clojure の等価比較、算術演算のオーバーフロー、NaN、truthy な値、引数なしの and と or の挙動を問題を通して確かめる章
 tags: [book-chapter, clojure]
 date: 2025-05-23

@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第8章 マクロの分類学
+title: Programming Clojure, Third Edition › マクロの分類学
 description: 特殊形式は第一級市民ではないのでカプセル化できないパターンを生み、マクロは条件的な評価、var の定義、Java の呼び出し、評価の遅延、評価を包む、lambda を避けるの 6 つのカテゴリに分類できる
 tags: [book-chapter, clojure]
 date: 2023-09-16

@@ -1,5 +1,5 @@
 ---
-title: Clojure Brain Teasers Collections
+title: Clojure Brain Teasers › Collections
 description: Clojure のコレクションの等価比較、conj の追加位置、nil の扱い、contains?、レコード、ソート済みコレクションの挙動を問題を通して確かめる章
 tags: [book-chapter, clojure]
 date: 2025-05-23

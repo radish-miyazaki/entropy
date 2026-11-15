@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第10章 非同期エフェクトの追加
+title: Domain Modeling Made Functional › 非同期エフェクトの追加
 description: Async と Result を組み合わせた AsyncResult 型とそのコンピュテーション式を定義し、検証ステップとワークフローに適用する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-08-06

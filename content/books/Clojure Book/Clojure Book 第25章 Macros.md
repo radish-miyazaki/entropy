@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第25章 Macros
+title: Clojure Book › Macros
 description: defmacro で (2 + 3) を (+ 2 3) に変換するマクロを書き、macroexpand で展開後のコードを確かめる
 tags: [book-chapter, clojure]
 date: 2023-08-21

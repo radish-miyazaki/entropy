@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第1章 It's All About Complexity
+title: "A Philosophy of Software Design › It's All About Complexity"
 description: ソフトウェア設計で最も重要なのは複雑さの軽減であり、設計は開発の初期だけでなく継続して行うものだと説く章
 tags: [book-chapter, 設計, 複雑さ]
 date: 2023-12-14

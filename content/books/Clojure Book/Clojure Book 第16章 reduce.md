@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第16章 reduce
+title: Clojure Book › reduce
 description: reduce は渡された関数を使ってシーケンスを 1 つの値にまとめる
 tags: [book-chapter, clojure]
 date: 2023-08-19

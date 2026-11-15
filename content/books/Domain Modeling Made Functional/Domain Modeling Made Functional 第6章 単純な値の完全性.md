@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 単純な値の完全性
+title: Domain Modeling Made Functional › 単純な値の完全性
 description: 単純型の制約はコンストラクタをプライベートにし、検証してから値を返す関数（スマートコンストラクタ）で守る
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-19

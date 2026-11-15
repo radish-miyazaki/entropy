@@ -1,5 +1,5 @@
 ---
-title: めだかのclojure.core学校 第1章 clojure.core のコレクションに関する var
+title: めだかのclojure.core学校 › clojure.core のコレクションに関する var
 description: IPersistentCollection を実装したコレクション全般に使える clojure.core の関数と、リスト内包表記の for マクロをまとめた節
 tags: [book-chapter, clojure]
 date: 2024-11-28

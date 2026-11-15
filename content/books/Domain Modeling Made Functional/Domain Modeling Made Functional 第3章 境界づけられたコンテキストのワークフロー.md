@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第3章 境界づけられたコンテキストのワークフロー
+title: Domain Modeling Made Functional › 境界づけられたコンテキストのワークフロー
 description: 関数型アーキテクチャではワークフローをコマンドを受け取りイベントのリストを返す 1 つの関数として扱い、コンテキスト内部のドメインイベントは避ける節
 tags: [book-chapter, ddd]
 date: 2024-07-12

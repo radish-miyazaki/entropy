@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第6章 1 つの集約内での整合性
+title: Domain Modeling Made Functional › 1 つの集約内での整合性
 description: 集約は整合性の境界であり永続化の単位なので、派生値の更新は集約ルートの関数の中で行い、同じトランザクションで保存する
 tags: [book-chapter, ddd, fsharp]
 date: 2024-07-19

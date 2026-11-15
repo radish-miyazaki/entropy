@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目37 オプションプロパティは限定的に使用する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › オプションプロパティは限定的に使用する
 description: オプションプロパティはバグの見逃しやデフォルト値の不一致を招くので、追加する前に必須にできないかを考えるべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-05-09

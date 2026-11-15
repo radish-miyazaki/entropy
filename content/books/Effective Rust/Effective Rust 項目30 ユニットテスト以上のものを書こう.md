@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目30 ユニットテスト以上のものを書こう
+title: Effective Rust › ユニットテスト以上のものを書こう
 description: 単体テストに加えて、統合テスト、ドキュメンテーションテスト、サンプルコード、ベンチマーク、ファズテストをそれぞれの目的に応じて書くよう勧める項目
 tags: [book-chapter, rust]
 date: 2025-01-16

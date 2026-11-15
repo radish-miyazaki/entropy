@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目56 型の表示に配慮する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 型の表示に配慮する
 description: 同じ型でも表示のされ方で読みやすさが変わるため、Resolve 型や条件型を使って型の表示を整える項目
 tags: [book-chapter, typescript]
 date: 2025-06-03

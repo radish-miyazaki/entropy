@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第5章 カスタムフックを用いたリファクタリング
+title: Test-Driven React, Second Edition › カスタムフックを用いたリファクタリング
 aliases: [カスタムフックを用いたリファクタリング]
 description: Carousel のスライド状態とイベントハンドラをカスタムフック useSlideIndex に切り出し、Control Props Pattern で外から制御できるようにする
 tags: [book-chapter]

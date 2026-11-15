@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目76 ターゲットとする環境の正確なモデルを作る
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › ターゲットとする環境の正確なモデルを作る
 description: lib の設定や型宣言でコードが動く環境（ランタイム、グローバル変数、ライブラリ、バンドラの import）を正確にモデリングし、型チェックの精度を上げる項目
 tags: [book-chapter, typescript]
 date: 2025-06-06

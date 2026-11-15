@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第5章 関数の自動生成テスト
+title: Programming Clojure, Third Edition › 関数の自動生成テスト
 description: stest/check で関数の spec から自動生成テストを実行し、s/exercise で入力値のサンプルを確かめ、s/and の組み合わせやカスタムジェネレータで有効な値を生成する
 tags: [book-chapter, clojure]
 date: 2023-09-02

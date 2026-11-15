@@ -1,5 +1,5 @@
 ---
-title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第6章 コマンドラインインターフェースアプリケーションの作成
+title: Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで › コマンドラインインターフェースアプリケーションの作成
 description: レジストリ wa.dev に WIT パッケージと WebAssembly Component を登録し、それを合成して PNG をグリッチする CLI アプリケーションを作る章
 tags: [book-chapter, rust, webassembly]
 date: 2024-10-23

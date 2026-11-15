@@ -1,5 +1,5 @@
 ---
-title: "Effect: Beginners Complete Getting Started Effect でのカスタムエラーの定義"
+title: "Effect: Beginners Complete Getting Started › Effect でのカスタムエラーの定義"
 description: Effect で _tag を持つカスタムエラーを定義し、Effect.tryPromise で使う方法と、合成したときのエラー型の集約をまとめたページ
 tags: [book-chapter, effect-ts, typescript]
 date: 2025-05-30

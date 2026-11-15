@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第9章 引数を受け取る
+title: Clojure Book › 引数を受け取る
 description: 引数を 1 つ受け取る関数として、名前を出力する say-hello と円の面積を求める circle-area を定義する節
 tags: [book-chapter, clojure]
 date: 2023-08-17

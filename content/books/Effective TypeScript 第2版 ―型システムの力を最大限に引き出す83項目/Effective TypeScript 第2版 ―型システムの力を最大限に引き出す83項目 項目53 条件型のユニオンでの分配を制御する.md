@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目53 条件型のユニオンでの分配を制御する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › 条件型のユニオンでの分配を制御する
 description: 条件型がユニオン型に分配されるのは型パラメータがそのまま条件に使われたときだけであることを利用し、分配を有効・無効にする方法を示す項目
 tags: [book-chapter, typescript]
 date: 2025-04-12

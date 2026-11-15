@@ -1,5 +1,5 @@
 ---
-title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 第3章 Lean における論理積 / 論理和
+title: ゼロから始めるLean言語入門 ― 手を動かして学ぶ形式数学ライブラリ開発 › Lean における論理積 / 論理和
 description: 論理積は constructor や ⟨⟩ で示して .left と .right で取り出し、論理和は left、right で示して cases で場合分けする
 tags: [book-chapter, lean]
 date: 2026-02-23

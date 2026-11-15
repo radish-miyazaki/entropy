@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第3章 I/O を端に追いやる
+title: Domain Modeling Made Functional › I/O を端に追いやる
 description: 副作用を避けるため、データベースなどの I/O をオニオンアーキテクチャの端に追いやり、ワークフローの開始時と終了時にだけ行う節
 tags: [book-chapter, ddd]
 date: 2024-07-12

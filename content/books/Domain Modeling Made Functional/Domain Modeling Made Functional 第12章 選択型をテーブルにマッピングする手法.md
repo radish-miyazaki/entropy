@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第12章 選択型をテーブルにマッピングする手法
+title: Domain Modeling Made Functional › 選択型をテーブルにマッピングする手法
 description: 選択型を 1 段の継承階層と見なし、全ケースを 1 つのテーブルに入れる方法と、ケースごとにテーブルを分ける方法を比べる節
 tags: [book-chapter]
 date: 2024-08-10

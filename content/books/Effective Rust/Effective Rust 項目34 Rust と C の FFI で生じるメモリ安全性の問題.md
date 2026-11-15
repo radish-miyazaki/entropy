@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目34 Rust と C の FFI で生じるメモリ安全性の問題
+title: Effective Rust › Rust と C の FFI で生じるメモリ安全性の問題
 description: 参照を生ポインタにして FFI 境界に渡すと生存期間の制約が失われるので、RAII パターンのラッパで unsafe なアクセスを safe なコードに閉じ込める
 tags: [book-chapter, rust]
 date: 2025-01-26

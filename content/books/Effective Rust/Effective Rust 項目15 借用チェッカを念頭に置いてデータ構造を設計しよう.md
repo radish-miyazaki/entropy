@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目15 借用チェッカを念頭に置いてデータ構造を設計しよう
+title: Effective Rust › 借用チェッカを念頭に置いてデータ構造を設計しよう
 description: 1 つのデータを複数のデータ構造から引きたいときに、クローン、インデックスによる間接参照、Rc と RefCell の 3 つの方法を比べる
 tags: [book-chapter, rust]
 date: 2025-01-30

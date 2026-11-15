@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目14 データ構造の生存期間
+title: Effective Rust › データ構造の生存期間
 description: 参照を含むデータ構造には生存期間パラメータが必須で、注釈が外側の型へ伝播するため、できるだけ値を所有するデータ構造を使うべきだと説く節
 tags: [book-chapter, rust]
 date: 2025-01-15

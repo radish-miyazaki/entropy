@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第4章 関数の理解
+title: Domain Modeling Made Functional › 関数の理解
 description: 関数を入力と出力を持つブラックボックスとして捉え、F# の型シグネチャと型推論、ジェネリクス型を説明する節
 tags: [book-chapter, fp, fsharp]
 date: 2024-07-12

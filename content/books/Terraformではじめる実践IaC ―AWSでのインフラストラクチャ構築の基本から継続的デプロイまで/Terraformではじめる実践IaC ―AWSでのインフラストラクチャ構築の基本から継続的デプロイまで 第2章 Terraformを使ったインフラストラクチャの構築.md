@@ -1,5 +1,5 @@
 ---
-title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第2章 Terraformを使ったインフラストラクチャの構築
+title: Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで › Terraformを使ったインフラストラクチャの構築
 description: コーディング、plan、apply、destroy というインフラ構築のサイクルと、モジュール・プロバイダ・ステート・ワークスペースという Terraform の構成要素を説明する章
 tags: [book-chapter, terraform]
 date: 2025-10-10

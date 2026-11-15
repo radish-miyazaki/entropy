@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第4章 Data Structures
+title: Clojure Book › Data Structures
 description: Clojure のベクタ、リスト、集合、マップの定義と操作、イミュータブルな性質、ベクタとリストの違いを扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-16

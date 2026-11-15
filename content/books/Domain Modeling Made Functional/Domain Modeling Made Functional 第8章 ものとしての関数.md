@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第8章 ものとしての関数
+title: Domain Modeling Made Functional › ものとしての関数
 description: 関数型プログラミングでは関数を値として扱い、入力や出力に使える。F# の関数はカリー化されており、部分適用で依存性の注入を行う
 tags: [book-chapter]
 date: 2024-07-26

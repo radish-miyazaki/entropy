@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目78 コンパイラーのパフォーマンスに注意を払う
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › コンパイラーのパフォーマンスに注意を払う
 description: TypeScript のビルドと言語サービスを速く保つために、ビルド時の型チェックの省略、不要なコードの削除、インクリメンタルビルド、型の見直しを行う項目
 tags: [book-chapter, typescript]
 date: 2025-05-08

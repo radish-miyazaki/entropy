@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第2章 The Nature of Complexity
+title: A Philosophy of Software Design › The Nature of Complexity
 description: 複雑さとは何か、どんな症状として表れ、何が原因で生まれるのかを整理する章
 tags: [book-chapter, 設計, 複雑さ]
 date: 2023-12-14

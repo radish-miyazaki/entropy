@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 関数
+title: Programming Clojure, Third Edition › 関数
 description: defn での関数定義、引数の数ごとのオーバーロード、可変長引数、fn と #() による無名関数と、無名関数を使う 3 つの理由を見る
 tags: [book-chapter, clojure]
 date: 2023-08-25

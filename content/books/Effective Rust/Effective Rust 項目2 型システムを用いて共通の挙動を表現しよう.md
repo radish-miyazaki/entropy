@@ -1,5 +1,5 @@
 ---
-title: Effective Rust 項目2 型システムを用いて共通の挙動を表現しよう
+title: Effective Rust › 型システムを用いて共通の挙動を表現しよう
 description: 関数、関数ポインタ、クロージャ、トレイト（マーカトレイト、トレイト境界、トレイトオブジェクト）で挙動を型システムに表現する項目
 tags: [book-chapter, rust]
 date: 2024-12-11

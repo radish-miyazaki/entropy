@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目1 TypeScriptとJavaScriptの関係を理解する
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › TypeScriptとJavaScriptの関係を理解する
 description: TypeScript は JavaScript のスーパーセットであり、その型システムは JavaScript の実行時の動作をモデリングしつつ、疑わしいコードも型エラーにすると説く項目
 tags: [book-chapter, typescript]
 date: 2025-04-15

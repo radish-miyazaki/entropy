@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第5章 Specifications
+title: Programming Clojure, Third Edition › Specifications
 description: Clojure 1.9 で入った spec で、データ構造や関数の入出力の仕様を定義し、データの検証、関数の引数のチェック、自動生成テストに使う章
 tags: [book-chapter, clojure]
 date: 2023-09-02

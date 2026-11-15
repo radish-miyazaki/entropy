@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第8章 Macros
+title: Programming Clojure, Third Edition › Macros
 description: マクロを書くべき場面のルール、unless や chain を例にした構文クォートと auto-gensym を使うマクロの書き方、特殊形式を起点にしたマクロの分類を学ぶ章
 tags: [book-chapter, clojure]
 date: 2023-09-16

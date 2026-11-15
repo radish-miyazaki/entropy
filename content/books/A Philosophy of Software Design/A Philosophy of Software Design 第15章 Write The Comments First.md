@@ -1,5 +1,5 @@
 ---
-title: A Philosophy of Software Design 第15章 Write The Comments First
+title: A Philosophy of Software Design › Write The Comments First
 description: コメントは実装の後ではなく設計の一部として最初に書くべきであり、そうすると設計も良くなると説く章
 tags: [book-chapter, 設計]
 date: 2023-12-26

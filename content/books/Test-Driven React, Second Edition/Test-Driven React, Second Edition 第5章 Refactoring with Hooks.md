@@ -1,5 +1,5 @@
 ---
-title: Test-Driven React, Second Edition 第5章 Refactoring with Hooks
+title: Test-Driven React, Second Edition › Refactoring with Hooks
 aliases: [Refactoring with Hooks]
 description: 1 つのコンポーネントに 1 つの仕事だけを持たせるため、React Hooks を使って複雑なコンポーネントをリファクタリングする章
 tags: [book-chapter]

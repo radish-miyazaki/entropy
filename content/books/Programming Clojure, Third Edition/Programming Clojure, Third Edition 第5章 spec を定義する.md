@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第5章 spec を定義する
+title: Programming Clojure, Third Edition › spec を定義する
 description: spec は述語の論理的な組み合わせであり、s/def で修飾キーワードの名前を付けてグローバルレジストリに登録する。置き場所、名前の付け方、自動解決キーワードを見る
 tags: [book-chapter, clojure]
 date: 2023-09-02

@@ -1,5 +1,5 @@
 ---
-title: Clojure Book 第8章 Loops
+title: Clojure Book › Loops
 description: リスト内包表記としての for、副作用のある繰り返しに使う doseq、recur で次のループに入る loop を扱う章
 tags: [book-chapter, clojure]
 date: 2023-08-17

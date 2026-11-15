@@ -1,5 +1,5 @@
 ---
-title: Domain Modeling Made Functional 第1章 Introducing Domain-Driven Design
+title: Domain Modeling Made Functional › Introducing Domain-Driven Design
 description: 開発者の仕事はソフトウェアで問題を解決することであり、そのためにドメインエキスパートと共有するモデルを作る DDD を紹介する章
 tags: [book-chapter, ddd, domain-modeling-made-functional]
 date: 2023-12-12

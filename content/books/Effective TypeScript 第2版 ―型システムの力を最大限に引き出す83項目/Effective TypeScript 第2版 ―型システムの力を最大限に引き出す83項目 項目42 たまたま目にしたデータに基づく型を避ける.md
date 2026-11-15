@@ -1,5 +1,5 @@
 ---
-title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 項目42 たまたま目にしたデータに基づく型を避ける
+title: Effective TypeScript 第2版 ―型システムの力を最大限に引き出す83項目 › たまたま目にしたデータに基づく型を避ける
 description: 手元のデータから型を手書きせず、提供されている型定義、スキーマからの生成、データからの生成の順に型を用意すべきだと説く項目
 tags: [book-chapter, typescript]
 date: 2025-05-16

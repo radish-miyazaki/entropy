@@ -1,5 +1,5 @@
 ---
-title: Programming Clojure, Third Edition 第2章 Exploring Clojure
+title: Programming Clojure, Third Edition › Exploring Clojure
 description: フォーム、関数、var と名前空間、メタデータ、Java の呼び出し、フロー制御など、言語としての Clojure を一通り見る章
 tags: [book-chapter, clojure]
 date: 2023-08-25

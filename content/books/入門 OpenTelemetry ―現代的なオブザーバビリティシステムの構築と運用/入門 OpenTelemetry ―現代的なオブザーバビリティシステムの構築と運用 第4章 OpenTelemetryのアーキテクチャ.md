@@ -1,5 +1,5 @@
 ---
-title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 第4章 OpenTelemetryのアーキテクチャ
+title: 入門 OpenTelemetry ―現代的なオブザーバビリティシステムの構築と運用 › OpenTelemetryのアーキテクチャ
 description: OpenTelemetry の API と SDK、インフラストラクチャのテレメトリ、OTLP と Collector によるテレメトリパイプラインの構成を説明する章
 tags: [book-chapter, opentelemetry]
 date: 2025-07-04
