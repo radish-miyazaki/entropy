@@ -1,0 +1,59 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - v5
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# 続けて push したときは、古いデプロイを止めて新しいほうだけを出す
+concurrency:
+  group: deploy-cloudflare
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: ${{ github.repository == 'radish-miyazaki/entropy' }}
+    runs-on: ubuntu-latest
+    # OGP 画像のキャッシュがない初回は、全ページの画像を描くので 1 時間ほどかかる
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # 更新日を git の履歴から取るので、履歴をすべて取る
+          fetch-depth: 0
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      # og-image-cache プラグインが描いた OGP 画像を、次のビルドに引き継ぐ。
+      # キャッシュは上書きできないので run_id を鍵に付け、直近のものを restore-keys で拾う
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: quartz/.quartz-cache/og-images
+          key: og-images-${{ github.run_id }}
+          restore-keys: |
+            og-images-
+
+      - run: npm ci
+
+      - name: Install local plugins
+        run: npm run install-plugins
+
+      - name: Build Quartz
+        run: npm run quartz -- build
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+
+      - name: Deploy
+        uses: cloudflare/wrangler-action@953926a2e2182532811c01a25e53647d93bf07c0 # v4.1.3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.158.0"
+          command: pages deploy public --project-name=entropy --branch=v5

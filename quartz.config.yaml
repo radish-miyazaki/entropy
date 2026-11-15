@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ja-JP
-  baseUrl: entropy.github.io
+  baseUrl: entropy-dsh.pages.dev
   ignorePatterns:
     - private
     - templates
@@ -148,8 +148,9 @@ plugins:
   # 左のサイドバーの新着とエクスプローラーの境目をドラッグで動かす（plugins/sidebar-resizer）
   - source: ./plugins/sidebar-resizer
     enabled: true
+  # Cloudflare Pages では CNAME ファイルを使わない
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
