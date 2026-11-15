@@ -52,7 +52,7 @@ async function globalKey(ctx, opts) {
 async function pageKey(base, data) {
   const source = data.filePath ? await fileHash(data.filePath) : ""
   const fm = data.frontmatter ?? {}
-  const dates = data.dates ?? {}
+  const drawnDate = data.defaultDateType ? data.dates?.[data.defaultDateType] : undefined
   return sha256(
     JSON.stringify({
       base,
@@ -62,10 +62,10 @@ async function pageKey(base, data) {
       description: fm.description,
       generatedDescription: data.description,
       tags: fm.tags,
+      // 画像に描かれるのは defaultDateType の日付だけなので、それだけを鍵に入れる。
+      // ほかの日付も入れると、frontmatter に日付がないページの published（ビルドした時刻）で毎回外れる
       defaultDateType: data.defaultDateType,
-      dates: Object.fromEntries(
-        Object.entries(dates).map(([k, v]) => [k, v instanceof Date ? v.toISOString() : v]),
-      ),
+      date: drawnDate instanceof Date ? drawnDate.toISOString() : drawnDate,
       text: data.text ?? "",
       source,
     }),

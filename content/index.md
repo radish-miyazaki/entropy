@@ -1,6 +1,7 @@
 ---
 title: Entropy
 description: radish-miyazaki の個人メモ。読んだ本、見た発表、調べた用語、試したことを書き留めて、互いにリンクさせている
+date: 2026-11-15
 ---
 
 ```text
