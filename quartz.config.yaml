@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ja-JP
-  baseUrl: entropy-dsh.pages.dev
+  baseUrl: entropy-notes.dev
   ignorePatterns:
     - private
     - templates
