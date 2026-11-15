@@ -148,6 +148,9 @@ plugins:
   # 左のサイドバーの新着とエクスプローラーの境目をドラッグで動かす（plugins/sidebar-resizer）
   - source: ./plugins/sidebar-resizer
     enabled: true
+  # トップページの {{page-count}} を、公開されているノートの数に置き換える（plugins/page-count）
+  - source: ./plugins/page-count
+    enabled: true
   # Cloudflare Pages では CNAME ファイルを使わない
   - source: "@quartz-community/cname"
     enabled: false

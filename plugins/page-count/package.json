@@ -1,0 +1,24 @@
+{
+  "name": "page-count",
+  "version": "1.0.0",
+  "private": true,
+  "description": "トップページの {{page-count}} を、サイトにあるノートの数に置き換える",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./index.js",
+  "quartz": {
+    "name": "page-count",
+    "displayName": "Page Count",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "dependencies": [],
+    "defaultOrder": 99,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}
