@@ -15,3 +15,7 @@ quartz/cli/tui/dist/
 
 CLAUDE.md
 .claude/
+
+# Scrapbox のエクスポート（アカウントの情報を含む）と、画面確認の作業用フォルダ
+scrapbox_data.json
+.playwright-mcp/
