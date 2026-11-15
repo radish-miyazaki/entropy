@@ -17,7 +17,7 @@ isbn:
 
 ## 目次
 
-1. [[100 Go Mistakes and How to Avoid Them 第1章 Go 言語 -- 学ぶのは容易、習得は難しい|第1章 Go: Simple to learn but hard to master]]
+1. [[100 Go Mistakes and How to Avoid Them 第1章 Go 言語 -- 学ぶのは容易、習得は難しい|Go: Simple to learn but hard to master]]
 
 %%
 

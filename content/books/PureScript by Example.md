@@ -15,8 +15,8 @@ isbn:
 
 ## 目次
 
-3. [[PureScript by Example 第3章 関数とレコード|第3章 関数とレコード]]
-4. 第4章 パターン照合
+3. [[PureScript by Example 第3章 関数とレコード|関数とレコード]]
+4. パターン照合
 
 %%
 

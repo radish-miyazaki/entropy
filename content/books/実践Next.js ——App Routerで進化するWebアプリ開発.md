@@ -15,7 +15,7 @@ isbn: 9784297140618
 
 ## 目次
 
-8. [[実践Next.js ——App Routerで進化するWebアプリ開発 第8章 Parallel RoutesとIntercepting Routesを用いたモーダル|第8章 Parallel RoutesとIntercepting Routesを用いたモーダル]]
+8. [[実践Next.js ——App Routerで進化するWebアプリ開発 第8章 Parallel RoutesとIntercepting Routesを用いたモーダル|Parallel RoutesとIntercepting Routesを用いたモーダル]]
 
 ## 感想
 

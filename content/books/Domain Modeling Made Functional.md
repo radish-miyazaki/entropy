@@ -31,14 +31,14 @@ isbn:
 
 DDD の背後にある考え方と、ドメインを共有することの重要性を扱う。[[event-storming|イベントストーミング]]のようにドメインを共有する手法や、大きなドメインを独立して実装できる小さなコンポーネントに分割する方法を学ぶ。
 
-1. [[Domain Modeling Made Functional 第1章 Introducing Domain-Driven Design|第1章 Introducing Domain-Driven Design]]
+1. [[Domain Modeling Made Functional 第1章 Introducing Domain-Driven Design|Introducing Domain-Driven Design]]
    - [[Domain Modeling Made Functional 第1章 共有されたモデルの重要性|共有されたモデルの重要性]]
    - [[Domain Modeling Made Functional 第1章 ビジネスイベントを通じてドメインを理解する|ビジネスイベントを通じてドメインを理解する]]
    - [[Domain Modeling Made Functional 第1章 ドメインをサブドメインに分割する|ドメインをサブドメインに分割する]]
    - [[Domain Modeling Made Functional 第1章 境界づけられたコンテキストを利用した解決手段の作成|境界づけられたコンテキストを利用した解決手段の作成]]
    - [[Domain Modeling Made Functional 第1章 ユビキタス言語の創造|ユビキタス言語の創造]]
-2. [[Domain Modeling Made Functional 第2章 Understanding the Domain|第2章 Understanding the Domain]]
-3. [[Domain Modeling Made Functional 第3章 A Functional Architecture|第3章 A Functional Architecture]]
+2. [[Domain Modeling Made Functional 第2章 Understanding the Domain|Understanding the Domain]]
+3. [[Domain Modeling Made Functional 第3章 A Functional Architecture|A Functional Architecture]]
    - [[Domain Modeling Made Functional 第3章 自律的なソフトウェアコンポーネントとしての境界づけられたコンテキスト|自律的なソフトウェアコンポーネントとしての境界づけられたコンテキスト]]
    - [[Domain Modeling Made Functional 第3章 境界づけられたコンテキストのコミュニケーション|境界づけられたコンテキストのコミュニケーション]]
    - [[Domain Modeling Made Functional 第3章 境界づけられたコンテキスト間の契約|境界づけられたコンテキスト間の契約]]
@@ -50,7 +50,7 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
 
 ドメインから 1 つのワークフローを取り上げ、関数型の手法でモデリングする。OOP のアプローチとの違いや、型を使って要件を表す方法を学ぶ。ここで書くコードは、ドメインの読みやすいドキュメントであると同時に、残りの実装を載せるコンパイル可能な枠組みにもなる。
 
-4. [[Domain Modeling Made Functional 第4章 Understanding Types|第4章 Understanding Types]]
+4. [[Domain Modeling Made Functional 第4章 Understanding Types|Understanding Types]]
    - [[Domain Modeling Made Functional 第4章 関数の理解|関数の理解]]
    - [[Domain Modeling Made Functional 第4章 型と関数|型と関数]]
    - [[Domain Modeling Made Functional 第4章 型の合成|型の合成]]
@@ -58,14 +58,14 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
    - [[Domain Modeling Made Functional 第4章 型の合成によるドメインモデルの構築|型の合成によるドメインモデルの構築]]
    - [[Domain Modeling Made Functional 第4章 省略可能な値、エラー、およびコレクションのモデリング|省略可能な値、エラー、およびコレクションのモデリング]]
    - [[Domain Modeling Made Functional 第4章 ファイルやプロジェクトでの型の整理|ファイルやプロジェクトでの型の整理]]
-5. [[Domain Modeling Made Functional 第5章 Domain Modeling with Types|第5章 Domain Modeling with Types]]
+5. [[Domain Modeling Made Functional 第5章 Domain Modeling with Types|Domain Modeling with Types]]
    - [[Domain Modeling Made Functional 第5章 単純な値のモデリング|単純な値のモデリング]]
    - [[Domain Modeling Made Functional 第5章 複雑なデータのモデリング|複雑なデータのモデリング]]
    - [[Domain Modeling Made Functional 第5章 関数によるワークフローのモデリング|関数によるワークフローのモデリング]]
    - [[Domain Modeling Made Functional 第5章 アイデンティティの考察： 値オブジェクト|アイデンティティの考察: 値オブジェクト]]
    - [[Domain Modeling Made Functional 第5章 アイデンティティの考察： エンティティ|アイデンティティの考察: エンティティ]]
    - [[Domain Modeling Made Functional 第5章 集約|集約]]
-6. [[Domain Modeling Made Functional 第6章 Integrity and Consistency in the Domain|第6章 Integrity and Consistency in the Domain]]
+6. [[Domain Modeling Made Functional 第6章 Integrity and Consistency in the Domain|Integrity and Consistency in the Domain]]
    - [[Domain Modeling Made Functional 第6章 単純な値の完全性|単純な値の完全性]]
    - [[Domain Modeling Made Functional 第6章 数値に測定単位を付与する|数値に測定単位を付与する]]
    - [[Domain Modeling Made Functional 第6章 型システムで不変条件を強制する|型システムで不変条件を強制する]]
@@ -74,7 +74,7 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
    - [[Domain Modeling Made Functional 第6章 異なるコンテキスト間での整合性|異なるコンテキスト間での整合性]]
    - [[Domain Modeling Made Functional 第6章 同じコンテキストの集約間の整合性|同じコンテキストの集約間の整合性]]
    - [[Domain Modeling Made Functional 第6章 同一データに作用する複数の集約|同一データに作用する複数の集約]]
-7. [[Domain Modeling Made Functional 第7章 Modeling Workflows as Pipelines|第7章 Modeling Workflows as Pipelines]]
+7. [[Domain Modeling Made Functional 第7章 Modeling Workflows as Pipelines|Modeling Workflows as Pipelines]]
    - [[Domain Modeling Made Functional 第7章 ワークフローの入力|ワークフローの入力]]
    - [[Domain Modeling Made Functional 第7章 状態の集合による注文のモデリング|状態の集合による注文のモデリング]]
    - [[Domain Modeling Made Functional 第7章 ステートマシン|ステートマシン]]
@@ -88,12 +88,12 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
 
 モデリングしたワークフローを実装する。その過程で、[[function-composition|関数合成]]や[[partial-application|部分適用]]、[[monad|モナド]]といった関数型プログラミングの一般的なテクニックの使い方を学ぶ。
 
-8. [[Domain Modeling Made Functional 第8章 Understanding Functions|第8章 Understanding Functions]]
+8. [[Domain Modeling Made Functional 第8章 Understanding Functions|Understanding Functions]]
    - [[Domain Modeling Made Functional 第8章 関数型プログラミングとは何かを理解する|関数型プログラミングとは何かを理解する]]
    - [[Domain Modeling Made Functional 第8章 ものとしての関数|ものとしての関数]]
    - [[Domain Modeling Made Functional 第8章 全域関数|全域関数]]
    - [[Domain Modeling Made Functional 第8章 関数合成|関数合成]]
-9. [[Domain Modeling Made Functional 第9章 Implementation： Composing a Pipeline|第9章 Implementation: Composing a Pipeline]]
+9. [[Domain Modeling Made Functional 第9章 Implementation： Composing a Pipeline|Implementation: Composing a Pipeline]]
    - [[Domain Modeling Made Functional 第9章 最初のステップの実装|最初のステップの実装]]
    - [[Domain Modeling Made Functional 第9章 各ステップを実装する前に、単純型を実装する|各ステップを実装する前に、単純型を実装する]]
    - [[Domain Modeling Made Functional 第9章 関数の型から実装を導く|関数の型から実装を導く]]
@@ -101,7 +101,7 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
    - [[Domain Modeling Made Functional 第9章 パイプラインのステップを 1 つに合成する|パイプラインのステップを 1 つに合成する]]
    - [[Domain Modeling Made Functional 第9章 依存関係の注入|依存関係の注入]]
    - [[Domain Modeling Made Functional 第9章 依存関係のテスト|依存関係のテスト]]
-10. [[Domain Modeling Made Functional 第10章 Implementation： Working with Errors|第10章 Implementation: Working with Errors]]
+10. [[Domain Modeling Made Functional 第10章 Implementation： Working with Errors|Implementation: Working with Errors]]
 
 - [[Domain Modeling Made Functional 第10章 Result 型を使ってエラーを明示する|Result 型を使ってエラーを明示する]]
 - [[Domain Modeling Made Functional 第10章 ドメインエラーを扱う|ドメインエラーを扱う]]
@@ -112,7 +112,7 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
 - [[Domain Modeling Made Functional 第10章 なんとなく理解するモナドとアプリカティブ|なんとなく理解するモナドとアプリカティブ]]
 - [[Domain Modeling Made Functional 第10章 非同期エフェクトの追加|非同期エフェクトの追加]]
 
-11. [[Domain Modeling Made Functional 第11章 Serialization|第11章 Serialization]]
+11. [[Domain Modeling Made Functional 第11章 Serialization|Serialization]]
 
 - [[Domain Modeling Made Functional 第11章 シリアライズのための設計|シリアライズのための設計]]
 - [[Domain Modeling Made Functional 第11章 シリアライズコードとワークフローの連携|シリアライズコードとワークフローの連携]]
@@ -129,7 +129,7 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
 - [[Domain Modeling Made Functional 第11章 レコード型や選択型のマップを使ったシリアライズ|レコード型や選択型のマップを使ったシリアライズ]]
 - [[Domain Modeling Made Functional 第11章 ジェネリクスを DTO に変換する|ジェネリクスを DTO に変換する]]
 
-12. [[Domain Modeling Made Functional 第12章 Persistence|第12章 Persistence]]
+12. [[Domain Modeling Made Functional 第12章 Persistence|Persistence]]
 
 - [[Domain Modeling Made Functional 第12章 永続化を端に追いやる|永続化を端に追いやる]]
 - [[Domain Modeling Made Functional 第12章 コマンドとクエリを分離する|コマンドとクエリを分離する]]
@@ -144,7 +144,7 @@ DDD の背後にある考え方と、ドメインを共有することの重要�
 - [[Domain Modeling Made Functional 第12章 RDB から選択型を読み取る|RDB から選択型を読み取る]]
 - [[Domain Modeling Made Functional 第12章 RDB への書き込み|RDB への書き込み]]
 
-13. [[Domain Modeling Made Functional 第13章 Evolving a Design and Keeping It Clean|第13章 Evolving a Design and Keeping It Clean]]
+13. [[Domain Modeling Made Functional 第13章 Evolving a Design and Keeping It Clean|Evolving a Design and Keeping It Clean]]
 
 ## 感想
 

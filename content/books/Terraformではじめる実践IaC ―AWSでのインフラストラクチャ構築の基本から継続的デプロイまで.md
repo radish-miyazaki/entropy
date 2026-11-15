@@ -20,15 +20,15 @@ isbn: 9784814400133
 
 ## 目次
 
-1. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第1章 Infrastructure as Code（IaC）とTerraform|第1章 Infrastructure as Code（IaC）とTerraform]]
-2. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第2章 Terraformを使ったインフラストラクチャの構築|第2章 Terraformを使ったインフラストラクチャの構築]]
-3. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第3章 Terraformのコマンドを利用する|第3章 Terraformのコマンドを利用する]]
-4. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第4章 Terraformの基本文法|第4章 Terraformの基本文法]]
-5. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第5章 変数を制御する|第5章 変数を制御する]]
-6. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第6章 繰り返し構文|第6章 繰り返し構文]]
-7. 第7章 メンテナンスのしやすいコード
-8. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第8章 importブロックを使いこなす|第8章 importブロックを使いこなす]]
-9. 第9章 TerraformでシンプルなVPCを構築する
+1. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第1章 Infrastructure as Code（IaC）とTerraform|Infrastructure as Code（IaC）とTerraform]]
+2. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第2章 Terraformを使ったインフラストラクチャの構築|Terraformを使ったインフラストラクチャの構築]]
+3. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第3章 Terraformのコマンドを利用する|Terraformのコマンドを利用する]]
+4. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第4章 Terraformの基本文法|Terraformの基本文法]]
+5. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第5章 変数を制御する|変数を制御する]]
+6. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第6章 繰り返し構文|繰り返し構文]]
+7. メンテナンスのしやすいコード
+8. [[Terraformではじめる実践IaC ―AWSでのインフラストラクチャ構築の基本から継続的デプロイまで 第8章 importブロックを使いこなす|importブロックを使いこなす]]
+9. TerraformでシンプルなVPCを構築する
 
 %%
 

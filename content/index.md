@@ -1,6 +1,53 @@
 ---
-title: Welcome to Quartz
+title: Entropy
+description: radish-miyazaki の個人メモ。読んだ本、見た発表、調べた用語、試したことを書き留めて、互いにリンクさせている
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+```text
+███████╗███╗   ██╗████████╗██████╗  ██████╗ ██████╗ ██╗   ██╗
+██╔════╝████╗  ██║╚══██╔══╝██╔══██╗██╔═══██╗██╔══██╗╚██╗ ██╔╝
+█████╗  ██╔██╗ ██║   ██║   ██████╔╝██║   ██║██████╔╝ ╚████╔╝
+██╔══╝  ██║╚██╗██║   ██║   ██╔══██╗██║   ██║██╔═══╝   ╚██╔╝
+███████╗██║ ╚████║   ██║   ██║  ██║╚██████╔╝██║        ██║
+╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝        ╚═╝
+```
+
+radish-miyazaki の個人メモ。読んだ本、見た発表、調べた用語、試したことを書き留めている。
+
+## 名前の由来
+
+いろいろな知識をここに集めて、互いにリンクさせている。ノートが増えてリンクがつながっていくと、[[graph-theory|グラフ]]が分子の拡散運動のように広がって見える。そこから Entropy と名付けた。
+
+ページの右（スマホでは下）にあるグラフビューで、いま開いているノートのつながりを見られる。
+
+## 中身
+
+- [[words/index|単語]]: 用語や概念の解説。ほかのノートからいちばんよくリンクされる
+- [[books/index|読んだ本]]: 本のまとめ。章ごとのノートもある
+- [[talks/index|聞いた発表]]: カンファレンスや勉強会で聞いた発表のメモ
+- [[articles/index|読んだ記事]]: 他人のブログ記事や公式ドキュメントの要約
+- [[blog/index|ブログ]]: 自分で試した・検証した記録
+- [[events/index|イベント]]: 参加したカンファレンスや勉強会
+
+## 好きな言語
+
+ノートの数で見ると、よく触っているのは [[typescript|TypeScript]]、[[rust|Rust]]、[[go|Go]] の 3 つだ。
+
+[[functional-programming|関数型プログラミング]]も好きで、[[haskell|Haskell]]、[[fsharp|F#]]、[[elixir|Elixir]]、[[erlang|Erlang]]、[[ocaml|OCaml]]、[[lean|Lean]] などに手を出している。[[lisp|Lisp]] も好きで、なかでも [[clojure|Clojure]] のノートが多い。[[common-lisp|Common Lisp]] や [[racket|Racket]] も触っている。
+
+## よく考えていること
+
+- [[design|設計]]と[[software-architecture|ソフトウェアアーキテクチャ]]
+- [[domain-driven-design|ドメイン駆動設計]]
+- [[type-system|型システム]]と[[formal-methods|形式手法]]
+- [[concurrency|並行処理]]
+
+## 歩き方
+
+- 検索（`Ctrl` + `K`）で、タイトルと本文を検索できる
+- 単語のノートの下にあるバックリンクから、その用語が出てきたノートをたどれる
+- タグからも同じ話題のノートを一覧できる
+
+## 注意
+
+あくまで個人のメモなので、誤りや古い情報が含まれていることがある。一部のノートは、Scrapbox に書いていたメモを AI の手を借りて整理したものだ。気になる点があれば [GitHub](https://github.com/radish-miyazaki) から知らせてほしい。

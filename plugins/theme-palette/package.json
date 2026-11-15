@@ -1,0 +1,24 @@
+{
+  "name": "theme-palette",
+  "version": "1.0.0",
+  "private": true,
+  "description": "サイトの配色を Entropy・Catppuccin・Tokyo Night・Gruvbox から選べるようにする",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./index.js",
+  "quartz": {
+    "name": "theme-palette",
+    "displayName": "Theme Palette",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "dependencies": [],
+    "defaultOrder": 99,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}

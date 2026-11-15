@@ -42,7 +42,7 @@ export default {
       title: "グラフビュー",
     },
     recentNotes: {
-      title: "最近の記事",
+      title: "新着",
       seeRemainingMore: ({ remaining }) => `さらに${remaining}件 →`,
     },
     transcludes: {
@@ -57,7 +57,7 @@ export default {
       title: "目次",
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`,
+      readingTime: ({ minutes }) => `約 ${minutes} 分`,
     },
   },
   pages: {
@@ -66,7 +66,7 @@ export default {
       lastFewNotes: ({ count }) => `最新の${count}件`,
     },
     error: {
-      title: "Not Found",
+      title: "ページが見つかりません",
       notFound: "ページが存在しないか、非公開設定になっています。",
       home: "ホームページに戻る",
     },

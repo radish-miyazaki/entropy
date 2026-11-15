@@ -22,11 +22,11 @@ Jujutsu は変更を自動でコミットし、どの操作も取り消せる。
 
 ## 目次
 
-1. 第1章 Jujutsu ってどんなツール？
-2. 第2章 使ってみよう Jujutsu
-3. 第3章 実践 Jujutsu × AI ワークフロー
-4. 第4章 Jujutsu の高度な術式
-5. 第5章 Jujutsu 問題解決ガイド
+1. Jujutsu ってどんなツール？
+2. 使ってみよう Jujutsu
+3. 実践 Jujutsu × AI ワークフロー
+4. Jujutsu の高度な術式
+5. Jujutsu 問題解決ガイド
 
 ## 感想
 

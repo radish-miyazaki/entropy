@@ -28,18 +28,18 @@ React プロジェクトで TDD を実践したい開発者向けの本である
 
 ## 目次
 
-1. [[Test-Driven React, Second Edition 第1章 Test-Driven Development with Jest|第1章 Test-Driven Development with Jest]]
-2. [[Test-Driven React, Second Edition 第2章 Integrated Tooling with VS Code|第2章 Integrated Tooling with VS Code]]
-3. [[Test-Driven React, Second Edition 第3章 Testing React with Testing Library|第3章 Testing React with Testing Library]]
+1. [[Test-Driven React, Second Edition 第1章 Test-Driven Development with Jest|Test-Driven Development with Jest]]
+2. [[Test-Driven React, Second Edition 第2章 Integrated Tooling with VS Code|Integrated Tooling with VS Code]]
+3. [[Test-Driven React, Second Edition 第3章 Testing React with Testing Library|Testing React with Testing Library]]
    - [[Test-Driven React, Second Edition 第3章 シンプルな React Component を TDD で実装する|シンプルな React Component を TDD で実装する]]
    - [[Test-Driven React, Second Edition 第3章 入れ子になった React Component を TDD で実装する|入れ子になった React Component を TDD で実装する]]
    - [[Test-Driven React, Second Edition 第3章 状態を持つ React Component を TDD で実装する|状態を持つ React Component を TDD で実装する]]
-4. [[Test-Driven React, Second Edition 第4章 Styling in JavaScript with Styled-Components|第4章 Styling in JavaScript with Styled-Components]]
-5. [[Test-Driven React, Second Edition 第5章 Refactoring with Hooks|第5章 Refactoring with Hooks]]
+4. [[Test-Driven React, Second Edition 第4章 Styling in JavaScript with Styled-Components|Styling in JavaScript with Styled-Components]]
+5. [[Test-Driven React, Second Edition 第5章 Refactoring with Hooks|Refactoring with Hooks]]
    - [[Test-Driven React, Second Edition 第5章 カスタムフックを用いたリファクタリング|カスタムフックを用いたリファクタリング]]
    - [[Test-Driven React, Second Edition 第5章 カスタムフックを使った機能拡張|カスタムフックを使った機能拡張]]
    - [[Test-Driven React, Second Edition 第5章 useCallback と useRef を使用して不要な更新を防ぐ|useCallback と useRef を使用して不要な更新を防ぐ]]
-6. [[Test-Driven React, Second Edition 第6章 Continuous Integration and Collaboration|第6章 Continuous Integration and Collaboration]]
+6. [[Test-Driven React, Second Edition 第6章 Continuous Integration and Collaboration|Continuous Integration and Collaboration]]
 
 ## 感想
 

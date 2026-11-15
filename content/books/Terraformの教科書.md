@@ -26,21 +26,21 @@ Terraform Associate 試験（HashiCorp Certified: Terraform Associate）を受�
 
 ## 目次
 
-1. [[Terraformの教科書 第1章 IaCを知る|第1章 IaCを知る]]
-2. 第2章 Terraformのインストール
-3. [[Terraformの教科書 第3章 Terraformをはじめよう|第3章 Terraformをはじめよう]]
-   - [[Terraformの教科書 第3章 Terraform プロバイダの紹介|3.2 Terraform プロバイダの紹介]]
-   - [[Terraformの教科書 第3章 Terraform のリソースを理解する|3.3 Terraform のリソースを理解する]]
-   - [[Terraformの教科書 第3章 Terraform の変数を理解する|3.4 Terraform の変数を理解する]]
-   - [[Terraformの教科書 第3章 Terraform の出力を理解する|3.5 Terraform の出力を理解する]]
-   - [[Terraformの教科書 第3章 Terraform のデータを理解する|3.6 Terraform のデータを理解する]]
-4. 第4章 Terraformへのディープダイブ
-5. 第5章 Terraform CLI
-6. 第6章 Terraformのワークフロー
-7. 第7章 Terraformのモジュール
-8. 第8章 Terraformの構成ファイル
-9. 第9章 Terraformスタックを理解する
-10. 第10章 Terraform CloudとTerraform Enterprise
+1. [[Terraformの教科書 第1章 IaCを知る|IaCを知る]]
+2. Terraformのインストール
+3. [[Terraformの教科書 第3章 Terraformをはじめよう|Terraformをはじめよう]]
+   - [[Terraformの教科書 第3章 Terraform プロバイダの紹介|Terraform プロバイダの紹介]]
+   - [[Terraformの教科書 第3章 Terraform のリソースを理解する|Terraform のリソースを理解する]]
+   - [[Terraformの教科書 第3章 Terraform の変数を理解する|Terraform の変数を理解する]]
+   - [[Terraformの教科書 第3章 Terraform の出力を理解する|Terraform の出力を理解する]]
+   - [[Terraformの教科書 第3章 Terraform のデータを理解する|Terraform のデータを理解する]]
+4. Terraformへのディープダイブ
+5. Terraform CLI
+6. Terraformのワークフロー
+7. Terraformのモジュール
+8. Terraformの構成ファイル
+9. Terraformスタックを理解する
+10. Terraform CloudとTerraform Enterprise
 
 %%
 

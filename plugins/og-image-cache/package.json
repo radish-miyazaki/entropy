@@ -1,0 +1,54 @@
+{
+  "name": "og-image-cache",
+  "version": "1.0.0",
+  "private": true,
+  "description": "@quartz-community/og-image を包み、描く内容が変わったページの OGP 画像だけを作り直す",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./index.js",
+  "quartz": {
+    "name": "og-image-cache",
+    "displayName": "OG Image (cached)",
+    "category": "emitter",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "optionSchema": {
+      "colorScheme": {
+        "type": "enum",
+        "values": [
+          "lightMode",
+          "darkMode"
+        ]
+      },
+      "width": {
+        "type": "number"
+      },
+      "height": {
+        "type": "number"
+      },
+      "excludeRoot": {
+        "type": "boolean"
+      },
+      "defaultTitle": {
+        "type": "string"
+      },
+      "defaultDescription": {
+        "type": "string"
+      },
+      "useGeneratedDescription": {
+        "type": "boolean"
+      }
+    }
+  },
+  "peerDependencies": {
+    "@quartz-community/og-image": "^1.1.1"
+  }
+}

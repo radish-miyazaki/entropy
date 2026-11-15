@@ -1,3 +1,552 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Entropy: ターミナル風の見た目
+// 色は quartz.config.yaml の theme.colors で決め、ここでは形と演出だけを足す
+
+:root {
+  // quartz-fonts プラグインはフォント名を引用符なしで出力するので、
+  // 数字を含む「M PLUS 1 Code」が無効になる。ここで引用符付きで上書きする
+  --headerFont: "M PLUS 1 Code", "JetBrains Mono", ui-monospace, monospace;
+  --titleFont: "M PLUS 1 Code", "JetBrains Mono", ui-monospace, monospace;
+  --entropy-mono: "M PLUS 1 Code", "JetBrains Mono", ui-monospace, monospace;
+  // 罫線やブロックの文字を持つ、OS の等幅フォント
+  --entropy-art: ui-monospace, Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  --entropy-radius: 2px;
+  --entropy-glow: none;
+}
+
+:root[saved-theme="dark"]:not([data-palette]),
+:root[saved-theme="dark"][data-palette="entropy"] {
+  --entropy-glow: 0 0 6px rgba(74, 245, 138, 0.35);
+}
+
+::selection {
+  background: var(--tertiary);
+  color: var(--light);
+}
+
+// ダークモードだけ、ごく薄い走査線を重ねる
+:root[saved-theme="dark"]:not([data-palette]) body::before,
+:root[saved-theme="dark"][data-palette="entropy"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1000;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.018) 0,
+    rgba(255, 255, 255, 0.018) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+// サイト名: プロンプトと点滅するカーソル
+.page-title {
+  font-family: var(--entropy-mono);
+  letter-spacing: 0.02em;
+
+  a {
+    text-shadow: var(--entropy-glow);
+  }
+
+  a::before {
+    content: "~/ ";
+    color: var(--tertiary);
+  }
+
+  a::after {
+    content: "_";
+    margin-left: 0.1em;
+    color: var(--secondary);
+    animation: entropy-blink 1.1s steps(1) infinite;
+  }
+}
+
+@keyframes entropy-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-title a::after {
+    animation: none;
+  }
+}
+
+// 見出し: 等幅にして、Markdown の記号を添える
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--entropy-mono);
+  letter-spacing: 0.01em;
+}
+
+.article-title {
+  text-shadow: var(--entropy-glow);
+
+  &::before {
+    content: "$ cat ";
+    color: var(--gray);
+    font-weight: $normalWeight;
+  }
+}
+
+article {
+  h2::before,
+  h3::before,
+  h4::before {
+    color: var(--gray);
+    font-weight: $normalWeight;
+  }
+
+  h2::before {
+    content: "## ";
+  }
+
+  h3::before {
+    content: "### ";
+  }
+
+  h4::before {
+    content: "#### ";
+  }
+}
+
+// サイドバーの見出しは、コメントのように見せる
+.recent-notes > h3,
+.graph > h3,
+.backlinks > h3,
+.toc .toc-header h3,
+.explorer .title-button h2 {
+  font-family: var(--entropy-mono);
+  font-size: 0.95rem;
+  color: var(--gray);
+
+  &::before {
+    content: "// ";
+    color: var(--tertiary);
+  }
+}
+
+// リンク: 背景の色を消し、下線で示す
+a.internal,
+a.external {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: color-mix(in srgb, var(--secondary) 55%, transparent);
+  text-underline-offset: 0.2em;
+
+  &:hover {
+    color: var(--tertiary);
+    text-decoration-style: solid;
+    text-decoration-color: var(--tertiary);
+  }
+}
+
+.page-title a,
+.explorer a,
+.recent-notes a,
+.breadcrumb-container a,
+a.tag-link {
+  text-decoration: none;
+}
+
+// タグ: 角括弧で囲む
+a.tag-link {
+  font-family: var(--codeFont);
+  font-size: 0.8em;
+  border: 1px solid var(--lightgray);
+  border-radius: var(--entropy-radius);
+  background-color: transparent;
+  padding: 0.05rem 0.4rem;
+
+  &::before {
+    content: "[";
+    color: var(--gray);
+  }
+
+  &::after {
+    content: "]";
+    color: var(--gray);
+  }
+
+  &:hover {
+    border-color: var(--tertiary);
+  }
+}
+
+// コード
+pre,
+code {
+  border-radius: var(--entropy-radius);
+}
+
+pre {
+  border: 1px solid var(--lightgray);
+}
+
+// 引用
+blockquote {
+  border-left: 2px solid var(--secondary);
+}
+
+// 検索ボックスと入力欄は角を立てる
+.search > .search-button,
+.search .search-container .search-space,
+.search .search-container .search-space > input {
+  border-radius: var(--entropy-radius);
+  font-family: var(--codeFont);
+}
+
+// 日付や読了時間などのメタ情報
+.content-meta,
+.recent-notes .meta,
+.page-listing .meta {
+  font-family: var(--codeFont);
+  font-size: 0.85em;
+  color: var(--gray);
+}
+
+// トップページとフォルダのページでは、プロパティ欄を出さない（本文と同じ説明が並ぶので）
+body[data-slug="index"] .note-properties,
+body[data-slug$="/index"] .note-properties {
+  display: none;
+}
+
+// プロパティ欄の見出しは、プラグインに日本語訳がないので CSS で差し替える
+.note-properties-title {
+  font-size: 0;
+
+  &::before {
+    content: "プロパティ";
+    font-size: 0.9rem;
+    font-family: var(--entropy-mono);
+  }
+}
+
+// タグは横に並べる
+ul.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding-left: 0;
+  margin: 0.4rem 0;
+
+  & > li {
+    margin: 0;
+  }
+}
+
+// トップページの ASCII アートは、枠と行番号を外して光らせる
+body[data-slug="index"] article figure[data-rehype-pretty-code-figure]:first-of-type {
+  margin: 0 0 1rem;
+
+  pre {
+    border: none;
+    background: transparent;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  pre > code {
+    padding: 0;
+    font-family: var(--entropy-art);
+    font-size: clamp(0.4rem, 1.1vw, 0.75rem);
+    line-height: 1.1;
+    overflow: hidden;
+    color: var(--secondary);
+    text-shadow: 0 0 4px color-mix(in srgb, var(--secondary) 30%, transparent);
+
+    & > [data-line] {
+      padding: 0;
+      border-left: none;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    // シンタックスハイライトの色を上書きする
+    span {
+      color: var(--secondary) !important;
+    }
+  }
+
+  // コピーボタンは要らない
+  .clipboard-button {
+    display: none;
+  }
+}
+
+// スマホの幅では、左のサイドバーがヘッダの横に並ぶので、新着の一覧は出さない
+@media all and ($mobile) {
+  .recent-notes {
+    display: none;
+  }
+}
+
+// パンくずの先頭の「Home」を「ホーム」にする。
+// プラグインの rootName で変えると、ページごとに全ページの木を作り直してビルドが 16 分ほどかかるので、CSS で差し替える
+.breadcrumb-container > .breadcrumb-element:first-child > a {
+  font-size: 0;
+
+  &::before {
+    content: "ホーム";
+    font-size: 1rem;
+  }
+}
+
+// 左のサイドバーは、エクスプローラーに残りの高さを全部渡す。
+// 新着の一覧は高さを抑え、タグも出さない（エクスプローラーが 70px ほどしか取れず、使いにくかった）
+@media (min-width: 801px) {
+  .left.sidebar {
+    & > .recent-notes {
+      flex: 0 0 auto;
+      max-height: 28vh;
+      overflow-y: auto;
+
+      ul.tags {
+        display: none;
+      }
+
+      .recent-li {
+        margin: 0.4rem 0;
+      }
+    }
+
+    & > .explorer {
+      flex: 1 1 0;
+      min-height: 12rem;
+    }
+  }
+}
+
+// 右のサイドバーは、目次の高さを確保し、長いバックリンクは残りの高さでスクロールさせる
+@media (min-width: 801px) {
+  .right.sidebar {
+    & > .toc {
+      flex: 0 0 auto;
+      max-height: 35vh;
+      overflow-y: auto;
+    }
+
+    & > .backlinks {
+      flex: 1 1 0;
+      min-height: 8rem;
+      overflow-y: auto;
+    }
+  }
+}
+
+// スマホの検索結果は、本文の抜粋を 1 行で切る（全文が出て、結果の一覧が読みにくかった）
+@media all and ($mobile) {
+  .search > .search-container > .search-space > .search-layout .result-card > p.card-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0.2rem 0 0;
+  }
+}
+
+// 新着とエクスプローラーの境目の取っ手（plugins/sidebar-resizer が差し込む）
+.entropy-resizer {
+  flex: 0 0 auto;
+  height: 10px;
+  margin: -2px 0;
+  cursor: row-resize;
+  position: relative;
+  touch-action: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 1px solid var(--lightgray);
+  }
+
+  &:hover::before,
+  &:focus-visible::before,
+  &.is-dragging::before {
+    border-top: 2px solid var(--secondary);
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+@media all and ($mobile) {
+  .entropy-resizer {
+    display: none;
+  }
+}
+
+// パソコンの幅では、上の余白を詰める（既定の 6rem は広すぎた）
+@media (min-width: 801px) {
+  body .page > #quartz-body .sidebar {
+    padding-top: 2rem;
+  }
+
+  body .page > #quartz-body .page-header {
+    margin-top: 2rem;
+  }
+}
+
+// テーマ（plugins/theme-palette が <html data-palette="..."> を切り替える）。
+// 色は各テーマの公式の定義から取った:
+// Catppuccin は catppuccin/palette の palette.json（Latte と Mocha）、
+// Tokyo Night は folke/tokyonight.nvim の storm.lua・night.lua と extras/lua/tokyonight_day.lua、
+// Gruvbox は morhetz/gruvbox の colors/gruvbox.vim
+$palettes: (
+  catppuccin: (
+    light: (
+      light: #eff1f5,
+      lightgray: #ccd0da,
+      gray: #8c8fa1,
+      darkgray: #5c5f77,
+      dark: #4c4f69,
+      secondary: #8839ef,
+      tertiary: #fe640b,
+      highlight: rgba(136, 57, 239, 0.08),
+      textHighlight: #df8e1d44,
+    ),
+    dark: (
+      light: #1e1e2e,
+      lightgray: #313244,
+      gray: #7f849c,
+      darkgray: #bac2de,
+      dark: #cdd6f4,
+      secondary: #cba6f7,
+      tertiary: #fab387,
+      highlight: rgba(203, 166, 247, 0.1),
+      textHighlight: #f9e2af44,
+    ),
+  ),
+  tokyonight: (
+    light: (
+      light: #e1e2e7,
+      lightgray: #c4c8da,
+      gray: #848cb5,
+      darkgray: #6172b0,
+      dark: #3760bf,
+      secondary: #2e7de9,
+      tertiary: #b15c00,
+      highlight: rgba(46, 125, 233, 0.08),
+      textHighlight: #8c6c3e44,
+    ),
+    dark: (
+      light: #1a1b26,
+      lightgray: #292e42,
+      gray: #737aa2,
+      darkgray: #a9b1d6,
+      dark: #c0caf5,
+      secondary: #7aa2f7,
+      tertiary: #ff9e64,
+      highlight: rgba(122, 162, 247, 0.1),
+      textHighlight: #e0af6844,
+    ),
+  ),
+  gruvbox: (
+    light: (
+      light: #fbf1c7,
+      lightgray: #ebdbb2,
+      gray: #928374,
+      darkgray: #3c3836,
+      dark: #282828,
+      secondary: #427b58,
+      tertiary: #af3a03,
+      highlight: rgba(66, 123, 88, 0.08),
+      textHighlight: #b5761444,
+    ),
+    dark: (
+      light: #282828,
+      lightgray: #3c3836,
+      gray: #928374,
+      darkgray: #ebdbb2,
+      dark: #fbf1c7,
+      secondary: #8ec07c,
+      tertiary: #fe8019,
+      highlight: rgba(142, 192, 124, 0.1),
+      textHighlight: #fabd2f44,
+    ),
+  ),
+);
+
+@each $name, $modes in $palettes {
+  @each $mode, $colors in $modes {
+    :root[data-palette="#{$name}"][saved-theme="#{$mode}"] {
+      @each $key, $value in $colors {
+        --#{$key}: #{$value};
+      }
+    }
+  }
+}
+
+// テーマを選ぶ欄（ツールバーに差し込む）
+.entropy-palette {
+  font-family: var(--codeFont);
+  font-size: 0.8rem;
+  color: var(--darkgray);
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--entropy-radius);
+  padding: 0.15rem 0.3rem;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--secondary);
+    outline: none;
+  }
+}
+
+.entropy-palette-row {
+  font-family: var(--codeFont);
+  font-size: 0.8rem;
+  color: var(--gray);
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  label::before {
+    content: "// ";
+    color: var(--tertiary);
+    margin-right: -0.4rem;
+  }
+
+  &.is-sidebar {
+    flex: 0 0 auto;
+  }
+
+  &.is-footer {
+    margin-top: 1rem;
+  }
+}
+
+// パソコンではサイドバー、スマホではフッタの選択欄だけを出す
+@media all and ($mobile) {
+  .entropy-palette-row.is-sidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {
+  .entropy-palette-row.is-footer {
+    display: none;
+  }
+}

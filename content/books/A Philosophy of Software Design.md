@@ -22,27 +22,27 @@ isbn:
 
 ## 目次
 
-1. [[A Philosophy of Software Design 第1章 It's All About Complexity|第1章 It's All About Complexity]]
-2. [[A Philosophy of Software Design 第2章 The Nature of Complexity|第2章 The Nature of Complexity]]
-3. [[A Philosophy of Software Design 第3章 Working Code Isn't Enough|第3章 Working Code Isn't Enough]]
-4. [[A Philosophy of Software Design 第4章 Modules Should Be Deep|第4章 Modules Should Be Deep]]
-5. [[A Philosophy of Software Design 第5章 Information Hiding (and Leakage)|第5章 Information Hiding (and Leakage)]]
-6. [[A Philosophy of Software Design 第6章 General-Purpose Modules are Deeper|第6章 General-Purpose Modules are Deeper]]
-7. [[A Philosophy of Software Design 第7章 Different Layer, Different Abstraction|第7章 Different Layer, Different Abstraction]]
-8. [[A Philosophy of Software Design 第8章 Pull Complexity Downwards|第8章 Pull Complexity Downwards]]
-9. 第9章 Better Together Or Better Apart?
-10. 第10章 Define Errors Out Of Existence
-11. [[A Philosophy of Software Design 第11章 Design it Twice|第11章 Design it Twice]]
-12. [[A Philosophy of Software Design 第12章 Why Write Comments？ The Four Excuses|第12章 Why Write Comments? The Four Excuses]]
-13. [[A Philosophy of Software Design 第13章 Comments Should Describe Things that Aren't Obvious from the Code|第13章 Comments Should Describe Things that Aren't Obvious from the Code]]
-14. [[A Philosophy of Software Design 第14章 Choosing Names|第14章 Choosing Names]]
-15. [[A Philosophy of Software Design 第15章 Write The Comments First|第15章 Write The Comments First]]
-16. [[A Philosophy of Software Design 第16章 Modifying Existing Code|第16章 Modifying Existing Code]]
-17. [[A Philosophy of Software Design 第17章 Consistency|第17章 Consistency]]
-18. [[A Philosophy of Software Design 第18章 Code Should Be Obvious|第18章 Code Should Be Obvious]]
-19. 第19章 Software Trends
-20. 第20章 Designing for Performance
-21. 第21章 Decide What Matters
+1. [[A Philosophy of Software Design 第1章 It's All About Complexity|It's All About Complexity]]
+2. [[A Philosophy of Software Design 第2章 The Nature of Complexity|The Nature of Complexity]]
+3. [[A Philosophy of Software Design 第3章 Working Code Isn't Enough|Working Code Isn't Enough]]
+4. [[A Philosophy of Software Design 第4章 Modules Should Be Deep|Modules Should Be Deep]]
+5. [[A Philosophy of Software Design 第5章 Information Hiding (and Leakage)|Information Hiding (and Leakage)]]
+6. [[A Philosophy of Software Design 第6章 General-Purpose Modules are Deeper|General-Purpose Modules are Deeper]]
+7. [[A Philosophy of Software Design 第7章 Different Layer, Different Abstraction|Different Layer, Different Abstraction]]
+8. [[A Philosophy of Software Design 第8章 Pull Complexity Downwards|Pull Complexity Downwards]]
+9. Better Together Or Better Apart?
+10. Define Errors Out Of Existence
+11. [[A Philosophy of Software Design 第11章 Design it Twice|Design it Twice]]
+12. [[A Philosophy of Software Design 第12章 Why Write Comments？ The Four Excuses|Why Write Comments? The Four Excuses]]
+13. [[A Philosophy of Software Design 第13章 Comments Should Describe Things that Aren't Obvious from the Code|Comments Should Describe Things that Aren't Obvious from the Code]]
+14. [[A Philosophy of Software Design 第14章 Choosing Names|Choosing Names]]
+15. [[A Philosophy of Software Design 第15章 Write The Comments First|Write The Comments First]]
+16. [[A Philosophy of Software Design 第16章 Modifying Existing Code|Modifying Existing Code]]
+17. [[A Philosophy of Software Design 第17章 Consistency|Consistency]]
+18. [[A Philosophy of Software Design 第18章 Code Should Be Obvious|Code Should Be Obvious]]
+19. Software Trends
+20. Designing for Performance
+21. Decide What Matters
 
 ## 感想
 

@@ -20,17 +20,17 @@ IaC をこれから始める人と、Terraform か AWS CDK のどちらかをす
 
 ## 目次
 
-1. 第1章 クラウドとInfrastructure as Code
-2. 第2章 IaC環境の構築
-3. 第3章 ［体験］IaCによるリソースのデプロイ
-4. 第4章 Terraform詳細解説
-5. 第5章 AWS CDK詳細解説
-6. 第6章 VPCのIaCによる記述
-7. 第7章 ECSサービスのIaCによる記述
-8. 第8章 Terraform & AWS CDK注意すべき相違点
-9. 第9章 既存リソースのインポート
-10. 第10章 Lambda関数のデプロイ
-11. 第11章 IaCにおけるLambda関数の活用
+1. クラウドとInfrastructure as Code
+2. IaC環境の構築
+3. ［体験］IaCによるリソースのデプロイ
+4. Terraform詳細解説
+5. AWS CDK詳細解説
+6. VPCのIaCによる記述
+7. ECSサービスのIaCによる記述
+8. Terraform & AWS CDK注意すべき相違点
+9. 既存リソースのインポート
+10. Lambda関数のデプロイ
+11. IaCにおけるLambda関数の活用
 
 %%
 

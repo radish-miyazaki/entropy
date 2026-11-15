@@ -24,12 +24,12 @@ Rust を使って WebAssembly を作り、使い回したい人に向けた本�
 
 ## 目次
 
-3. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第3章 RustによるWebAssembly作成入門|第3章 RustによるWebAssembly作成入門]]
-4. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第4章 他のプログラムから利用されるWasmコンポーネント|第4章 他のプログラムから利用されるWasmコンポーネント]]
-5. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第5章 依存関係の解決と合成|第5章 依存関係の解決と合成]]
-6. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第6章 コマンドラインインターフェースアプリケーションの作成|第6章 コマンドラインインターフェースアプリケーションの作成]]
-7. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第7章 Hello, wasi：http／proxy|第7章 Hello, wasi:http/proxy]]
-8. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第8章 Wasmコンポーネントとコンテナーランタイム|第8章 Wasmコンポーネントとコンテナーランタイム]]
+3. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第3章 RustによるWebAssembly作成入門|RustによるWebAssembly作成入門]]
+4. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第4章 他のプログラムから利用されるWasmコンポーネント|他のプログラムから利用されるWasmコンポーネント]]
+5. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第5章 依存関係の解決と合成|依存関係の解決と合成]]
+6. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第6章 コマンドラインインターフェースアプリケーションの作成|コマンドラインインターフェースアプリケーションの作成]]
+7. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第7章 Hello, wasi：http／proxy|Hello, wasi:http/proxy]]
+8. [[Rustで学ぶWebAssembly ―入門からコンポーネントモデルによる開発まで 第8章 Wasmコンポーネントとコンテナーランタイム|Wasmコンポーネントとコンテナーランタイム]]
 
 ## 感想
 

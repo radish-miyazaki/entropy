@@ -24,7 +24,7 @@ clojure.core に関数が多いのはこのためで、それらを分類して�
 
 ## 目次
 
-1. [[めだかのclojure.core学校 第1章 Data Structure|第1章 Data Structure]]
+1. [[めだかのclojure.core学校 第1章 Data Structure|Data Structure]]
    - [[めだかのclojure.core学校 第1章 clojure.core の数値に関する var|clojure.core の数値に関する var]]
    - [[めだかのclojure.core学校 第1章 clojure.core の識別子に関する var|clojure.core の識別子に関する var]]
    - [[めだかのclojure.core学校 第1章 clojure.core の nil と真偽値に関する var|clojure.core の nil と真偽値に関する var]]

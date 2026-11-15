@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Entropy
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ja-JP
   baseUrl: entropy.github.io
   ignorePatterns:
     - private
@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: M PLUS 1 Code
+      body: IBM Plex Sans JP
+      code: JetBrains Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f3f5ef"
+        lightgray: "#d9dfd3"
+        gray: "#7d8c80"
+        darkgray: "#27332b"
+        dark: "#0f1a13"
+        secondary: "#0a7a3d"
+        tertiary: "#b05a00"
+        highlight: rgba(10, 122, 61, 0.08)
+        textHighlight: "#ffb00055"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#0a0e0b"
+        lightgray: "#1d2b21"
+        gray: "#55785e"
+        darkgray: "#b9d6c0"
+        dark: "#e4ffe9"
+        secondary: "#4af58a"
+        tertiary: "#ffb000"
+        highlight: rgba(74, 245, 138, 0.08)
+        textHighlight: "#ffb00044"
   links:
     markdownLinkResolution: shortest
   contentIndex:
@@ -107,7 +107,7 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: default
       mode: both
@@ -134,7 +134,19 @@ plugins:
     enabled: true
   - source: "@quartz-community/favicon"
     enabled: true
+  # 本体の og-image は直接使わず、下の og-image-cache から呼ぶ（有効にすると画像を 2 回作る）
   - source: "@quartz-community/og-image"
+    enabled: false
+  # 本体の og-image を包み、描く内容が変わったページの OGP 画像だけを作り直す（plugins/og-image-cache）
+  - source: ./plugins/og-image-cache
+    enabled: true
+    options:
+      colorScheme: darkMode
+  # 配色を Entropy・Catppuccin・Tokyo Night・Gruvbox から選べるようにする（plugins/theme-palette）
+  - source: ./plugins/theme-palette
+    enabled: true
+  # 左のサイドバーの新着とエクスプローラーの境目をドラッグで動かす（plugins/sidebar-resizer）
+  - source: ./plugins/sidebar-resizer
     enabled: true
   - source: "@quartz-community/cname"
     enabled: true
@@ -176,6 +188,8 @@ plugins:
       priority: 10
   - source: "@quartz-community/content-meta"
     enabled: true
+    options:
+      showReadingTime: false
     layout:
       position: beforeBody
       priority: 20
@@ -219,8 +233,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/radish-miyazaki
+        RSS: /index.xml
     layout:
       position: footer
       priority: 50
