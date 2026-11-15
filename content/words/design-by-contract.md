@@ -36,6 +36,7 @@ Eiffel のドキュメントにある `set_second` は、秒を設定するル�
 ## 関連
 
 - [[invariant|不変条件]]
+- [[assertion-programming|表明プログラミング]]
 
 ## 出典
 
