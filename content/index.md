@@ -53,4 +53,4 @@ radish-miyazaki の個人メモ。読んだ本、見た発表、調べた用語�
 
 ## 注意
 
-あくまで個人のメモなので、誤りや古い情報が含まれていることがある。一部のノートは、Scrapbox に書いていたメモを AI の手を借りて整理したものだ。気になる点があれば [GitHub](https://github.com/radish-miyazaki) から知らせてほしい。
+あくまで個人のメモなので、誤りや古い情報が含まれていることがある。一部のノートは、Scrapbox に書いていたメモを AI の手を借りて整理したものだ。気になる点があれば [GitHub](https://github.com/radish-miyazaki/entropy) から知らせてほしい。
