@@ -233,11 +233,16 @@ plugins:
     layout:
       position: afterBody
       priority: 10
+  # 本家は「作成 Quartz v5.1.0 © 2026」と英語の語順のまま出すので、plugins/site-footer に置き換えた
   - source: "@quartz-community/footer"
+    enabled: false
+  # ページの下に「© 年 著者 · Created with Quartz」とリンクを出す（plugins/site-footer）
+  - source: ./plugins/site-footer
     enabled: true
     options:
+      author: radish-miyazaki
       links:
-        GitHub: https://github.com/radish-miyazaki
+        GitHub: https://github.com/radish-miyazaki/entropy
         RSS: /index.xml
     layout:
       position: footer

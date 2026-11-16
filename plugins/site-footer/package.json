@@ -1,0 +1,40 @@
+{
+  "name": "site-footer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ページの下に、著作権表示・Quartz で作ったこと・リンクを出す",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./index.js",
+  "quartz": {
+    "name": "site-footer",
+    "displayName": "Site Footer",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "SiteFooter": {
+        "displayName": "Site Footer",
+        "defaultPosition": "footer",
+        "defaultPriority": 50
+      }
+    },
+    "optionSchema": {
+      "author": {
+        "type": "string"
+      },
+      "links": {
+        "type": "object"
+      }
+    }
+  }
+}
