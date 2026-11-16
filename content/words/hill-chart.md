@@ -55,4 +55,5 @@ date: 2026-11-16
 
 ## 出典
 
-- [Show Progress | Shape Up](https://basecamp.com/shapeup/3.4-chapter-12)
+- [Show Progress | Shape Up](https://basecamp.com/shapeup/3.4-chapter-13)
+- [[Shape Up： Stop Running in Circles and Ship Work that Matters 第13章 Show Progress|Shape Up › Show Progress]]

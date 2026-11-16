@@ -41,6 +41,7 @@ Basecamp は 2015 年ごろにチームが大きくなりリモートになっ�
 
 ## 関連
 
+- [[Shape Up： Stop Running in Circles and Ship Work that Matters]]
 - [[hill-chart|ヒルチャート]]
 - [[agile-software-development|アジャイル開発]]
 
