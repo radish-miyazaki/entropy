@@ -12,7 +12,7 @@ date: 2026-11-16
 
 ## なぜ必要か
 
-[[Shape Up： Stop Running in Circles and Ship Work that Matters 第8章 The Betting Table|第 8 章]]によると、締め切りが現実味を持たないと、人は何を削るかといったトレードオフを判断しない。期間が長すぎると終わりが見えず、判断が後回しになる。なので、サイクルの長さはこの期間を超えないように決める。
+[[Shape Up： Stop Running in Circles and Ship Work that Matters 第8章 The Betting Table|第 8 章]]によると、締め切りが現実味を持たないと、人は何を削るかといったトレードオフを判断しない。期間が長すぎると終わりが見えず、判断が後回しになる。なので、[[six-week-cycle|サイクル]]の長さはこの期間を超えないように決める。
 
 ## 仕組み
 

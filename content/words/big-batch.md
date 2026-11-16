@@ -1,18 +1,18 @@
 ---
 title: Big batch
 aliases: [ビッグバッチ]
-description: Shape Up で、1 つのチームが 6 週間のサイクルをまるごと使って作り、終わりに出す 1 つのプロジェクト
+description: Shape Up で、1 つのチームが 6 週間のサイクルをまるごと使って作り、終わりにリリースする 1 つのプロジェクト
 tags: [word, project-management]
 date: 2026-11-16
 ---
 
 ## TL;DR
 
-[[shape-up|Shape Up]] で、1 つのチームが 6 週間のサイクル全部を使って作るプロジェクト。サイクルの終わりに出す。
+[[shape-up|Shape Up]] で、1 つのチームが [[six-week-cycle|6 週間のサイクル]]全部を使って作るプロジェクト。サイクルの終わりにリリースする。
 
 ## 仕組み
 
-[[Shape Up： Stop Running in Circles and Ship Work that Matters 第3章 Set Boundaries|第 3 章]]によると、Appetite の大きさは 2 種類ある。小さなプロジェクトを束ねる [[small-batch|Small batch]] に対して、デザイナ 1 人とプログラマ 1〜2 人で 6 週間かかるものが Big batch である。
+[[Shape Up： Stop Running in Circles and Ship Work that Matters 第3章 Set Boundaries|第 3 章]]によると、[[appetite|Appetite]] の大きさは 2 種類ある。小さなプロジェクトを束ねる [[small-batch|Small batch]] に対して、デザイナ 1 人とプログラマ 1〜2 人で 6 週間かかるものが Big batch である。
 
 6 週間に収まらないほど大きいときは、まず問題を絞る。そのうえで意味のある一部を切り出し、6 週間で作れる形に決め直す。
 

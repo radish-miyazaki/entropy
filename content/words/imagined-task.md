@@ -12,7 +12,7 @@ date: 2026-11-16
 
 ## 仕組み
 
-[[Shape Up： Stop Running in Circles and Ship Work that Matters 第10章 Hand Over Responsibility|第 10 章]]によると、チームはサイクルの初めに、まず思いついたタスクを並べる。ただし、仕事の大半は作業を始めてから見つかるので、最初に並べたタスクは全体の一部にすぎない。
+[[Shape Up： Stop Running in Circles and Ship Work that Matters 第10章 Hand Over Responsibility|第 10 章]]によると、チームは[[six-week-cycle|サイクル]]の初めに、まず思いついたタスクを並べる。ただし、仕事の大半は作業を始めてから見つかるので、最初に並べたタスクは全体の一部にすぎない。
 
 ## 注意点
 

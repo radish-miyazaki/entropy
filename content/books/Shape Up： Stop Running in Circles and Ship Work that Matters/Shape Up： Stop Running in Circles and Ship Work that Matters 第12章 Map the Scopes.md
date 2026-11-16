@@ -9,9 +9,9 @@ chapter: 12
 
 ## TL;DR
 
-- タスクは担当者ごとではなく、プロジェクトの構造で分ける。フロントエンドとバックエンドをまたいで独立して終えられるまとまりを Scope と呼ぶ。
+- タスクは担当者ごとではなく、プロジェクトの構造で分ける。フロントエンドとバックエンドをまたいで独立して終えられるまとまりを [[shape-up-scope|Scope]] と呼ぶ。
 - Scope は計画で決めるものではなく、作業しながら見つける。1 週目の終わりから 2 週目の初めに見えてくることが多い。
-- Scope の種類（Layer cake、Iceberg）を見分け、どこにも入らないタスク（Chowder）や nice-to-have（~ を付ける）を扱う。
+- Scope の種類（[[layer-cake|Layer cake]]、[[iceberg-scope|Iceberg]]）を見分け、どこにも入らないタスク（Chowder）や [[nice-to-have|nice-to-have]]（~ を付ける）を扱う。
 
 ## 内容
 
@@ -31,7 +31,7 @@ Scope は問題の意味のある一部分で、数日以内に独立して終�
 
 ### プロジェクトの言葉
 
-Scope は、チームが大きな単位で話すための言葉になる。クライアント招待の例なら、「Bucket Access が終わったら Invite Clients を実装できる」と話せる。進み具合を報告するときも、残っている個々のタスクの言い訳をせず、完成したソフトウェアの部分を指し示せる。進み具合の見せ方であるヒルチャートは次の章で扱う。
+Scope は、チームが大きな単位で話すための言葉になる。クライアント招待の例なら、「Bucket Access が終わったら Invite Clients を実装できる」と話せる。進み具合を報告するときも、残っている個々のタスクの言い訳をせず、完成したソフトウェアの部分を指し示せる。進み具合の見せ方である[[hill-chart|ヒルチャート]]は次の章で扱う。
 
 ### 事例: メッセージの下書き
 
@@ -69,7 +69,7 @@ UI に比べてバックエンドがずっと複雑な仕事もある。e.g. 送
 
 ### nice-to-have には ~ を付ける
 
-途中で見つけた改善点は Scope のタスクとして先頭に「~」を付けて書く。こうすると must-have と nice-to-have を見分けられる。「~」はスコープを削るときの主な道具で、[[Shape Up： Stop Running in Circles and Ship Work that Matters 第14章 Decide When to Stop|第 14 章]]で扱う。
+途中で見つけた改善点は Scope のタスクとして先頭に「~」を付けて書く。こうすると [[must-have|must-have]] と nice-to-have を見分けられる。「~」は[[scope-hammering|スコープを削る]]ときの主な道具で、[[Shape Up： Stop Running in Circles and Ship Work that Matters 第14章 Decide When to Stop|第 14 章]]で扱う。
 
 ## キーワード
 

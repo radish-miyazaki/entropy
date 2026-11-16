@@ -8,11 +8,11 @@ date: 2026-11-16
 
 ## TL;DR
 
-[[shape-up|Shape Up]] で、次の 6 週間に何を作るかを決める会議。cool-down の間に開き、候補の Pitch から賭けるものを選ぶ。
+[[shape-up|Shape Up]] で、次の [[six-week-cycle|6 週間]]に何を作るかを決める会議。[[cool-down|cool-down]] の間に開き、候補の [[shape-up-pitch|Pitch]] から賭けるものを選ぶ。
 
 ## なぜ必要か
 
-Shape Up はバックログを持たないので、次に何をやるかを決める場が別に要る。候補を直近の Pitch に絞って短く決めれば、古いアイデアを整理し続ける手間がなくなる。
+Shape Up は[[backlog|バックログ]]を持たないので、次に何をやるかを決める場が別に要る。候補を直近の Pitch に絞って短く決めれば、古いアイデアを整理し続ける手間がなくなる。
 
 ## 仕組み
 
@@ -23,12 +23,12 @@ Basecamp では CEO、CTO、シニアのプログラマ、プロダクトスト�
 [[Shape Up： Stop Running in Circles and Ship Work that Matters 第9章 Place Your Bets|第 9 章]]では、この場でよく出る問いを挙げている。
 
 - その問題は大事か
-- Appetite は妥当か
+- [[appetite|Appetite]] は妥当か
 - 解決策は魅力的か
 - 今がその時期か
 - 作れる人は空いているか
 
-賭けが決まったら、出席者の誰かが、どの賭けに誰が付くかを告知する。
+[[shape-up-bet|賭け]]が決まったら、出席者の誰かが、どの賭けに誰が付くかを告知する。
 
 ## 注意点
 

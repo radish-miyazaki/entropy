@@ -42,6 +42,7 @@ Wikipedia によると、抽象化は大きく制御抽象化（動作の抽象�
 - [[deep-module|深いモジュール]]
 - [[information-hiding|情報隠蔽]]
 - [[complexity|複雑さ]]
+- [[level-of-abstraction|抽象度（Shape Up）]]
 
 ## 出典
 

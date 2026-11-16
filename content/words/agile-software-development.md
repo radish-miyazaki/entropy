@@ -35,6 +35,7 @@ date: 2026-11-14
 
 - [[agile-manifesto|アジャイルソフトウェア開発宣言]]
 - [[big-design-up-front|BDUF]]: アジャイル開発ではアンチパターンとみなされる
+- [[backlog|バックログ]]
 
 ## 出典
 

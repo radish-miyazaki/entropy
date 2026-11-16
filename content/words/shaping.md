@@ -8,7 +8,7 @@ date: 2026-11-16
 
 ## TL;DR
 
-[[shape-up|Shape Up]] で、ぼんやりしたプロジェクトのアイデアを、賭けの対象にする前に解決策の主な要素まで具体的にしておく作業。少人数のシニアが作るチームとは別の流れで進める。
+[[shape-up|Shape Up]] で、ぼんやりしたプロジェクトのアイデアを、[[shape-up-bet|賭け]]の対象にする前に解決策の主な要素まで具体的にしておく作業。少人数のシニアが作るチームとは別の流れで進める。
 
 ## なぜ必要か
 
@@ -50,6 +50,8 @@ Basecamp の Dot Grid カレンダーでは、ちゃんと作ると 6 か月以�
 - [[rabbit-hole|Rabbit hole]]
 - [[shape-up-pitch|Pitch]]
 - [[raw-idea|生のアイデア]]
+- [[dual-track-agile|デュアルトラックアジャイル]]
+- [[big-design-up-front|BDUF]]
 
 ## 出典
 

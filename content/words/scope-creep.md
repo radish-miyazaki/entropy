@@ -1,6 +1,6 @@
 ---
 title: スコープクリープ
-aliases: [Feature creep]
+aliases: []
 description: プロジェクトが始まったあとに、スコープが際限なく、管理されないまま広がっていくこと
 tags: [word, project-management]
 date: 2026-11-16
@@ -8,7 +8,7 @@ date: 2026-11-16
 
 ## TL;DR
 
-プロジェクトが始まったあとに、スコープが歯止めなく広がっていくこと。スコープの定義、記録、管理が不十分なときに起きる。要件クリープ、ミッションクリープ、フィーチャークリープとも呼ばれる。
+プロジェクトが始まったあとに、スコープが歯止めなく広がっていくこと。スコープの定義、記録、管理が不十分なときに起きる。要件クリープ、ミッションクリープ、[[feature-creep|フィーチャークリープ]]とも呼ばれる。
 
 ## なぜ必要か
 
@@ -43,6 +43,7 @@ Wikipedia は起きる原因として次のようなものを挙げている。
 - [[scope-hammering|Scope hammering]]
 - [[nice-to-have|Nice-to-have]]
 - [[appetite|Appetite]]
+- [[feature-creep|feature creep]]
 
 ## 出典
 

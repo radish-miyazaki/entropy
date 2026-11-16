@@ -29,6 +29,7 @@ date: 2025-05-04
 
 - [[software-bloat|ソフトウェアの肥大化]]
 - [[unix-philosophy|Unix 哲学]]
+- [[scope-creep|スコープクリープ]]
 
 ## 出典
 

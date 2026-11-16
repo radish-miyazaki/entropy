@@ -32,6 +32,7 @@ Wikipedia の説明ではデータアクセス、ビジネスロジック、UI �
 - [[shape-up-scope|Scope]]
 - [[layer-cake|Layer cake]]
 - [[shape-up|Shape Up]]
+- [[layered-architecture|レイヤードアーキテクチャ]]
 
 ## 出典
 

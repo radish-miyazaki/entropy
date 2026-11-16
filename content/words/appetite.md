@@ -27,7 +27,7 @@ date: 2026-11-16
 
 ## 例
 
-Betting table で 6 週間の Pitch に乗り気でない人がいたら、「2 週間でできるとしたらどう思うか」と聞き、引っかかっているのが時間なのかを確かめる。
+[[betting-table|Betting table]] で 6 週間の Pitch に乗り気でない人がいたら、「2 週間でできるとしたらどう思うか」と聞き、引っかかっているのが時間なのかを確かめる。
 
 ## 注意点
 
@@ -48,6 +48,7 @@ Betting table で 6 週間の Pitch に乗り気でない人がいたら、「2 
 - [[big-batch|Big batch]]
 - [[shape-up-pitch|Pitch]]
 - [[scope-hammering|Scope hammering]]
+- [[three-point-estimation|三点見積法]]
 
 ## 出典
 

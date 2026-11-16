@@ -34,6 +34,7 @@ Discovery トラックは、検証済みのプロダクトバックログのア�
 ## 関連
 
 - [[agile-software-development|アジャイルソフトウェア開発]]
+- [[shaping|Shaping]]
 
 ## 出典
 

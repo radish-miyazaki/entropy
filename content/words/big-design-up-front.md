@@ -33,6 +33,7 @@ BDUF を批判する人は、要件の変化に弱いことを挙げる。大き
 
 - [[waterfall-model|ウォーターフォールモデル]]
 - [[agile-manifesto|アジャイルソフトウェア開発宣言]]
+- [[shaping|Shaping]]
 
 ## 出典
 

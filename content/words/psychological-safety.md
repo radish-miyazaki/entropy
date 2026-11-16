@@ -27,6 +27,10 @@ Wikipedia によると、心理的安全性を「居心地のよい職場」「�
 つまずいた点、腑に落ちたきっかけ。書くときはこのコメントを外す
 %%
 
+## 関連
+
+- [[hill-chart|ヒルチャート]]
+
 ## 出典
 
 - <https://saponet.mynavi.jp/column/detail/ty_keiei_t06_psychological-safety_231107.html>

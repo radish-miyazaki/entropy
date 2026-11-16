@@ -30,6 +30,10 @@ date: 2024-01-02
 つまずいた点、腑に落ちたきっかけ。書くときはこのコメントを外す
 %%
 
+## 関連
+
+- [[shape-up|Shape Up]]
+
 ## 出典
 
 - [アジャイルソフトウェア開発宣言](https://agilemanifesto.org/iso/ja/manifesto.html)

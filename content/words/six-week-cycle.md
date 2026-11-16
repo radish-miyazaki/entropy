@@ -37,6 +37,7 @@ Basecamp は 2 週間のスプリントも試したが、意味のあるもの�
 - [[betting-table|Betting table]]
 - [[big-batch|Big batch]]
 - [[small-batch|Small batch]]
+- [[agile-software-development|アジャイル開発]]
 
 ## 出典
 

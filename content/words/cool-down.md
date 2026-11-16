@@ -8,11 +8,11 @@ date: 2026-11-16
 
 ## TL;DR
 
-[[shape-up|Shape Up]] で、サイクルとサイクルの間に置く 2 週間。予定した仕事を入れず、細かい作業やバグ修正をし、次のサイクルを決める [[betting-table|Betting table]] を開く。
+[[shape-up|Shape Up]] で、[[six-week-cycle|サイクル]]とサイクルの間に置く 2 週間。予定した仕事を入れず、細かい作業やバグ修正をし、次のサイクルを決める [[betting-table|Betting table]] を開く。
 
 ## なぜ必要か
 
-[[Shape Up： Stop Running in Circles and Ship Work that Matters 第8章 The Betting Table|第 8 章]]によると、6 週間のサイクルを休みなく続けると、次に何をやるかを考える時間がなくなる。サイクルの終わりは誰もが出す作業に追われていて、計画には向かない。なので、サイクルのあとに息をつく期間を置く。
+[[Shape Up： Stop Running in Circles and Ship Work that Matters 第8章 The Betting Table|第 8 章]]によると、6 週間のサイクルを休みなく続けると、次に何をやるかを考える時間がなくなる。サイクルの終わりは誰もがリリースの作業に追われていて、計画には向かない。なので、サイクルのあとに息をつく期間を置く。
 
 ## 仕組み
 
@@ -25,7 +25,7 @@ cool-down の間、プログラマとデザイナは自分で選んだことに�
 
 ## 注意点
 
-[[Shape Up： Stop Running in Circles and Ship Work that Matters 第14章 Decide When to Stop|第 14 章]]によると、終わらなかったプロジェクトを少し延ばすときに cool-down の余裕を使うことはある。ただし、延長にいつも cool-down を使うようなら、Shaping か仕事の進め方に問題がある。
+[[Shape Up： Stop Running in Circles and Ship Work that Matters 第14章 Decide When to Stop|第 14 章]]によると、終わらなかったプロジェクトを少し延ばすときに cool-down の余裕を使うことはある。ただし、延長にいつも cool-down を使うようなら、[[shaping|Shaping]] か仕事の進め方に問題がある。
 
 %%
 

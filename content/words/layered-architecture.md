@@ -43,6 +43,7 @@ date: 2024-07-12
 - [[onion-architecture|オニオンアーキテクチャ]]
 - [[hexagonal-architecture|ヘキサゴナルアーキテクチャ]]
 - [[clean-architecture|クリーンアーキテクチャ]]
+- [[vertical-slice|Vertical slice]]
 
 ## 出典
 

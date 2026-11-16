@@ -51,6 +51,10 @@ $$
 つまずいた点、腑に落ちたきっかけ。書くときはこのコメントを外す
 %%
 
+## 関連
+
+- [[appetite|Appetite]]
+
 ## 出典
 
 - [三点見積法 - PROMAPEDIA](https://ssaits.jp/promapedia/method/3-point-quotation.html)

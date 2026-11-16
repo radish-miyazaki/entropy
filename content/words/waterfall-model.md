@@ -34,6 +34,7 @@ Wikipedia によると、顧客は動くソフトウェアを見るまで正確�
 - [[big-design-up-front|BDUF]]
 - [[agile-software-development|アジャイルソフトウェア開発]]
 - [[agile-manifesto|アジャイルソフトウェア開発宣言]]
+- [[shape-up|Shape Up]]
 
 ## 出典
 
