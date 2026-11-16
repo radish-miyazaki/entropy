@@ -94,7 +94,15 @@ const script = `
     })
   }
 
+  // ページを移る前に取っ手を外す。サーバーの HTML にない要素を残すと、micromorph がそれを
+  // 次の要素（検索のツールバーやエクスプローラー）に書き換えて使い回し、pointerdown の処理が
+  // そこに残る。するとポインタを横取りして、検索欄やエクスプローラーのクリックが効かなくなる
+  function teardown() {
+    for (const el of document.querySelectorAll(".entropy-resizer")) el.remove()
+  }
+
   document.addEventListener("nav", setup)
+  document.addEventListener("prenav", teardown)
 })()
 `
 

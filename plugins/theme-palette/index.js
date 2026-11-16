@@ -74,7 +74,14 @@ const after = `
     for (const s of document.querySelectorAll(".entropy-palette")) s.value = current()
   }
 
+  // ページを移る前にテーマの行を外す。サーバーの HTML にない要素を残すと、micromorph がそれを
+  // 次の要素に書き換えて使い回し、change の処理がそこに残ってしまう
+  function teardown() {
+    for (const el of document.querySelectorAll(".entropy-palette-row")) el.remove()
+  }
+
   document.addEventListener("nav", setup)
+  document.addEventListener("prenav", teardown)
 })()
 `
 
